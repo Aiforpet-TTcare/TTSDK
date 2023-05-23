@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_guide_skin1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#af000000"
+    android:visibility="gone">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp">
+
+
+        </RelativeLayout>
+
+        <TextView
+            style="@style/Font_Medium_16"
+            android:textSize="19dp"
+            android:lineHeight="26dp"
+            android:textColor="#00000000"
+            android:text="@string/pop_skin_1"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="83dp"
+                    android:layout_height="77dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/common_check_skin_1_check"/>
+
+                <TextView
+                    style="@style/Font_Medium_16"
+                    android:textSize="13dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/pop_skin_2"
+                    android:textColor="#ffffff"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="17dp">
+
+
+                <ImageView
+                    android:layout_width="83dp"
+                    android:layout_height="77dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/common_check_skin_2_check"/>
+
+                <TextView
+                    style="@style/Font_Medium_16"
+                    android:textSize="13dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/pop_skin_3"
+                    android:textColor="#ffffff"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="83dp"
+                        android:layout_height="77dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/common_check_skin_3_check"/>
+
+                    <TextView
+                        style="@style/Font_Medium_16"
+                        android:textSize="13dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/pop_skin_4"
+                        android:textColor="#ffffff"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="17dp">
+
+
+                    <ImageView
+                        android:layout_width="83dp"
+                        android:layout_height="77dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/common_check_skin_4_check"/>
+
+                    <TextView
+                        style="@style/Font_Medium_16"
+                        android:textSize="13dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/pop_skin_5"
+                        android:textColor="#ffffff"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <com.aiforpet.pet.util.LibraryLottieView
+                android:id="@+id/handloading1_skin"
+                android:layout_width="60dp"
+                android:layout_height="60.7dp"
+                app:lottie_imageAssetsFolder="images"
+                app:lottie_assetFileName="han.json"
+                app:lottie_autoPlay="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="48dp"/>
+
+
+        </RelativeLayout>
+
+
+
+
+        <TextView
+            style="@style/Font_Bold_15"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:lineHeight="21dp"
+            android:gravity="center"
+            android:textColor="@color/color_191919"
+            android:id="@+id/guide_skin1_txt"
+            android:background="@drawable/round_radius_15_ffffff"/>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

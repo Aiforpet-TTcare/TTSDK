@@ -1,0 +1,102 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="appbar_padding">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="box_inset_layout_padding">0dp</dimen>
+    <dimen name="inner_frame_layout_padding">5dp</dimen>
+    <dimen name="test1">16dp</dimen>
+
+
+    <dimen name="v_2dp">1.8dp</dimen>
+    <dimen name="v_3dp">2.7dp</dimen>
+    <dimen name="v_4dp">3.6dp</dimen>
+    <dimen name="v_5dp">4.5dp</dimen>
+    <dimen name="v_6dp">5.4dp</dimen>
+    <dimen name="v_7dp">6.3dp</dimen>
+    <dimen name="v_8dp">7.2dp</dimen>
+    <dimen name="v_9dp">8.1dp</dimen>
+    <dimen name="v_10dp">9dp</dimen>
+    <dimen name="v_11dp">9.9dp</dimen>
+
+    <dimen name="v_12dp">10.8dp</dimen>
+    <dimen name="v_13dp">11.7dp</dimen>
+    <dimen name="v_14dp">12.6dp</dimen>
+    <dimen name="v_15dp">13.5dp</dimen>
+    <dimen name="v_16dp">14.4dp</dimen>
+    <dimen name="v_17dp">15.3dp</dimen>
+    <dimen name="v_18dp">16.2dp</dimen>
+    <dimen name="v_19dp">17.1dp</dimen>
+    <dimen name="v_20dp">18dp</dimen>
+    <dimen name="v_21dp">18.9dp</dimen>
+    <dimen name="v_22dp">19.8dp</dimen>
+    <dimen name="v_23dp">20.7dp</dimen>
+    <dimen name="v_24dp">21.6dp</dimen>
+    <dimen name="v_25dp">22.5dp</dimen>
+    <dimen name="v_26dp">23.4dp</dimen>
+    <dimen name="v_27dp">24.3dp</dimen>
+    <dimen name="v_28dp">25.2dp</dimen>
+    <dimen name="v_29dp">26.1dp</dimen>
+
+    <dimen name="v_30dp">27dp</dimen>
+    <dimen name="v_32dp">28.8dp</dimen>
+    <dimen name="v_33dp">29.7dp</dimen>
+
+    <dimen name="v_34dp">30.6dp</dimen>
+    <dimen name="v_36dp">32.4dp</dimen>
+    <dimen name="v_37dp">33.3dp</dimen>
+    <dimen name="v_38dp">34.2dp</dimen>
+    <dimen name="v_40dp">36dp</dimen>
+
+    <dimen name="v_42dp">37.8dp</dimen>
+    <dimen name="v_43dp">38.7dp</dimen>
+    <dimen name="v_45dp">40.5dp</dimen>
+    <dimen name="v_47dp">42.3dp</dimen>
+    <dimen name="v_48dp">43.2dp</dimen>
+    <dimen name="v_50dp">45dp</dimen>
+    <dimen name="v_52dp">46.8dp</dimen>
+    <dimen name="v_54dp">48.6dp</dimen>
+    <dimen name="v_55dp">49.5dp</dimen>
+    <dimen name="v_56dp">50.4dp</dimen>
+    <dimen name="v_57dp">51.3dp</dimen>
+    <dimen name="v_60dp">54dp</dimen>
+    <dimen name="v_61dp">54.9dp</dimen>
+    <dimen name="v_62dp">55.8dp</dimen>
+    <dimen name="v_63dp">56.7dp</dimen>
+    <dimen name="v_64dp">57.6dp</dimen>
+    <dimen name="v_65dp">58.5dp</dimen>
+    <dimen name="v_68dp">61.2dp</dimen>
+    <dimen name="v_69dp">62.1dp</dimen>
+    <dimen name="v_70dp">63dp</dimen>
+    <dimen name="v_72dp">64.8dp</dimen>
+    <dimen name="v_74dp">66.6dp</dimen>
+    <dimen name="v_78dp">70.2dp</dimen>
+    <dimen name="v_80dp">72dp</dimen>
+    <dimen name="v_82dp">73.8dp</dimen>
+    <dimen name="v_86dp">77.4dp</dimen>
+    <dimen name="v_88dp">79.2dp</dimen>
+    <dimen name="v_90dp">81dp</dimen>
+    <dimen name="v_95dp">85.5dp</dimen>
+    <dimen name="v_100dp">90dp</dimen>
+    <dimen name="v_105dp">94.5dp</dimen>
+    <dimen name="v_106dp">95.4dp</dimen>
+    <dimen name="v_110dp">99dp</dimen>
+    <dimen name="v_116dp">104.4dp</dimen>
+    <dimen name="v_120dp">108dp</dimen>
+    <dimen name="v_141dp">126.9dp</dimen>
+
+    <dimen name="v_152dp">136.8dp</dimen>
+    <dimen name="v_170dp">153dp</dimen>
+    <dimen name="v_172dp">154.8dp</dimen>
+    <dimen name="v_176dp">158.4dp</dimen>
+    <dimen name="v_178dp">160.2dp</dimen>
+    <dimen name="v_182dp">162dp</dimen>
+    <dimen name="v_202dp">181.8dp</dimen>
+    <dimen name="v_227dp">204.3dp</dimen>
+
+
+    <!-- Calendar-->
+
+</resources>

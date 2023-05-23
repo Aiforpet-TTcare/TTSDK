@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pop_skin_selectview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#af000000"
+    android:visibility="visible">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="472dp"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="25.2dp"
+        android:layout_marginRight="25.2dp"
+        android:background="@drawable/round_radius_20_ffffff">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="43.2dp">
+
+            <RelativeLayout
+                android:layout_width="43.2dp"
+                android:layout_height="43.2dp"
+                android:layout_marginRight="10.8dp"
+                android:layout_alignParentRight="true"
+                android:id="@+id/pop_skin_select_no">
+
+                <ImageView
+                    android:layout_width="17.1dp"
+                    android:layout_height="17.1dp"
+                    android:background="@drawable/top_close"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="22.5dp"
+                    android:layout_marginRight="10.8dp"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            style="@style/Font_Medium_16"
+            android:textSize="18dp"
+            android:lineHeight="22dp"
+            android:textColor="#191919"
+            android:layout_width="match_parent"
+            android:text="@string/pop_skin_1"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="18dp"
+            android:layout_gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="74.7dp"
+                    android:layout_height="69.3dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/common_check_skin_1_no_check"
+                    android:id="@+id/select_skin1"/>
+
+                <TextView
+                    style="@style/Font_Medium_16"
+                    android:textSize="12dp"
+                    android:layout_marginTop="5.4dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/pop_skin_2"
+                    android:textColor="#535353"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="15.3dp">
+
+
+                <ImageView
+                    android:layout_width="74.7dp"
+                    android:layout_height="69.3dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/common_check_skin_2_no_check"
+                    android:id="@+id/select_skin2"/>
+
+                <TextView
+                    style="@style/Font_Medium_16"
+                    android:textSize="12dp"
+                    android:layout_marginTop="5.4dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/pop_skin_3"
+                    android:textColor="#535353"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="9dp"
+            android:layout_gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="74.7dp"
+                    android:layout_height="69.3dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/common_check_skin_3_no_check"
+                    android:id="@+id/select_skin3"/>
+
+                <TextView
+                    style="@style/Font_Medium_16"
+                    android:textSize="12dp"
+                    android:layout_marginTop="5.4dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/pop_skin_4"
+                    android:textColor="#535353"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="15.3dp">
+
+
+                <ImageView
+                    android:layout_width="74.7dp"
+                    android:layout_height="69.3dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/common_check_skin_4_no_check"
+                    android:id="@+id/select_skin4"/>
+
+                <TextView
+                    style="@style/Font_Medium_16"
+                    android:textSize="12dp"
+                    android:layout_marginTop="5.4dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/pop_skin_5"
+                    android:textColor="#535353"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="14.4dp"
+            android:id="@+id/pop_skin_all_select">
+
+            <TextView
+                style="@style/Font_Regular_13"
+                android:textSize="12dp"
+                android:text="@string/pop_skin_9"
+                android:textColor="#717171"
+                android:layout_weight="0"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="#717171"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="9.9dp">
+
+            <TextView
+                style="@style/Font_Medium_16"
+                android:textSize="12dp"
+                android:textColor="#fa535f"
+                android:text="@string/pop_skin_6_1" />
+
+            <TextView
+                style="@style/Font_Regular_13"
+                android:textSize="12dp"
+                android:text="@string/pop_skin_6_2"
+                android:textColor="#717171"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/Font_Regular_13"
+            android:textSize="12dp"
+            android:text="@string/pop_skin_6_3"
+            android:textColor="#717171"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5.4dp"/>
+
+
+        <TextView
+            style="@style/Font_Medium_16"
+            android:textSize="14dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="43.2dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginBottom="28.8dp"
+            android:layout_marginTop="13.5dp"
+            android:textColor="#ffffff"
+            android:text="@string/pop_skin_7"
+            android:background="@drawable/round_radius_10_d3d3d3"
+            android:id="@+id/pop_skin_select_yes"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="TTSDK/src/main/res/layout/activity_check_main.xml" value="0.4828125" />
+        <entry key="TTSDK/src/main/res/layout/activity_diagnois_question_new.xml" value="0.4828125" />
+        <entry key="TTSDK/src/main/res/layout/activity_diagnois_question_new_s.xml" value="0.4828125" />
+        <entry key="TTSDK/src/main/res/layout/activity_eyecamera.xml" value="0.5551724137931034" />
+        <entry key="TTSDK/src/main/res/layout/activity_eyecamera_s.xml" value="0.44114583333333335" />
+        <entry key="TTSDK/src/main/res/layout/activity_guide_eye1.xml" value="0.44114583333333335" />
+        <entry key="TTSDK/src/main/res/layout/activity_pinch.xml" value="0.4828125" />
+        <entry key="TTSDK/src/main/res/layout/activity_skincamera.xml" value="0.478125" />
+        <entry key="TTSDK/src/main/res/layout/activity_skincamera_s.xml" value="0.19444444444444445" />
+        <entry key="TTSDK/src/main/res/layout/loadingparentview.xml" value="0.39739583333333334" />
+        <entry key="TTSDK/src/main/res/layout/loadingview.xml" value="0.39739583333333334" />
+        <entry key="TTSDK/src/main/res/layout/pop_eye_selectview.xml" value="0.4907010014306152" />
+        <entry key="aifsdk/build/.transforms/8536bffd68f118e874e8355ff95bbd46/transformed/aifsdk/res/layout/dot_indicatorview.xml" value="0.28804347826086957" />
+        <entry key="app/src/main/res/drawable-hdpi/a.xml" value="0.1345" />
+        <entry key="app/src/main/res/drawable-xhdpi/a.xml" value="0.1345" />
+        <entry key="app/src/main/res/drawable-xxhdpi/a.xml" value="0.1345" />
+        <entry key="app/src/main/res/drawable/auto_txt.xml" value="0.4595" />
+        <entry key="app/src/main/res/drawable/circular_progressbar.xml" value="0.203" />
+        <entry key="app/src/main/res/drawable/notice_pop_bottom.xml" value="0.175" />
+        <entry key="app/src/main/res/drawable/pop_top.xml" value="0.266" />
+        <entry key="app/src/main/res/drawable/pop_top_allround.xml" value="0.266" />
+        <entry key="app/src/main/res/drawable/pop_top_round.xml" value="0.266" />
+        <entry key="app/src/main/res/drawable/round_30_d4d4d4.xml" value="0.3395" />
+        <entry key="app/src/main/res/drawable/round_atp.xml" value="0.3395" />
+        <entry key="app/src/main/res/drawable/round_b_ffffff.xml" value="0.3395" />
+        <entry key="app/src/main/res/drawable/round_bolder_e2e2e2.xml" value="0.266" />
+        <entry key="app/src/main/res/drawable/round_radius_10_e7e7e7.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable/round_radius_10_fee34c.xml" value="0.1775" />
+        <entry key="app/src/main/res/drawable/round_radius_12_2d2d45.xml" value="0.3395" />
+        <entry key="app/src/main/res/drawable/round_radius_15_e7e7e7.xml" value="0.266" />
+        <entry key="app/src/main/res/drawable/round_radius_30_2c2c2e.xml" value="0.133" />
+        <entry key="app/src/main/res/drawable/round_radius_33_ffffff.xml" value="0.3015" />
+        <entry key="app/src/main/res/drawable/round_radius_44_2c2c2e.xml" value="0.169" />
+        <entry key="app/src/main/res/drawable/round_radius_44_d3d3d3.xml" value="0.307" />
+        <entry key="app/src/main/res/drawable/worm_dot_stroke_background.xml" value="0.395" />
+        <entry key="app/src/main/res/layout/activity_check_main.xml" value="0.14285714285714285" />
+        <entry key="app/src/main/res/layout/activity_check_main_s.xml" value="0.33172302737520126" />
+        <entry key="app/src/main/res/layout/activity_check_view.xml" value="0.10655737704918032" />
+        <entry key="app/src/main/res/layout/activity_check_view_s.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_diagnois_question_new.xml" value="0.46875" />
+        <entry key="app/src/main/res/layout/activity_diagnois_question_new_s.xml" value="0.46875" />
+        <entry key="app/src/main/res/layout/activity_diagnosis_result_skin.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_diagnosis_result_type2.xml" value="0.3290083410565338" />
+        <entry key="app/src/main/res/layout/activity_diagnosis_result_type2_s.xml" value="0.3994439295644115" />
+        <entry key="app/src/main/res/layout/activity_diagnosis_result_type2_skin.xml" value="0.31982942430703626" />
+        <entry key="app/src/main/res/layout/activity_diagnosis_result_type2_skin_s.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_eyecamera.xml" value="0.5514157973174366" />
+        <entry key="app/src/main/res/layout/activity_eyecamera_s.xml" value="0.207193515704154" />
+        <entry key="app/src/main/res/layout/activity_guide_eye1.xml" value="0.5226449275362319" />
+        <entry key="app/src/main/res/layout/activity_intro.xml" value="0.22443181818181818" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_login_s.xml" value="0.5619791666666667" />
+        <entry key="app/src/main/res/layout/activity_permission.xml" value="0.23901098901098902" />
+        <entry key="app/src/main/res/layout/activity_pinch.xml" value="0.43976449275362317" />
+        <entry key="app/src/main/res/layout/activity_pinch_detail.xml" value="0.46875" />
+        <entry key="app/src/main/res/layout/activity_pinch_detail_s.xml" value="0.46875" />
+        <entry key="app/src/main/res/layout/activity_react.xml" value="0.35885416666666664" />
+        <entry key="app/src/main/res/layout/activity_setting_notice.xml" value="0.35260416666666666" />
+        <entry key="app/src/main/res/layout/activity_setting_notice_s.xml" value="0.5619791666666667" />
+        <entry key="app/src/main/res/layout/activity_skincamera.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/activity_skincamera_s.xml" value="0.4119791666666667" />
+        <entry key="app/src/main/res/layout/bottom_error_diagpopup.xml" value="0.35885416666666664" />
+        <entry key="app/src/main/res/layout/bottom_error_diagpopup_s.xml" value="0.35885416666666664" />
+        <entry key="app/src/main/res/layout/bottom_suspecteddiseases.xml" value="0.46875" />
+        <entry key="app/src/main/res/layout/bottom_suspecteddiseases_s.xml" value="0.35885416666666664" />
+        <entry key="app/src/main/res/layout/diags_result_row.xml" value="0.46875" />
+        <entry key="app/src/main/res/layout/diags_result_row_s.xml" value="0.4635416666666667" />
+        <entry key="app/src/main/res/layout/diags_skin_result_row.xml" value="0.22796352583586627" />
+        <entry key="app/src/main/res/layout/diags_skin_result_row_s.xml" value="0.35885416666666664" />
+        <entry key="app/src/main/res/layout/dot_indicatorview.xml" value="0.3953125" />
+        <entry key="app/src/main/res/layout/dot_indicatorview_s.xml" value="0.3953125" />
+        <entry key="app/src/main/res/layout/dot_layout.xml" value="0.3953125" />
+        <entry key="app/src/main/res/layout/eventtipwebactivity.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/eventwebactivity.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/lib_ptr_view_simple_image_loading.xml" value="0.35260416666666666" />
+        <entry key="app/src/main/res/layout/lib_ptr_view_simple_text_loading.xml" value="0.4635416666666667" />
+        <entry key="app/src/main/res/layout/lib_ptr_view_simple_text_loading_s.xml" value="0.4635416666666667" />
+        <entry key="app/src/main/res/layout/loadingparentview.xml" value="0.5619791666666667" />
+        <entry key="app/src/main/res/layout/other_result.xml" value="0.46875" />
+        <entry key="app/src/main/res/layout/other_result_s.xml" value="0.46875" />
+        <entry key="app/src/main/res/layout/pop_eye_selectview.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/pop_eye_selectview_s.xml" value="0.35885416666666664" />
+        <entry key="app/src/main/res/layout/pop_l6000.xml" value="0.4276041666666667" />
+        <entry key="app/src/main/res/layout/pop_part_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/pop_skin_selectview.xml" value="0.2831858407079646" />
+        <entry key="app/src/main/res/layout/pop_skin_selectview_s.xml" value="0.4119791666666667" />
+        <entry key="app/src/main/res/layout/row_diseaseinfo.xml" value="0.46875" />
+        <entry key="app/src/main/res/layout/row_dogpart.xml" value="0.34322916666666664" />
+        <entry key="app/src/main/res/layout/row_dogpart_s.xml" value="0.34322916666666664" />
+        <entry key="app/src/main/res/layout/row_error_diagpopup.xml" value="0.35885416666666664" />
+        <entry key="app/src/main/res/layout/row_error_diagpopup_s.xml" value="0.35885416666666664" />
+        <entry key="app/src/main/res/layout/row_noticeinfo.xml" value="0.35260416666666666" />
+        <entry key="app/src/main/res/layout/row_noticeinfo_s.xml" value="0.5619791666666667" />
+        <entry key="app/src/main/res/layout/row_videoview.xml" value="0.46875" />
+        <entry key="app/src/main/res/layout/row_videoview2.xml" value="0.46875" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1345" />
+        <entry key="mylibrary/libs/app-release-protected/res/drawable/camera_gradient.xml" value="0.338" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

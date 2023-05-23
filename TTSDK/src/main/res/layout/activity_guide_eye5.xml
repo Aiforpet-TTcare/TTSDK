@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#af000000"
+    android:id="@+id/activity_guide_eye5"
+    android:visibility="gone">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp">
+
+
+
+
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="visible"
+                android:id="@+id/g5"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="50dp">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="9dp"
+                        android:layout_marginTop="11dp"
+                        android:layout_gravity="center_horizontal" />
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:layout_marginTop="6dp"
+                        android:shape="ring"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="14dp"
+                        app:cardElevation="0dp"
+                        app:cardPreventCornerOverlap="true">
+
+                        <ImageView
+                            android:layout_width="46dp"
+                            android:layout_height="46dp"
+                            android:src="@drawable/eye_small_dog_r"
+                            android:id="@+id/guide5_small_r"/>
+
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="9dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="11dp"/>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:layout_marginTop="6dp"
+                        android:shape="ring"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="14dp"
+                        app:cardElevation="0dp"
+                        app:cardPreventCornerOverlap="true">
+
+
+                        <ImageView
+                            android:layout_width="46dp"
+                            android:layout_height="46dp"
+                            android:src="@drawable/eye_small_dog_l"
+                            android:id="@+id/guide5_small_l"/>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="-3dp">
+
+                    <ImageView
+                        android:layout_width="68dp"
+                        android:layout_height="27dp"
+                        android:layout_gravity="center_horizontal" />
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:shape="ring"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="14dp"
+                        app:cardElevation="0dp"
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_gravity="center_horizontal">
+
+
+                        <ImageView
+                            android:layout_width="46dp"
+                            android:layout_height="46dp"
+                            android:background="@drawable/common_check_again"/>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/guide_eye5_txt"
+                style="@style/Font_Bold_15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/g5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:lineHeight="21dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/round_radius_15_ffffff"
+                android:gravity="center"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:textColor="@color/color_191919" />
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="162dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true">
+
+
+                <com.aiforpet.pet.util.LibraryLottieView
+                    android:id="@+id/handloading5_eye"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    app:lottie_imageAssetsFolder="images"
+                    app:lottie_assetFileName="han.json"
+                    app:lottie_autoPlay="true"/>
+
+
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

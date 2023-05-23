@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/loadingparentview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bf000000"
+    android:visibility="gone">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/loading_title_ment"
+            style="@style/Title_Large"
+            android:textSize="25dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="#ffffff" />
+
+
+
+
+        <TextView
+            android:id="@+id/loading_ment"
+            style="@style/Font_Regular_13"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:textColor="#ffffff" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp">
+
+
+            <TextView
+                android:id="@+id/loading_percent"
+                style="@style/Font_SF_Bold_21"
+                android:textSize="32dp"
+                android:text="0"
+                android:textColor="#ffffff" />
+
+            <TextView
+                style="@style/Font_SF_Bold_21"
+                android:text="%"
+                android:layout_gravity="bottom"
+                android:textSize="20dp"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp">
+
+
+            <ImageView
+                android:layout_width="116dp"
+                android:layout_height="113dp"
+                android:layout_centerInParent="true"/>
+
+
+
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+                android:id="@+id/loading_progressbar"
+                android:layout_width="135dp"
+                android:layout_centerInParent="true"
+                android:layout_height="135dp"
+                android:indeterminate="false"
+                app:trackColor="#303030"
+                app:indicatorColor="#fff45f"
+                app:trackCornerRadius="3dp"
+                app:trackThickness="3dp"
+                app:indicatorSize="135dp"
+                android:max="10000"
+                android:progress="0" />
+
+
+            <com.aiforpet.pet.util.LibraryLottieView
+                android:id="@+id/check_loading"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                app:lottie_imageAssetsFolder="images"
+                app:lottie_assetFileName="dog_loading.json"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                android:layout_centerInParent="true"/>
+
+
+            <com.aiforpet.pet.util.LibraryLottieView
+                android:id="@+id/check_loading_cat"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                app:lottie_imageAssetsFolder="images"
+                app:lottie_assetFileName="cat_loading.json"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                android:layout_centerInParent="true"/>
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+        <TextView
+            style="@style/Font_Regular_13"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/camera_loading_title1"
+            android:layout_marginTop="77dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            style="@style/Font_Bold_13"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/camera_loading_title2"
+            android:textColor="#ffffff" />
+
+
+
+<!--
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/loadingview"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="c_loading.json"
+            app:lottie_imageAssetsFolder="images"
+            android:visibility="gone"/>
+-->
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
