@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="0dp"
+    android:clickable="true"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    android:id="@+id/bottom_error_diagpopup"
+    android:orientation="vertical"
+    android:background="#00000000">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/pop_diagnosis_contentview"
+        android:background="@drawable/pop_top_allround"
+        android:visibility="visible"
+        android:layout_margin="8dp">
+
+
+
+
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:id="@+id/viewpager"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dots_indicator_parentview"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"/>
+
+
+
+
+
+
+        <TextView
+            style="@style/Font_Bold_15"
+            android:gravity="center"
+            android:textColor="#191919"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:background="@drawable/round_radius_30_fee34c"
+            android:text="@string/rediagcamera"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/error_diag_confirm"
+            android:layout_marginTop="40dp"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/pop_guide_btn"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="11dp"
+                android:layout_height="12dp"
+                android:background="@drawable/common_2_icon_check_guide"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="1dp"/>
+
+
+            <TextView
+                style="@style/Font_Regular_13"
+                android:textColor="#898989"
+                android:text="@string/guide_8"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center_vertical"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

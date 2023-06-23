@@ -1,0 +1,329 @@
+<resources>
+    <string name="underlined_text">contact@aiforpet.com</string>
+    <string name="app_name">TTcare SDK</string>
+
+    <string name="dog">강아지</string>
+    <string name="cat">고양이</string>
+
+    <string name="confirm">확인</string>
+
+
+    <string name="korea">대한민국</string>
+    <string name="usa">USA</string>
+
+
+
+    <string name="allow_camera_enable_ment">허용하기</string>
+    <string name="rediagcamera">다시 찍어볼까요?</string>
+    <string name="rediagcamera_1">이렇게 찍혔어요</string>
+    <string name="rediagcamera_2">이렇게 찍어주세요</string>
+    <string name="camera_loading_title1">국내 최초 동물용의료기기\n의료 영상진단 보조 소프트웨어</string>
+    <string name="camera_refresh">다시하기</string>
+
+    <string name="camera_complete1">우리 아이의 건강 상태를\n확인하러 가볼까요?</string>
+    <string name="camera_complete2">하단의 사진을 누르면 확대해서 볼 수 있어요</string>
+    <string name="focus_image_right"><![CDATA[<b>오른쪽 눈</b>을 맞춰주세요]]></string>
+    <string name="focus_image_left"><![CDATA[<b>왼쪽 눈</b>을 맞춰주세요]]></string>
+    <string name="focus_image_near"><![CDATA[더 <b>가까이</b> 에서 찍어주세요]]></string>
+    <string name="focus_image_far"><![CDATA[더 <b>멀리서</b> 찍어주세요]]></string>
+
+    <string name="focus_skin1"><![CDATA[<font color=#fee34c>귀를 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
+    <string name="focus_skin2"><![CDATA[<font color=#fee34c>몸통을 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
+    <string name="focus_skin3"><![CDATA[<font color=#fee34c>발을 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
+    <string name="focus_skin4"><![CDATA[<font color=#fee34c>기타 부위를 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
+
+    <string name="focus_skin1_blue"><![CDATA[<font color=#75c3ff>귀를 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
+    <string name="focus_skin2_blue"><![CDATA[<font color=#75c3ff>몸통을 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
+    <string name="focus_skin3_blue"><![CDATA[<font color=#75c3ff>발을 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
+    <string name="focus_skin4_blue"><![CDATA[<font color=#75c3ff>기타 부위를 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
+
+
+    <string name="joint_1"><![CDATA[<font color=#fee34c>가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
+    <string name="joint_2">화면을 가로로 돌려주세요</string>
+    <string name="joint_3">눈 영상 전송 완료</string>
+    <string name="joint_4">분석이 완료되면 푸시로 알려드릴게요</string>
+    <string name="joint_5">화면을 가로로 돌려주세요</string>
+
+
+    <string name="loading_ment_eye_title">눈을 체크하는 중..</string>
+    <string name="loading_ment_eye_depth1">이미지를 업로드하고 있어요.</string>
+    <string name="loading_ment_eye_depth3">눈 이상 징후를 분석 중이에요.</string>
+    <string name="loading_ment_eye_depth4">분석이 거의 완료되었어요.</string>
+
+
+    <string name="loading_ment_skin_title">피부를 체크하는 중..</string>
+    <string name="loading_ment_skin_depth1">이미지를 업로드하고 있어요.</string>
+    <string name="loading_ment_skin_depth3">피부 이상 징후를 분석 중이에요.</string>
+    <string name="loading_ment_skin_depth4">분석이 거의 완료되었어요.</string>
+    <string name="diag_ment">본 서비스는 수의사법에 저촉되지 않는 범위에서 사용할 수 있습니다. 동물의 이상 징후를 확인하여 진단에 도움을 주기 위한 보조 장치로 질병의 진단은 반드시 전문 수의사가 수행하여야 합니다.</string>
+    <string name="diag_ment_1">같은 반려동물을 촬영하더라도 환경, 품질, 각도에 따라 이상 징후의 체크 결과가 달라질 수 있습니다.</string>
+
+
+    <string name="eye_check_1">눈 사진</string>
+    <string name="eye_check_2">눈 영상</string>
+    <string name="eye_check_3">촬영가이드</string>
+    <string name="eye_check_4">닫기</string>
+
+
+    <string name="pop_skin_1">체크하고 싶은\n피부 부위를 선택해 주세요</string>
+    <string name="pop_skin_2">귀</string>
+    <string name="pop_skin_3">몸통</string>
+    <string name="pop_skin_4">발</string>
+    <string name="pop_skin_5">기타</string>
+
+    <string name="pop_skin_6_1">* 최소 한 부위 이상 선택</string>
+    <string name="pop_skin_6_2">해야</string>
+    <string name="pop_skin_6_3">피부 체크를 할 수 있어요</string>
+
+    <string name="pop_eye_1">어디를 체크할까요?</string>
+    <string name="pop_eye_2">오른쪽</string>
+    <string name="pop_eye_3">왼쪽</string>
+    <string name="pop_eye_4">눈 체크를 할 수 있어요</string>
+
+    <string name="pop_eye_5">오른쪽,왼쪽 선택 완료</string>
+    <string name="pop_eye_6">오른쪽 선택 완료</string>
+    <string name="pop_eye_7">왼쪽 선택 완료</string>
+    <string name="pop_eye_8">* 최소 한 부위 이상 선택</string>
+    <string name="pop_eye_9">해야</string>
+
+
+    <string name="pop_skin_7">선택 완료</string>
+    <string name="pop_skin_9">모두 선택할게요</string>
+
+    <string name="pop_eyeselect_title">눈 체크</string>
+    <string name="pop_eyeselect_content">체크할 부위를 선택하지 않고 팝업을 닫으면 모든 부위가 미리 선택돼요.</string>
+    <string name="pop_skinselect_title">피부 체크</string>
+    <string name="pop_skinselect_content">체크할 부위를 선택하지 않고 팝업을 닫으면 모든 부위가 미리 선택돼요.</string>
+    <string name="mode_3_close">닫기</string>
+    <string name="mode_3_re">다시선택</string>
+
+    <string name="diag_doctor_title">수의사 선생님의 한마디</string>
+
+    <string name="diags_skin_1">판독 불가</string>
+    <string name="diags_skin_2">선택 안함</string>
+
+    <string name="skin_ment1">결과에 표시된 %수치는 티티케어 AI를 통해 분석한</string>
+    <string name="skin_ment4"><![CDATA[<font color=#525252><b>이상 징후가 있을 확률</b></font>로 아래와 같이 구분해 제공하고 있어요.]]></string>
+
+
+    <string name="allow_camera_ment">건강 체크를 하시려면\n카메라 권한을 허용해주세요</string>
+    <string name="allow_audio_ment">건강 체크를 하시려면\n마이크 권한을 허용해주세요</string>
+    <string name="allow_storage_ment">건강 체크를 하시려면\n저장 권한을 켜주세요</string>
+
+
+    <string name="guide_1">건강 체크 가이드 확인하기</string>
+    <string name="guide_2">눈 체크</string>
+    <string name="guide_3">피부 체크</string>
+    <string name="guide_4">영상</string>
+    <string name="guide_5"><![CDATA[<b>더 상세한 체크 가이드</b>가 보고싶다면]]></string>
+    <string name="guide_6">눈 건강 체크에\n어려움이 있으신가요?</string>
+    <string name="guide_7">자세한 촬영가이드를\n참고해주세요</string>
+    <string name="guide_8">촬영가이드 보기</string>
+    <string name="guide_9">다음에 체크하기</string>
+    <string name="guide_10">치아 건강 체크에\n어려움이 있으신가요?</string>
+
+    <string name="common_cancel">취소</string>
+    <string name="common_confirm">확인</string>
+
+    <string name="camera_process_title_ment">건강 체크를 종료하시겠어요?</string>
+    <string name="camera_process_ment">지금 종료하면 촬영한 사진은 사라지고\n건강 체크 결과도 볼 수 없어요.</string>
+
+    <string name="camera_exit">종료하기</string>
+    <string name="camera_process">계속하기</string>
+    <string name="re_diag_camera">다시 촬영하기</string>
+
+
+    <string name="camera_modechange_title">정말 변경하시겠어요?</string>
+    <string name="camera_modechange_content">지금 변경하면 건강 체크 데이터는 사라져요.\n그래도 변경하시겠어요?</string>
+    <string name="camera_modechange_yes">변경하기</string>
+    <string name="camera_modechange_no">취소</string>
+
+    <string name="auto_camera1_1"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#fee34c>오른쪽 눈부터 자동</font>으로 체크해요]]></string>
+    <string name="auto_camera1_1_1"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#fee34c>오른쪽 눈을 자동</font>으로 체크해요]]></string>
+    <string name="auto_camera1_2"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#fee34c>왼쪽(반대편) 눈을 자동</font>으로 체크해요]]></string>
+    <string name="auto_camera1_2_1"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#fee34c>왼쪽 눈을 자동</font>으로 체크해요]]></string>
+
+    <string name="auto_camera2_1"><![CDATA[<font color=#fee34c>강아지 눈이</font> 아니에요]]></string>
+    <string name="auto_camera2_2"><![CDATA[<font color=#fee34c>고양이 눈이</font> 아니에요]]></string>
+    <string name="auto_camera2_1_tooth"><![CDATA[<font color=#fee34c>강아지 치아가</font> 아니에요]]></string>
+    <string name="auto_camera2_2_tooth"><![CDATA[<font color=#fee34c>고양이 치아가</font> 아니에요]]></string>
+
+    <string name="auto_camera2_3"><![CDATA[<font color=#fee34c>사람 눈은</font> 건강 체크가 어려워요]]></string>
+    <string name="auto_camera2_3_tooth"><![CDATA[<font color=#fee34c>사람 치아는</font> 건강 체크가 어려워요]]></string>
+
+    <string name="auto_camera2_4_1"><![CDATA[<font color=#fee34c>강아지 눈을</font> 촬영해 주세요]]></string>
+    <string name="auto_camera2_4_2"><![CDATA[<font color=#fee34c>고양이 눈을</font> 촬영해 주세요]]></string>
+    <string name="auto_camera2_4_1_tooth"><![CDATA[<font color=#fee34c>강아지 치아를</font> 촬영해 주세요]]></string>
+    <string name="auto_camera2_4_2_tooth"><![CDATA[<font color=#fee34c>고양이 치아를</font> 촬영해 주세요]]></string>
+
+
+    <string name="auto_camera3"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
+    <string name="auto_camera3_1"><![CDATA[<font color=#fee34c>더 가까이에서</font> 촬영해 주세요]]></string>
+    <string name="auto_camera3_2"><![CDATA[<font color=#fee34c>밝은 환경에서</font> 촬영해 주세요]]></string>
+    <string name="auto_camera3_4"><![CDATA[<font color=#fee34c>눈에 털을 정리 후</font> 촬영해 주세요]]></string>
+    <string name="auto_camera3_4_tooth"><![CDATA[<font color=#fee34c>더 가까이에서</font> 촬영해 주세요]]></string>
+    <string name="auto_camera4_1"><![CDATA[<font color=#fee34c>오른쪽 눈을</font> 촬영해 주세요]]></string>
+    <string name="auto_camera4_2"><![CDATA[<font color=#fee34c>왼쪽 눈을</font> 촬영해 주세요]]></string>
+
+    <string name="auto_camera4_1_tooth"><![CDATA[<font color=#fee34c>정면 치아를</font> 촬영해 주세요]]></string>
+    <string name="auto_camera4_2_tooth"><![CDATA[<font color=#fee34c>오른쪽 치아를</font> 촬영해 주세요]]></string>
+    <string name="auto_camera4_3_tooth"><![CDATA[<font color=#fee34c>왼쪽 치아를</font> 촬영해 주세요]]></string>
+    <string name="auto_camera4_3_mouth"><![CDATA[<font color=#fee34c>입 안쪽이 보이도록</font><br>촬영해 주세요]]></string>
+
+
+
+    <!--blue-->
+    <string name="auto_camera1_1_blue"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#75c3ff>오른쪽 눈부터 자동</font>으로 체크해요]]></string>
+    <string name="auto_camera1_1_1_blue"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#75c3ff>오른쪽 눈을 자동</font>으로 체크해요]]></string>
+    <string name="auto_camera1_2_blue"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#75c3ff>왼쪽(반대편) 눈을 자동</font>으로 체크해요]]></string>
+    <string name="auto_camera1_2_1_blue"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#75c3ff>왼쪽 눈을 자동</font>으로 체크해요]]></string>
+
+    <string name="auto_camera2_1_blue"><![CDATA[<font color=#75c3ff>강아지 눈이</font> 아니에요]]></string>
+    <string name="auto_camera2_2_blue"><![CDATA[<font color=#75c3ff>고양이 눈이</font> 아니에요]]></string>
+    <string name="auto_camera2_1_tooth_blue"><![CDATA[<font color=#75c3ff>강아지 치아가</font> 아니에요]]></string>
+    <string name="auto_camera2_2_tooth_blue"><![CDATA[<font color=#75c3ff>고양이 치아가</font> 아니에요]]></string>
+
+    <string name="auto_camera2_3_blue"><![CDATA[<font color=#75c3ff>사람 눈은</font> 건강 체크가 어려워요]]></string>
+    <string name="auto_camera2_3_tooth_blue"><![CDATA[<font color=#75c3ff>사람 치아는</font> 건강 체크가 어려워요]]></string>
+
+    <string name="auto_camera2_4_1_blue"><![CDATA[<font color=#75c3ff>강아지 눈을</font> 촬영해 주세요]]></string>
+    <string name="auto_camera2_4_2_blue"><![CDATA[<font color=#75c3ff>고양이 눈을</font> 촬영해 주세요]]></string>
+    <string name="auto_camera2_4_1_tooth_blue"><![CDATA[<font color=#75c3ff>강아지 치아를</font> 촬영해 주세요]]></string>
+    <string name="auto_camera2_4_2_tooth_blue"><![CDATA[<font color=#75c3ff>고양이 치아를</font> 촬영해 주세요]]></string>
+
+
+    <string name="auto_camera3_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
+    <string name="auto_camera3_1_blue"><![CDATA[<font color=#75c3ff>더 가까이에서</font> 촬영해 주세요]]></string>
+    <string name="auto_camera3_2_blue"><![CDATA[<font color=#75c3ff>밝은 환경에서</font> 촬영해 주세요]]></string>
+    <string name="auto_camera3_4_blue"><![CDATA[<font color=#75c3ff>눈에 털을 정리 후</font> 촬영해 주세요]]></string>
+    <string name="auto_camera3_4_tooth_blue"><![CDATA[<font color=#75c3ff>더 가까이에서</font> 촬영해 주세요]]></string>
+    <string name="auto_camera4_1_blue"><![CDATA[<font color=#75c3ff>오른쪽 눈을</font> 촬영해 주세요]]></string>
+    <string name="auto_camera4_2_blue"><![CDATA[<font color=#75c3ff>왼쪽 눈을</font> 촬영해 주세요]]></string>
+
+    <string name="auto_camera4_1_tooth_blue"><![CDATA[<font color=#75c3ff>정면 치아를</font> 촬영해 주세요]]></string>
+    <string name="auto_camera4_2_tooth_blue"><![CDATA[<font color=#75c3ff>오른쪽 치아를</font> 촬영해 주세요]]></string>
+    <string name="auto_camera4_3_tooth_blue"><![CDATA[<font color=#75c3ff>왼쪽 치아를</font> 촬영해 주세요]]></string>
+    <string name="auto_camera4_3_mouth_blue"><![CDATA[<font color=#75c3ff>입 안쪽이 보이도록</font><br>촬영해 주세요]]></string>
+
+
+    <string name="video_right_1"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#fee34c>오른쪽 눈부터 영상</font>으로 체크해요]]></string>
+    <string name="video_right_2"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#fee34c>오른쪽 눈을 영상</font>으로 체크해요]]></string>
+    <string name="video_left"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#fee34c>왼쪽 눈을 영상</font>으로 체크해요]]></string>
+    <string name="camera_on">사진촬영을 하시려면 권한을 주셔야합니다.\n가운데 허용하기 버튼을 눌러서 권한을 주세요~!</string>
+    <string name="server_communication_error">서버통신 에러입니다.</string>
+
+    <string name="diag_error1">알려드려요</string>
+    <string name="diag_error2">동시 접속자 수가 많거나 네트워크 불안정으로 일시적 서비스 접속이 불가합니다.\n다시 촬영해 주세요.</string>
+    <string name="diag_error3">동시 접속자 수가 많거나 네트워크 불안정으로 일시적 서비스 접속이 불가합니다.\n결과보기 버튼을 다시 눌러주세요.</string>
+
+
+    <string name="select_left_validation_title">왼쪽 눈 촬영을\n중단하시나요?</string>
+    <string name="select_left_validation_content">지금 왼쪽 눈 촬영을 중단하면\n오른쪽 눈의 체크 결과만 볼수 있어요.</string>
+
+    <string name="select_right_validation_title">오른쪽 눈 촬영을\n중단하시나요?</string>
+    <string name="select_right_validation_content">지금 오른쪽 눈 촬영을 중단하면\n왼쪽 눈의 체크 결과만 볼수 있어요.</string>
+
+    <string name="select_tooth_validation_title">선택한 체크 부위 촬영을\n중단하시나요?</string>
+    <string name="select_tooth_validation_content">확인을 누른 경우 촬영이 완료된\n부위의 체크 결과만 볼 수 있어요.</string>
+
+
+    <string name="confrim">확인</string>
+
+
+    <string name="camera_guide1_1"><![CDATA[<b><font color=#368df5>양쪽 눈 또는 한 쪽 눈만 골라 촬영</font>이 가능해요.<br>플래시를 켜고 촬영하면 더 명확한 결과를<br>제공해 드려요.</b>]]></string>
+    <string name="camera_guide1_2"><![CDATA[<b>촬영 버튼을 누르면 최대 30초간<br><font color=#368df5>자동으로 촬영</font>을 시작해요.</b>]]></string>
+    <string name="camera_guide1_3"><![CDATA[<b>촬영 중 간편하게 <font color=#368df5>다른 부위를 더하거나,</font><br><font color=#368df5>뺄 수 있어요.</b></font>]]></string>
+    <string name="camera_guide1_7"><![CDATA[촬영에 도움이 되는<br> <font color=#368df5>플래시, 셀카모드,촬영가이드</font>를 활용해 보세요]]></string>
+    <string name="camera_guide1_8">어두운 환경에서 촬영 할 때 플래시 기능을 사용하면\n더 정확한 건강체크를 진행할 수 있어요</string>
+
+
+    <string name="camera_guide1_9"><![CDATA[<font color=#368df5>모두 선택하거나, 한 군데만 골라 촬영</font>이 가능해요.<br>플래시를 켜고 촬영하면 더 명확한 결과를<br>제공해 드려요.]]></string>
+    <string name="camera_guide1_10"><![CDATA[피부 체크 가이드에 따라<br><font color=#368df5>아이의 이상징후를 촬영</font>해주세요]]></string>
+    <string name="camera_guide1_11"><![CDATA[촬영 중 간편하게 <font color=#368df5>다른 부위를 더하거나,</font><br><font color=#368df5>뺄 수 있어요.</font>]]></string>
+    <string name="camera_guide1_12"><![CDATA[붉은 반점이나 찰과상 등 <font color=#368df5>이상이 보이는 부분</font>을<br>촬영한 후, <font color=#368df5>사진을 확대하거나 삭제</font>할 수 있어요.]]></string>
+    <string name="camera_guide1_13"><![CDATA[촬영에 도움이 되는<br> <font color=#368df5>플래시, 셀카모드,촬영가이드</font>를 활용해 보세요]]></string>
+    <string name="camera_guide1_14">어두운 환경에서 촬영 할 때 플래시 기능을 사용하면\n더 정확한 건강체크를 진행할 수 있어요</string>
+
+    <string name="active_pet_weight_update">삭제하기</string>
+
+
+    <string name="v4_pop_eye_1">어디를 체크할까요?</string>
+    <string name="v4_pop_eye_2">오른쪽</string>
+    <string name="v4_pop_eye_3">왼쪽</string>
+    <string name="v4_pop_eye_4">고양이 기준</string>
+    <string name="v4_pop_eye_5">강아지 기준</string>
+    <string name="v4_pop_eye_6"><![CDATA[<font color=#368df5><b>플래시를 사용</b></font>하면 더 명확한<br>결과를 제공해 드려요.]]></string>
+    <string name="v4_pop_eye_7">일시적인 플래시 활성화가 동물에게 불편함을 유발할 순 있지만 건강상 위해를 미친다는 과학적 근거는 없어요. 불편함이 우려되면 플래시 입구에 얇은 종이를 덧대어주시면 도움이 될 수 있어요.</string>
+    <string name="v4_pop_eye_8">시작하기</string>
+
+
+    <string name="v4_pop_skin_1">어디를 체크할까요?</string>
+    <string name="v4_pop_skin_2">귀</string>
+    <string name="v4_pop_skin_3">(귓구멍)</string>
+    <string name="v4_pop_skin_4">몸통</string>
+    <string name="v4_pop_skin_5">발</string>
+    <string name="v4_pop_skin_6">기타</string>
+    <string name="v4_pop_skin_7">(예:얼굴)</string>
+    <string name="v4_pop_skin_8"><![CDATA[<b><font color=#fa535f>최대한 털을 제외하고, 피부로부터 최소 10cm 간격</font></b>을<br>두고 촬영해주세요.]]></string>
+
+
+    <string name="guide_eye_1">눈 촬영 가이드</string>
+    <string name="guide_eye_2">첫 촬영이라면</string>
+    <string name="guide_eye_3">촬영이 어렵다면</string>
+
+    <string name="guide_eye_4"><![CDATA[<b>Step 1. 건강 상태가 궁금한 <font color=#368df5>눈을 선택해주세요.</font></b>]]></string>
+    <string name="guide_eye_5">양쪽 눈 또는 한쪽 눈만 따로 선택할 수 있어요. 촬영 중에도 [선택]을 눌러 자유롭게 더하거나 뺄 수 있어요.</string>
+    <string name="guide_eye_6"><![CDATA[<b>Step 2. 촬영 버튼을 누르면 <font color=#368df5>자동으로 시작해요.</font></b>]]></string>
+    <string name="guide_eye_7">AI가 눈을 찾아 자동으로 촬영해요. 빠르게 눈을 인식할 수 있도록 가이드 문구를 잘 따라와 주세요.</string>
+    <string name="guide_eye_8">더 정확한 결과를 얻고 싶다면</string>
+    <string name="guide_eye_9">눈에 반사되는 사물(유리창, 티비 등)이 없도록 촬영 환경을 점검하거나, 플래시를 켜고 촬영해 보세요. 플래시가 주변 사물의 반사를 없애줘서 더 정확한 결과를 얻을 수 있어요. 일시적인 플래시 사용이 눈 건강에 영향을 주진 않지만, 아이가 놀라거나 눈을 피할 수 있으니 천천히 접근해 주세요.</string>
+    <string name="guide_eye_10">아이가 힘들어하면 잠시 쉬어주세요.</string>
+    <string name="guide_eye_11">촬영이 어려운 경우 셀카모드를 활용하되, 아이가 계속 피하거나 힘들어하면 무리해서 촬영하지 말고 충분한 휴식을 취한 후 다시 시도해 주세요.</string>
+
+    <string name="guide_eye_12"><![CDATA[<b>Tip 1. 이런 사진은 <font color=#368df5>분석이 어려워요.</font></b>]]></string>
+    <string name="guide_eye_13">눈 부분이 가려지거나 사진이 흔들린 경우, 눈을 찾기가 어려운 경우에는 재촬영이 필요해요.</string>
+    <string name="guide_eye_14"><![CDATA[<b>Tip 2. <font color=#368df5>가이드 문구</font>에 잘 따라와 주세요.</b>]]></string>
+    <string name="guide_eye_15">AI가 눈을 찾아 자동으로 촬영해요. 최대한 가이드 문구에 맞춰 빠르게 눈을 인식할 수 있게 해주세요. </string>
+
+    <string name="guide_skin_1">피부 촬영 가이드</string>
+
+    <string name="guide_skin_4"><![CDATA[<b>Step 1. 건강 상태가 궁금한 <font color=#368df5>피부를 선택해주세요.</font></b>]]></string>
+    <string name="guide_skin_5">귀, 몸통, 발 중 한 군데만 선택하거나 모두 다 선택할 수 있어요. 그 외 다른 부분(예 : 얼굴 등)의 상태가 궁금하다면 기타를 선택해 촬영을 진행해주세요.</string>
+    <string name="guide_skin_6"><![CDATA[<b>Step 2. 촬영 버튼을 눌러 <font color=#368df5>직접 촬영해주세요.</font></b>]]></string>
+    <string name="guide_skin_7">털이 피부를 가리거나 최대한 그림자가 생기지 않도록 주의해주세요.</string>
+    <string name="guide_skin_9">피부에 이물질이 있다면 깨끗이 닦아낸 후 촬영해주세요. 털이 많은 부분을 찍을 땐 물을 조금 묻히거나 손으로 털을 눕혀 피부가 잘 보이도록 해주세요. 피부는 플래시를 켜고 촬영해야 그림자 왜곡 없이 증상을 체크할 수 있어요. 특히 귀나 발가락 사이를 촬영 시 반드시 플래시를 켜고 진행해 주세요.</string>
+
+
+    <string name="guide_skin_12"><![CDATA[<b>Tip 1. <font color=#368df5>귓바퀴</font>를 촬영해주세요.</b>]]></string>
+    <string name="guide_skin_13">귀가 털에 덮여있다면 손으로 털을 살짝 들어올려 주세요. 이 때 손으로 귓바퀴를 가리지 않도록 주의해주세요.</string>
+
+    <string name="guide_skin_14"><![CDATA[<b>Tip 2. <font color=#368df5>발가락 사이 또는 발바닥</font>을 촬영해주세요.</b>]]></string>
+    <string name="guide_skin_15">발가락 사이 피부 중 증상이 두드러지게 나타나는 곳을, 발바닥에 증상이 있을 경우 패드 사이의 피부를 촬영해주세요.</string>
+
+    <string name="guide_skin_16"><![CDATA[<b>Tip 3. <font color=#368df5>털이 피부를 가리지 않도록</font> 해주세요.</b>]]></string>
+    <string name="guide_skin_17">뒷 배경은 보이지 않고 피부만 나오도록 최대한 가까이에서 촬영해주세요.</string>
+
+    <string name="guide_skin_18">더 정확한 결과를 얻고 싶다면</string>
+    <string name="guide_skin_19">피부에 이물질이 있다면 깨끗이 닦아낸 후 촬영해주세요. 털이 많은 부분을 찍을 땐 물을 조금 묻히거나 손으로 털을 눕혀 피부가 잘 보이도록 해주세요. 피부는 플래시를 켜고 촬영해야 그림자 왜곡 없이 증상을 체크할 수 있어요. 특히 귀나 발가락 사이를 촬영 시 반드시 플래시를 켜고 진행해 주세요.</string>
+
+
+
+    <string name="pop_tooth_1">어디를 체크할까요?</string>
+    <string name="pop_tooth_2">정면</string>
+    <string name="pop_tooth_3">윗니, 아랫니 포함</string>
+    <string name="pop_tooth_4">오른쪽</string>
+    <string name="pop_tooth_5">(강아지 기준)</string>
+    <string name="pop_tooth_5_cat">(고양이 기준)</string>
+    <string name="pop_tooth_6">어금니 부근까지 촬영</string>
+    <string name="pop_tooth_7">왼쪽</string>
+
+
+    <string name="auto_tooth_1"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#fee34c>정면 치아를 자동</font>으로 체크해요]]></string>
+    <string name="auto_tooth_2"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#fee34c>오른쪽 치아를 자동</font>으로 체크해요]]></string>
+    <string name="auto_tooth_3"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#fee34c>왼쪽 치아를 자동</font>으로 체크해요]]></string>
+
+    <string name="eye_download1">눈 건강 체크에 필요한 파일을 다운로드 중이에요</string>
+    <string name="eye_download2">잠시만 기다려 주세요</string>
+
+
+</resources>
