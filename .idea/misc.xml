@@ -3,20 +3,31 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="TTSDK/src/main/res/drawable/camera_gradient.xml" value="0.4095" />
         <entry key="TTSDK/src/main/res/layout/activity_check_main.xml" value="0.4828125" />
         <entry key="TTSDK/src/main/res/layout/activity_diagnois_question_new.xml" value="0.4828125" />
         <entry key="TTSDK/src/main/res/layout/activity_diagnois_question_new_s.xml" value="0.4828125" />
+        <entry key="TTSDK/src/main/res/layout/activity_eye_guide.xml" value="0.4546875" />
         <entry key="TTSDK/src/main/res/layout/activity_eyecamera.xml" value="0.5551724137931034" />
         <entry key="TTSDK/src/main/res/layout/activity_eyecamera_s.xml" value="0.44114583333333335" />
         <entry key="TTSDK/src/main/res/layout/activity_guide_eye1.xml" value="0.44114583333333335" />
         <entry key="TTSDK/src/main/res/layout/activity_guide_skin2.xml" value="0.4197916666666667" />
         <entry key="TTSDK/src/main/res/layout/activity_pinch.xml" value="0.4828125" />
+        <entry key="TTSDK/src/main/res/layout/activity_skin_guide.xml" value="0.4546875" />
         <entry key="TTSDK/src/main/res/layout/activity_skincamera.xml" value="0.478125" />
         <entry key="TTSDK/src/main/res/layout/activity_skincamera_s.xml" value="0.19444444444444445" />
         <entry key="TTSDK/src/main/res/layout/eventwebactivity.xml" value="0.24375" />
         <entry key="TTSDK/src/main/res/layout/loadingparentview.xml" value="0.39739583333333334" />
         <entry key="TTSDK/src/main/res/layout/loadingview.xml" value="0.39739583333333334" />
         <entry key="TTSDK/src/main/res/layout/pop_eye_selectview.xml" value="0.4907010014306152" />
+        <entry key="TTSDK/src/main/res/layout/pop_skin_selectview_s.xml" value="0.4546875" />
+        <entry key="TTSDK/src/main/res/layout/row_diseaseinfo_s.xml" value="0.4546875" />
+        <entry key="TTSDK/src/main/res/layout/row_error_diagpopup_s.xml" value="0.4546875" />
+        <entry key="TTSDK/src/main/res/layout/row_videoview.xml" value="0.4546875" />
+        <entry key="TTSDK/src/main/res/layout/row_videoview2.xml" value="0.4546875" />
+        <entry key="TTSDK/src/main/res/layout/row_videoview_s.xml" value="0.4546875" />
+        <entry key="TTSDK/src/main/res/layout/spring_dot_layout.xml" value="0.4546875" />
+        <entry key="TTSDK/src/main/res/layout/worm_dot_layout.xml" value="0.4546875" />
         <entry key="aifsdk/build/.transforms/8536bffd68f118e874e8355ff95bbd46/transformed/aifsdk/res/layout/dot_indicatorview.xml" value="0.28804347826086957" />
         <entry key="app/src/main/res/drawable-hdpi/a.xml" value="0.1345" />
         <entry key="app/src/main/res/drawable-xhdpi/a.xml" value="0.1345" />
