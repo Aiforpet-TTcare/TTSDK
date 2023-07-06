@@ -22,10 +22,6 @@
 
     <string name="camera_complete1">우리 아이의 건강 상태를\n확인하러 가볼까요?</string>
     <string name="camera_complete2">하단의 사진을 누르면 확대해서 볼 수 있어요</string>
-    <string name="focus_image_right"><![CDATA[<b>오른쪽 눈</b>을 맞춰주세요]]></string>
-    <string name="focus_image_left"><![CDATA[<b>왼쪽 눈</b>을 맞춰주세요]]></string>
-    <string name="focus_image_near"><![CDATA[더 <b>가까이</b> 에서 찍어주세요]]></string>
-    <string name="focus_image_far"><![CDATA[더 <b>멀리서</b> 찍어주세요]]></string>
 
     <string name="focus_skin1"><![CDATA[<font color=#fee34c>귀를 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
     <string name="focus_skin2"><![CDATA[<font color=#fee34c>몸통을 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
@@ -49,6 +45,12 @@
     <string name="loading_ment_eye_depth1">이미지를 업로드하고 있어요.</string>
     <string name="loading_ment_eye_depth3">눈 이상 징후를 분석 중이에요.</string>
     <string name="loading_ment_eye_depth4">분석이 거의 완료되었어요.</string>
+
+    <string name="loading_ment_tooth_title">치아를 체크하는 중..</string>
+    <string name="loading_ment_tooth_depth1">이미지를 업로드하고 있어요</string>
+    <string name="loading_ment_tooth_depth3">치아 이상 징후를 분석 중이에요.</string>
+    <string name="loading_ment_tooth_depth4">분석이 거의 완료되었어요.</string>
+
 
 
     <string name="loading_ment_skin_title">피부를 체크하는 중..</string>
@@ -94,6 +96,8 @@
     <string name="pop_eyeselect_content">체크할 부위를 선택하지 않고 팝업을 닫으면 모든 부위가 미리 선택돼요.</string>
     <string name="pop_skinselect_title">피부 체크</string>
     <string name="pop_skinselect_content">체크할 부위를 선택하지 않고 팝업을 닫으면 모든 부위가 미리 선택돼요.</string>
+
+
     <string name="mode_3_close">닫기</string>
     <string name="mode_3_re">다시선택</string>
 
@@ -139,71 +143,51 @@
     <string name="camera_modechange_no">취소</string>
 
     <string name="auto_camera1_1"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#fee34c>오른쪽 눈부터 자동</font>으로 체크해요]]></string>
+    <string name="auto_camera1_1_blue"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#75c3ff>오른쪽 눈부터 자동</font>으로 체크해요]]></string>
+
     <string name="auto_camera1_1_1"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#fee34c>오른쪽 눈을 자동</font>으로 체크해요]]></string>
+    <string name="auto_camera1_1_1_blue"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#75c3ff>오른쪽 눈을 자동</font>으로 체크해요]]></string>
+
     <string name="auto_camera1_2"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#fee34c>왼쪽(반대편) 눈을 자동</font>으로 체크해요]]></string>
+    <string name="auto_camera1_2_blue"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#75c3ff>왼쪽(반대편) 눈을 자동</font>으로 체크해요]]></string>
+
     <string name="auto_camera1_2_1"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#fee34c>왼쪽 눈을 자동</font>으로 체크해요]]></string>
+    <string name="auto_camera1_2_1_blue"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#75c3ff>왼쪽 눈을 자동</font>으로 체크해요]]></string>
 
     <string name="auto_camera2_1"><![CDATA[<font color=#fee34c>강아지 눈이</font> 아니에요]]></string>
+    <string name="auto_camera2_1_blue"><![CDATA[<font color=#75c3ff>강아지 눈이</font> 아니에요]]></string>
+
     <string name="auto_camera2_2"><![CDATA[<font color=#fee34c>고양이 눈이</font> 아니에요]]></string>
-    <string name="auto_camera2_1_tooth"><![CDATA[<font color=#fee34c>강아지 치아가</font> 아니에요]]></string>
-    <string name="auto_camera2_2_tooth"><![CDATA[<font color=#fee34c>고양이 치아가</font> 아니에요]]></string>
+    <string name="auto_camera2_2_blue"><![CDATA[<font color=#75c3ff>고양이 눈이</font> 아니에요]]></string>
 
     <string name="auto_camera2_3"><![CDATA[<font color=#fee34c>사람 눈은</font> 건강 체크가 어려워요]]></string>
-    <string name="auto_camera2_3_tooth"><![CDATA[<font color=#fee34c>사람 치아는</font> 건강 체크가 어려워요]]></string>
+    <string name="auto_camera2_3_blue"><![CDATA[<font color=#75c3ff>사람 눈은</font> 건강 체크가 어려워요]]></string>
 
     <string name="auto_camera2_4_1"><![CDATA[<font color=#fee34c>강아지 눈을</font> 촬영해 주세요]]></string>
+    <string name="auto_camera2_4_1_blue"><![CDATA[<font color=#75c3ff>강아지 눈을</font> 촬영해 주세요]]></string>
+
     <string name="auto_camera2_4_2"><![CDATA[<font color=#fee34c>고양이 눈을</font> 촬영해 주세요]]></string>
-    <string name="auto_camera2_4_1_tooth"><![CDATA[<font color=#fee34c>강아지 치아를</font> 촬영해 주세요]]></string>
-    <string name="auto_camera2_4_2_tooth"><![CDATA[<font color=#fee34c>고양이 치아를</font> 촬영해 주세요]]></string>
+    <string name="auto_camera2_4_2_blue"><![CDATA[<font color=#75c3ff>고양이 눈을</font> 촬영해 주세요]]></string>
 
 
     <string name="auto_camera3"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
-    <string name="auto_camera3_1"><![CDATA[<font color=#fee34c>더 가까이에서</font> 촬영해 주세요]]></string>
-    <string name="auto_camera3_2"><![CDATA[<font color=#fee34c>밝은 환경에서</font> 촬영해 주세요]]></string>
-    <string name="auto_camera3_4"><![CDATA[<font color=#fee34c>눈에 털을 정리 후</font> 촬영해 주세요]]></string>
-    <string name="auto_camera3_4_tooth"><![CDATA[<font color=#fee34c>더 가까이에서</font> 촬영해 주세요]]></string>
-    <string name="auto_camera4_1"><![CDATA[<font color=#fee34c>오른쪽 눈을</font> 촬영해 주세요]]></string>
-    <string name="auto_camera4_2"><![CDATA[<font color=#fee34c>왼쪽 눈을</font> 촬영해 주세요]]></string>
-
-    <string name="auto_camera4_1_tooth"><![CDATA[<font color=#fee34c>정면 치아를</font> 촬영해 주세요]]></string>
-    <string name="auto_camera4_2_tooth"><![CDATA[<font color=#fee34c>오른쪽 치아를</font> 촬영해 주세요]]></string>
-    <string name="auto_camera4_3_tooth"><![CDATA[<font color=#fee34c>왼쪽 치아를</font> 촬영해 주세요]]></string>
-    <string name="auto_camera4_3_mouth"><![CDATA[<font color=#fee34c>입 안쪽이 보이도록</font><br>촬영해 주세요]]></string>
-
-
-
-    <!--blue-->
-    <string name="auto_camera1_1_blue"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#75c3ff>오른쪽 눈부터 자동</font>으로 체크해요]]></string>
-    <string name="auto_camera1_1_1_blue"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#75c3ff>오른쪽 눈을 자동</font>으로 체크해요]]></string>
-    <string name="auto_camera1_2_blue"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#75c3ff>왼쪽(반대편) 눈을 자동</font>으로 체크해요]]></string>
-    <string name="auto_camera1_2_1_blue"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#75c3ff>왼쪽 눈을 자동</font>으로 체크해요]]></string>
-
-    <string name="auto_camera2_1_blue"><![CDATA[<font color=#75c3ff>강아지 눈이</font> 아니에요]]></string>
-    <string name="auto_camera2_2_blue"><![CDATA[<font color=#75c3ff>고양이 눈이</font> 아니에요]]></string>
-    <string name="auto_camera2_1_tooth_blue"><![CDATA[<font color=#75c3ff>강아지 치아가</font> 아니에요]]></string>
-    <string name="auto_camera2_2_tooth_blue"><![CDATA[<font color=#75c3ff>고양이 치아가</font> 아니에요]]></string>
-
-    <string name="auto_camera2_3_blue"><![CDATA[<font color=#75c3ff>사람 눈은</font> 건강 체크가 어려워요]]></string>
-    <string name="auto_camera2_3_tooth_blue"><![CDATA[<font color=#75c3ff>사람 치아는</font> 건강 체크가 어려워요]]></string>
-
-    <string name="auto_camera2_4_1_blue"><![CDATA[<font color=#75c3ff>강아지 눈을</font> 촬영해 주세요]]></string>
-    <string name="auto_camera2_4_2_blue"><![CDATA[<font color=#75c3ff>고양이 눈을</font> 촬영해 주세요]]></string>
-    <string name="auto_camera2_4_1_tooth_blue"><![CDATA[<font color=#75c3ff>강아지 치아를</font> 촬영해 주세요]]></string>
-    <string name="auto_camera2_4_2_tooth_blue"><![CDATA[<font color=#75c3ff>고양이 치아를</font> 촬영해 주세요]]></string>
-
-
     <string name="auto_camera3_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
+
+    <string name="auto_camera3_1"><![CDATA[<font color=#fee34c>더 가까이에서</font> 촬영해 주세요]]></string>
     <string name="auto_camera3_1_blue"><![CDATA[<font color=#75c3ff>더 가까이에서</font> 촬영해 주세요]]></string>
+
+    <string name="auto_camera3_2"><![CDATA[<font color=#fee34c>밝은 환경에서</font> 촬영해 주세요]]></string>
     <string name="auto_camera3_2_blue"><![CDATA[<font color=#75c3ff>밝은 환경에서</font> 촬영해 주세요]]></string>
+
+    <string name="auto_camera3_4"><![CDATA[<font color=#fee34c>눈에 털을 정리 후</font> 촬영해 주세요]]></string>
     <string name="auto_camera3_4_blue"><![CDATA[<font color=#75c3ff>눈에 털을 정리 후</font> 촬영해 주세요]]></string>
-    <string name="auto_camera3_4_tooth_blue"><![CDATA[<font color=#75c3ff>더 가까이에서</font> 촬영해 주세요]]></string>
+
+    <string name="auto_camera4_1"><![CDATA[<font color=#fee34c>오른쪽 눈을</font> 촬영해 주세요]]></string>
     <string name="auto_camera4_1_blue"><![CDATA[<font color=#75c3ff>오른쪽 눈을</font> 촬영해 주세요]]></string>
+
+    <string name="auto_camera4_2"><![CDATA[<font color=#fee34c>왼쪽 눈을</font> 촬영해 주세요]]></string>
     <string name="auto_camera4_2_blue"><![CDATA[<font color=#75c3ff>왼쪽 눈을</font> 촬영해 주세요]]></string>
 
-    <string name="auto_camera4_1_tooth_blue"><![CDATA[<font color=#75c3ff>정면 치아를</font> 촬영해 주세요]]></string>
-    <string name="auto_camera4_2_tooth_blue"><![CDATA[<font color=#75c3ff>오른쪽 치아를</font> 촬영해 주세요]]></string>
-    <string name="auto_camera4_3_tooth_blue"><![CDATA[<font color=#75c3ff>왼쪽 치아를</font> 촬영해 주세요]]></string>
-    <string name="auto_camera4_3_mouth_blue"><![CDATA[<font color=#75c3ff>입 안쪽이 보이도록</font><br>촬영해 주세요]]></string>
 
 
     <string name="video_right_1"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#fee34c>오른쪽 눈부터 영상</font>으로 체크해요]]></string>
@@ -244,6 +228,10 @@
     <string name="camera_guide1_13"><![CDATA[촬영에 도움이 되는<br> <font color=#368df5>플래시, 셀카모드,촬영가이드</font>를 활용해 보세요]]></string>
     <string name="camera_guide1_14">어두운 환경에서 촬영 할 때 플래시 기능을 사용하면\n더 정확한 건강체크를 진행할 수 있어요</string>
 
+
+    <string name="camera_guide1_15"><![CDATA[<b><font color=#368df5>모두 선택하거나, 한 군데만 골라 촬영</font>이 가능해요.<br>플래시를 켜고 촬영하면 더 명확한 결과를<br>제공해 드려요.</b>]]></string>
+
+
     <string name="active_pet_weight_update">삭제하기</string>
 
 
@@ -252,7 +240,7 @@
     <string name="v4_pop_eye_3">왼쪽</string>
     <string name="v4_pop_eye_4">고양이 기준</string>
     <string name="v4_pop_eye_5">강아지 기준</string>
-    <string name="v4_pop_eye_6"><![CDATA[<font color=#368df5><b>플래시를 사용</b></font>하면 더 명확한<br>결과를 제공해 드려요.]]></string>
+    <string name="v4_pop_eye_6"><![CDATA[<b><font color=#368df5>플래시를 사용</font>하면 더 명확한<br>결과를 제공해 드려요.</b>]]></string>
     <string name="v4_pop_eye_7">일시적인 플래시 활성화가 동물에게 불편함을 유발할 순 있지만 건강상 위해를 미친다는 과학적 근거는 없어요. 불편함이 우려되면 플래시 입구에 얇은 종이를 덧대어주시면 도움이 될 수 있어요.</string>
     <string name="v4_pop_eye_8">시작하기</string>
 
@@ -318,12 +306,81 @@
     <string name="pop_tooth_7">왼쪽</string>
 
 
+
+    <string name="eye_download1">눈 건강 체크에 필요한 파일을 다운로드 중이에요</string>
+    <string name="eye_download2">잠시만 기다려 주세요</string>
+
+    <string name="tooth_download1">치아 건강 체크에 필요한 파일을 다운로드 중이에요</string>
+    <string name="tooth_download2">잠시만 기다려 주세요</string>
+
+
+    <string name="diag_graph_pop">%s 이란</string>
+    <string name="check_subindicate"><![CDATA[결과에 표시된 %수치는 티티케어 AI를 통해 분석한 <b><font color=#525252>이상 징후가<br>있을 확률</font></b>로 아래와 같이 구분해 제공되요.]]></string>
+    <string name="analyze_44">체크 기록일</string>
+
+    <string name="disags_skin_result_1">귀</string>
+    <string name="disags_skin_result_2">몸통</string>
+    <string name="disags_skin_result_3">발</string>
+    <string name="disags_skin_result_4">기타</string>
+
+    <string name="diag_result_tooth">치아 체크 상세</string>
+    <string name="diag_result_1">체크 결과</string>
+
+
+
+    <string name="skin_1">귀</string>
+    <string name="skin_2">몸통</string>
+    <string name="skin_3">발</string>
+    <string name="skin_4">기타</string>
+
+    <string name="diag_result_4">최근 1개월 내의 체크 결과에 한해 원본 사진을 제공해요.</string>
+
+
+    <string name="pop_toothselect_title">치아 체크</string>
+    <string name="pop_toothselect_content">체크할 부위를 선택하지 않고 팝업을 닫으면 모든 부위가 미리 선택돼요.</string>
+
+    <string name="auto_camera3_4_tooth"><![CDATA[<font color=#fee34c>더 가까이에서</font> 촬영해 주세요]]></string>
+    <string name="auto_camera3_4_tooth_blue"><![CDATA[<font color=#75c3ff>더 가까이에서</font> 촬영해 주세요]]></string>
+
+    <string name="auto_camera2_1_tooth"><![CDATA[<font color=#fee34c>강아지 치아가</font> 아니에요]]></string>
+    <string name="auto_camera2_1_tooth_blue"><![CDATA[<font color=#75c3ff>강아지 치아가</font> 아니에요]]></string>
+
+
+    <string name="auto_camera2_4_1_tooth"><![CDATA[<font color=#fee34c>강아지 치아를</font> 촬영해 주세요]]></string>
+    <string name="auto_camera2_4_1_tooth_blue"><![CDATA[<font color=#75c3ff>강아지 치아를</font> 촬영해 주세요]]></string>
+
+
+    <string name="auto_camera2_3_tooth"><![CDATA[<font color=#fee34c>사람 치아는</font> 건강 체크가 어려워요]]></string>
+    <string name="auto_camera2_3_tooth_blue"><![CDATA[<font color=#75c3ff>사람 치아는</font> 건강 체크가 어려워요]]></string>
+
+    <string name="auto_camera2_2_tooth"><![CDATA[<font color=#fee34c>고양이 치아가</font> 아니에요]]></string>
+    <string name="auto_camera2_2_tooth_blue"><![CDATA[<font color=#75c3ff>고양이 치아가</font> 아니에요]]></string>
+
+    <string name="auto_camera2_4_2_tooth"><![CDATA[<font color=#fee34c>고양이 치아를</font> 촬영해 주세요]]></string>
+    <string name="auto_camera2_4_2_tooth_blue"><![CDATA[<font color=#75c3ff>고양이 치아를</font> 촬영해 주세요]]></string>
+
+    <string name="auto_camera4_1_tooth"><![CDATA[<font color=#fee34c>정면 치아를</font> 촬영해 주세요]]></string>
+    <string name="auto_camera4_2_tooth"><![CDATA[<font color=#fee34c>오른쪽 치아를</font> 촬영해 주세요]]></string>
+    <string name="auto_camera4_3_tooth"><![CDATA[<font color=#fee34c>왼쪽 치아를</font> 촬영해 주세요]]></string>
+    <string name="auto_camera4_3_mouth"><![CDATA[<font color=#fee34c>치아가 보이게</font> 촬영해 주세요]]></string>
+
+    <string name="auto_camera4_1_tooth_blue"><![CDATA[<font color=#75c3ff>정면 치아를</font> 촬영해 주세요]]></string>
+    <string name="auto_camera4_2_tooth_blue"><![CDATA[<font color=#75c3ff>오른쪽 치아를</font> 촬영해 주세요]]></string>
+    <string name="auto_camera4_3_tooth_blue"><![CDATA[<font color=#75c3ff>왼쪽 치아를</font> 촬영해 주세요]]></string>
+    <string name="auto_camera4_3_mouth_blue"><![CDATA[<font color=#75c3ff>입 안쪽이 보이도록</font><br>촬영해 주세요]]></string>
+
+
     <string name="auto_tooth_1"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#fee34c>정면 치아를 자동</font>으로 체크해요]]></string>
     <string name="auto_tooth_2"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#fee34c>오른쪽 치아를 자동</font>으로 체크해요]]></string>
     <string name="auto_tooth_3"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#fee34c>왼쪽 치아를 자동</font>으로 체크해요]]></string>
 
-    <string name="eye_download1">눈 건강 체크에 필요한 파일을 다운로드 중이에요</string>
-    <string name="eye_download2">잠시만 기다려 주세요</string>
+    <string name="auto_tooth_1_blue"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#75c3ff>정면 치아를 자동</font>으로 체크해요]]></string>
+    <string name="auto_tooth_2_blue"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#75c3ff>오른쪽 치아를 자동</font>으로 체크해요]]></string>
+    <string name="auto_tooth_3_blue"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#75c3ff>왼쪽 치아를 자동</font>으로 체크해요]]></string>
+
+
+
+
 
 
 </resources>

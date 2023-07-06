@@ -88,8 +88,24 @@
             android:screenOrientation="portrait"
             android:theme="@style/TTsdkTheme"/>
 
+        <activity
+            android:name="com.aiforpet.pet.activity.check.ToothCameraActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/TTsdkTheme"/>
+
+        <activity
+            android:name="com.aiforpet.pet.activity.menu1.PinchSkinImageActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/TTsdkTheme"/>
 
 
+        <activity
+            android:name="com.aiforpet.pet.activity.menu1.DiagnosisResultActivitySkinType"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/TTsdkTheme"/>
 
     </application>
 
