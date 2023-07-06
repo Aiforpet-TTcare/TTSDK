@@ -1,6 +1,5 @@
 <resources>
     <string name="underlined_text">contact@aiforpet.com</string>
-    <string name="app_name">TTcare SDK</string>
 
     <string name="dog">Dog</string>
     <string name="cat">Cat</string>
