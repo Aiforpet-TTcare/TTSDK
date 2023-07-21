@@ -11,6 +11,7 @@
     <string name="usa">USA</string>
 
 
+
     <string name="allow_camera_enable_ment">Allow</string>
     <string name="rediagcamera">Try again?</string>
     <string name="rediagcamera_1">Your scan</string>
@@ -187,6 +188,7 @@
     <string name="auto_camera4_2_blue"><![CDATA[Take a picture of the <font color=#75c3ff>left eye</font>]]></string>
 
 
+
     <string name="video_right_1"><![CDATA[Press the bottom shutter button to <br><font color=#fee34c>automatically check with video starting with the right eye</font>]]></string>
     <string name="video_right_2"><![CDATA[Press the bottom shutter button to <br><font color=#fee34c>automatically video check the right eye</font>]]></string>
     <string name="video_left"><![CDATA[Press the bottom shutter button to <br><font color=#fee34c>automatically video check the left eye</font>]]></string>
@@ -288,6 +290,7 @@
     <string name="guide_skin_19">If there is any foreign substance on the skin, gently wipe it off before taking a photo. Before taking photos of the body, moisten the fur with water or brush it with your hands to ensure that the skin is visible. The body, paw pads and ears should be photographed with the flash on so that the symptoms can be analyzed without distorted shadows. </string>
 
 
+
     <string name="pop_tooth_1">Check where?</string>
     <string name="pop_tooth_2">Front</string>
     <string name="pop_tooth_3">Including top/bottom incisors</string>
@@ -296,6 +299,7 @@
     <string name="pop_tooth_5_cat">(for cats)</string>
     <string name="pop_tooth_6">Scan up to molars</string>
     <string name="pop_tooth_7">Left</string>
+
 
 
     <string name="eye_download1">Downloading files that\'s needed for health check</string>
@@ -315,6 +319,7 @@
 
     <string name="diag_result_tooth">Details of teeth check</string>
     <string name="diag_result_1">Overall summary</string>
+
 
 
     <string name="skin_1">Ear</string>
@@ -368,7 +373,8 @@
     <string name="auto_tooth_3_blue"><![CDATA[Tap the shutter button below to<br><font color=#75c3ff>automatically check left teeth</font>]]></string>
 
 
-    <string name="tt1"><![CDATA[Tap the shutter button below to<br><font color=#75c3ff>automatically check front teeth</font>]]></string>
+
+
 
 
 </resources>
