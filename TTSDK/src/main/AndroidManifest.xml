@@ -17,67 +17,96 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
 
-    <uses-feature android:name="android.hardware.camera.any" />
 
+
+    <uses-feature android:name="android.hardware.camera.any" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
         android:allowBackup="false"
-        android:largeHeap="true"
         android:requestLegacyExternalStorage="true"
-        android:supportsRtl="true">
+        android:supportsRtl="true"
+        android:largeHeap="true">
+<!--
+
+        <activity
+            android:name="com.aiforpet.pet.IntroActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/TTsdkTheme">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+        </activity>
+-->
+
+
+
+
+
+
+
+        <activity
+            android:name="com.aiforpet.pet.activity.check.EyeCameraActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/TTsdkTheme" />
+        <activity
+            android:name="com.aiforpet.pet.activity.check.DiagnosisSingleQuestionActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/TTsdkTheme" />
+        <activity
+            android:name="com.aiforpet.pet.activity.check.SkinCameraActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/TTsdkTheme" />
+        <activity
+            android:name="com.aiforpet.pet.activity.menu1.PinchSkinActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/TTsdkTheme" />
+        <activity
+            android:name="com.aiforpet.pet.activity.check.ReactGuidInfoActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/TTsdkTheme" />
+
+        <activity
+            android:name="com.aiforpet.pet.activity.check.EyeGuideActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/TTsdkTheme"/>
+
+        <activity
+            android:name="com.aiforpet.pet.activity.check.SkinGuideActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/TTsdkTheme"/>
+
+        <activity
+            android:name="com.aiforpet.pet.activity.check.ToothCameraActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/TTsdkTheme"/>
+
+        <activity
+            android:name="com.aiforpet.pet.activity.menu1.PinchSkinImageActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/TTsdkTheme"/>
 
 
         <activity
-            android:name=".activity.check.EyeCameraActivity"
+            android:name="com.aiforpet.pet.activity.menu1.DiagnosisResultActivitySkinType"
             android:exported="false"
             android:screenOrientation="portrait"
-            android:theme="@style/TTsdkTheme" />
-        <activity
-            android:name=".activity.check.DiagnosisSingleQuestionActivity"
-            android:exported="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/TTsdkTheme" />
-        <activity
-            android:name=".activity.check.SkinCameraActivity"
-            android:exported="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/TTsdkTheme" />
-        <activity
-            android:name=".activity.menu1.PinchSkinActivity"
-            android:exported="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/TTsdkTheme" />
-        <activity
-            android:name=".activity.check.ReactGuidInfoActivity"
-            android:exported="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/TTsdkTheme" />
-        <activity
-            android:name=".activity.check.EyeGuideActivity"
-            android:exported="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/TTsdkTheme" />
-        <activity
-            android:name=".activity.check.SkinGuideActivity"
-            android:exported="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/TTsdkTheme" />
-        <activity
-            android:name=".activity.check.ToothCameraActivity"
-            android:exported="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/TTsdkTheme" />
-        <activity
-            android:name=".activity.menu1.PinchSkinImageActivity"
-            android:exported="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/TTsdkTheme" />
-        <activity
-            android:name=".activity.menu1.DiagnosisResultActivitySkinType"
-            android:exported="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/TTsdkTheme" />
+            android:theme="@style/TTsdkTheme"/>
+
     </application>
 
 </manifest>
