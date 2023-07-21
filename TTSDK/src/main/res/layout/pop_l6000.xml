@@ -36,7 +36,9 @@
             android:gravity="center_horizontal"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="18dp"
-            android:id="@+id/pop_l6000_title"/>
+            android:id="@+id/pop_l6000_title"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"/>
 
         <TextView
             style="@style/Font_Regular_13"
@@ -45,7 +47,9 @@
             android:gravity="center_horizontal"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
-            android:lineHeight="23dp"/>
+            android:lineHeight="23dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"/>
 
 
         <TextView

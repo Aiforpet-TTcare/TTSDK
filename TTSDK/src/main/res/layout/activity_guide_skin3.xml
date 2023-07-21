@@ -109,6 +109,7 @@
                             android:layout_gravity="center_horizontal"
                             android:layout_width="48dp"
                             android:layout_height="48dp"
+                            android:id="@+id/guide3_select"
                             android:background="@drawable/common_check_again"/>
                     </com.google.android.material.card.MaterialCardView>
 

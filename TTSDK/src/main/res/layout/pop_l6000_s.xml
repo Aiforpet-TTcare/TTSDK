@@ -24,7 +24,7 @@
             android:layout_height="@dimen/v_59dp"
             android:background="@drawable/t_noti_no"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="60dp"/>
+            android:layout_marginTop="@dimen/v_60dp"/>
 
 
         <TextView
@@ -35,16 +35,22 @@
             android:lineHeight="@dimen/v_27dp"
             android:gravity="center_horizontal"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="@dimen/v_18dp"/>
+            android:layout_marginTop="@dimen/v_18dp"
+            android:id="@+id/pop_l6000_title"
+            android:layout_marginRight="@dimen/v_30dp"
+            android:layout_marginLeft="@dimen/v_30dp"/>
 
         <TextView
             style="@style/Font_Regular_13"
+            android:textSize="@dimen/v_13dp"
             android:textColor="@color/color_717171"
             android:text="@string/guide_7"
             android:gravity="center_horizontal"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/v_10dp"
-            android:lineHeight="@dimen/v_23dp"/>
+            android:lineHeight="@dimen/v_23dp"
+            android:layout_marginRight="@dimen/v_30dp"
+            android:layout_marginLeft="@dimen/v_30dp"/>
 
 
         <TextView

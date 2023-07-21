@@ -11,15 +11,21 @@
         <entry key="TTSDK/src/main/res/layout/activity_eyecamera.xml" value="0.5551724137931034" />
         <entry key="TTSDK/src/main/res/layout/activity_eyecamera_s.xml" value="0.44114583333333335" />
         <entry key="TTSDK/src/main/res/layout/activity_guide_eye1.xml" value="0.44114583333333335" />
+        <entry key="TTSDK/src/main/res/layout/activity_guide_skin1.xml" value="0.7088541666666667" />
         <entry key="TTSDK/src/main/res/layout/activity_guide_skin2.xml" value="0.4197916666666667" />
+        <entry key="TTSDK/src/main/res/layout/activity_guide_skin3.xml" value="0.5630208333333333" />
         <entry key="TTSDK/src/main/res/layout/activity_guide_skin3_s.xml" value="0.4822916666666667" />
         <entry key="TTSDK/src/main/res/layout/activity_guide_tooth1.xml" value="0.5086050724637681" />
+        <entry key="TTSDK/src/main/res/layout/activity_intro.xml" value="0.7088541666666667" />
+        <entry key="TTSDK/src/main/res/layout/activity_intro2.xml" value="0.7088541666666667" />
         <entry key="TTSDK/src/main/res/layout/activity_pinch.xml" value="0.4828125" />
         <entry key="TTSDK/src/main/res/layout/activity_skin_guide.xml" value="0.4546875" />
         <entry key="TTSDK/src/main/res/layout/activity_skincamera.xml" value="0.478125" />
         <entry key="TTSDK/src/main/res/layout/activity_skincamera_s.xml" value="0.19444444444444445" />
         <entry key="TTSDK/src/main/res/layout/activity_toothcamera.xml" value="0.5086050724637681" />
         <entry key="TTSDK/src/main/res/layout/bottom_suspecteddiseases.xml" value="0.3351063829787234" />
+        <entry key="TTSDK/src/main/res/layout/diags_skin_result_row.xml" value="0.7010014306151645" />
+        <entry key="TTSDK/src/main/res/layout/diags_skin_result_row_s.xml" value="0.660377358490566" />
         <entry key="TTSDK/src/main/res/layout/eventwebactivity.xml" value="0.24375" />
         <entry key="TTSDK/src/main/res/layout/loadingparentview.xml" value="0.39739583333333334" />
         <entry key="TTSDK/src/main/res/layout/loadingparentview_s.xml" value="0.6739130434782609" />
