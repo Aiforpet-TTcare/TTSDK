@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:id="@+id/loadingparentview"
     android:visibility="gone"
-    android:background="#ccffffff">
+    android:background="#af000000">
 
     <LinearLayout
         android:layout_width="wrap_content"

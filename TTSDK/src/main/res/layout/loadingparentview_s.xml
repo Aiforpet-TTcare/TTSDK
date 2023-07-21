@@ -4,7 +4,7 @@
     android:id="@+id/loadingparentview"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
+    android:background="#af000000"
     android:visibility="gone">
 
 
@@ -22,7 +22,7 @@
             android:layout_marginLeft="@dimen/v_20dp"
             android:layout_marginRight="@dimen/v_20dp"
             android:gravity="center"
-            android:textColor="#111111"
+            android:textColor="#ffffff"
             android:textSize="@dimen/v_25dp"
             android:textStyle="bold" />
 
@@ -33,7 +33,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/v_15dp"
             android:gravity="center"
-            android:textColor="#535353"
+            android:textColor="#ffffff"
             android:textSize="@dimen/v_15dp" />
 
 
@@ -50,7 +50,7 @@
                 style="@style/Font_SF_Bold_21"
                 android:layout_gravity="center_vertical"
                 android:text="0"
-                android:textColor="#2c7fdf"
+                android:textColor="#ffffff"
                 android:textSize="@dimen/v_32dp" />
 
             <TextView
@@ -60,7 +60,7 @@
                 android:layout_marginLeft="@dimen/v_2dp"
                 android:layout_marginTop="@dimen/v_2dp"
                 android:text="%"
-                android:textColor="#2c7fdf"
+                android:textColor="#ffffff"
                 android:textSize="@dimen/v_20dp" />
 
         </LinearLayout>
@@ -81,9 +81,9 @@
                 android:indeterminate="false"
                 android:max="10000"
                 android:progress="0"
-                app:indicatorColor="#2c7fdf"
+                app:indicatorColor="#fff45f"
                 app:indicatorSize="@dimen/v_148dp"
-                app:trackColor="#eaebed"
+                app:trackColor="#303030"
                 app:trackCornerRadius="@dimen/v_8dp"
                 app:trackThickness="@dimen/v_8dp" />
 
@@ -121,7 +121,7 @@
             android:gravity="center_horizontal"
             android:lineHeight="@dimen/v_22dp"
             android:text="@string/camera_loading_title1"
-            android:textColor="#535353"
+            android:textColor="#ffffff"
             android:textSize="@dimen/v_13dp" />
 
 
@@ -131,7 +131,7 @@
             android:layout_height="@dimen/v_20dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/v_12dp"
-            android:background="@drawable/loading_mark_blue" />
+            android:background="@drawable/loading_mark" />
 
 
     </LinearLayout>

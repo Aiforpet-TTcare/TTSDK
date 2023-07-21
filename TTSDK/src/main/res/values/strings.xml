@@ -201,10 +201,10 @@
 
 
     <string name="select_left_validation_title">You want to stop scanning?</string>
-    <string name="select_left_validation_content">If you stop scanning the left eye now,\nyou can view the check results for right eye only.</string>
+    <string name="select_left_validation_content">If you want to quit scanning the left eye now,\nyou can view the check results for right eye only.</string>
 
     <string name="select_right_validation_title">You want to stop scanning?</string>
-    <string name="select_right_validation_content">If you quit scanning the right eye now,\nyou can only view left eye check results.</string>
+    <string name="select_right_validation_content">If you want to quit scanning the right eye now,\nyou can only view left eye check results.</string>
 
     <string name="select_tooth_validation_title">You want to stop scanning?</string>
     <string name="select_tooth_validation_content">If you quit scanning now, you can only view previous results.</string>
@@ -213,14 +213,14 @@
     <string name="confrim">Confirm</string>
 
 
-    <string name="camera_guide1_1"><![CDATA[<b>You can <font color=#368df5>make single or multiple selections</font><br>for scanning. Use the flash for more<br>accurate results.</b>]]></string>
+    <string name="camera_guide1_1"><![CDATA[<b>You can <font color=#368df5>make one or more selections</font><br>for scanning. Use the flash for more accurate results.]]></string>
     <string name="camera_guide1_2"><![CDATA[<b>Press the shutter button to start <font color=#368df5>automatic scanning</font> for 30 seconds.</b>]]></string>
     <string name="camera_guide1_3"><![CDATA[<b>While scanning, you can <font color=#368df5>easily add or remove</font> your selections.</b>]]></string>
     <string name="camera_guide1_7"><![CDATA[Try using <font color=#368df5>flash, selfie mode</font> for scans and refer to our <font color=#368df5>user guide.</font>]]></string>
     <string name="camera_guide1_8">Use the flash in the dark for more accurate results.</string>
 
 
-    <string name="camera_guide1_9"><![CDATA[<b>You can <font color=#368df5>make single or multiple selections</font><br>for scanning. Use the flash for more<br>accurate results.</b>]]></string>
+    <string name="camera_guide1_9"><![CDATA[<b>You can <font color=#368df5>make one or more selections</font><br>for scanning. Use the flash for more accurate results.]]></string>
     <string name="camera_guide1_10"><![CDATA[Follow the skin check guide and scan to <font color=#368df5>check abnormal signs.</font>]]></string>
     <string name="camera_guide1_11"><![CDATA[While scanning, you can <font color=#368df5>easily add or remove</font> your selections.]]></string>
     <string name="camera_guide1_12"><![CDATA[After taking a picture of the part that <font color=#368df5>appears to be abnormal,</font> such as red spots or abrasions, you can <font color=#368df5>enlarge or delete</font> the photo.]]></string>
@@ -235,7 +235,7 @@
     <string name="v4_pop_eye_3">Left</string>
     <string name="v4_pop_eye_4">for cats</string>
     <string name="v4_pop_eye_5">for dogs</string>
-    <string name="v4_pop_eye_6"><![CDATA[<font color=#368df5><b>Use the flash</b></font> to get better results.]]></string>
+    <string name="v4_pop_eye_6"><![CDATA[<font color=#368df5><b>Use flash</b></font> for better results.]]></string>
     <string name="v4_pop_eye_7">Sudden use of flash can startle your pet. There is no scientific evidence that it harms them, but to avoid a glare you can cover the flash with a piece of paper.</string>
     <string name="v4_pop_eye_8">Start</string>
 
