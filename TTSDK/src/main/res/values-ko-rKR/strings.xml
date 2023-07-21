@@ -377,6 +377,7 @@
     <string name="auto_tooth_2_blue"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#75c3ff>오른쪽 치아를 자동</font>으로 체크해요]]></string>
     <string name="auto_tooth_3_blue"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#75c3ff>왼쪽 치아를 자동</font>으로 체크해요]]></string>
 
+    <string name="tt1"><![CDATA[Tap the shutter button below to<br><font color=#75c3ff>automatically check front teeth</font>]]></string>
 
 
 
