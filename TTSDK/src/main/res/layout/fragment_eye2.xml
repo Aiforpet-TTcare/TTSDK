@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_ffffff"  >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t2_1"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="@color/color_191919"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:letterSpacing="-0.04" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="14dp"
+            android:textColor="@color/color_191919"
+            android:text="@string/guide_eye_13"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:lineHeight="26dp"
+            android:letterSpacing="-0.04"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/eye_guide3"
+            android:id="@+id/eye2_img1"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:letterSpacing="-0.04" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t2_2"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="@color/color_191919"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:letterSpacing="-0.04" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="14dp"
+            android:textColor="@color/color_191919"
+            android:text="@string/guide_eye_15"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:lineHeight="26dp"
+            android:letterSpacing="-0.04" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/eye_guide4"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/eye2_img2"/>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/color_f4f4f4"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/color_191919"
+            android:text="@string/guide_eye_8"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:letterSpacing="-0.04" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="14dp"
+            android:textColor="@color/color_191919"
+            android:text="@string/guide_eye_9"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:lineHeight="26dp"
+            android:letterSpacing="-0.04" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_f4f4f4"
+            android:layout_margin="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="@color/color_191919"
+            android:text="@string/guide_eye_10"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:letterSpacing="-0.04" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="14dp"
+            android:textColor="@color/color_191919"
+            android:text="@string/guide_eye_11"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:lineHeight="26dp"
+            android:letterSpacing="-0.04" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.core.widget.NestedScrollView>
