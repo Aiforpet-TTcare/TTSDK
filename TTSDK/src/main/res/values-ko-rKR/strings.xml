@@ -379,6 +379,41 @@
 
 
 
+    <string name="model_1_1"><![CDATA[<font color=#fee34c>강아지 눈이</font> 아니에요]]></string>
+    <string name="model_1_2"><![CDATA[<font color=#fee34c>고양이 눈이</font> 아니에요]]></string>
+    <string name="model_1_3"><![CDATA[<font color=#fee34c>사람 눈은</font> 건강 체크가 어려워요]]></string>
+    <string name="model_1_4"><![CDATA[<font color=#fee34c>강아지 눈을</font> 촬영해 주세요]]></string>
+    <string name="model_1_5"><![CDATA[<font color=#fee34c>고양이 눈을</font> 촬영해 주세요]]></string>
+
+    <string name="model_2_1"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
+    <string name="model_2_2"><![CDATA[<font color=#fee34c>눈뜬 상태를</font> 촬영해 주세요]]></string>
+    <string name="model_2_3"><![CDATA[<font color=#fee34c>밝은 환경에서</font> 촬영해 주세요]]></string>
+    <string name="model_2_4"><![CDATA[<font color=#fee34c>눈에 털을 정리 후</font> 촬영해 주세요]]></string>
+    <string name="model_2_5"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
+
+    <string name="model_3_1"><![CDATA[<font color=#fee34c>오른쪽 눈이</font> 아니에요]]></string>
+    <string name="model_3_2"><![CDATA[<font color=#fee34c>왼쪽 눈이</font> 아니에요]]></string>
+    <string name="model_3_3"><![CDATA[<font color=#fee34c>더 가까이에서</font> 촬영해 주세요]]></string>
+
+    <string name="model_1_1_blue"><![CDATA[<font color=#75c3ff>강아지 눈이</font> 아니에요]]></string>
+    <string name="model_1_2_blue"><![CDATA[<font color=#75c3ff>고양이 눈이</font> 아니에요]]></string>
+    <string name="model_1_3_blue"><![CDATA[<font color=#75c3ff>사람 눈은</font> 건강 체크가 어려워요]]></string>
+    <string name="model_1_4_blue"><![CDATA[<font color=#75c3ff>강아지 눈을</font> 촬영해 주세요]]></string>
+    <string name="model_1_5_blue"><![CDATA[<font color=#75c3ff>고양이 눈을</font> 촬영해 주세요]]></string>
+
+    <string name="model_2_1_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
+    <string name="model_2_2_blue"><![CDATA[<font color=#75c3ff>눈뜬 상태를</font> 촬영해 주세요]]></string>
+    <string name="model_2_3_blue"><![CDATA[<font color=#75c3ff>밝은 환경에서</font> 촬영해 주세요]]></string>
+    <string name="model_2_4_blue"><![CDATA[<font color=#75c3ff>눈에 털을 정리 후</font> 촬영해 주세요]]></string>
+    <string name="model_2_5_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
+
+    <string name="model_3_1_blue"><![CDATA[<font color=#75c3ff>오른쪽 눈이</font> 아니에요]]></string>
+    <string name="model_3_2_blue"><![CDATA[<font color=#75c3ff>왼쪽 눈이</font> 아니에요]]></string>
+    <string name="model_3_3_blue"><![CDATA[<font color=#75c3ff>더 가까이에서</font> 촬영해 주세요]]></string>
+
+
+
+
 
 
 

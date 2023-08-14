@@ -13,12 +13,8 @@
         android:required="true" />
 
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
-
-
-
     <uses-feature android:name="android.hardware.camera.any" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
@@ -27,24 +23,6 @@
         android:requestLegacyExternalStorage="true"
         android:supportsRtl="true"
         android:largeHeap="true">
-<!--
-
-        <activity
-            android:name="com.aiforpet.pet.IntroActivity"
-            android:exported="true"
-            android:screenOrientation="portrait"
-            android:theme="@style/TTsdkTheme">
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-Ω
-        </activity>
--->
-
-
 
 
 

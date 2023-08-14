@@ -373,8 +373,36 @@
     <string name="auto_tooth_3_blue"><![CDATA[Tap the shutter button below to<br><font color=#75c3ff>automatically check left teeth</font>]]></string>
 
 
+    <string name="model_1_1"><![CDATA[Not <font color=#fee34c>dog eyes</font>]]></string>
+    <string name="model_1_2"><![CDATA[Not <font color=#fee34c>cat eyes</font>]]></string>
+    <string name="model_1_3"><![CDATA[<font color=#fee34c>Human eyes</font> are difficult to analyze]]></string>
+    <string name="model_1_4"><![CDATA[Scan <font color=#fee34c>dog\'s eyes</font>]]></string>
+    <string name="model_1_5"><![CDATA[Scan <font color=#fee34c>cat\'s eyes</font>]]></string>
 
+    <string name="model_2_1"><![CDATA[Please <font color=#fee34c>focus</font>]]></string>
+    <string name="model_2_2"><![CDATA[<font color=#fee34c>Eyes</font> should be <font color=#fee34c>open</font>]]></string>
+    <string name="model_2_3"><![CDATA[Scan <font color=#fee34c>in a bright environment</font>]]></string>
+    <string name="model_2_4"><![CDATA[Please <font color=#fee34c>tidy up</font> the eyes and re-shoot]]></string>
+    <string name="model_2_5"><![CDATA[Please <font color=#fee34c>focus</font>]]></string>
 
+    <string name="model_3_1"><![CDATA[Not <font color=#fee34c>right eye</font>]]></string>
+    <string name="model_3_2"><![CDATA[Not <font color=#fee34c>left eye</font>]]></string>
+    <string name="model_3_3"><![CDATA[Take a <font color=#fee34c>closer</font> picture ]]></string>
+    <string name="model_1_1_blue"><![CDATA[Not <font color=#fee34c>dog eyes</font>]]></string>
+    <string name="model_1_2_blue"><![CDATA[Not <font color=#fee34c>cat eyes</font>]]></string>
+    <string name="model_1_3_blue"><![CDATA[<font color=#fee34c>Human eyes</font> are difficult to analyze]]></string>
+    <string name="model_1_4_blue"><![CDATA[Scan <font color=#fee34c>dog\'s eyes</font>]]></string>
+    <string name="model_1_5_blue"><![CDATA[Scan <font color=#fee34c>cat\'s eyes</font>]]></string>
+
+    <string name="model_2_1_blue"><![CDATA[Please <font color=#fee34c>focus</font>]]></string>
+    <string name="model_2_2_blue"><![CDATA[<font color=#fee34c>Eyes</font> should be <font color=#fee34c>open</font>]]></string>
+    <string name="model_2_3_blue"><![CDATA[Scan <font color=#fee34c>in a bright environment</font>]]></string>
+    <string name="model_2_4_blue"><![CDATA[Please <font color=#fee34c>tidy up</font> the eyes and re-shoot]]></string>
+    <string name="model_2_5_blue"><![CDATA[Please <font color=#fee34c>focus</font>]]></string>
+
+    <string name="model_3_1_blue"><![CDATA[Not <font color=#fee34c>right eye</font>]]></string>
+    <string name="model_3_2_blue"><![CDATA[Not <font color=#fee34c>left eye</font>]]></string>
+    <string name="model_3_3_blue"><![CDATA[Take a <font color=#fee34c>closer</font> picture]]></string>
 
 
 </resources>
