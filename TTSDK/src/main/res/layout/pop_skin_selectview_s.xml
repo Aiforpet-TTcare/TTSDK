@@ -109,23 +109,22 @@
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:orientation="horizontal"
+                            android:orientation="vertical"
                             android:layout_gravity="center_horizontal"
-                            android:layout_marginTop="@dimen/v_11dp">
+                            android:layout_marginTop="@dimen/v_6dp">
 
                             <TextView
                                 style="@style/Font_Bold_16"
                                 android:textSize="@dimen/v_16dp"
-                                android:layout_gravity="center_vertical"
+                                android:layout_gravity="center_horizontal"
                                 android:text="@string/v4_pop_skin_2"
                                 android:textColor="@color/color_191919"/>
 
                             <TextView
                                 style="@style/Font_Regular_13"
-                                android:textSize="@dimen/v_13dp"
-                                android:layout_gravity="center_vertical"
+                                android:textSize="@dimen/v_10dp"
+                                android:layout_gravity="center_horizontal"
                                 android:text="@string/v4_pop_skin_3"
-                                android:layout_marginLeft="@dimen/v_2dp"
                                 android:textColor="@color/color_898989"/>
 
                         </LinearLayout>
@@ -192,7 +191,7 @@
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
                             android:layout_gravity="center_horizontal"
-                            android:layout_marginTop="@dimen/v_11dp">
+                            android:layout_marginTop="@dimen/v_6dp">
 
                             <TextView
                                 style="@style/Font_Bold_16"
@@ -275,7 +274,7 @@
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
                             android:layout_gravity="center_horizontal"
-                            android:layout_marginTop="11dp">
+                            android:layout_marginTop="@dimen/v_6dp">
 
                             <TextView
                                 style="@style/Font_Bold_16"
@@ -348,23 +347,22 @@
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:orientation="horizontal"
+                            android:orientation="vertical"
                             android:layout_gravity="center_horizontal"
-                            android:layout_marginTop="@dimen/v_11dp">
+                            android:layout_marginTop="@dimen/v_6dp">
 
                             <TextView
                                 style="@style/Font_Bold_16"
                                 android:textSize="@dimen/v_16dp"
-                                android:layout_gravity="center_vertical"
+                                android:layout_gravity="center_horizontal"
                                 android:text="@string/v4_pop_skin_6"
                                 android:textColor="@color/color_191919"/>
 
                             <TextView
                                 style="@style/Font_Regular_13"
-                                android:textSize="@dimen/v_13dp"
-                                android:layout_gravity="center_vertical"
+                                android:textSize="@dimen/v_10dp"
+                                android:layout_gravity="center_horizontal"
                                 android:text="@string/v4_pop_skin_7"
-                                android:layout_marginLeft="@dimen/v_2dp"
                                 android:textColor="@color/color_898989"/>
 
                         </LinearLayout>

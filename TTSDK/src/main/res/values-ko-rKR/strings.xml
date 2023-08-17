@@ -250,8 +250,8 @@
     <string name="v4_pop_skin_4">몸통</string>
     <string name="v4_pop_skin_5">발</string>
     <string name="v4_pop_skin_6">기타</string>
-    <string name="v4_pop_skin_7">(예:얼굴)</string>
-    <string name="v4_pop_skin_8"><![CDATA[<b><font color=#fa535f>최대한 털을 제외하고, 피부로부터 최소 10cm 간격</font></b>을<br>두고 촬영해주세요.]]></string>
+    <string name="v4_pop_skin_7">(얼굴, 귓바퀴 뒤쪽 등)</string>
+    <string name="v4_pop_skin_8"><![CDATA[<b><font color=#fa535f>최대한 털을 제외하고, 피부로부터 최소 10cm 간격</font></b>을 두고 촬영해주세요.]]></string>
 
 
     <string name="guide_eye_1">눈 촬영 가이드</string>
@@ -275,14 +275,14 @@
     <string name="guide_skin_1">피부 촬영 가이드</string>
 
     <string name="guide_skin_4"><![CDATA[<b>Step 1. 건강 상태가 궁금한 <font color=#368df5>피부를 선택해주세요.</font></b>]]></string>
-    <string name="guide_skin_5">귀, 몸통, 발 중 한 군데만 선택하거나 모두 다 선택할 수 있어요. 그 외 다른 부분(예 : 얼굴 등)의 상태가 궁금하다면 기타를 선택해 촬영을 진행해주세요.</string>
+    <string name="guide_skin_5">귓구멍, 몸통, 발 중 한 군데만 선택하거나 모두 다 선택할 수 있어요. 그외 다른 부분(얼굴, 귓바퀴, 귓등 등)의 상태가 궁금하다면 기타를 선택해 촬영을 진행해주세요.</string>
     <string name="guide_skin_6"><![CDATA[<b>Step 2. 촬영 버튼을 눌러 <font color=#368df5>직접 촬영해주세요.</font></b>]]></string>
     <string name="guide_skin_7">털이 피부를 가리거나 최대한 그림자가 생기지 않도록 주의해주세요.</string>
     <string name="guide_skin_9">피부에 이물질이 있다면 깨끗이 닦아낸 후 촬영해주세요. 털이 많은 부분을 찍을 땐 물을 조금 묻히거나 손으로 털을 눕혀 피부가 잘 보이도록 해주세요. 피부는 플래시를 켜고 촬영해야 그림자 왜곡 없이 증상을 체크할 수 있어요. 특히 귀나 발가락 사이를 촬영 시 반드시 플래시를 켜고 진행해 주세요.</string>
 
 
-    <string name="guide_skin_12"><![CDATA[<b>Tip 1. <font color=#368df5>귓바퀴</font>를 촬영해주세요.</b>]]></string>
-    <string name="guide_skin_13">귀가 털에 덮여있다면 손으로 털을 살짝 들어올려 주세요. 이 때 손으로 귓바퀴를 가리지 않도록 주의해주세요.</string>
+    <string name="guide_skin_12"><![CDATA[<b>Tip 1. <font color=#368df5>귓바퀴 안쪽과 귓구멍이 보이도록</font> 촬영해주세요.</b>]]></string>
+    <string name="guide_skin_13">귓구멍 및 귓바퀴가 털에 덮여있다면 손으로 털을 살짝 들어올려 주세요.</string>
 
     <string name="guide_skin_14"><![CDATA[<b>Tip 2. <font color=#368df5>발가락 사이 또는 발바닥</font>을 촬영해주세요.</b>]]></string>
     <string name="guide_skin_15">발가락 사이 피부 중 증상이 두드러지게 나타나는 곳을, 발바닥에 증상이 있을 경우 패드 사이의 피부를 촬영해주세요.</string>

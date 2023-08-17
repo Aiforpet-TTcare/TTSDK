@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/color_af000000"
-    android:visibility="visible">
+    android:visibility="gone">
 
 
     <LinearLayout
@@ -109,21 +109,20 @@
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:orientation="horizontal"
+                            android:orientation="vertical"
                             android:layout_gravity="center_horizontal"
-                            android:layout_marginTop="11dp">
+                            android:layout_marginTop="6dp">
 
                             <TextView
                                 style="@style/Font_Bold_16"
-                                android:layout_gravity="center_vertical"
+                                android:layout_gravity="center_horizontal"
                                 android:text="@string/v4_pop_skin_2"
                                 android:textColor="@color/color_191919"/>
 
                             <TextView
-                                style="@style/Font_Regular_13"
-                                android:layout_gravity="center_vertical"
+                                style="@style/Font_Regular_10"
+                                android:layout_gravity="center_horizontal"
                                 android:text="@string/v4_pop_skin_3"
-                                android:layout_marginLeft="2dp"
                                 android:textColor="@color/color_898989"/>
 
                         </LinearLayout>
@@ -190,7 +189,7 @@
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
                             android:layout_gravity="center_horizontal"
-                            android:layout_marginTop="11dp">
+                            android:layout_marginTop="6dp">
 
                             <TextView
                                 style="@style/Font_Bold_16"
@@ -272,7 +271,7 @@
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
                             android:layout_gravity="center_horizontal"
-                            android:layout_marginTop="11dp">
+                            android:layout_marginTop="6dp">
 
                             <TextView
                                 style="@style/Font_Bold_16"
@@ -344,21 +343,20 @@
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:orientation="horizontal"
+                            android:orientation="vertical"
                             android:layout_gravity="center_horizontal"
-                            android:layout_marginTop="11dp">
+                            android:layout_marginTop="6dp">
 
                             <TextView
                                 style="@style/Font_Bold_16"
-                                android:layout_gravity="center_vertical"
+                                android:layout_gravity="center_horizontal"
                                 android:text="@string/v4_pop_skin_6"
                                 android:textColor="@color/color_191919"/>
 
                             <TextView
-                                style="@style/Font_Regular_13"
-                                android:layout_gravity="center_vertical"
+                                style="@style/Font_Regular_10"
+                                android:layout_gravity="center_horizontal"
                                 android:text="@string/v4_pop_skin_7"
-                                android:layout_marginLeft="2dp"
                                 android:textColor="@color/color_898989"/>
 
                         </LinearLayout>

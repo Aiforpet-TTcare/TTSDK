@@ -236,7 +236,7 @@
     <string name="v4_pop_eye_4">for cats</string>
     <string name="v4_pop_eye_5">for dogs</string>
     <string name="v4_pop_eye_6"><![CDATA[<font color=#368df5><b>Use flash</b></font> for better results.]]></string>
-    <string name="v4_pop_eye_7">Sudden use of flash can startle your pet. There is no scientific evidence that it harms them, but to avoid a glare you can cover the flash with a piece of paper.</string>
+    <string name="v4_pop_eye_7">Sudden use of flash can startle your pet.\nThere is no scientific evidence that it harms them, but to avoid a glare you can cover the flash with a piece of paper.</string>
     <string name="v4_pop_eye_8">Start</string>
 
 
@@ -246,7 +246,7 @@
     <string name="v4_pop_skin_4">Body</string>
     <string name="v4_pop_skin_5">Paws</string>
     <string name="v4_pop_skin_6">Other</string>
-    <string name="v4_pop_skin_7">(i.e. face)</string>
+    <string name="v4_pop_skin_7">(Face, back of the ear, etc.)</string>
     <string name="v4_pop_skin_8"><![CDATA[Take a picture from at least <b><font color=#fa535f>10cm</font></b> away. Tidy up any hair that may be in the way.]]></string>
 
 
@@ -271,14 +271,14 @@
     <string name="guide_skin_1">Skin scanning guide</string>
 
     <string name="guide_skin_4"><![CDATA[<b>Step 1. <font color=#368df5>Select the skin area</font> to examine</b>]]></string>
-    <string name="guide_skin_5">Select one or more body parts from ears, body and paws. For other body parts(i.e. face), please select other parts to start.</string>
+    <string name="guide_skin_5">Select all or at least one body part below to start. For other parts(i.e. face, helix, back of the ear), please select ‘Other’.</string>
     <string name="guide_skin_6"><![CDATA[<b>Step 2. <font color=#368df5>Please take a photo</font> using the shutter button</b>]]></string>
     <string name="guide_skin_7">Make sure nothing gets in the way.</string>
     <string name="guide_skin_9">If there is anything on the skin, gently wipe it off before taking a photo. Before taking photos of the body, moisten the fur with water or brush it with your hands to ensure that the skin is visible. The body, paw pads and ears should be photographed with the flash on so that the symptoms can be checked without distorted shadows. </string>
 
 
-    <string name="guide_skin_12"><![CDATA[<b>Tip 1. When taking pictures of the ears, please take a picture of the <font color=#368df5>outer ear(pinna)</font></b>]]></string>
-    <string name="guide_skin_13">If the ears are covered with fur, gently lift them up with your hands. Avoid covering the outer ear with your hands.</string>
+    <string name="guide_skin_12"><![CDATA[<b>Tip 1. Make sure you focus on the <font color=#368df5>ear opening and the inner ear.</font></b>]]></string>
+    <string name="guide_skin_13">If there’s fur covering the ear opening or helix, gently lift them up with your hands.</string>
 
     <string name="guide_skin_14"><![CDATA[<b>Tip 2. Please take a picture <font color=#368df5>between the toes or paw pads.</font></b>]]></string>
     <string name="guide_skin_15">Take a picture where the symptoms are prominent in the skin between the toes. If there are symptoms on the pads, take a picture so that the skin between the pads is visible.</string>
