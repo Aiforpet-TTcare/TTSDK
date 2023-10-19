@@ -123,7 +123,7 @@
     <string name="guide_7">자세한 촬영가이드를\n참고해주세요</string>
     <string name="guide_8">촬영가이드 보기</string>
     <string name="guide_9">다음에 체크하기</string>
-    <string name="guide_10">치아 건강 체크에\n어려움이 있으신가요?</string>
+    <string name="guide_12">치아 건강 체크에\n어려움이 있으신가요?</string>
 
     <string name="common_cancel">취소</string>
     <string name="common_confirm">확인</string>
@@ -368,7 +368,6 @@
     <string name="auto_camera4_3_tooth_blue"><![CDATA[<font color=#75c3ff>왼쪽 치아를</font> 촬영해 주세요]]></string>
     <string name="auto_camera4_3_mouth_blue"><![CDATA[<font color=#75c3ff>입 안쪽이 보이도록</font><br>촬영해 주세요]]></string>
 
-
     <string name="auto_tooth_1"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#fee34c>정면 치아를 자동</font>으로 체크해요]]></string>
     <string name="auto_tooth_2"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#fee34c>오른쪽 치아를 자동</font>으로 체크해요]]></string>
     <string name="auto_tooth_3"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#fee34c>왼쪽 치아를 자동</font>으로 체크해요]]></string>
@@ -376,8 +375,6 @@
     <string name="auto_tooth_1_blue"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#75c3ff>정면 치아를 자동</font>으로 체크해요]]></string>
     <string name="auto_tooth_2_blue"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#75c3ff>오른쪽 치아를 자동</font>으로 체크해요]]></string>
     <string name="auto_tooth_3_blue"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#75c3ff>왼쪽 치아를 자동</font>으로 체크해요]]></string>
-
-
 
     <string name="model_1_1"><![CDATA[<font color=#fee34c>강아지 눈이</font> 아니에요]]></string>
     <string name="model_1_2"><![CDATA[<font color=#fee34c>고양이 눈이</font> 아니에요]]></string>
@@ -412,7 +409,9 @@
     <string name="model_3_3_blue"><![CDATA[<font color=#75c3ff>더 가까이에서</font> 촬영해 주세요]]></string>
 
 
-
+    <string name="tooth_guide_o">잘 찍힌 예시</string>
+    <string name="tooth_guide_x">잘못 찍힌 예시</string>
+    <string name="tooth_guide_ment"><![CDATA[안쪽 어금니가 <font color=#368df5>최대한 보이게</font> 촬영해주세요]]></string>
 
 
 

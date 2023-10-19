@@ -123,7 +123,7 @@
     <string name="guide_7">Please refer to our user guide for more instructions.</string>
     <string name="guide_8">Go to user guide</string>
     <string name="guide_9">Check later</string>
-    <string name="guide_10">Having difficulties checking\nthe dental?</string>
+    <string name="guide_12">Having difficulties checking\nthe dental?</string>
 
     <string name="common_cancel">Cancel</string>
     <string name="common_confirm">Confirm</string>
@@ -405,4 +405,7 @@
     <string name="model_3_3_blue"><![CDATA[Take a <font color=#fee34c>closer</font> picture]]></string>
 
 
+    <string name="tooth_guide_o">잘 찍힌 예시</string>
+    <string name="tooth_guide_x">잘못 찍힌 예시</string>
+    <string name="tooth_guide_ment"><![CDATA[안쪽 어금니가 <font color=#368df5>최대한 보이게</font> 촬영해주세요]]></string>
 </resources>
