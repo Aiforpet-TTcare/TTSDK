@@ -66,56 +66,47 @@
 
 
         <RelativeLayout
-            android:layout_width="140dp"
-            android:layout_height="140dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="12dp">
 
 
-            <ImageView
-                android:layout_width="116dp"
-                android:layout_height="113dp"
-                android:layout_centerInParent="true"/>
-
-
-
             <com.google.android.material.progressindicator.CircularProgressIndicator
                 android:id="@+id/loading_progressbar"
-                android:layout_width="135dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:layout_centerInParent="true"
-                android:layout_height="135dp"
                 android:indeterminate="false"
-                app:trackColor="#303030"
-                app:indicatorColor="#fff45f"
-                app:trackCornerRadius="3dp"
-                app:trackThickness="3dp"
-                app:indicatorSize="135dp"
                 android:max="10000"
-                android:progress="0" />
+                android:progress="0"
+                app:indicatorColor="#fff45f"
+                app:indicatorSize="148dp"
+                app:trackColor="#303030"
+                app:trackCornerRadius="8dp"
+                app:trackThickness="8dp" />
 
 
-            <com.airbnb.lottie.LottieAnimationView
+            <com.aiforpet.pet.util.LibraryLottieView
                 android:id="@+id/check_loading"
-                android:layout_width="140dp"
-                android:layout_height="140dp"
-                app:lottie_imageAssetsFolder="images"
-                app:lottie_fileName="dog_loading.json"
-                app:lottie_autoPlay="true"
-                app:lottie_loop="true"
-                android:layout_centerInParent="true"/>
-
-
-            <com.airbnb.lottie.LottieAnimationView
-                android:id="@+id/check_loading_cat"
-                android:layout_width="140dp"
-                android:layout_height="140dp"
+                android:layout_width="112dp"
+                android:layout_height="112dp"
                 android:layout_centerInParent="true"
+                app:lottie_assetFileName="dog_loading.json"
                 app:lottie_autoPlay="true"
-                app:lottie_fileName="cat_loading.json"
                 app:lottie_imageAssetsFolder="images"
                 app:lottie_loop="true" />
 
 
+            <com.aiforpet.pet.util.LibraryLottieView
+                android:id="@+id/check_loading_cat"
+                android:layout_width="112dp"
+                android:layout_height="112dp"
+                android:layout_centerInParent="true"
+                app:lottie_assetFileName="cat_loading.json"
+                app:lottie_autoPlay="true"
+                app:lottie_imageAssetsFolder="images"
+                app:lottie_loop="true" />
 
 
         </RelativeLayout>
@@ -129,8 +120,7 @@
             android:gravity="center_horizontal"
             android:lineHeight="22dp"
             android:text="@string/camera_loading_title1"
-            android:textColor="#ffffff"
-            android:visibility="invisible"/>
+            android:textColor="#ffffff" />
 
 
         <ImageView
@@ -139,8 +129,7 @@
             android:layout_height="20dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="12dp"
-            android:background="@drawable/loading_mark"
-            android:visibility="invisible"/>
+            android:background="@drawable/loading_mark" />
 
 
     </LinearLayout>
