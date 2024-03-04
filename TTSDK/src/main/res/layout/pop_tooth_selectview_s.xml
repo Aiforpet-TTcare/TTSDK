@@ -13,8 +13,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_centerInParent="true"
-        android:layout_marginLeft="@dimen/v_30dp"
-        android:layout_marginRight="@dimen/v_30dp"
+        android:layout_marginLeft="@dimen/v_20dp"
+        android:layout_marginRight="@dimen/v_20dp"
         android:background="@drawable/round_radius_20_ffffff">
 
         <RelativeLayout

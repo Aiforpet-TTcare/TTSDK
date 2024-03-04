@@ -79,6 +79,7 @@
                             android:layout_marginTop="@dimen/v_12dp"
                             android:layout_marginEnd="@dimen/v_12dp"
                             android:layout_marginBottom="@dimen/v_12dp"
+                            android:id="@+id/guide1_check_img1"
                             android:background="@drawable/v4_common_check_check_on" />
 
 
