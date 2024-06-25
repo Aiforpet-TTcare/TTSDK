@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#af000000"
+    android:id="@+id/activity_guide_skin4"
+    android:visibility="gone">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/v_56dp">
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+
+
+
+            <LinearLayout
+                android:id="@+id/g4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="visible"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/v_50dp">
+
+
+                <LinearLayout
+                    android:layout_width="@dimen/v_48dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <RelativeLayout
+                        android:layout_width="@dimen/v_48dp"
+                        android:layout_height="@dimen/v_27dp" >
+                        <ImageView
+                            android:layout_width="@dimen/v_10dp"
+                            android:layout_height="@dimen/v_9dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/cam_now"
+                            android:visibility="invisible"
+                            android:layout_marginBottom="@dimen/v_7dp"/>
+                    </RelativeLayout>
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="@dimen/v_48dp"
+                        android:layout_height="@dimen/v_48dp"
+                        android:shape="ring"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="@dimen/v_14dp"
+                        app:cardElevation="0dp"
+                        app:cardPreventCornerOverlap="true">
+
+                        <ImageView
+                            android:id="@+id/guide4_img"
+                            android:background="@drawable/guide_skin_small"
+                            android:layout_width="@dimen/v_48dp"
+                            android:layout_height="@dimen/v_48dp" />
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/v_48dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/v_8dp">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/v_48dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/v_8dp">
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="@dimen/v_48dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/v_8dp">
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/v_64dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/guide_skin4_txt"
+                style="@style/Font_Bold_15"
+                android:textSize="@dimen/v_15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/g4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/v_20dp"
+                android:layout_marginRight="@dimen/v_20dp"
+                android:layout_marginBottom="@dimen/v_30dp"
+                android:background="@drawable/round_radius_15_ffffff"
+                android:gravity="center"
+                android:lineHeight="@dimen/v_21dp"
+                android:padding="@dimen/v_16dp"
+                android:textColor="@color/color_191919" />
+
+
+
+
+            <RelativeLayout
+                android:layout_width="@dimen/v_260dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/v_22dp"
+                android:layout_centerHorizontal="true">
+
+                <com.aiforpet.pet.util.LibraryLottieView
+                    android:id="@+id/handloading4_skin"
+                    android:layout_width="@dimen/v_60dp"
+                    android:layout_height="@dimen/v_60dp"
+                    app:lottie_imageAssetsFolder="images"
+                    app:lottie_assetFileName="han.json"
+                    app:lottie_autoPlay="true"/>
+
+
+            </RelativeLayout>
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/v_208dp">
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

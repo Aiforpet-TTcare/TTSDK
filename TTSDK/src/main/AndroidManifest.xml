@@ -27,7 +27,7 @@
         android:largeHeap="true">
 
         <activity
-            android:name=".ac.check.GuideActivity"
+            android:name=".activity.check.GuideActivity"
             android:exported="false"
             android:theme="@style/TTsdkTheme"
             android:screenOrientation="portrait"/>

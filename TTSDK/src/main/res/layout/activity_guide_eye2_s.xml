@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_af000000"
+    android:id="@+id/activity_guide_eye2"
+    android:visibility="gone">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/v_66dp">
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/v_40dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+            <RelativeLayout
+                android:id="@+id/g2_1"
+                android:layout_width="@dimen/v_286dp"
+                android:layout_height="@dimen/v_286dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/frame_ok_eye">
+
+
+            </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/v_208dp">
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/v_23dp"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/v_13dp"
+                android:id="@+id/a2">
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/a2">
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/v_18dp"
+                    android:layout_marginRight="@dimen/v_18dp"
+                    android:layout_gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/v_126dp"
+                        android:layout_height="@dimen/v_100dp"
+                        android:layout_marginLeft="@dimen/v_18dp"
+                        android:layout_marginRight="@dimen/v_18dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/v_3dp">
+
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="@dimen/v_73dp"
+                            android:layout_height="@dimen/v_73dp"
+                            android:layout_centerInParent="true"
+                            android:animateLayoutChanges="true"
+                            android:visibility="visible"
+                            app:cardBackgroundColor="@android:color/transparent"
+                            app:cardCornerRadius="@dimen/v_37dp"
+                            app:cardElevation="6dp"
+                            app:cardPreventCornerOverlap="true"
+                            android:layout_centerHorizontal="true">
+
+                            <ImageView
+                                android:layout_width="@dimen/v_73dp"
+                                android:layout_height="@dimen/v_73dp"
+                                android:id="@+id/guide2_img"
+                                android:background="@drawable/capture_default"
+                                android:layout_gravity="center"/>
+
+
+                        </com.google.android.material.card.MaterialCardView>
+
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/v_80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true">
+                        <com.airbnb.lottie.LottieAnimationView
+                            android:id="@+id/handloading2_eye"
+                            android:layout_width="@dimen/v_60dp"
+                            android:layout_height="@dimen/v_60dp"
+                            app:lottie_imageAssetsFolder="images"
+                            app:lottie_fileName="han.json"
+                            app:lottie_autoPlay="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="@dimen/v_24dp"/>
+
+                    </RelativeLayout>
+
+
+
+
+                </RelativeLayout>
+
+
+
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/guide_eye2_txt"
+        style="@style/Font_Bold_15"
+        android:textSize="@dimen/v_15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/v_170dp"
+        android:layout_marginLeft="@dimen/v_20dp"
+        android:layout_marginRight="@dimen/v_20dp"
+        android:background="@drawable/round_radius_15_ffffff"
+        android:gravity="center"
+        android:lineHeight="@dimen/v_21dp"
+        android:paddingLeft="@dimen/v_20dp"
+        android:paddingTop="@dimen/v_16dp"
+        android:paddingRight="@dimen/v_20dp"
+        android:paddingBottom="@dimen/v_16dp"
+        android:textColor="@color/color_191919" />
+
+
+</RelativeLayout>
