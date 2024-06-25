@@ -1,5 +1,5 @@
 plugins {
-    id 'com.android.application'
+    id 'com.android.library'
 }
 
 android {
@@ -8,8 +8,8 @@ android {
     defaultConfig {
         minSdk 21
         targetSdk 33
-        versionCode 19
-        versionName "1.2.1"
+        versionCode 20
+        versionName "1.2.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         ndk.abiFilters 'armeabi-v7a','arm64-v8a'
