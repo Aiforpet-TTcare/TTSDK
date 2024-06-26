@@ -28,20 +28,16 @@ android {
         debug {
 
             debuggable true
-
             buildConfigField "String", "BASE_URL_STATUS", '"https://status.tdogtdog.com/hospital-us/app-status"'
             buildConfigField "String", "BASE_URL_SDK", '"https://dev-sdk.ttcare.co.kr"'
             buildConfigField "String", "REACT_URL", '"https://dev-web.ttcare.co.kr/react"'
             buildConfigField "String", "VERSION_CODE", '"1"'
 
-
             /*
                buildConfigField "String", "BASE_URL_KR", '"https://medical-api-ko.ttcare.co.kr"'
                buildConfigField "String", "REACT_URL_KR", '"https://medical-web-ko.ttcare.co.kr/react"'
-
                buildConfigField "String", "BASE_URL_EN", '"https://medical-api-us.ttcare.co.kr"'
                buildConfigField "String", "REACT_URL_EN", '"https://medical-web-us.ttcare.co.kr/react"'
-
            */
         }
 
