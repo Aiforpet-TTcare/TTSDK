@@ -816,7 +816,7 @@
 
     </RelativeLayout>
 
-    <include layout="@layout/loadingparentview" />
+    <include layout="@layout/loadingparentview_s" />
 
 
 
