@@ -475,4 +475,7 @@
     <string name="guide_joint_18">Make sure no one is blocking the dog. If there is more than one dog on the screen, it\'s difficult to analyze. One dog at a time.</string>
     <string name="guide_joint_19">Please do not block your dog.</string>
     <string name="guide_joint_20">Walk in front of the dog.</string>
+
+    <string name="network_error_tt">Please check your internet connection</string>
+
 </resources>

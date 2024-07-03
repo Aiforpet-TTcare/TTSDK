@@ -486,4 +486,6 @@
     <string name="guide_joint_18">사람의 신체가 아이를 가리거나, 겹치지 않도록 주의해 주세요. 여러 마리의 아이들이 한꺼번에 등장하면 분석이 어려워요. 한 번에 한 마리만 촬영해주세요.</string>
     <string name="guide_joint_19">반려견과 겹치거나, 가리면 안 돼요</string>
     <string name="guide_joint_20">반려견보다 앞장 서거나, 뒤따라 주세요</string>
+
+    <string name="network_error_tt">인터넷 연결을 확인하여 주세요.</string>
 </resources>
