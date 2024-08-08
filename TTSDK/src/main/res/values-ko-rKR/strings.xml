@@ -170,17 +170,17 @@
     <string name="auto_camera2_4_2_blue"><![CDATA[<font color=#75c3ff>고양이 눈을</font> 촬영해 주세요]]></string>
 
 
-    <string name="auto_camera3"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
-    <string name="auto_camera3_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
+    <string name="auto_camera3_1"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
+    <string name="auto_camera3_2"><![CDATA[<font color=#fee34c>눈뜬 상태를</font> 촬영해 주세요]]></string>
+    <string name="auto_camera3_3"><![CDATA[<font color=#fee34c>눈에 털을 정리 후</font> 촬영해 주세요]]></string>
+    <string name="auto_camera3_4"><![CDATA[<font color=#fee34c>적목현상</font> 시 건강 체크가 어려워요]]></string>
+    <string name="auto_camera3_5"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
 
-    <string name="auto_camera3_1"><![CDATA[<font color=#fee34c>더 가까이에서</font> 촬영해 주세요]]></string>
-    <string name="auto_camera3_1_blue"><![CDATA[<font color=#75c3ff>더 가까이에서</font> 촬영해 주세요]]></string>
-
-    <string name="auto_camera3_2"><![CDATA[<font color=#fee34c>밝은 환경에서</font> 촬영해 주세요]]></string>
-    <string name="auto_camera3_2_blue"><![CDATA[<font color=#75c3ff>밝은 환경에서</font> 촬영해 주세요]]></string>
-
-    <string name="auto_camera3_4"><![CDATA[<font color=#fee34c>눈에 털을 정리 후</font> 촬영해 주세요]]></string>
-    <string name="auto_camera3_4_blue"><![CDATA[<font color=#75c3ff>눈에 털을 정리 후</font> 촬영해 주세요]]></string>
+    <string name="auto_camera3_1_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
+    <string name="auto_camera3_2_blue"><![CDATA[<font color=#75c3ff>눈뜬 상태를</font> 촬영해 주세요]]></string>
+    <string name="auto_camera3_3_blue"><![CDATA[<font color=#75c3ff>눈에 털을 정리 후</font> 촬영해 주세요]]></string>
+    <string name="auto_camera3_4_blue"><![CDATA[<font color=#75c3ff>적목현상</font> 시 건강 체크가 어려워요]]></string>
+    <string name="auto_camera3_5_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
 
     <string name="auto_camera4_1"><![CDATA[<font color=#fee34c>오른쪽 눈을</font> 촬영해 주세요]]></string>
     <string name="auto_camera4_1_blue"><![CDATA[<font color=#75c3ff>오른쪽 눈을</font> 촬영해 주세요]]></string>
@@ -302,6 +302,9 @@
 
     <string name="auto_camera3_4_tooth"><![CDATA[<font color=#fee34c>더 가까이에서</font> 촬영해 주세요]]></string>
     <string name="auto_camera3_4_tooth_blue"><![CDATA[<font color=#75c3ff>더 가까이에서</font> 촬영해 주세요]]></string>
+
+    <string name="auto_camera3_4_tooth_1"><![CDATA[<font color=#fee34c>조금 멀리서</font> 촬영해 주세요]]></string>
+    <string name="auto_camera3_4_tooth_blue_1"><![CDATA[<font color=#75c3ff>조금 멀리서</font> 촬영해 주세요]]></string>
 
     <string name="auto_camera2_1_tooth"><![CDATA[<font color=#fee34c>강아지 치아가</font> 아니에요]]></string>
     <string name="auto_camera2_1_tooth_blue"><![CDATA[<font color=#75c3ff>강아지 치아가</font> 아니에요]]></string>
@@ -488,4 +491,5 @@
     <string name="guide_joint_20">반려견보다 앞장 서거나, 뒤따라 주세요</string>
 
     <string name="network_error_tt">인터넷 연결을 확인하여 주세요.</string>
+
 </resources>

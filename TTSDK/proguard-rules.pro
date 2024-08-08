@@ -73,3 +73,26 @@
 
 -keep class com.google.android.gms.internal.** { *; }
 -keep class com.google.firebase.messaging.** { *; }
+
+# JNI 함수가 있는 클래스는 난독화를 피합니다.
+-keep class com.aiforpet.pet.activity.check.ToothCameraActivity {
+    native <methods>;
+}
+
+# JNI 함수가 있는 클래스는 난독화를 피합니다.
+-keep class com.aiforpet.pet.activity.check.EyeCameraActivity {
+    native <methods>;
+}
+
+# JNI 함수가 있는 클래스는 난독화를 피합니다.
+-keep class com.aiforpet.pet.activity.check.KneeActivity {
+    native <methods>;
+}
+
+# RectF 클래스의 필드 이름도 난독화를 피합니다.
+-keepclassmembers class android.graphics.RectF {
+    float left;
+    float top;
+    float right;
+    float bottom;
+}
