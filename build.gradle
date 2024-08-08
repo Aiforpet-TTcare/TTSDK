@@ -33,6 +33,15 @@ allprojects {
         maven { url 'https://maven.google.com' }
 
     }
+
+    configurations.all {
+        resolutionStrategy {
+            // 강제로 최신 Kotlin 라이브러리 버전 사용
+            force 'org.jetbrains.kotlin:kotlin-stdlib:1.8.22'
+            force 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22'
+            force 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22'
+        }
+    }
 }
 
 task clean(type: Delete) {

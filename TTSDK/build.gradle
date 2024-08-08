@@ -9,7 +9,7 @@ android {
         minSdk 21
         targetSdk 34
         versionCode 27
-        versionName "1.5.4"
+        versionName "1.5.5"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         ndk.abiFilters 'armeabi-v7a','arm64-v8a'
@@ -37,11 +37,17 @@ android {
         }
     }
 
-    namespace 'com.aiforpet.pet'
+    namespace 'com.aiforpet.pet' // 실제 패키지 이름으로 변경
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
 
     buildFeatures {
         buildConfig = true
-        viewBinding = true
     }
 
 
@@ -86,6 +92,9 @@ android {
         }
     }
 
+    androidResources {
+        noCompress 'tflite'
+    }
 
 
 
@@ -101,8 +110,8 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
 
     testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
     implementation(platform("com.squareup.okhttp3:okhttp-bom:4.10.0"))
 
     implementation 'com.airbnb.android:lottie:3.6.1'
