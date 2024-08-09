@@ -101,3 +101,4 @@
 -dontwarn **.BuildConfig
 
 -keep class com.airbnb.lottie.** { *; }
+-keep class **.R$* { *; }
