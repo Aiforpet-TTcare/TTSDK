@@ -98,3 +98,4 @@
 }
 
 -ignorewarnings
+-dontwarn **.BuildConfig
