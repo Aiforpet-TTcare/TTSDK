@@ -1,6 +1,5 @@
 plugins {
     id 'com.android.library'
-    id 'maven-publish'
 }
 
 android {
@@ -10,7 +9,7 @@ android {
         minSdk 21
         targetSdk 34
         versionCode 27
-        versionName "1.5.693"
+        versionName "1.5.694"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         ndkVersion '21.3.6528147'
@@ -36,23 +35,12 @@ android {
         }
     }
 
-    packagingOptions {
-        jniLibs {
-            pickFirsts += ['**/*.so']
+   /* buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
-        resources {
-            excludes += [
-                    'META-INF/DEPENDENCIES',
-                    'META-INF/NOTICE',
-                    'META-INF/LICENSE',
-                    'META-INF/LICENSE.txt',
-                    'META-INF/NOTICE.txt',
-                    'META-INF/ASL2.0',
-                    'META-INF/common_release.kotlin_module',
-                    'build.xml'
-            ]
-        }
-    }
+    }*/
 
     namespace 'com.aiforpet.pet'
 
@@ -66,27 +54,56 @@ android {
     }
 
     buildTypes {
+        debug {
+
+            debuggable true
+            buildConfigField "String", "BASE_URL_STATUS", '"https://status.tdogtdog.com/hospital-us/app-status"'
+            buildConfigField "String", "BASE_URL_SDK", '"https://dev-sdk.ttcare.co.kr"'
+            buildConfigField "String", "REACT_URL", '"https://dev-web.ttcare.co.kr/react"'
+            buildConfigField "String", "VERSION_CODE", '"1"'
+
+            /*
+               buildConfigField "String", "BASE_URL_KR", '"https://medical-api-ko.ttcare.co.kr"'
+               buildConfigField "String", "REACT_URL_KR", '"https://medical-web-ko.ttcare.co.kr/react"'
+               buildConfigField "String", "BASE_URL_EN", '"https://medical-api-us.ttcare.co.kr"'
+               buildConfigField "String", "REACT_URL_EN", '"https://medical-web-us.ttcare.co.kr/react"'
+           */
+        }
+
         release {
-            minifyEnabled false
+            debuggable false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+            buildConfigField "String", "BASE_URL_STATUS", '"https://status.tdogtdog.com/hospital-us/app-status"'
+            buildConfigField "String", "BASE_URL_SDK", '"https://dev-sdk.ttcare.co.kr"'
+            buildConfigField "String", "REACT_URL", '"https://dev-web.ttcare.co.kr/react"'
+            buildConfigField "String", "VERSION_CODE", '"1"'
+
+
+
         }
     }
 
-    androidResources {
-        noCompress 'tflite'
-    }
+
+
+
+
 }
 
 dependencies {
+
     implementation "androidx.gridlayout:gridlayout:1.0.0"
     implementation 'androidx.appcompat:appcompat:1.4.2'
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.2.0-alpha02'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+
     testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
     implementation(platform("com.squareup.okhttp3:okhttp-bom:4.10.0"))
+
     implementation 'com.airbnb.android:lottie:3.6.1'
     def camerax_version = "1.2.0-alpha04"
     implementation "androidx.camera:camera-core:$camerax_version"
@@ -94,14 +111,18 @@ dependencies {
     implementation "androidx.camera:camera-lifecycle:${camerax_version}"
     implementation "androidx.camera:camera-view:${camerax_version}"
     implementation 'com.squareup.picasso:picasso:2.8'
+
     implementation 'org.tensorflow:tensorflow-lite:2.8.0'
     implementation 'org.tensorflow:tensorflow-lite-gpu:2.8.0'
     implementation 'org.tensorflow:tensorflow-lite-support:0.3.1'
     implementation 'org.tensorflow:tensorflow-lite-task-vision:0.3.0'
     implementation 'org.tensorflow:tensorflow-lite-metadata:0.3.0'
     implementation 'org.tensorflow:tensorflow-lite-gpu-delegate-plugin:0.3.0'
+
     implementation 'androidx.viewpager2:viewpager2:1.1.0-beta01'
     implementation files('libs/classes.jar')
+
+
 
 
 }
