@@ -10,6 +10,9 @@ android:
 before_install:
   - yes | sdkmanager "ndk;25.1.8937393"
   - export ANDROID_NDK_HOME=$ANDROID_HOME/ndk/25.1.8937393
+  - wget https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar -P $JAVA_HOME/lib/ext
+  - wget https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.3.1/jaxb-impl-2.3.1.jar -P $JAVA_HOME/lib/ext
+  - wget https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/2.3.1/jaxb-core-2.3.1.jar -P $JAVA_HOME/lib/ext
 
 install:
   - ./gradlew clean
