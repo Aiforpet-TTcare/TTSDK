@@ -10,7 +10,7 @@ android {
         minSdk 21
         targetSdk 34
         versionCode 27
-        versionName "1.5.69991"
+        versionName "1.5.69992"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         ndkVersion '21.3.6528147'
@@ -22,14 +22,7 @@ android {
             }
         }
 
-        sourceSets {
-            main {
-                assets.srcDirs = ['src/main/assets'] // 여기서 assets 폴더를 명시적으로 설정
-            }
-        }
-        packagingOptions {
-            exclude 'BuildConfig.class'
-        }
+
     }
 
     compileOptions {
@@ -37,11 +30,6 @@ android {
         targetCompatibility JavaVersion.VERSION_17
     }
 
-    sourceSets {
-        main {
-            jniLibs.srcDir 'src/main/jniLibs'
-        }
-    }
 
     externalNativeBuild {
         cmake {
@@ -102,7 +90,7 @@ afterEvaluate {
             release(MavenPublication) {
                 groupId = 'com.github.Aiforpet-TTcare'
                 artifactId = 'TTSDK'
-                version = 'v1.5.69991'
+                version = 'v1.5.69992'
 
                 artifact("$buildDir/outputs/aar/TTSDK-release.aar") {
                     builtBy tasks.named("assembleRelease")
