@@ -7,12 +7,9 @@ android:
     - ndk-bundle
     - cmake;3.22.1
 
-env:
-  global:
-    - ANDROID_NDK_HOME=$ANDROID_HOME/ndk/25.1.8937393
-
 before_install:
   - yes | sdkmanager "ndk;25.1.8937393"
+  - export ANDROID_NDK_HOME=$ANDROID_HOME/ndk/25.1.8937393
 
 install:
   - ./gradlew clean
