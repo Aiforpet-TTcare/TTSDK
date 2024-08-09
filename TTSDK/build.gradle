@@ -10,7 +10,7 @@ android {
         minSdk 21
         targetSdk 34
         versionCode 27
-        versionName "1.5.69"
+        versionName "1.5.691"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         ndkVersion '21.3.6528147'  // 예시로 이 버전을 사용한다고 가정합니다.
@@ -77,31 +77,32 @@ android {
     }
 }
 
-publishing {
-    publications {
-        mavenJava(MavenPublication) {
-            // AAR 파일을 직접 지정
-            artifact("$buildDir/outputs/aar/${project.name}-release.aar") {
-                builtBy 'assembleRelease' // 빌드 타스크와 연결
-            }
+afterEvaluate {
+    publishing {
+        publications {
+            mavenJava(MavenPublication) {
+                // AAR 파일을 직접 지정
+                artifact("$buildDir/outputs/aar/${project.name}-release.aar") {
+                    builtBy 'assembleRelease' // 빌드 타스크와 연결
+                }
 
-            // SO 파일 경로 명시
-            artifact("$buildDir/intermediates/stripped_native_libs/release/out/lib/armeabi-v7a/libyourlibrary.so") {
-                classifier "armeabi-v7a"
-            }
-            artifact("$buildDir/intermediates/stripped_native_libs/release/out/lib/arm64-v8a/libyourlibrary.so") {
-                classifier "arm64-v8a"
+                // SO 파일 경로 명시
+                artifact("$buildDir/intermediates/stripped_native_libs/release/out/lib/armeabi-v7a/libyourlibrary.so") {
+                    classifier "armeabi-v7a"
+                }
+                artifact("$buildDir/intermediates/stripped_native_libs/release/out/lib/arm64-v8a/libyourlibrary.so") {
+                    classifier "arm64-v8a"
+                }
             }
         }
-    }
 
-    repositories {
-        maven {
-            url = uri("https://jitpack.io")
+        repositories {
+            maven {
+                url = uri("https://jitpack.io")
+            }
         }
     }
 }
-
 
 dependencies {
     implementation "androidx.gridlayout:gridlayout:1.0.0"
