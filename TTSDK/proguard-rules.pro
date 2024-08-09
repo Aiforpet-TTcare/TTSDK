@@ -96,3 +96,5 @@
     float right;
     float bottom;
 }
+
+-ignorewarnings
