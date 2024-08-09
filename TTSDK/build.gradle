@@ -1,5 +1,7 @@
 plugins {
     id 'com.android.library'
+    id 'maven-publish'
+
 }
 
 android {
@@ -9,7 +11,7 @@ android {
         minSdk 21
         targetSdk 34
         versionCode 27
-        versionName "1.5.695"
+        versionName "1.5.696"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         ndkVersion '21.3.6528147'
