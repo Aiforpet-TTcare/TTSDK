@@ -10,7 +10,7 @@ android {
         minSdk 21
         targetSdk 34
         versionCode 27
-        versionName "1.5.63"
+        versionName "1.5.64"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         ndk.abiFilters 'armeabi-v7a', 'arm64-v8a'
@@ -76,25 +76,29 @@ android {
     }
 }
 
+afterEvaluate {
+    publishing {
+        publications {
+            mavenJava(MavenPublication) {
+                // AAR 파일을 직접 지정
+                artifact("$buildDir/outputs/aar/${project.name}-release.aar") {
+                    builtBy 'assembleRelease' // 빌드 타스크와 연결
+                }
 
-publishing {
-    publications {
-        mavenJava(MavenPublication) {
-            afterEvaluate {
-                from components.findByName("release") ?: components.findByName("android")
-            }
-            artifact("$buildDir/outputs/aar/TTSDK-release.aar")
-            artifact("$buildDir/intermediates/stripped_native_libs/release/out/lib/armeabi-v7a/libyourlibrary.so") {
-                classifier "armeabi-v7a"
-            }
-            artifact("$buildDir/intermediates/stripped_native_libs/release/out/lib/arm64-v8a/libyourlibrary.so") {
-                classifier "arm64-v8a"
+                // SO 파일 경로 명시
+                artifact("$buildDir/intermediates/stripped_native_libs/release/out/lib/armeabi-v7a/libyourlibrary.so") {
+                    classifier "armeabi-v7a"
+                }
+                artifact("$buildDir/intermediates/stripped_native_libs/release/out/lib/arm64-v8a/libyourlibrary.so") {
+                    classifier "arm64-v8a"
+                }
             }
         }
-    }
-    repositories {
-        maven {
-            url = uri("https://jitpack.io")
+
+        repositories {
+            maven {
+                url = uri("https://jitpack.io")
+            }
         }
     }
 }
@@ -125,4 +129,3 @@ dependencies {
     implementation 'androidx.viewpager2:viewpager2:1.1.0-beta01'
     implementation files('libs/classes.jar')
 }
-
