@@ -10,7 +10,7 @@ android {
         minSdk 21
         targetSdk 34
         versionCode 27
-        versionName "1.5.692"
+        versionName "1.5.693"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         ndkVersion '21.3.6528147'
@@ -77,25 +77,6 @@ android {
     }
 }
 
-afterEvaluate {
-    publishing {
-        publications {
-            mavenJava(MavenPublication) {
-                // AAR 파일을 직접 지정하여 배포 패키지에 포함
-                artifact("$buildDir/outputs/aar/${project.name}-release.aar") {
-                    builtBy 'assembleRelease'
-                }
-            }
-        }
-
-        repositories {
-            maven {
-                url = uri("https://jitpack.io")
-            }
-        }
-    }
-}
-
 dependencies {
     implementation "androidx.gridlayout:gridlayout:1.0.0"
     implementation 'androidx.appcompat:appcompat:1.4.2'
@@ -121,4 +102,6 @@ dependencies {
     implementation 'org.tensorflow:tensorflow-lite-gpu-delegate-plugin:0.3.0'
     implementation 'androidx.viewpager2:viewpager2:1.1.0-beta01'
     implementation files('libs/classes.jar')
+
+
 }
