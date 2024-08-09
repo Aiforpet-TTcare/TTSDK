@@ -11,7 +11,7 @@ android {
         minSdk 21
         targetSdk 34
         versionCode 27
-        versionName "1.5.6992"
+        versionName "1.5.6993"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         ndkVersion '21.3.6528147'
@@ -26,6 +26,11 @@ android {
         packagingOptions {
             exclude 'BuildConfig.class'
         }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
 
     sourceSets {
@@ -106,6 +111,19 @@ android {
 
 
 
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                // 이 부분은 Android 프로젝트의 artifact를 정의하는 방식으로 변경해야 합니다.
+                // 예를 들어:
+                artifact("$buildDir/outputs/aar/${project.name}-release.aar")
+                // 이 부분은 실제 파일 경로와 빌드 설정에 맞게 조정해야 합니다.
+            }
+        }
+    }
 }
 
 dependencies {
