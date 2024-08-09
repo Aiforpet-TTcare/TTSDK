@@ -1,5 +1,5 @@
 jdk:
-  - openjdk11
+  version: openjdk17
 
 before_install:
   - apt-get update && apt-get install -y cmake ninja-build
