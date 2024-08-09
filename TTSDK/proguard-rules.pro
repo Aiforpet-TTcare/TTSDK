@@ -98,7 +98,8 @@
 }
 
 -ignorewarnings
--dontwarn **.BuildConfig
 
--keep class com.airbnb.lottie.** { *; }
 -keep class **.R$* { *; }
+-keep class **.R { *; }
+-keep public class * extends com.airbnb.lottie.LottieAnimationView
+-keep public class com.airbnb.lottie.** { *; }
