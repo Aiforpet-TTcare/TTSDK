@@ -99,3 +99,5 @@
 
 -ignorewarnings
 -dontwarn **.BuildConfig
+
+-keep class com.airbnb.lottie.** { *; }
