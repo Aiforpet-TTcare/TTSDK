@@ -11,7 +11,7 @@ android {
         minSdk 21
         targetSdk 34
         versionCode 27
-        versionName "1.5.698"
+        versionName "1.5.699"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         ndkVersion '21.3.6528147'
@@ -21,6 +21,10 @@ android {
             cmake {
                 cppFlags '-std=c++17'
             }
+        }
+
+        packagingOptions {
+            exclude 'BuildConfig.class'
         }
     }
 
@@ -133,7 +137,10 @@ dependencies {
     implementation 'org.tensorflow:tensorflow-lite-gpu-delegate-plugin:0.3.0'
 
     implementation 'androidx.viewpager2:viewpager2:1.1.0-beta01'
-    implementation files('libs/classes.jar')
+    implementation fileTree(dir: 'libs', include: ['classes.jar']) {
+        exclude 'BuildConfig.class'
+    }
+
 
 
 
