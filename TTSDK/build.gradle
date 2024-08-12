@@ -10,7 +10,7 @@ android {
         minSdk 21
         targetSdk 34
         versionCode 27
-        versionName "1.5.69995"
+        versionName "1.5.69996"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         ndkVersion '21.3.6528147'
@@ -30,6 +30,12 @@ android {
         targetCompatibility JavaVersion.VERSION_17
     }
 
+    sourceSets {
+        main {
+            assets.srcDirs = ['src/main/assets']
+        }
+    }
+
 
     externalNativeBuild {
         cmake {
@@ -39,6 +45,9 @@ android {
     }
 
     packagingOptions {
+        pickFirst 'assets/han.json'
+        pickFirst 'assets/images/*'
+
         jniLibs {
             pickFirsts += ['**/*.so']
         }
@@ -90,7 +99,7 @@ afterEvaluate {
             release(MavenPublication) {
                 groupId = 'com.github.Aiforpet-TTcare'
                 artifactId = 'TTSDK'
-                version = 'v1.5.69995'
+                version = 'v1.5.69996'
 
                 artifact("$buildDir/outputs/aar/TTSDK-release.aar") {
                     builtBy tasks.named("assembleRelease")
