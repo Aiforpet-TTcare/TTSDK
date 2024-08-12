@@ -103,3 +103,9 @@
 -keep class **.R { *; }
 -keep public class * extends com.airbnb.lottie.LottieAnimationView
 -keep public class com.airbnb.lottie.** { *; }
+
+# LibraryLottieView 클래스와 해당 패키지 내의 모든 클래스의 난독화를 방지
+-keep class com.aiforpet.pet.util.LibraryLottieView { *; }
+
+# 전체 패키지의 모든 클래스와 멤버를 난독화하지 않도록 할 수도 있습니다.
+#-keep class com.aiforpet.pet.util.** { *; }

@@ -93,12 +93,10 @@
                 app:trackThickness="8dp" />
 
 
-            <com.airbnb.lottie.LottieAnimationView
+            <com.aiforpet.pet.util.LibraryLottieView
                 android:id="@+id/check_loading"
                 android:layout_width="112dp"
                 android:layout_height="112dp"
-                app:lottie_imageAssetsFolder="images"
-                app:lottie_fileName="chacpet_loading_dog.json"
                 app:lottie_autoPlay="true"
                 app:lottie_loop="true"
                 android:layout_centerInParent="true"/>

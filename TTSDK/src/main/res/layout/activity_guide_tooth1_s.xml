@@ -152,15 +152,13 @@
 
 
 
-                    <com.airbnb.lottie.LottieAnimationView
+                    <com.aiforpet.pet.util.LibraryLottieView
                         android:id="@+id/handloading1"
                         android:layout_width="@dimen/v_60dp"
                         android:layout_height="@dimen/v_60dp"
                         android:layout_alignParentRight="true"
                         android:layout_alignParentBottom="true"
                         app:lottie_autoPlay="true"
-                        app:lottie_fileName="han.json"
-                        app:lottie_imageAssetsFolder="images"
                         android:layout_marginRight="@dimen/v_8dp"/>
 
                 </RelativeLayout>

@@ -135,9 +135,7 @@
                             android:layout_height="60.7dp"
                             android:layout_alignParentRight="true"
                             android:layout_marginTop="24dp"
-                            app:lottie_assetFileName="han.json"
-                            app:lottie_autoPlay="true"
-                            app:lottie_imageAssetsFolder="images" />
+                            app:lottie_autoPlay="true" />
 
                     </RelativeLayout>
 
