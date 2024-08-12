@@ -10,7 +10,7 @@ android {
         minSdk 21
         targetSdk 34
         versionCode 27
-        versionName "1.5.69996"
+        versionName "1.5.69997"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         ndkVersion '21.3.6528147'
@@ -25,6 +25,8 @@ android {
 
     }
 
+    namespace 'com.aiforpet.pet'
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
@@ -32,7 +34,7 @@ android {
 
     sourceSets {
         main {
-            assets.srcDirs = ['src/main/assets']
+            assets.srcDirs += file("${project(':TTSDK').projectDir}/src/main/assets")
         }
     }
 
@@ -65,7 +67,6 @@ android {
         }
     }
 
-    namespace 'com.aiforpet.pet'
 
     buildFeatures {
         buildConfig = true
@@ -99,7 +100,7 @@ afterEvaluate {
             release(MavenPublication) {
                 groupId = 'com.github.Aiforpet-TTcare'
                 artifactId = 'TTSDK'
-                version = 'v1.5.69996'
+                version = 'v1.5.69997'
 
                 artifact("$buildDir/outputs/aar/TTSDK-release.aar") {
                     builtBy tasks.named("assembleRelease")
