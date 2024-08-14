@@ -92,7 +92,9 @@
                 android:layout_width="112dp"
                 android:layout_height="112dp"
                 android:layout_centerInParent="true"
+                app:lottie_assetFileName="chacpet_loading_dog.json"
                 app:lottie_autoPlay="true"
+                app:lottie_imageAssetsFolder="images"
                 app:lottie_loop="true" />
 
 
@@ -101,7 +103,9 @@
                 android:layout_width="112dp"
                 android:layout_height="112dp"
                 android:layout_centerInParent="true"
+                app:lottie_assetFileName="chacpet_loading_cat.json"
                 app:lottie_autoPlay="true"
+                app:lottie_imageAssetsFolder="images"
                 app:lottie_loop="true" />
 
 

@@ -99,6 +99,8 @@
                 android:id="@+id/check_loading"
                 android:layout_width="126dp"
                 android:layout_height="126dp"
+                app:lottie_imageAssetsFolder="images"
+                app:lottie_fileName="dog_loading.json"
                 app:lottie_autoPlay="true"
                 app:lottie_loop="true"
                 android:layout_centerInParent="true"/>
@@ -107,6 +109,8 @@
                 android:id="@+id/check_loading_cat"
                 android:layout_width="126dp"
                 android:layout_height="126dp"
+                app:lottie_imageAssetsFolder="images"
+                app:lottie_fileName="cat_loading.json"
                 app:lottie_autoPlay="true"
                 app:lottie_loop="true"
                 android:layout_centerInParent="true"/>
