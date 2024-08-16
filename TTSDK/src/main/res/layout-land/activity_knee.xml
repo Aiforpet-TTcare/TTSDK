@@ -338,19 +338,23 @@
 
                 </LinearLayout>
 
+
                 <LinearLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="33dp"
                     android:orientation="horizontal"
                     android:layout_centerHorizontal="true"
                     android:layout_alignParentBottom="true"
                     android:layout_marginBottom="24dp"
-                    android:id="@+id/guide_btn">
+                    android:id="@+id/guide_btn"
+                    android:background="@drawable/round_radius_15_49494e"
+                    android:paddingRight="12dp"
+                    android:paddingLeft="16dp">
 
                     <ImageView
                         android:layout_width="11dp"
                         android:layout_height="12dp"
-                        android:background="@drawable/common_2_icon_check_guide"
+                        android:background="@drawable/common_2_icon_check_guide_f"
                         android:layout_gravity="center_vertical"
                         android:layout_marginTop="1dp"/>
 
@@ -358,12 +362,10 @@
                     <TextView
                         style="@style/Font_Regular_13"
                         android:textSize="13dp"
-                        android:textColor="#898989"
+                        android:textColor="@color/color_ffffff"
                         android:text="@string/eye_check_3"
                         android:layout_marginLeft="5dp"
                         android:layout_gravity="center_vertical"/>
-
-
 
 
                 </LinearLayout>
