@@ -97,10 +97,12 @@
                 android:layout_marginBottom="28dp"
                 android:layout_alignParentBottom="true">
 
-                <com.aiforpet.pet.util.LibraryLottieView
+                <com.airbnb.lottie.LottieAnimationView
                     android:id="@+id/handloading3_eye"
                     android:layout_width="60dp"
                     android:layout_height="60.7dp"
+                    app:lottie_imageAssetsFolder="images"
+                    app:lottie_fileName="han.json"
                     app:lottie_autoPlay="true"
                     android:layout_alignParentRight="true"/>
 

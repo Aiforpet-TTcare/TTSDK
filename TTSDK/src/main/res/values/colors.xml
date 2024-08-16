@@ -4,29 +4,30 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="mainmenu_unselect">#717171</color>
-    <color name="mainmenu_select">#191919</color>
+    <color name="mainmenu_select">#111111</color>
     <color name="white_bg">#ffffff</color>
     <color name="dialog_blue">#368df5</color>
     <color name="icon_color">#ef1d50</color>
-    <color name="agree_title">#191919</color>
+    <color name="agree_title">#111111</color>
     <color name="agree_view">#adadad</color>
-    <color name="title_color">#191919</color>
+    <color name="title_color">#111111</color>
     <color name="sample_primary">#717171</color>
     <color name="du_rpt_m1000_common1">#ffffff</color>
     <color name="du_rpt_m1000_common2">#000000</color>
     <color name="du_rpt_m1000_intro_1">#368df5</color>
     <color name="du_rpt_m1000_intro_2">#535353</color>
-    <color name="du_rpt_m1000_intro_3">#191919</color>
+    <color name="du_rpt_m1000_intro_3">#111111</color>
     <color name="du_rpt_m1000_intro_4">#fee34c</color>
     <color name="color_ffffff">#ffffff</color>
     <color name="color_000000">#000000</color>
-    <color name="color_368df5">#368df5</color>
+    <color name="color_368df5">#1495f3</color>
     <color name="color_535353">#535353</color>
     <color name="color_e6e7ea">#e6e7ea</color>
-    <color name="color_191919">#191919</color>
+    <color name="color_191919">#111111</color>
     <color name="color_75c3ff">#75c3ff</color>
 
 
+    <color name="color_111111">#111111</color>
     <color name="color_fee34c">#fee34c</color>
     <color name="color_f9f8f7">#f9f8f7</color>
     <color name="color_919191">#919191</color>

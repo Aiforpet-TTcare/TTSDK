@@ -109,12 +109,12 @@
                     </LinearLayout>
 
 
-                    <com.aiforpet.pet.util.LibraryLottieView
+                    <com.airbnb.lottie.LottieAnimationView
                         android:id="@+id/inidicate_view_lottie"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:scaleX="0.8"
-                        android:scaleY="0.8"
+                        app:lottie_imageAssetsFolder="images"
+                        app:lottie_fileName="joint_android.json"
                         android:visibility="gone"/>
 
 

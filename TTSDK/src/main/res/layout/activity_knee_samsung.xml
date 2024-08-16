@@ -102,7 +102,7 @@
                     android:gravity="center"
                     android:id="@+id/close"
                     android:text="@string/close"
-                    android:textColor="@color/color_000000"
+                    android:textColor="@color/color_111111"
                     android:textSize="14dp" />
 
 

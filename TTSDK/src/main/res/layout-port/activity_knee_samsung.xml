@@ -109,12 +109,12 @@
                     </LinearLayout>
 
 
-                    <com.aiforpet.pet.util.LibraryLottieView
+                    <com.airbnb.lottie.LottieAnimationView
                         android:id="@+id/inidicate_view_lottie"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:scaleX="0.8"
-                        android:scaleY="0.8"
+                        app:lottie_imageAssetsFolder="images"
+                        app:lottie_fileName="joint_android.json"
                         android:visibility="gone"/>
 
 
@@ -591,7 +591,7 @@
                 android:layout_marginTop="30dp"
                 android:text="@string/joint_10"
                 android:gravity="center"
-                android:background="@drawable/round_radius_10_2c7fdf"
+                android:background="@drawable/round_radius_10_1495f3"
                 android:id="@+id/pop_joint_recheck"/>
 
 

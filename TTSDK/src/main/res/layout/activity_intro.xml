@@ -302,8 +302,7 @@
                         android:layout_width="70dp"
                         android:layout_height="70dp"
                         android:layout_centerInParent="true"
-                        app:lottie_autoPlay="true"
-                        app:lottie_imageAssetsFolder="images" />
+                        app:lottie_autoPlay="true"/>
 
 
                 </RelativeLayout>
@@ -317,8 +316,7 @@
                     android:layout_marginTop="24dp"
                     android:layout_marginRight="12dp"
                     android:gravity="center_horizontal"
-                    android:text="asdgalkjghlskaghkag\nsadgagg"
-                    android:textColor="#191919"
+                    android:textColor="@color/color_191919"
                     android:textSize="19dp"
                     android:textStyle="bold" />
 
@@ -349,7 +347,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:text="확인했어요"
-                    android:textColor="#191919"
+                    android:textColor="@color/color_191919"
                     android:textStyle="bold" />
 
 

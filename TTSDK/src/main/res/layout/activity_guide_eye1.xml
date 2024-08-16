@@ -35,7 +35,7 @@
                 android:layout_gravity="center_horizontal"
                 android:gravity="center_horizontal"
                 android:lineHeight="26dp"
-                android:textColor="#191919"
+                android:textColor="@color/color_191919"
                 android:textSize="19dp" />
 
 
@@ -94,7 +94,7 @@
                                 android:layout_gravity="center_horizontal"
                                 android:layout_marginTop="10dp"
                                 android:text="@string/pop_eye_2"
-                                android:textColor="@color/color_191919" />
+                                android:textColor="@color/color_111111" />
 
 
                             <TextView
@@ -109,13 +109,15 @@
                         </LinearLayout>
 
 
-                        <com.aiforpet.pet.util.LibraryLottieView
+                        <com.airbnb.lottie.LottieAnimationView
                             android:id="@+id/handloading1_eye"
                             android:layout_width="60dp"
                             android:layout_height="60.7dp"
                             android:layout_alignParentRight="true"
                             android:layout_alignParentBottom="true"
-                            app:lottie_autoPlay="true" />
+                            app:lottie_autoPlay="true"
+                            app:lottie_fileName="han.json"
+                            app:lottie_imageAssetsFolder="images" />
 
 
                     </RelativeLayout>
@@ -190,7 +192,7 @@
                 android:lineHeight="23dp"
                 android:paddingTop="17dp"
                 android:paddingBottom="17dp"
-                android:textColor="@color/color_191919" />
+                android:textColor="@color/color_111111" />
 
 
         </LinearLayout>

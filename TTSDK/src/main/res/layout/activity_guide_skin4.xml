@@ -154,6 +154,8 @@
                     android:id="@+id/handloading4_skin"
                     android:layout_width="60dp"
                     android:layout_height="60.7dp"
+                    app:lottie_imageAssetsFolder="images"
+                    app:lottie_assetFileName="han.json"
                     app:lottie_autoPlay="true"/>
 
 

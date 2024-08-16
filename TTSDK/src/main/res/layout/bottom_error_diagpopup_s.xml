@@ -47,7 +47,7 @@
             style="@style/Font_Bold_15"
             android:textSize="@dimen/v_15dp"
             android:gravity="center"
-            android:textColor="#191919"
+            android:textColor="@color/color_191919"
             android:layout_width="@dimen/v_180dp"
             android:layout_height="@dimen/v_50dp"
             android:background="@drawable/round_radius_30_fee34c"

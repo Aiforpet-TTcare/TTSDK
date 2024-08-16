@@ -95,7 +95,7 @@
                 android:progress="0" />
 
 
-            <com.aiforpet.pet.util.LibraryLottieView
+            <com.airbnb.lottie.LottieAnimationView
                 android:id="@+id/check_loading"
                 android:layout_width="126dp"
                 android:layout_height="126dp"
@@ -105,7 +105,7 @@
                 app:lottie_loop="true"
                 android:layout_centerInParent="true"/>
 
-            <com.aiforpet.pet.util.LibraryLottieView
+            <com.airbnb.lottie.LottieAnimationView
                 android:id="@+id/check_loading_cat"
                 android:layout_width="126dp"
                 android:layout_height="126dp"

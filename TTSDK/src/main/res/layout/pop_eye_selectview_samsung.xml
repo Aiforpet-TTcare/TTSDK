@@ -47,7 +47,7 @@
                 android:gravity="center_horizontal"
                 android:lineHeight="26dp"
                 android:text="@string/pop_eye_1"
-                android:textColor="#191919"
+                android:textColor="@color/color_111111"
                 android:textSize="19dp" />
 
         </RelativeLayout>
@@ -109,7 +109,7 @@
                             android:layout_marginTop="10dp"
                             android:layout_gravity="center_horizontal"
                             android:text="@string/pop_eye_2"
-                            android:textColor="@color/color_191919"/>
+                            android:textColor="@color/color_111111"/>
 
 
                         <TextView
@@ -175,7 +175,7 @@
                             android:layout_marginTop="10dp"
                             android:layout_gravity="center_horizontal"
                             android:text="@string/v4_pop_eye_3"
-                            android:textColor="@color/color_191919"/>
+                            android:textColor="@color/color_111111"/>
 
 
                         <TextView
@@ -214,7 +214,7 @@
                     android:layout_height="match_parent"
                     android:gravity="center_vertical"
                     android:layout_weight="1"
-                    android:textColor="@color/color_191919"
+                    android:textColor="@color/color_717171"
                     android:id="@+id/pop_flash_txt"
                     android:layout_marginLeft="20dp"
                     android:lineHeight="20dp"/>

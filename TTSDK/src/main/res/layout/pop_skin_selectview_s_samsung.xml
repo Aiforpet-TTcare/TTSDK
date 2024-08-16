@@ -48,7 +48,7 @@
                 android:gravity="center_horizontal"
                 android:lineHeight="@dimen/v_26dp"
                 android:text="@string/v4_pop_skin_1"
-                android:textColor="#191919"
+                android:textColor="@color/color_191919"
                 android:textSize="@dimen/v_19dp" />
 
 

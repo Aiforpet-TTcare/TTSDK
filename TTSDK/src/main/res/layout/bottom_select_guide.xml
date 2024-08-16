@@ -96,7 +96,7 @@
                         style="@style/Font_Bold_16"
                         android:layout_gravity="center_horizontal"
                         android:text="@string/tooth_guide_x"
-                        android:textColor="#191919"
+                        android:textColor="@color/color_191919"
                         android:layout_marginTop="5dp"/>
 
 
@@ -167,7 +167,7 @@
                         style="@style/Font_Bold_16"
                         android:layout_gravity="center_horizontal"
                         android:text="@string/tooth_guide_o"
-                        android:textColor="#191919"
+                        android:textColor="@color/color_191919"
                         android:layout_marginTop="5dp"/>
 
 
@@ -188,7 +188,7 @@
         <TextView
             style="@style/Font_Bold_15"
             android:gravity="center"
-            android:textColor="#191919"
+            android:textColor="@color/color_191919"
             android:layout_width="172dp"
             android:layout_height="50dp"
             android:background="@drawable/round_radius_30_fee34c"

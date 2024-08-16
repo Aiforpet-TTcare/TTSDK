@@ -86,15 +86,15 @@
                 android:indeterminate="false"
                 android:max="10000"
                 android:progress="0"
-                app:indicatorColor="#2c7fdf"
+                app:indicatorColor="#1495f3"
                 app:indicatorSize="148dp"
                 app:trackColor="#eaebed"
                 app:trackCornerRadius="8dp"
                 app:trackThickness="8dp" />
 
 
-            <com.aiforpet.pet.util.LibraryLottieView
-                android:id="@+id/loadingview"
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/check_loading"
                 android:layout_width="112dp"
                 android:layout_height="112dp"
                 app:lottie_imageAssetsFolder="images"

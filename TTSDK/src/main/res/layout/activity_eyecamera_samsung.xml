@@ -778,7 +778,7 @@
             <TextView
                 style="@style/Font_Bold_16"
                 android:textSize="19dp"
-                android:textColor="@color/color_191919"
+                android:textColor="@color/color_111111"
                 android:text="@string/joint_3"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="40dp"/>
@@ -807,7 +807,7 @@
                 android:text="@string/confrim"
                 android:gravity="center"
                 android:layout_marginBottom="33dp"
-                android:background="@drawable/round_10_fee34c"
+                android:background="@drawable/round_radius_10_1495f3"
                 android:id="@+id/pop_joint_complete_confirm"/>
 
 

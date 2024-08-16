@@ -6,7 +6,8 @@
     android:orientation="vertical">
     <TextView
         android:id="@+id/no_diagnosis_title"
-        style="@style/PopTile"
+        style="@style/Font_Bold_16"
+        android:textSize="@dimen/v_19dp"
         android:layout_gravity="center_horizontal"
         android:layout_width="match_parent"
         android:gravity="center_horizontal"/>
@@ -89,7 +90,7 @@
                     android:layout_gravity="center_horizontal"
                     android:text="@string/rediagcamera_1"
                     android:layout_marginTop="2dp"
-                    android:textColor="#191919" />
+                    android:textColor="@color/color_191919" />
 
             </LinearLayout>
         </RelativeLayout>
@@ -181,7 +182,7 @@
                     style="@style/Font_Bold_15"
                     android:layout_marginTop="2dp"
                     android:layout_gravity="center_horizontal"
-                    android:textColor="#191919" />
+                    android:textColor="@color/color_191919" />
 
             </LinearLayout>
 

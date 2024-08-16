@@ -93,8 +93,8 @@
                 android:progress="0" />
 
 
-            <com.aiforpet.pet.util.LibraryLottieView
-                android:id="@+id/loadingview"
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/check_loading"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
                 app:lottie_imageAssetsFolder="images"

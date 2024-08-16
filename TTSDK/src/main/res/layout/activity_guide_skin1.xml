@@ -29,7 +29,7 @@
                 android:layout_gravity="center_horizontal"
                 android:gravity="center_horizontal"
                 android:lineHeight="26dp"
-                android:textColor="#191919"
+                android:textColor="@color/color_191919"
                 android:textSize="19dp" />
 
 
@@ -106,10 +106,12 @@
 
 
 
-                    <com.aiforpet.pet.util.LibraryLottieView
+                    <com.airbnb.lottie.LottieAnimationView
                         android:id="@+id/handloading1_skin"
                         android:layout_width="60dp"
                         android:layout_height="60.7dp"
+                        app:lottie_imageAssetsFolder="images"
+                        app:lottie_fileName="han.json"
                         app:lottie_autoPlay="true"
                         android:layout_alignParentRight="true"
                         android:layout_marginTop="48dp"/>
