@@ -147,25 +147,25 @@
     <string name="auto_camera1_1_1_blue"><![CDATA[Tap the shutter button below to<br><font color=#1495f3>automatically check the right eye</font>]]></string>
 
     <string name="auto_camera1_2"><![CDATA[Tap the shutter button below to<br><font color=#fee34c>automatically check the left eye (opposite)</font>]]></string>
-    <string name="auto_camera1_2_blue"><![CDATA[Tap the shutter button below to<br><font color=#1495f3>automatically check the left eye (opposite)</font>]]></string>
+    <string name="auto_camera1_2_blue"><![CDATA[Tap the shutter button below to<br><font color=#75c3ff>automatically check the left eye (opposite)</font>]]></string>
 
     <string name="auto_camera1_2_1"><![CDATA[Tap the shutter button below to<br><font color=#fee34c>automatically check the left eye</font>]]></string>
-    <string name="auto_camera1_2_1_blue"><![CDATA[Tap the shutter button below to<br><font color=#1495f3>automatically check the left eye</font>]]></string>
+    <string name="auto_camera1_2_1_blue"><![CDATA[Tap the shutter button below to<br><font color=#75c3ff>automatically check the left eye</font>]]></string>
 
     <string name="auto_camera2_1"><![CDATA[Not <font color=#fee34c>dog eyes</font>]]></string>
-    <string name="auto_camera2_1_blue"><![CDATA[Not <font color=#1495f3>dog eyes</font>]]></string>
+    <string name="auto_camera2_1_blue"><![CDATA[Not <font color=#75c3ff>dog eyes</font>]]></string>
 
     <string name="auto_camera2_2"><![CDATA[Not <font color=#fee34c>cat eyes</font>]]></string>
-    <string name="auto_camera2_2_blue"><![CDATA[Not <font color=#1495f3>cat eyes</font>]]></string>
+    <string name="auto_camera2_2_blue"><![CDATA[Not <font color=#75c3ff>cat eyes</font>]]></string>
 
     <string name="auto_camera2_3"><![CDATA[<font color=#fee34c>Human eyes</font> are difficult to analyze]]></string>
-    <string name="auto_camera2_3_blue"><![CDATA[<font color=#1495f3>Human eyes</font> are difficult to analyze]]></string>
+    <string name="auto_camera2_3_blue"><![CDATA[<font color=#75c3ff>Human eyes</font> are difficult to analyze]]></string>
 
     <string name="auto_camera2_4_1"><![CDATA[Scan <font color=#fee34c>dog\'s eyes</font>]]></string>
-    <string name="auto_camera2_4_1_blue"><![CDATA[Scan <font color=#1495f3>dog\'s eyes</font>]]></string>
+    <string name="auto_camera2_4_1_blue"><![CDATA[Scan <font color=#75c3ff>dog\'s eyes</font>]]></string>
 
     <string name="auto_camera2_4_2"><![CDATA[Scan <font color=#fee34c>cat\'s eyes</font>]]></string>
-    <string name="auto_camera2_4_2_blue"><![CDATA[Scan <font color=#1495f3>cat\'s eyes</font>]]></string>
+    <string name="auto_camera2_4_2_blue"><![CDATA[Scan <font color=#75c3ff>cat\'s eyes</font>]]></string>
 
 
     <string name="auto_camera3_1"><![CDATA[Please <font color=#fee34c>focus</font>]]></string>
@@ -184,25 +184,25 @@
 
 
 
-    <string name="auto_camera3_1_blue"><![CDATA[Please <font color=#1495f3>focus</font>]]></string>
-    <string name="auto_camera3_2_blue"><![CDATA[<font color=#1495f3>Eyes</font> should be <font color=#fee34c>open</font>]]></string>
-    <string name="auto_camera3_3_blue"><![CDATA[Please <font color=#1495f3>tidy up</font> the eyes and re-shoot]]></string>
-    <string name="auto_camera3_4_blue"><![CDATA[<font color=#1495f3>RED-EYE</font> is difficult to analyze]]></string>
-    <string name="auto_camera3_5_blue"><![CDATA[Please <font color=#1495f3>focus</font>]]></string>
+    <string name="auto_camera3_1_blue"><![CDATA[Please <font color=#75c3ff>focus</font>]]></string>
+    <string name="auto_camera3_2_blue"><![CDATA[<font color=#75c3ff>Eyes</font> should be <font color=#fee34c>open</font>]]></string>
+    <string name="auto_camera3_3_blue"><![CDATA[Please <font color=#75c3ff>tidy up</font> the eyes and re-shoot]]></string>
+    <string name="auto_camera3_4_blue"><![CDATA[<font color=#75c3ff>RED-EYE</font> is difficult to analyze]]></string>
+    <string name="auto_camera3_5_blue"><![CDATA[Please <font color=#75c3ff>focus</font>]]></string>
 
 
-    <string name="auto_camera3_1_blue_tooth"><![CDATA[<font color=#1495f3>초점을</font> 잘 맞춰주세요]]></string>
-    <string name="auto_camera3_2_blue_tooth"><![CDATA[<font color=#1495f3>눈뜬 상태를</font> 촬영해 주세요]]></string>
-    <string name="auto_camera3_3_blue_tooth"><![CDATA[<font color=#1495f3>눈에 털을 정리 후</font> 촬영해 주세요]]></string>
-    <string name="auto_camera3_4_blue_tooth"><![CDATA[<font color=#1495f3>적목현상</font> 시 건강 체크가 어려워요]]></string>
-    <string name="auto_camera3_5_blue_tooth"><![CDATA[<font color=#1495f3>초점을</font> 잘 맞춰주세요]]></string>
+    <string name="auto_camera3_1_blue_tooth"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
+    <string name="auto_camera3_2_blue_tooth"><![CDATA[<font color=#75c3ff>눈뜬 상태를</font> 촬영해 주세요]]></string>
+    <string name="auto_camera3_3_blue_tooth"><![CDATA[<font color=#75c3ff>눈에 털을 정리 후</font> 촬영해 주세요]]></string>
+    <string name="auto_camera3_4_blue_tooth"><![CDATA[<font color=#75c3ff>적목현상</font> 시 건강 체크가 어려워요]]></string>
+    <string name="auto_camera3_5_blue_tooth"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
 
 
     <string name="auto_camera4_1"><![CDATA[Take a picture of the <font color=#fee34c>right eye</font>]]></string>
-    <string name="auto_camera4_1_blue"><![CDATA[Take a picture of the <font color=#1495f3>right eye</font>]]></string>
+    <string name="auto_camera4_1_blue"><![CDATA[Take a picture of the <font color=#75c3ff>right eye</font>]]></string>
 
     <string name="auto_camera4_2"><![CDATA[Take a picture of the <font color=#fee34c>left eye</font>]]></string>
-    <string name="auto_camera4_2_blue"><![CDATA[Take a picture of the <font color=#1495f3>left eye</font>]]></string>
+    <string name="auto_camera4_2_blue"><![CDATA[Take a picture of the <font color=#75c3ff>left eye</font>]]></string>
 
 
     <string name="video_right_1"><![CDATA[Press the bottom shutter button to <br><font color=#fee34c>automatically check with video starting with the right eye</font>]]></string>
@@ -310,43 +310,43 @@
 
 
     <string name="auto_camera3_4_tooth_1"><![CDATA[Try to get some more <font color=#fee34c>distance</font>]]></string>
-    <string name="auto_camera3_4_tooth_blue_1"><![CDATA[Try to get some more <font color=#1495f3>distance</font>]]></string>
+    <string name="auto_camera3_4_tooth_blue_1"><![CDATA[Try to get some more <font color=#75c3ff>distance</font>]]></string>
 
     <string name="auto_camera2_1_tooth"><![CDATA[Not <font color=#fee34c>dog\'s teeth</font>]]></string>
-    <string name="auto_camera2_1_tooth_blue"><![CDATA[Not <font color=#1495f3>dog\'s teeth</font>]]></string>
+    <string name="auto_camera2_1_tooth_blue"><![CDATA[Not <font color=#75c3ff>dog\'s teeth</font>]]></string>
 
 
     <string name="auto_camera2_4_1_tooth"><![CDATA[Scan <font color=#fee34c>dog\'s teeth</font>]]></string>
-    <string name="auto_camera2_4_1_tooth_blue"><![CDATA[Scan <font color=#1495f3>dog\'s teeth</font>]]></string>
+    <string name="auto_camera2_4_1_tooth_blue"><![CDATA[Scan <font color=#75c3ff>dog\'s teeth</font>]]></string>
 
 
     <string name="auto_camera2_3_tooth"><![CDATA[<font color=#fee34c>Human teeth</font> are difficult to analyze]]></string>
-    <string name="auto_camera2_3_tooth_blue"><![CDATA[<font color=#1495f3>Human teeth</font> are difficult to analyze]]></string>
+    <string name="auto_camera2_3_tooth_blue"><![CDATA[<font color=#75c3ff>Human teeth</font> are difficult to analyze]]></string>
 
     <string name="auto_camera2_2_tooth"><![CDATA[Not <font color=#fee34c>cat\'s teeth</font>]]></string>
-    <string name="auto_camera2_2_tooth_blue"><![CDATA[Not <font color=#1495f3>cat\'s teeth</font>]]></string>
+    <string name="auto_camera2_2_tooth_blue"><![CDATA[Not <font color=#75c3ff>cat\'s teeth</font>]]></string>
 
     <string name="auto_camera2_4_2_tooth"><![CDATA[Scan <font color=#fee34c>cat\'s teeth</font>]]></string>
-    <string name="auto_camera2_4_2_tooth_blue"><![CDATA[Scan <font color=#1495f3>cat\'s teeth</font>]]></string>
+    <string name="auto_camera2_4_2_tooth_blue"><![CDATA[Scan <font color=#75c3ff>cat\'s teeth</font>]]></string>
 
     <string name="auto_camera4_1_tooth"><![CDATA[Scan <font color=#fee34c>front teeth</font>]]></string>
     <string name="auto_camera4_2_tooth"><![CDATA[Scan <font color=#fee34c>right teeth</font>]]></string>
     <string name="auto_camera4_3_tooth"><![CDATA[Scan <font color=#fee34c>left teeth</font>]]></string>
     <string name="auto_camera4_3_mouth"><![CDATA[<font color=#fee34c>Teeth</font> has to be <font color=#fee34c>shown</font>]]></string>
 
-    <string name="auto_camera4_1_tooth_blue"><![CDATA[Scan <font color=#1495f3>front teeth</font>]]></string>
-    <string name="auto_camera4_2_tooth_blue"><![CDATA[Scan <font color=#1495f3>right teeth</font>]]></string>
-    <string name="auto_camera4_3_tooth_blue"><![CDATA[Scan <font color=#1495f3>left teeth</font>]]></string>
-    <string name="auto_camera4_4_mouth_blue"><![CDATA[<font color=#1495f3>Teeth</font> has to be <font color=#1495f3>shown</font>]]></string>
+    <string name="auto_camera4_1_tooth_blue"><![CDATA[Scan <font color=#75c3ff>front teeth</font>]]></string>
+    <string name="auto_camera4_2_tooth_blue"><![CDATA[Scan <font color=#75c3ff>right teeth</font>]]></string>
+    <string name="auto_camera4_3_tooth_blue"><![CDATA[Scan <font color=#75c3ff>left teeth</font>]]></string>
+    <string name="auto_camera4_4_mouth_blue"><![CDATA[<font color=#75c3ff>Teeth</font> has to be <font color=#1495f3>shown</font>]]></string>
 
 
     <string name="auto_tooth_1"><![CDATA[Tap the shutter button below to<br><font color=#fee34c>automatically check front teeth</font>]]></string>
     <string name="auto_tooth_2"><![CDATA[Tap the shutter button below to<br><font color=#fee34c>automatically check right teeth</font>]]></string>
     <string name="auto_tooth_3"><![CDATA[Tap the shutter button below to<br><font color=#fee34c>automatically check left teeth</font>]]></string>
 
-    <string name="auto_tooth_1_blue"><![CDATA[Tap the shutter button below to<br><font color=#1495f3>automatically check front teeth</font>]]></string>
-    <string name="auto_tooth_2_blue"><![CDATA[Tap the shutter button below to<br><font color=#1495f3>automatically check right teeth</font>]]></string>
-    <string name="auto_tooth_3_blue"><![CDATA[Tap the shutter button below to<br><font color=#1495f3>automatically check left teeth</font>]]></string>
+    <string name="auto_tooth_1_blue"><![CDATA[Tap the shutter button below to<br><font color=#75c3ff>automatically check front teeth</font>]]></string>
+    <string name="auto_tooth_2_blue"><![CDATA[Tap the shutter button below to<br><font color=#75c3ff>automatically check right teeth</font>]]></string>
+    <string name="auto_tooth_3_blue"><![CDATA[Tap the shutter button below to<br><font color=#75c3ff>automatically check left teeth</font>]]></string>
 
 
     <string name="model_1_1"><![CDATA[Not <font color=#fee34c>dog eyes</font>]]></string>
@@ -364,21 +364,21 @@
     <string name="model_3_1"><![CDATA[Not <font color=#fee34c>right eye</font>]]></string>
     <string name="model_3_2"><![CDATA[Not <font color=#fee34c>left eye</font>]]></string>
     <string name="model_3_3"><![CDATA[Take a <font color=#fee34c>closer</font> picture ]]></string>
-    <string name="model_1_1_blue"><![CDATA[Not <font color=#fee34c>dog eyes</font>]]></string>
-    <string name="model_1_2_blue"><![CDATA[Not <font color=#fee34c>cat eyes</font>]]></string>
-    <string name="model_1_3_blue"><![CDATA[<font color=#fee34c>Human eyes</font> are difficult to analyze]]></string>
-    <string name="model_1_4_blue"><![CDATA[Scan <font color=#fee34c>dog\'s eyes</font>]]></string>
-    <string name="model_1_5_blue"><![CDATA[Scan <font color=#fee34c>cat\'s eyes</font>]]></string>
+    <string name="model_1_1_blue"><![CDATA[Not <font color=#75c3ff>dog eyes</font>]]></string>
+    <string name="model_1_2_blue"><![CDATA[Not <font color=#75c3ff>cat eyes</font>]]></string>
+    <string name="model_1_3_blue"><![CDATA[<font color=#75c3ff>Human eyes</font> are difficult to analyze]]></string>
+    <string name="model_1_4_blue"><![CDATA[Scan <font color=#75c3ff>dog\'s eyes</font>]]></string>
+    <string name="model_1_5_blue"><![CDATA[Scan <font color=#75c3ff>cat\'s eyes</font>]]></string>
 
-    <string name="model_2_1_blue"><![CDATA[Please <font color=#fee34c>focus</font>]]></string>
-    <string name="model_2_2_blue"><![CDATA[<font color=#fee34c>Eyes</font> should be <font color=#fee34c>open</font>]]></string>
-    <string name="model_2_3_blue"><![CDATA[Scan <font color=#fee34c>in a bright environment</font>]]></string>
-    <string name="model_2_4_blue"><![CDATA[Please <font color=#fee34c>tidy up</font> the eyes and re-shoot]]></string>
-    <string name="model_2_5_blue"><![CDATA[Please <font color=#fee34c>focus</font>]]></string>
+    <string name="model_2_1_blue"><![CDATA[Please <font color=#75c3ff>focus</font>]]></string>
+    <string name="model_2_2_blue"><![CDATA[<font color=#75c3ff>Eyes</font> should be <font color=#fee34c>open</font>]]></string>
+    <string name="model_2_3_blue"><![CDATA[Scan <font color=#75c3ff>in a bright environment</font>]]></string>
+    <string name="model_2_4_blue"><![CDATA[Please <font color=#75c3ff>tidy up</font> the eyes and re-shoot]]></string>
+    <string name="model_2_5_blue"><![CDATA[Please <font color=#75c3ff>focus</font>]]></string>
 
-    <string name="model_3_1_blue"><![CDATA[Not <font color=#fee34c>right eye</font>]]></string>
-    <string name="model_3_2_blue"><![CDATA[Not <font color=#fee34c>left eye</font>]]></string>
-    <string name="model_3_3_blue"><![CDATA[Take a <font color=#fee34c>closer</font> picture]]></string>
+    <string name="model_3_1_blue"><![CDATA[Not <font color=#75c3ff>right eye</font>]]></string>
+    <string name="model_3_2_blue"><![CDATA[Not <font color=#75c3ff>left eye</font>]]></string>
+    <string name="model_3_3_blue"><![CDATA[Take a <font color=#75c3ff>closer</font> picture]]></string>
 
     <string name="tooth_guide_o">AI can analyze</string>
     <string name="tooth_guide_x">AI can\'t analyze</string>
@@ -387,7 +387,7 @@
 
     <string name="loading_ment_knee_title">Uploading %s\’s video</string>
     <string name="joint_result_17"><![CDATA[To start, tap the <font color=#fee34c>shutter button on the right</font>]]></string>
-    <string name="joint_result_17_samsung"><![CDATA[To start, tap the <font color=#1495f3>shutter button on the right</font>]]></string>
+    <string name="joint_result_17_samsung"><![CDATA[To start, tap the <font color=#75c3ff>shutter button on the right</font>]]></string>
 
     <string name="joint_indicate_1">Start shooting when you are a certain distance apart</string>
     <string name="joint_indicate_2">When your dog walks in a direction at a certain pace</string>
@@ -406,7 +406,7 @@
 
     <string name="joint_6"><![CDATA[Dog is walking well.<br>Please hold until we finish capturing the movement.]]></string>
     <string name="joint_7"><![CDATA[Difficult to analyze.<br>Allow the dog to <font color=#fee34c>walk in parallel within the shaded area.</font>]]></string>
-    <string name="joint_7_samsung"><![CDATA[Difficult to analyze.<br>Allow the dog to <font color=#1495f3>walk in parallel within the shaded area.</font>]]></string>
+    <string name="joint_7_samsung"><![CDATA[Difficult to analyze.<br>Allow the dog to <font color=#75c3ff>walk in parallel within the shaded area.</font>]]></string>
     <string name="joint_8">Time\'s up.</string>
     <string name="joint_9">Please keep your smartphone in landscape mode.\nYour dog need to be walk in one direction for at least three seconds.</string>
     <string name="joint_10">Try again?</string>
