@@ -10,7 +10,7 @@ android {
         minSdk 21
         targetSdk 34
         versionCode 27
-        versionName "1.6.4"
+        versionName "1.6.5"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         ndkVersion '21.3.6528147'
@@ -100,7 +100,7 @@ afterEvaluate {
             release(MavenPublication) {
                 groupId = 'com.github.Aiforpet-TTcare'
                 artifactId = 'TTSDK'
-                version = 'v1.6.4'
+                version = 'v1.6.5'
 
                 artifact("$buildDir/outputs/aar/TTSDK-release.aar") {
                     builtBy tasks.named("assembleRelease")
