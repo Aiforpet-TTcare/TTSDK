@@ -27,10 +27,10 @@
     <string name="focus_skin3"><![CDATA[<font color=#fee34c>발을 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
     <string name="focus_skin4"><![CDATA[<font color=#fee34c>기타 부위를 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
 
-    <string name="focus_skin1_blue"><![CDATA[<font color=#1495f3>귀를 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
-    <string name="focus_skin2_blue"><![CDATA[<font color=#1495f3>몸통을 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
-    <string name="focus_skin3_blue"><![CDATA[<font color=#1495f3>발을 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
-    <string name="focus_skin4_blue"><![CDATA[<font color=#1495f3>기타 부위를 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
+    <string name="focus_skin1_blue"><![CDATA[<font color=#75c3ff>귀를 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
+    <string name="focus_skin2_blue"><![CDATA[<font color=#75c3ff>몸통을 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
+    <string name="focus_skin3_blue"><![CDATA[<font color=#75c3ff>발을 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
+    <string name="focus_skin4_blue"><![CDATA[<font color=#75c3ff>기타 부위를 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
 
 
     <string name="joint_1"><![CDATA[<font color=#fee34c>가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
