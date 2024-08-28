@@ -181,7 +181,9 @@
     <string name="auto_camera3_1_tooth"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
     <string name="auto_camera3_2_tooth"><![CDATA[<font color=#fee34c>눈뜬 상태를</font> 촬영해 주세요]]></string>
     <string name="auto_camera3_3_tooth"><![CDATA[<font color=#fee34c>눈에 털을 정리 후</font> 촬영해 주세요]]></string>
-    <string name="auto_camera3_4_tooth"><![CDATA[<font color=#fee34c>적목현상</font> 시 건강 체크가 어려워요]]></string>
+    <string name="auto_camera3_4_tooth"><![CDATA[<font color=#fee34c>더 가까이에서</font> 촬영해 주세요]]></string>
+    <string name="auto_camera3_4_tooth_blue"><![CDATA[<font color=#75c3ff>더 가까이에서</font> 촬영해 주세요]]></string>
+
     <string name="auto_camera3_5_tooth"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
 
 
@@ -320,7 +322,7 @@
 
 
     <string name="auto_camera3_4_tooth_1"><![CDATA[<font color=#fee34c>조금 멀리서</font> 촬영해 주세요]]></string>
-    <string name="auto_camera3_4_tooth_blue_1"><![CDATA[<font color=#75c3ff>조금 멀리서</font> 촬영해 주세요]]></string>
+    <string name="auto_camera3_4_tooth_1_blue"><![CDATA[<font color=#75c3ff>조금 멀리서</font> 촬영해 주세요]]></string>
 
     <string name="auto_camera2_1_tooth"><![CDATA[<font color=#fee34c>강아지 치아가</font> 아니에요]]></string>
     <string name="auto_camera2_1_tooth_blue"><![CDATA[<font color=#75c3ff>강아지 치아가</font> 아니에요]]></string>
@@ -348,6 +350,7 @@
     <string name="auto_camera4_2_tooth_blue"><![CDATA[<font color=#75c3ff>오른쪽 치아를</font> 촬영해 주세요]]></string>
     <string name="auto_camera4_3_tooth_blue"><![CDATA[<font color=#75c3ff>왼쪽 치아를</font> 촬영해 주세요]]></string>
     <string name="auto_camera4_4_mouth_blue"><![CDATA[<font color=#75c3ff>입 안쪽이 보이도록</font><br>촬영해 주세요]]></string>
+    <string name="auto_camera4_4_mouth"><![CDATA[<font color=#fee34c>입 안쪽이 보이도록</font><br>촬영해 주세요]]></string>
 
     <string name="auto_tooth_1"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#fee34c>정면 치아를 자동</font>으로 체크해요]]></string>
     <string name="auto_tooth_2"><![CDATA[하단 촬영 버튼을 누르면<br><font color=#fee34c>오른쪽 치아를 자동</font>으로 체크해요]]></string>
@@ -513,5 +516,91 @@
     <string name="guide_joint_20">반려견보다 앞장 서거나, 뒤따라 주세요</string>
 
     <string name="network_error_tt">인터넷 연결을 확인하여 주세요.</string>
+
+
+    <!--눈-->
+
+    <string name="eye_model1_1"><![CDATA[<font color=#fee34c>강아지 눈이</font> 아니에요]]></string>
+    <string name="eye_model1_2"><![CDATA[<font color=#fee34c>고양이 눈이</font> 아니에요]]></string>
+    <string name="eye_model1_3"><![CDATA[<font color=#fee34c>사람 눈은</font> 건강 체크가 어려워요]]></string>
+    <string name="eye_model1_4"><![CDATA[<font color=#fee34c>강아지 눈을</font> 촬영해 주세요]]></string>
+    <string name="eye_model1_5"><![CDATA[<font color=#fee34c>고양이 눈을</font> 촬영해 주세요]]></string>
+
+    <string name="eye_model2_1"><![CDATA[<font color=#fee34c>오른쪽 눈이</font> 아니에요]]></string>
+    <string name="eye_model2_2"><![CDATA[<font color=#fee34c>왼쪽 눈이</font> 아니에요]]></string>
+
+    <string name="eye_model3_1"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
+    <string name="eye_model3_2"><![CDATA[<font color=#fee34c>눈뜬 상태를</font> 촬영해 주세요]]></string>
+    <string name="eye_model3_3"><![CDATA[<font color=#fee34c>눈에 털을 정리 후</font> 촬영해 주세요]]></string>
+    <string name="eye_model3_4"><![CDATA[<font color=#fee34c>적목현상</font> 시 건강 체크가 어려워요]]></string>
+    <string name="eye_model3_5"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
+
+
+    <string name="eye_model4_1"><![CDATA[<font color=#fee34c>더 가까이에서</font> 촬영해 주세요]]></string>
+    <string name="eye_model4_2"><![CDATA[<font color=#fee34c>조금 멀리서</font> 촬영해 주세요]]></string>
+
+
+    <!--치아-->
+    <string name="tooth_model1_1"><![CDATA[<font color=#fee34c>강아지 치아가</font> 아니에요]]></string>
+    <string name="tooth_model1_2"><![CDATA[<font color=#fee34c>고양이 치아가</font> 아니에요]]></string>
+    <string name="tooth_model1_3"><![CDATA[<font color=#fee34c>사람 치아는</font> 건강 체크가 어려워요]]></string>
+    <string name="tooth_model1_4"><![CDATA[<font color=#fee34c>강아지 치아를</font> 촬영해 주세요]]></string>
+    <string name="tooth_model1_5"><![CDATA[<font color=#fee34c>고양이 치아를</font> 촬영해 주세요]]></string>
+
+    <string name="tooth_model2_1"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
+    <string name="tooth_model2_2"><![CDATA[<font color=#fee34c>치아가 보이게</font> 촬영해 주세요]]></string>
+    <string name="tooth_model2_3"><![CDATA[<font color=#fee34c>밝은 환경에서</font> 촬영해 주세요]]></string>
+    <string name="tooth_model2_4"><![CDATA[<font color=#fee34c>더 가까이에서</font> 촬영해 주세요]]></string>
+    <string name="tooth_model2_5"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
+
+    <string name="tooth_model3_1"><![CDATA[<font color=#fee34c>정면 치아가</font> 아니에요]]></string>
+    <string name="tooth_model3_2"><![CDATA[<font color=#fee34c>오른쪽 치아가</font> 아니에요]]></string>
+    <string name="tooth_model3_3"><![CDATA[<font color=#fee34c>왼쪽 치아가</font> 아니에요]]></string>
+    <string name="tooth_model3_4"><![CDATA[<font color=#fee34c>더 가까이에서</font> 촬영해 주세요]]></string>
+
+    <string name="tooth_model4_1"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
+
+
+    <!--눈-->
+
+    <string name="eye_model1_1_blue"><![CDATA[<font color=#75c3ff>강아지 눈이</font> 아니에요]]></string>
+    <string name="eye_model1_2_blue"><![CDATA[<font color=#75c3ff>고양이 눈이</font> 아니에요]]></string>
+    <string name="eye_model1_3_blue"><![CDATA[<font color=#75c3ff>사람 눈은</font> 건강 체크가 어려워요]]></string>
+    <string name="eye_model1_4_blue"><![CDATA[<font color=#75c3ff>강아지 눈을</font> 촬영해 주세요]]></string>
+    <string name="eye_model1_5_blue"><![CDATA[<font color=#75c3ff>고양이 눈을</font> 촬영해 주세요]]></string>
+
+    <string name="eye_model2_1_blue"><![CDATA[<font color=#75c3ff>오른쪽 눈이</font> 아니에요]]></string>
+    <string name="eye_model2_2_blue"><![CDATA[<font color=#75c3ff>왼쪽 눈이</font> 아니에요]]></string>
+
+    <string name="eye_model3_1_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
+    <string name="eye_model3_2_blue"><![CDATA[<font color=#75c3ff>눈뜬 상태를</font> 촬영해 주세요]]></string>
+    <string name="eye_model3_3_blue"><![CDATA[<font color=#75c3ff>눈에 털을 정리 후</font> 촬영해 주세요]]></string>
+    <string name="eye_model3_4_blue"><![CDATA[<font color=#75c3ff>적목현상</font> 시 건강 체크가 어려워요]]></string>
+    <string name="eye_model3_5_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
+
+
+    <string name="eye_model4_1_blue"><![CDATA[<font color=#75c3ff>더 가까이에서</font> 촬영해 주세요]]></string>
+    <string name="eye_model4_2_blue"><![CDATA[<font color=#75c3ff>조금 멀리서</font> 촬영해 주세요]]></string>
+
+
+    <!--치아-->
+    <string name="tooth_model1_1_blue"><![CDATA[<font color=#75c3ff>강아지 치아가</font> 아니에요]]></string>
+    <string name="tooth_model1_2_blue"><![CDATA[<font color=#75c3ff>고양이 치아가</font> 아니에요]]></string>
+    <string name="tooth_model1_3_blue"><![CDATA[<font color=#75c3ff>사람 치아는</font> 건강 체크가 어려워요]]></string>
+    <string name="tooth_model1_4_blue"><![CDATA[<font color=#75c3ff>강아지 치아를</font> 촬영해 주세요]]></string>
+    <string name="tooth_model1_5_blue"><![CDATA[<font color=#75c3ff>고양이 치아를</font> 촬영해 주세요]]></string>
+
+    <string name="tooth_model2_1_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
+    <string name="tooth_model2_2_blue"><![CDATA[<font color=#75c3ff>치아가 보이게</font> 촬영해 주세요]]></string>
+    <string name="tooth_model2_3_blue"><![CDATA[<font color=#75c3ff>밝은 환경에서</font> 촬영해 주세요]]></string>
+    <string name="tooth_model2_4_blue"><![CDATA[<font color=#75c3ff>더 가까이에서</font> 촬영해 주세요]]></string>
+    <string name="tooth_model2_5_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
+
+    <string name="tooth_model3_1_blue"><![CDATA[<font color=#75c3ff>정면 치아가</font> 아니에요]]></string>
+    <string name="tooth_model3_2_blue"><![CDATA[<font color=#75c3ff>오른쪽 치아가</font> 아니에요]]></string>
+    <string name="tooth_model3_3_blue"><![CDATA[<font color=#75c3ff>왼쪽 치아가</font> 아니에요]]></string>
+    <string name="tooth_model3_4_blue"><![CDATA[<font color=#75c3ff>더 가까이에서</font> 촬영해 주세요]]></string>
+
+    <string name="tooth_model4_1_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
 
 </resources>
