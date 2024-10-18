@@ -11,6 +11,70 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/v_56dp"
+            android:background="@color/color_ffffff">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/v_20dp"
+                android:orientation="horizontal"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/v_50dp">
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/pet_photo_cardview"
+                    android:layout_width="@dimen/v_26dp"
+                    android:layout_height="@dimen/v_26dp"
+                    android:shape="ring"
+                    app:cardCornerRadius="@dimen/v_20dp"
+                    android:layout_gravity="center_vertical"
+                    app:cardElevation="0dp"
+                    app:cardPreventCornerOverlap="true">
+
+                    <ImageView
+                        android:id="@+id/pet_photo"
+                        android:layout_width="@dimen/v_26dp"
+                        android:layout_height="@dimen/v_26dp"
+                        android:layout_gravity="center" />
+
+                </com.google.android.material.card.MaterialCardView>
+
+
+                <TextView
+                    style="@style/Title_Large"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="@dimen/v_20dp"
+                    android:textColor="@color/color_191919"
+                    android:id="@+id/pet_name"
+                    android:layout_marginLeft="@dimen/v_8dp"/>
+
+
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/close"
+                style="@style/Font_Bold_15"
+                android:layout_width="@dimen/v_60dp"
+                android:textSize="@dimen/v_15dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="@string/eye_check_4"
+                android:textColor="@color/color_000000" />
+
+        </RelativeLayout>
+
+
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -52,13 +116,11 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="@dimen/v_56dp"
                     android:background="@drawable/camera_gradient" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="@dimen/v_56dp"
                     android:background="@drawable/camera_gradient2" />
 
 
@@ -66,7 +128,6 @@
                     android:id="@+id/pick_completeview"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="@dimen/v_56dp"
                     android:background="#4c000000"
                     android:visibility="gone">
 
@@ -146,100 +207,83 @@
 
 
                 <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="@dimen/v_56dp"
-                    android:layout_marginBottom="@dimen/v_100dp">
+                    android:layout_width="203.4dp"
+                    android:layout_height="203.4dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="90dp"
+                    android:id="@+id/frame_position_view">
+
+
+                    <ImageView
+                        android:id="@+id/focusview"
+                        android:layout_width="203.4dp"
+                        android:layout_height="203.4dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/frame_basic" />
 
 
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:id="@+id/camera_allow_view"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:orientation="vertical">
 
-
-                        <RelativeLayout
-                            android:layout_width="@dimen/v_226dp"
-                            android:layout_height="@dimen/v_226dp"
+                        <TextView
+                            android:id="@+id/allow_camera_ment"
+                            style="@style/Font_Medium"
                             android:layout_gravity="center_horizontal"
-                            android:layout_marginTop="@dimen/v_20dp"
-                            android:id="@+id/frame_position_view">
+                            android:gravity="center"
+                            android:text="@string/allow_camera_ment"
+                            android:textColor="#ffffff"
+                            android:textSize="14dp" />
 
-                            <ImageView
-                                android:id="@+id/focusview"
-                                android:layout_width="@dimen/v_226dp"
-                                android:layout_height="@dimen/v_226dp"
+                        <LinearLayout
+                            android:id="@+id/camera_enable_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="15.7dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/Font_Medium"
                                 android:layout_gravity="center_horizontal"
-                                android:background="@drawable/frame_basic" />
+                                android:layout_weight="0"
+                                android:gravity="center"
+                                android:text="@string/allow_camera_enable_ment"
+                                android:textColor="#ffffff"
+                                android:textSize="14dp" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#ffffff" />
 
 
-                            <LinearLayout
-                                android:id="@+id/camera_allow_view"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_centerInParent="true"
-                                android:orientation="vertical">
+                        </LinearLayout>
 
-                                <TextView
-                                    android:id="@+id/allow_camera_ment"
-                                    style="@style/Font_Medium"
-                                    android:layout_gravity="center_horizontal"
-                                    android:gravity="center"
-                                    android:text="@string/allow_camera_ment"
-                                    android:textColor="#ffffff"
-                                    android:textSize="14dp" />
-
-                                <LinearLayout
-                                    android:id="@+id/camera_enable_btn"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_gravity="center_horizontal"
-                                    android:layout_marginTop="14dp"
-                                    android:orientation="vertical">
-
-                                    <TextView
-                                        style="@style/Font_Medium"
-                                        android:layout_gravity="center_horizontal"
-                                        android:layout_weight="0"
-                                        android:gravity="center"
-                                        android:text="@string/allow_camera_enable_ment"
-                                        android:textColor="#ffffff"
-                                        android:textSize="@dimen/v_15dp" />
-
-                                    <View
-                                        android:layout_width="match_parent"
-                                        android:layout_height="1dp"
-                                        android:background="#ffffff" />
-
-
-                                </LinearLayout>
-
-
-                            </LinearLayout>
-
-
-                        </RelativeLayout>
 
                     </LinearLayout>
-
 
                 </RelativeLayout>
 
 
+
                 <TextView
                     android:id="@+id/focus_ment"
-                    style="@style/Font_Bold_14"
-                    android:layout_width="wrap_content"
+                    style="@style/Font_Medium_14"
+                    android:layout_width="match_parent"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="@dimen/v_80dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="27dp"
                     android:background="@drawable/round_16_blur"
                     android:gravity="center"
-                    android:paddingLeft="@dimen/v_36dp"
-                    android:paddingRight="@dimen/v_36dp"
-                    android:paddingTop="@dimen/v_12dp"
-                    android:paddingBottom="@dimen/v_12dp"
-                    android:textColor="#ffffff"/>
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
 
 
 
@@ -453,68 +497,6 @@
             </RelativeLayout>
 
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/v_56dp"
-                android:background="@color/color_ffffff">
-
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/v_20dp"
-                    android:orientation="horizontal"
-                    android:layout_centerVertical="true"
-                    android:layout_marginRight="@dimen/v_50dp">
-
-
-                    <com.google.android.material.card.MaterialCardView
-                        android:id="@+id/pet_photo_cardview"
-                        android:layout_width="@dimen/v_26dp"
-                        android:layout_height="@dimen/v_26dp"
-                        android:shape="ring"
-                        app:cardCornerRadius="@dimen/v_20dp"
-                        android:layout_gravity="center_vertical"
-                        app:cardElevation="0dp"
-                        app:cardPreventCornerOverlap="true">
-
-                        <ImageView
-                            android:id="@+id/pet_photo"
-                            android:layout_width="@dimen/v_26dp"
-                            android:layout_height="@dimen/v_26dp"
-                            android:layout_gravity="center" />
-
-                    </com.google.android.material.card.MaterialCardView>
-
-
-                    <TextView
-                        style="@style/Title_Large"
-                        android:textStyle="bold"
-                        android:layout_gravity="center_vertical"
-                        android:textSize="@dimen/v_20dp"
-                        android:textColor="@color/color_191919"
-                        android:id="@+id/pet_name"
-                        android:layout_marginLeft="@dimen/v_8dp"/>
-
-
-
-
-                </LinearLayout>
-
-
-                <TextView
-                    android:id="@+id/close"
-                    style="@style/Font_Bold_15"
-                    android:layout_width="@dimen/v_60dp"
-                    android:textSize="@dimen/v_15dp"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"
-                    android:gravity="center"
-                    android:text="@string/eye_check_4"
-                    android:textColor="@color/color_000000" />
-
-            </RelativeLayout>
 
 
         </RelativeLayout>
