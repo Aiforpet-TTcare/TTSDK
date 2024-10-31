@@ -94,6 +94,96 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
 
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/camera_gradient" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/camera_gradient2" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/parent_layout">
+
+                    <RelativeLayout
+                        android:layout_width="226dp"
+                        android:layout_height="226dp"
+                        android:layout_centerInParent="true"
+                        android:id="@+id/frame_position_view">
+
+                        <ImageView
+                            android:id="@+id/focusview"
+                            android:layout_width="226dp"
+                            android:layout_height="226dp"
+                            android:layout_gravity="center_horizontal" />
+
+
+                        <LinearLayout
+                            android:id="@+id/camera_allow_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/allow_camera_ment"
+                                style="@style/Font_Medium"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center"
+                                android:text="@string/allow_camera_ment"
+                                android:textColor="#ffffff"
+                                android:textSize="15dp" />
+
+                            <LinearLayout
+                                android:id="@+id/camera_enable_btn"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="15.7dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    style="@style/Font_Medium"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_weight="0"
+                                    android:gravity="center"
+                                    android:text="@string/allow_camera_enable_ment"
+                                    android:textColor="#ffffff"
+                                    android:textSize="15dp" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@color/color_ffffff"  />
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+
+                    <View
+                        android:id="@+id/circle_out2"
+                        android:layout_width="226dp"
+                        android:layout_height="226dp"
+                        android:layout_centerInParent="true" />
+
+
+                </RelativeLayout>
+
+
+
                 <RelativeLayout
                     android:id="@+id/noiseview_parent"
                     android:layout_width="match_parent"
@@ -113,15 +203,14 @@
                 </RelativeLayout>
 
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/camera_gradient" />
+                <ImageView
+                    android:layout_width="226dp"
+                    android:layout_height="226dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/frame_basic" />
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/camera_gradient2" />
+
+
 
 
                 <RelativeLayout
@@ -202,82 +291,20 @@
                 </RelativeLayout>
 
 
-                <RelativeLayout
-                    android:layout_width="226dp"
-                    android:layout_height="226dp"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="100dp"
-                    android:id="@+id/frame_position_view">
-
-                    <ImageView
-                        android:id="@+id/focusview"
-                        android:layout_width="226dp"
-                        android:layout_height="226dp"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="20dp"
-                        android:background="@drawable/frame_basic" />
-
-
-                    <LinearLayout
-                        android:id="@+id/camera_allow_view"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/allow_camera_ment"
-                            style="@style/Font_Medium"
-                            android:layout_gravity="center_horizontal"
-                            android:gravity="center"
-                            android:text="@string/allow_camera_ment"
-                            android:textColor="#ffffff"
-                            android:textSize="15dp" />
-
-                        <LinearLayout
-                            android:id="@+id/camera_enable_btn"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_horizontal"
-                            android:layout_marginTop="15.7dp"
-                            android:orientation="vertical">
-
-                            <TextView
-                                style="@style/Font_Medium"
-                                android:layout_gravity="center_horizontal"
-                                android:layout_weight="0"
-                                android:gravity="center"
-                                android:text="@string/allow_camera_enable_ment"
-                                android:textColor="#ffffff"
-                                android:textSize="15dp" />
-
-                            <View
-                                android:layout_width="match_parent"
-                                android:layout_height="1dp"
-                                android:background="@color/color_ffffff"  />
-
-
-                        </LinearLayout>
-
-
-                    </LinearLayout>
-
-
-                </RelativeLayout>
 
 
                 <TextView
                     android:id="@+id/focus_ment"
-                    style="@style/Font_Bold_14"
-                    android:layout_width="wrap_content"
+                    style="@style/Font_Bold_15"
+                    android:layout_width="match_parent"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="26dp"
-                    android:background="@drawable/round_16_blur"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/auto_txt"
                     android:gravity="center"
-                    android:paddingLeft="36dp"
-                    android:paddingRight="36dp"
-                    android:paddingTop="12dp"
-                    android:paddingBottom="12dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
                     android:textColor="#ffffff"/>
 
 
@@ -289,7 +316,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginBottom="50dp"
+                    android:layout_marginBottom="30dp"
                     android:orientation="horizontal"
                     android:visibility="visible">
 

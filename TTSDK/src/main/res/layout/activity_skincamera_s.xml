@@ -94,6 +94,99 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
 
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/camera_gradient" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/camera_gradient2" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/parent_layout">
+
+
+                    <RelativeLayout
+                        android:layout_width="203.4dp"
+                        android:layout_height="203.4dp"
+                        android:layout_centerInParent="true"
+                        android:id="@+id/frame_position_view">
+
+
+                        <ImageView
+                            android:id="@+id/focusview"
+                            android:layout_width="203.4dp"
+                            android:layout_height="203.4dp"
+                            android:layout_centerInParent="true" />
+
+
+                        <LinearLayout
+                            android:id="@+id/camera_allow_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/allow_camera_ment"
+                                style="@style/Font_Medium"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center"
+                                android:text="@string/allow_camera_ment"
+                                android:textColor="#ffffff"
+                                android:textSize="14dp" />
+
+                            <LinearLayout
+                                android:id="@+id/camera_enable_btn"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="15.7dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    style="@style/Font_Medium"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_weight="0"
+                                    android:gravity="center"
+                                    android:text="@string/allow_camera_enable_ment"
+                                    android:textColor="#ffffff"
+                                    android:textSize="14dp" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="#ffffff" />
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <View
+                        android:id="@+id/circle_out2"
+                        android:layout_width="203.4dp"
+                        android:layout_height="203.4dp"
+                        android:layout_centerInParent="true" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="203.4dp"
+                    android:layout_height="203.4dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/frame_basic" />
+
+
+
                 <RelativeLayout
                     android:id="@+id/noiseview_parent"
                     android:layout_width="match_parent"
@@ -112,16 +205,6 @@
                         android:background="#af000000" />
                 </RelativeLayout>
 
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/camera_gradient" />
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/camera_gradient2" />
 
 
                 <RelativeLayout
@@ -206,85 +289,21 @@
                 </RelativeLayout>
 
 
-                <RelativeLayout
-                    android:layout_width="203.4dp"
-                    android:layout_height="203.4dp"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="90dp"
-                    android:id="@+id/frame_position_view">
-
-
-                    <ImageView
-                        android:id="@+id/focusview"
-                        android:layout_width="203.4dp"
-                        android:layout_height="203.4dp"
-                        android:layout_gravity="center_horizontal"
-                        android:background="@drawable/frame_basic" />
-
-
-                    <LinearLayout
-                        android:id="@+id/camera_allow_view"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/allow_camera_ment"
-                            style="@style/Font_Medium"
-                            android:layout_gravity="center_horizontal"
-                            android:gravity="center"
-                            android:text="@string/allow_camera_ment"
-                            android:textColor="#ffffff"
-                            android:textSize="14dp" />
-
-                        <LinearLayout
-                            android:id="@+id/camera_enable_btn"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_horizontal"
-                            android:layout_marginTop="15.7dp"
-                            android:orientation="vertical">
-
-                            <TextView
-                                style="@style/Font_Medium"
-                                android:layout_gravity="center_horizontal"
-                                android:layout_weight="0"
-                                android:gravity="center"
-                                android:text="@string/allow_camera_enable_ment"
-                                android:textColor="#ffffff"
-                                android:textSize="14dp" />
-
-                            <View
-                                android:layout_width="match_parent"
-                                android:layout_height="1dp"
-                                android:background="#ffffff" />
-
-
-                        </LinearLayout>
-
-
-                    </LinearLayout>
-
-                </RelativeLayout>
-
 
 
                 <TextView
                     android:id="@+id/focus_ment"
-                    style="@style/Font_Medium_14"
+                    style="@style/Font_Bold_14"
                     android:layout_width="match_parent"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginLeft="27dp"
-                    android:layout_marginTop="30dp"
-                    android:layout_marginRight="27dp"
-                    android:background="@drawable/round_16_blur"
+                    android:layout_marginTop="@dimen/v_20dp"
+                    android:layout_marginRight="@dimen/v_40dp"
+                    android:layout_marginLeft="@dimen/v_40dp"
+                    android:background="@drawable/auto_txt"
                     android:gravity="center"
-                    android:paddingTop="12dp"
-                    android:paddingBottom="12dp"
-                    android:textColor="#ffffff"
-                    android:textSize="13dp" />
-
+                    android:paddingTop="@dimen/v_16dp"
+                    android:paddingBottom="@dimen/v_16dp"
+                    android:textColor="#ffffff"/>
 
 
 
@@ -294,7 +313,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginBottom="@dimen/v_50dp"
+                    android:layout_marginBottom="@dimen/v_30dp"
                     android:orientation="horizontal"
                     android:visibility="visible">
 

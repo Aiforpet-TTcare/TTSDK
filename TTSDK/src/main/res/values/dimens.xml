@@ -111,6 +111,10 @@
     <dimen name="v_150dp">135dp</dimen>
 
     <dimen name="v_152dp">136.8dp</dimen>
+
+    <dimen name="v_155dp">139.5dp</dimen>
+
+
     <dimen name="v_160dp">144dp</dimen>
     <dimen name="v_170dp">153dp</dimen>
     <dimen name="v_172dp">154.8dp</dimen>
@@ -121,6 +125,7 @@
     <dimen name="v_190dp">171dp</dimen>
     <dimen name="v_202dp">181.8dp</dimen>
     <dimen name="v_208dp">187.2dp</dimen>
+    <dimen name="v_223dp">200.7dp</dimen>
     <dimen name="v_226dp">203.2dp</dimen>
     <dimen name="v_227dp">204.3dp</dimen>
     <dimen name="v_238dp">214.2dp</dimen>

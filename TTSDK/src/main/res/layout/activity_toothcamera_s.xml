@@ -76,17 +76,112 @@
                 android:textColor="@color/color_000000" />
 
         </RelativeLayout>
+
         <RelativeLayout
-            android:id="@+id/main_container"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/color_ffffff">
+            android:layout_weight="1">
 
-           <androidx.camera.view.PreviewView
-                android:id="@+id/view_finder"
+            <RelativeLayout
+                android:id="@+id/main_container"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/color_ffffff">
+
+                <androidx.camera.view.PreviewView
+                    android:id="@+id/view_finder"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/camera_gradient" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/camera_gradient2" />
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/search_parentview"
+                    android:visibility="invisible">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/v_380dp"
+                        android:layout_centerInParent="true"
+                        android:id="@+id/ppp">
+
+
+                        <RelativeLayout
+                            android:id="@+id/ppp_child"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/v_380dp"
+                            android:layout_centerHorizontal="true">
+
+
+                            <View
+                                android:id="@+id/circle_out"
+                                android:layout_width="@dimen/v_280dp"
+                                android:layout_height="@dimen/v_280dp"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/circle_out" />
+
+
+                            <RelativeLayout
+                                android:layout_width="@dimen/v_223dp"
+                                android:layout_height="@dimen/v_223dp"
+                                android:layout_centerInParent="true">
+
+
+                                <View
+                                    android:id="@+id/alphaview"
+                                    android:layout_width="@dimen/v_223dp"
+                                    android:layout_height="@dimen/v_223dp"
+                                    android:background="@drawable/circle_search"
+                                    android:visibility="invisible" />
+
+
+                                <View
+                                    android:id="@+id/circle_in"
+                                    android:layout_width="@dimen/v_223dp"
+                                    android:layout_height="@dimen/v_223dp"
+                                    android:background="@drawable/circle_in" />
+
+
+                            </RelativeLayout>
+
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+
+
+
+                </RelativeLayout>
+
+
+                <View
+                    android:id="@+id/circle_out2"
+                    android:layout_width="280dp"
+                    android:layout_height="280dp"
+                    android:layout_centerInParent="true" />
+
+
+
+
+            </RelativeLayout>
 
 
             <RelativeLayout
@@ -106,20 +201,6 @@
                     android:layout_height="match_parent"
                     android:background="#af000000" />
             </RelativeLayout>
-
-
-
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/camera_gradient" />
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/camera_gradient2" />
-
 
             <RelativeLayout
                 android:id="@+id/pick_completeview"
@@ -202,11 +283,10 @@
             </RelativeLayout>
 
 
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="@dimen/v_20dp"
-                android:layout_marginBottom="@dimen/v_120dp"
                 android:orientation="vertical"
                 android:visibility="visible">
 
@@ -273,95 +353,6 @@
 
 
 
-
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/search_parentview"
-                android:visibility="invisible"
-                android:layout_marginBottom="@dimen/v_90dp">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/v_380dp"
-                    android:layout_centerInParent="true"
-                    android:id="@+id/ppp">
-
-
-                    <RelativeLayout
-                        android:id="@+id/ppp_child"
-                        android:layout_width="match_parent"
-                        android:layout_height="@dimen/v_380dp"
-                        android:layout_centerHorizontal="true">
-
-
-                        <View
-                            android:id="@+id/circle_out"
-                            android:layout_width="@dimen/v_280dp"
-                            android:layout_height="@dimen/v_280dp"
-                            android:layout_centerInParent="true"
-                            android:background="@drawable/circle_out" />
-
-
-                        <RelativeLayout
-                            android:layout_width="@dimen/v_238dp"
-                            android:layout_height="@dimen/v_238dp"
-                            android:layout_centerInParent="true">
-
-
-                            <View
-                                android:id="@+id/alphaview"
-                                android:layout_width="@dimen/v_238dp"
-                                android:layout_height="@dimen/v_238dp"
-                                android:background="@drawable/circle_search"
-                                android:visibility="invisible" />
-
-
-                            <View
-                                android:id="@+id/circle_in"
-                                android:layout_width="@dimen/v_238dp"
-                                android:layout_height="@dimen/v_238dp"
-                                android:background="@drawable/circle_in" />
-
-
-                        </RelativeLayout>
-
-
-                    </RelativeLayout>
-
-                </RelativeLayout>
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/v_380dp"
-                    android:layout_centerInParent="true">
-
-                    <TextView
-                        style="@style/Font_Bold_17"
-                        android:textSize="@dimen/v_17dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="@dimen/v_50dp"
-                        android:layout_marginLeft="@dimen/v_50dp"
-                        android:paddingTop="@dimen/v_16dp"
-                        android:paddingBottom="@dimen/v_16dp"
-                        android:layout_centerInParent="true"
-                        android:textColor="@color/color_ffffff"
-                        android:background="@drawable/auto_txt"
-                        android:id="@+id/auto_guideview"
-                        android:gravity="center" />
-                </RelativeLayout>
-
-
-
-
-            </RelativeLayout>
-
-
-
-
-
-
             <LinearLayout
                 android:id="@+id/eyemode_image_menu"
                 android:layout_width="wrap_content"
@@ -370,7 +361,7 @@
                 android:visibility="visible"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
-                android:layout_marginBottom="@dimen/v_40dp">
+                android:layout_marginBottom="@dimen/v_20dp">
 
 
                 <LinearLayout
@@ -489,16 +480,25 @@
 
                 </LinearLayout>
 
-
-
-
-
             </LinearLayout>
 
 
-
-
-
+            <TextView
+                android:id="@+id/auto_guideview"
+                style="@style/Font_Bold_14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/v_20dp"
+                android:layout_marginLeft="@dimen/v_60dp"
+                android:layout_marginRight="@dimen/v_60dp"
+                android:background="@drawable/auto_txt"
+                android:gravity="center"
+                android:lineHeight="@dimen/v_25dp"
+                android:paddingTop="@dimen/v_16dp"
+                android:paddingBottom="@dimen/v_16dp"
+                android:textColor="@color/color_ffffff"
+                android:textSize="@dimen/v_15dp" />
 
         </RelativeLayout>
 
@@ -785,6 +785,7 @@
                 android:textSize="19dp"
                 android:textColor="@color/color_191919"
                 android:text="@string/joint_3"
+                android:id="@+id/joint_title"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="40dp"/>
 
