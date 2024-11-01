@@ -24,7 +24,6 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="80dp"
             android:layout_weight="1">
 
 
@@ -37,23 +36,25 @@
                 android:layout_width="226dp"
                 android:layout_height="226dp"
                 android:layout_centerInParent="true"
-                android:layout_marginTop="92dp"
                 android:background="@drawable/guide_skin_big" />
 
 
             <TextView
                 android:id="@+id/activity_guid_skin2_focus_ment"
-                style="@style/Font_Bold_14"
-                android:layout_width="wrap_content"
+                style="@style/Font_Bold_15"
+                android:layout_width="match_parent"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="40dp"
-                android:background="@drawable/round_16_blur"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/auto_txt"
                 android:gravity="center"
-                android:paddingLeft="36dp"
-                android:paddingTop="12dp"
-                android:paddingRight="36dp"
-                android:paddingBottom="12dp"
-                android:textColor="#ffffff" />
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:textColor="#ffffff"/>
+
+
+
 
 
         </RelativeLayout>

@@ -119,11 +119,7 @@
                         android:id="@+id/frame_position_view">
 
 
-                        <ImageView
-                            android:id="@+id/focusview"
-                            android:layout_width="203.4dp"
-                            android:layout_height="203.4dp"
-                            android:layout_centerInParent="true" />
+
 
 
                         <LinearLayout
@@ -183,6 +179,7 @@
                     android:layout_width="203.4dp"
                     android:layout_height="203.4dp"
                     android:layout_centerInParent="true"
+                    android:id="@+id/focusview"
                     android:background="@drawable/frame_basic" />
 
 

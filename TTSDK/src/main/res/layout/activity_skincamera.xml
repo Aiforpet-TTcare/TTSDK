@@ -119,11 +119,9 @@
                         android:id="@+id/frame_position_view">
 
                         <ImageView
-                            android:id="@+id/focusview"
                             android:layout_width="226dp"
                             android:layout_height="226dp"
                             android:layout_gravity="center_horizontal" />
-
 
                         <LinearLayout
                             android:id="@+id/camera_allow_view"
@@ -162,13 +160,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="1dp"
                                     android:background="@color/color_ffffff"  />
-
-
                             </LinearLayout>
 
-
                         </LinearLayout>
-
 
                     </RelativeLayout>
 
@@ -207,10 +201,8 @@
                     android:layout_width="226dp"
                     android:layout_height="226dp"
                     android:layout_centerInParent="true"
-                    android:background="@drawable/frame_basic" />
-
-
-
+                    android:background="@drawable/frame_basic"
+                    android:id="@+id/focusview"/>
 
 
                 <RelativeLayout
@@ -289,8 +281,6 @@
 
 
                 </RelativeLayout>
-
-
 
 
                 <TextView

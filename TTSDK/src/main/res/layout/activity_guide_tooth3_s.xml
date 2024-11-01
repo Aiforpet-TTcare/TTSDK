@@ -41,7 +41,7 @@
                 android:visibility="visible"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
-                android:layout_marginBottom="@dimen/v_40dp"
+                android:layout_marginBottom="@dimen/v_20dp"
                 android:id="@+id/a3">
 
 
@@ -94,7 +94,7 @@
                 android:layout_width="@dimen/v_68dp"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:layout_marginBottom="@dimen/v_28dp"
+                android:layout_marginBottom="@dimen/v_8dp"
                 android:layout_alignParentBottom="true">
 
                 <com.airbnb.lottie.LottieAnimationView

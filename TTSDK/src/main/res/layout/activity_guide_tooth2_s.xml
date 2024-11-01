@@ -23,8 +23,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:layout_marginBottom="@dimen/v_40dp">
+            android:layout_weight="1">
 
             <RelativeLayout
                 android:layout_width="match_parent"
