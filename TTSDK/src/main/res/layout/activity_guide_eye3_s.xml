@@ -20,11 +20,6 @@
             android:layout_height="@dimen/v_66dp">
 
 
-
-
-
-
-
         </RelativeLayout>
         <RelativeLayout
             android:layout_width="match_parent"
@@ -41,7 +36,7 @@
                 android:visibility="visible"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
-                android:layout_marginBottom="@dimen/v_40dp"
+                android:layout_marginBottom="@dimen/v_20dp"
                 android:id="@+id/a3">
 
 
@@ -50,12 +45,14 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="-2dp"
                     android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="@dimen/v_65dp"
                         android:layout_height="@dimen/v_27dp"
                         android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="2dp"
                         android:background="@drawable/bubble_edit"
                         android:id="@+id/guide3_bubble"/>
 
@@ -94,7 +91,7 @@
                 android:layout_width="@dimen/v_68dp"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:layout_marginBottom="@dimen/v_28dp"
+                android:layout_marginBottom="@dimen/v_8dp"
                 android:layout_alignParentBottom="true">
 
                 <com.airbnb.lottie.LottieAnimationView

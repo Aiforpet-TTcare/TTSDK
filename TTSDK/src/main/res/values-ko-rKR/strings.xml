@@ -260,7 +260,7 @@
     <string name="v4_pop_eye_3">왼쪽</string>
     <string name="v4_pop_eye_4">고양이 기준</string>
     <string name="v4_pop_eye_5">강아지 기준</string>
-    <string name="v4_pop_eye_6"><![CDATA[<b><font color=#1495f3>플래시를 사용</font>하면 더 명확한<br>결과를 제공해 드려요.</b>]]></string>
+    <string name="v4_pop_eye_6"><![CDATA[<b><font color=#1495f3>플래시를 사용</font></b>하면 더 명확한<br>결과를 제공해 드려요.]]></string>
     <string name="v4_pop_eye_7">일시적인 플래시 활성화가 동물에게 불편함을 유발할 순 있지만 건강상 위해를 미친다는 과학적 근거는 없어요. 불편함이 우려되면 플래시 입구에 얇은 종이를 덧대어주시면 도움이 될 수 있어요.</string>
     <string name="v4_pop_eye_8">시작하기</string>
 

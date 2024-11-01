@@ -9,8 +9,8 @@ android {
     defaultConfig {
         minSdk 21
         targetSdk 34
-        versionCode 35
-        versionName "1.7.8"
+        versionCode 36
+        versionName "1.7.9"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         ndkVersion '21.3.6528147'
@@ -150,6 +150,8 @@ dependencies {
     implementation 'org.tensorflow:tensorflow-lite-task-vision:0.3.0'
     implementation 'org.tensorflow:tensorflow-lite-metadata:0.3.0'
     implementation 'org.tensorflow:tensorflow-lite-gpu-delegate-plugin:0.3.0'
+
+
 
     implementation 'androidx.viewpager2:viewpager2:1.1.0-beta01'
     implementation files('libs/classes.jar')
