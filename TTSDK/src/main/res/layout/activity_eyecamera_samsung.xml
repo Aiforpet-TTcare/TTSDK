@@ -20,23 +20,23 @@
 
 
             <LinearLayout
+                android:id="@+id/petinfowview"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:orientation="horizontal"
                 android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
                 android:layout_marginRight="50dp"
-                android:id="@+id/petinfowview">
+                android:orientation="horizontal">
 
 
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/pet_photo_cardview"
                     android:layout_width="26dp"
                     android:layout_height="26dp"
+                    android:layout_gravity="center_vertical"
                     android:shape="ring"
                     app:cardCornerRadius="20dp"
                     app:cardElevation="0dp"
-                    android:layout_gravity="center_vertical"
                     app:cardPreventCornerOverlap="true">
 
                     <ImageView
@@ -49,16 +49,14 @@
 
 
                 <TextView
-                    style="@style/Title_Large"
-                    android:textSize="20dp"
-                    android:textStyle="bold"
-                    android:textColor="@color/color_191919"
                     android:id="@+id/pet_name"
+                    style="@style/Title_Large"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="8dp"
-                    android:layout_marginRight="120dp"/>
-
-
+                    android:layout_marginRight="120dp"
+                    android:textColor="@color/color_191919"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
 
 
             </LinearLayout>
@@ -75,17 +73,113 @@
                 android:textColor="@color/color_000000" />
 
         </RelativeLayout>
+
         <RelativeLayout
-            android:id="@+id/main_container"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/color_ffffff">
-
-           <androidx.camera.view.PreviewView
-                android:id="@+id/view_finder"
+            android:layout_weight="1">
+            <RelativeLayout
+                android:id="@+id/main_container"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:background="@color/color_ffffff">
+
+                <androidx.camera.view.PreviewView
+                    android:id="@+id/view_finder"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/camera_gradient" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/camera_gradient2" />
+
+
+
+
+
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/search_parentview"
+                    android:visibility="invisible">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="380dp"
+                        android:layout_centerInParent="true"
+                        android:id="@+id/ppp">
+
+
+                        <RelativeLayout
+                            android:id="@+id/ppp_child"
+                            android:layout_width="match_parent"
+                            android:layout_height="380dp"
+                            android:layout_centerHorizontal="true">
+
+                            <ImageView
+                                android:layout_width="147dp"
+                                android:layout_height="95dp"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/common_check_guide_right" />
+
+
+                            <View
+                                android:id="@+id/circle_out"
+                                android:layout_width="280dp"
+                                android:layout_height="280dp"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/circle_out" />
+
+
+                            <RelativeLayout
+                                android:layout_width="223dp"
+                                android:layout_height="223dp"
+                                android:layout_centerInParent="true">
+
+
+                                <View
+                                    android:id="@+id/alphaview"
+                                    android:layout_width="223dp"
+                                    android:layout_height="223dp"
+                                    android:background="@drawable/circle_search"
+                                    android:visibility="invisible" />
+
+
+                                <View
+                                    android:id="@+id/circle_in"
+                                    android:layout_width="223dp"
+                                    android:layout_height="223dp"
+                                    android:background="@drawable/circle_in" />
+
+
+                            </RelativeLayout>
+
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/circle_out2"
+                    android:layout_width="280dp"
+                    android:layout_height="280dp"
+                    android:layout_centerInParent="true" />
+
+
+            </RelativeLayout>
 
 
             <RelativeLayout
@@ -106,18 +200,6 @@
                     android:background="#af000000" />
             </RelativeLayout>
 
-
-
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/camera_gradient" />
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/camera_gradient2" />
 
 
             <RelativeLayout
@@ -199,8 +281,6 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="120dp"
                 android:orientation="vertical"
                 android:visibility="visible">
 
@@ -258,105 +338,7 @@
 
                 </RelativeLayout>
 
-
-
-
-
-
             </RelativeLayout>
-
-
-
-
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/search_parentview"
-                android:visibility="invisible"
-                android:layout_marginBottom="90dp">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="380dp"
-                    android:layout_centerInParent="true"
-                    android:id="@+id/ppp">
-
-
-                    <RelativeLayout
-                        android:id="@+id/ppp_child"
-                        android:layout_width="match_parent"
-                        android:layout_height="380dp"
-                        android:layout_centerHorizontal="true">
-
-                        <ImageView
-                            android:layout_width="160dp"
-                            android:layout_height="107dp"
-                            android:layout_centerInParent="true"
-                            android:background="@drawable/common_check_guide_right" />
-
-
-                        <View
-                            android:id="@+id/circle_out"
-                            android:layout_width="280dp"
-                            android:layout_height="280dp"
-                            android:layout_centerInParent="true"
-                            android:background="@drawable/circle_out" />
-
-
-                        <RelativeLayout
-                            android:layout_width="238dp"
-                            android:layout_height="238dp"
-                            android:layout_centerInParent="true">
-
-
-                            <View
-                                android:id="@+id/alphaview"
-                                android:layout_width="238dp"
-                                android:layout_height="238dp"
-                                android:background="@drawable/circle_search"
-                                android:visibility="invisible" />
-
-
-                            <View
-                                android:id="@+id/circle_in"
-                                android:layout_width="238dp"
-                                android:layout_height="238dp"
-                                android:background="@drawable/circle_in" />
-
-
-                        </RelativeLayout>
-
-
-                    </RelativeLayout>
-
-                </RelativeLayout>
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="380dp"
-                    android:layout_centerInParent="true">
-
-                    <TextView
-                        style="@style/Font_Bold_17"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="50dp"
-                        android:layout_marginLeft="50dp"
-                        android:paddingTop="16dp"
-                        android:paddingBottom="16dp"
-                        android:layout_centerInParent="true"
-                        android:textColor="@color/color_ffffff"
-                        android:background="@drawable/auto_txt"
-                        android:id="@+id/auto_guideview"
-                        android:gravity="center" />
-                </RelativeLayout>
-
-
-
-
-            </RelativeLayout>
-
-
 
 
 
@@ -369,7 +351,7 @@
                 android:visibility="visible"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
-                android:layout_marginBottom="40dp">
+                android:layout_marginBottom="20dp">
 
 
                 <LinearLayout
@@ -460,14 +442,12 @@
                 <LinearLayout
                     android:layout_width="68dp"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_marginLeft="-3dp">
+                    android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/bubble_edit"
                         android:layout_width="65dp"
                         android:layout_height="27dp"
-                        android:layout_marginLeft="3dp"
                         android:background="@drawable/bubble_edit_blue" />
 
                     <com.google.android.material.card.MaterialCardView
@@ -498,7 +478,21 @@
 
             </LinearLayout>
 
-
+            <TextView
+                android:id="@+id/auto_guideview"
+                style="@style/Font_Bold_15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="60dp"
+                android:background="@drawable/auto_txt"
+                android:gravity="center"
+                android:lineHeight="25dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:textColor="@color/color_ffffff" />
 
 
 
@@ -512,20 +506,17 @@
             android:background="@color/color_ffffff">
 
 
-
-
-
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
-                android:orientation="horizontal"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="40.5dp">
+                android:layout_marginTop="40.5dp"
+                android:orientation="horizontal">
 
                 <RelativeLayout
+                    android:id="@+id/flash_btn"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:id="@+id/flash_btn"
                     android:layout_gravity="center_vertical">
 
                     <ImageView
@@ -538,7 +529,6 @@
                 </RelativeLayout>
 
 
-
                 <RelativeLayout
                     android:layout_width="126dp"
                     android:layout_height="100dp">
@@ -549,14 +539,13 @@
                         android:layout_width="73dp"
                         android:layout_height="73dp"
                         android:layout_centerInParent="true"
+                        android:layout_centerHorizontal="true"
                         android:animateLayoutChanges="true"
                         android:visibility="visible"
                         app:cardBackgroundColor="@android:color/transparent"
                         app:cardCornerRadius="37.65dp"
                         app:cardElevation="6dp"
-                        app:cardPreventCornerOverlap="true"
-                        android:layout_centerHorizontal="true">
-
+                        app:cardPreventCornerOverlap="true">
 
 
                         <ImageView
@@ -572,16 +561,11 @@
                             android:layout_height="73dp"
                             android:layout_centerInParent="true"
                             android:animateLayoutChanges="true"
-                            android:visibility="gone"
-                            android:background="@drawable/capture_on_blue" />
-
-
-
-
+                            android:background="@drawable/capture_on_blue"
+                            android:visibility="gone" />
 
 
                     </com.google.android.material.card.MaterialCardView>
-
 
 
                     <com.google.android.material.card.MaterialCardView
@@ -620,14 +604,10 @@
                                 android:rotationY="-180" />
 
 
-
-
                         </RelativeLayout>
 
 
                     </com.google.android.material.card.MaterialCardView>
-
-
 
 
                     <com.google.android.material.card.MaterialCardView
@@ -643,25 +623,22 @@
                         app:cardPreventCornerOverlap="true">
 
                         <ImageView
+                            android:id="@+id/camera_lens_btn"
                             android:layout_width="118dp"
                             android:layout_height="47dp"
-                            android:background="@drawable/common_check_cam_result_blue"
-                            android:id="@+id/camera_lens_btn" />
-
+                            android:background="@drawable/common_check_cam_result_blue" />
 
 
                     </com.google.android.material.card.MaterialCardView>
-
-
 
 
                 </RelativeLayout>
 
 
                 <RelativeLayout
+                    android:id="@+id/front_change_btn"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:id="@+id/front_change_btn"
                     android:layout_gravity="center_vertical">
 
                     <ImageView
@@ -674,44 +651,40 @@
                 </RelativeLayout>
 
 
-
             </LinearLayout>
 
 
             <LinearLayout
+                android:id="@+id/guide_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
-                android:orientation="horizontal"
-                android:layout_centerHorizontal="true"
                 android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
                 android:layout_marginBottom="31dp"
-                android:id="@+id/guide_btn"
                 android:background="@drawable/round_radius_15_49494e"
-                android:paddingRight="12dp"
-                android:paddingLeft="16dp">
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingRight="12dp">
 
                 <ImageView
                     android:layout_width="11dp"
                     android:layout_height="12dp"
-                    android:background="@drawable/common_2_icon_check_guide_f"
-                    android:layout_gravity="center_vertical"/>
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/common_2_icon_check_guide_f" />
 
 
                 <TextView
                     style="@style/Font_Regular_13"
-                    android:textColor="@color/color_ffffff"
-                    android:text="@string/eye_check_3"
+                    android:layout_gravity="center_vertical"
                     android:layout_marginLeft="5dp"
-                    android:layout_gravity="center_vertical"/>
-
-
+                    android:text="@string/eye_check_3"
+                    android:textColor="@color/color_ffffff" />
 
 
             </LinearLayout>
 
 
         </RelativeLayout>
-
 
 
     </LinearLayout>
@@ -780,6 +753,7 @@
                 android:textSize="19dp"
                 android:textColor="@color/color_111111"
                 android:text="@string/joint_3"
+                android:id="@+id/joint_title"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="40dp"/>
 

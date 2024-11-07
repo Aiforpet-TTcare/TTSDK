@@ -76,17 +76,17 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="@dimen/v_64dp"
+                    android:layout_width="@dimen/v_68dp"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
                     <RelativeLayout
-                        android:layout_width="@dimen/v_64dp"
+                        android:layout_width="@dimen/v_65dp"
                         android:layout_height="@dimen/v_27dp" >
 
                         <ImageView
                             android:id="@+id/guide3_bubble"
-                            android:layout_width="@dimen/v_64dp"
+                            android:layout_width="@dimen/v_65dp"
                             android:layout_height="@dimen/v_27dp"
                             android:layout_alignParentBottom="true"
                             android:layout_centerHorizontal="true"

@@ -48,9 +48,8 @@
 
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="68dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="-3dp"
                     android:orientation="vertical">
 
                     <ImageView
@@ -58,7 +57,6 @@
                         android:layout_height="27dp"
                         android:layout_gravity="center_horizontal"
                         android:background="@drawable/bubble_edit"
-                        android:layout_marginLeft="3dp"
                         android:id="@+id/guide3_bubble"/>
 
                     <com.google.android.material.card.MaterialCardView

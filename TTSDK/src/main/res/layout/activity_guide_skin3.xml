@@ -76,16 +76,16 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="64dp"
+                    android:layout_width="68dp"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
                     <RelativeLayout
-                        android:layout_width="64dp"
+                        android:layout_width="65dp"
                         android:layout_height="27dp" >
 
                         <ImageView
-                            android:layout_width="64dp"
+                            android:layout_width="65dp"
                             android:layout_height="27dp"
                             android:layout_alignParentBottom="true"
                             android:layout_centerHorizontal="true"

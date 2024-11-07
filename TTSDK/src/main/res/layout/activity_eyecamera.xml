@@ -444,14 +444,12 @@
                 <LinearLayout
                     android:layout_width="68dp"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_marginLeft="-3dp">
+                    android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/bubble_edit"
                         android:layout_width="65dp"
                         android:layout_height="27dp"
-                        android:layout_marginLeft="3dp"
                         android:background="@drawable/bubble_edit" />
 
                     <com.google.android.material.card.MaterialCardView
