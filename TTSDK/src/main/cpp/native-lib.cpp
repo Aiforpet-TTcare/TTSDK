@@ -373,10 +373,10 @@ Java_com_aiforpet_pet_activity_check_ToothCameraActivity_extractAndResizeBitmapT
     float squareSize = fmax(right - left, bottom - top);
     float centerX = (left + right) / 2;
     float centerY = (top + bottom) / 2;
-    float newLeft = centerX - squareSize * 0.4f;
-    float newTop = centerY - squareSize * 0.4f;
-    float newRight = centerX + squareSize * 0.4f;
-    float newBottom = centerY + squareSize * 0.4f;
+    float newLeft = centerX - squareSize * 0.2f;
+    float newTop = centerY - squareSize * 0.2f;
+    float newRight = centerX + squareSize * 0.2f;
+    float newBottom = centerY + squareSize * 0.2f;
 
     if (newRight > info.width) {
         newLeft -= (newRight - info.width);
