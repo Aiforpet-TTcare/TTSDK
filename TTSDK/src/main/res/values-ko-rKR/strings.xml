@@ -22,15 +22,15 @@
     <string name="camera_complete1">우리 아이의 건강 상태를\n확인하러 가볼까요?</string>
     <string name="camera_complete2">하단의 사진을 누르면 확대해서 볼 수 있어요</string>
 
-    <string name="focus_skin1"><![CDATA[<font color=#fee34c>귀를 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
-    <string name="focus_skin2"><![CDATA[<font color=#fee34c>몸통을 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
-    <string name="focus_skin3"><![CDATA[<font color=#fee34c>발을 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
-    <string name="focus_skin4"><![CDATA[<font color=#fee34c>기타 부위를 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
+    <string name="focus_skin1"><![CDATA[<font color=#fee34c><b>귀를 가이드 영역에</b></font> 맞춘 후 촬영해 주세요]]></string>
+    <string name="focus_skin2"><![CDATA[<font color=#fee34c><b>몸통을 가이드 영역에</b></font> 맞춘 후 촬영해 주세요]]></string>
+    <string name="focus_skin3"><![CDATA[<font color=#fee34c><b>발을 가이드 영역에</b></font> 맞춘 후 촬영해 주세요]]></string>
+    <string name="focus_skin4"><![CDATA[<font color=#fee34c><b>기타 부위를 가이드 영역에</b></font> 맞춘 후 촬영해 주세요]]></string>
 
-    <string name="focus_skin1_blue"><![CDATA[<font color=#75c3ff>귀를 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
-    <string name="focus_skin2_blue"><![CDATA[<font color=#75c3ff>몸통을 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
-    <string name="focus_skin3_blue"><![CDATA[<font color=#75c3ff>발을 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
-    <string name="focus_skin4_blue"><![CDATA[<font color=#75c3ff>기타 부위를 가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
+    <string name="focus_skin1_blue"><![CDATA[<font color=#75c3ff><b>귀를 가이드 영역에</b></font> 맞춘 후 촬영해 주세요]]></string>
+    <string name="focus_skin2_blue"><![CDATA[<font color=#75c3ff><b>몸통을 가이드 영역에</b></font> 맞춘 후 촬영해 주세요]]></string>
+    <string name="focus_skin3_blue"><![CDATA[<font color=#75c3ff><b>발을 가이드 영역에</b></font> 맞춘 후 촬영해 주세요]]></string>
+    <string name="focus_skin4_blue"><![CDATA[<font color=#75c3ff><b>기타 부위를 가이드 영역에</b></font> 맞춘 후 촬영해 주세요]]></string>
 
 
     <string name="joint_1"><![CDATA[<font color=#fee34c>가이드 영역에</font> 맞춘 후 촬영해 주세요]]></string>
@@ -547,11 +547,16 @@
     <string name="tooth_model1_4"><![CDATA[<font color=#fee34c>강아지 치아를</font> 촬영해 주세요]]></string>
     <string name="tooth_model1_5"><![CDATA[<font color=#fee34c>고양이 치아를</font> 촬영해 주세요]]></string>
 
+
+
     <string name="tooth_model2_1"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
-    <string name="tooth_model2_2"><![CDATA[<font color=#fee34c>치아가 보이게</font> 촬영해 주세요]]></string>
-    <string name="tooth_model2_3"><![CDATA[<font color=#fee34c>밝은 환경에서</font> 촬영해 주세요]]></string>
-    <string name="tooth_model2_4"><![CDATA[<font color=#fee34c>더 가까이에서</font> 촬영해 주세요]]></string>
-    <string name="tooth_model2_5"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
+    <string name="tooth_model2_2"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
+    <string name="tooth_model2_3"><![CDATA[<font color=#fee34c>강아지 치아를</font> 촬영해 주세요]]></string>
+    <string name="tooth_model2_4"><![CDATA[<font color=#fee34c>고양이 치아를</font> 촬영해 주세요]]></string>
+    <string name="tooth_model2_5"><![CDATA[<font color=#fee34c>치아를 가리는 털을</font> 정리 후 촬영해주세요]]></string>
+
+
+
 
     <string name="tooth_model3_1"><![CDATA[<font color=#fee34c>정면 치아가</font> 아니에요]]></string>
     <string name="tooth_model3_2"><![CDATA[<font color=#fee34c>오른쪽 치아가</font> 아니에요]]></string>
@@ -559,6 +564,7 @@
     <string name="tooth_model3_4"><![CDATA[<font color=#fee34c>더 가까이에서</font> 촬영해 주세요]]></string>
 
     <string name="tooth_model4_1"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
+
 
 
     <!--눈-->
@@ -591,10 +597,10 @@
     <string name="tooth_model1_5_blue"><![CDATA[<font color=#75c3ff>고양이 치아를</font> 촬영해 주세요]]></string>
 
     <string name="tooth_model2_1_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
-    <string name="tooth_model2_2_blue"><![CDATA[<font color=#75c3ff>치아가 보이게</font> 촬영해 주세요]]></string>
-    <string name="tooth_model2_3_blue"><![CDATA[<font color=#75c3ff>밝은 환경에서</font> 촬영해 주세요]]></string>
-    <string name="tooth_model2_4_blue"><![CDATA[<font color=#75c3ff>더 가까이에서</font> 촬영해 주세요]]></string>
-    <string name="tooth_model2_5_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
+    <string name="tooth_model2_2_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
+    <string name="tooth_model2_3_blue"><![CDATA[<font color=#75c3ff>강아지 치아를</font> 촬영해 주세요]]></string>
+    <string name="tooth_model2_4_blue"><![CDATA[<font color=#75c3ff>강아지 치아를</font> 촬영해 주세요]]></string>
+    <string name="tooth_model2_5_blue"><![CDATA[<font color=#75c3ff>치아를 가리는 털을</font> 정리 후 촬영해주세요]]></string>
 
     <string name="tooth_model3_1_blue"><![CDATA[<font color=#75c3ff>정면 치아가</font> 아니에요]]></string>
     <string name="tooth_model3_2_blue"><![CDATA[<font color=#75c3ff>오른쪽 치아가</font> 아니에요]]></string>
@@ -602,5 +608,15 @@
     <string name="tooth_model3_4_blue"><![CDATA[<font color=#75c3ff>더 가까이에서</font> 촬영해 주세요]]></string>
 
     <string name="tooth_model4_1_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
+
+
+    <string name="complete_1">확인</string>
+    <string name="complete_2">촬영한 영상이\n전송되었어요.</string>
+    <string name="complete_3">촬영한 사진이\n전송되었어요.</string>
+    <string name="complete_4">다른 피부 부위도 촬영하시나요?</string>
+    <string name="complete_5"><![CDATA[<font color=#368df5>%s회</font> 더 촬영할 수 있어요.]]></string>
+    <string name="complete_6">다른 부위 촬영</string>
+    <string name="complete_7">촬영 종료</string>
+
 
 </resources>

@@ -262,7 +262,7 @@
             android:layout_width="200dp"
             android:layout_height="48dp"
             android:layout_alignParentBottom="true"
-            android:text="test send" />
+            android:text="분석" />
 
     </RelativeLayout>
 

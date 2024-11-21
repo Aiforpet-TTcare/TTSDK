@@ -680,6 +680,10 @@
 
     <include layout="@layout/activity_guide_skin5" />
 
+    <include layout="@layout/send_complete" />
+    <include layout="@layout/send_complete_skin" />
+
+
     <View
         android:id="@+id/notclickview"
         android:layout_width="match_parent"

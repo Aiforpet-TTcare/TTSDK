@@ -531,10 +531,10 @@
     <string name="tooth_model1_5"><![CDATA[Scan <font color=#fee34c>cat\'s teeth</font>]]></string>
 
     <string name="tooth_model2_1"><![CDATA[Please <font color=#fee34c>focus</font>]]></string>
-    <string name="tooth_model2_2"><![CDATA[Teeth <font color=#fee34c>has to be</font> shown]]></string>
-    <string name="tooth_model2_3"><![CDATA[Scan <font color=#fee34c>in a bright environment</font>]]></string>
-    <string name="tooth_model2_4"><![CDATA[Take a <font color=#fee34c>closer</font> picture]]></string>
-    <string name="tooth_model2_5"><![CDATA[Please <font color=#fee34c>focus</font>]]></string>
+    <string name="tooth_model2_2"><![CDATA[Please <font color=#fee34c>focus</font>]]></string>
+    <string name="tooth_model2_3"><![CDATA[Scan <font color=#fee34c>dog\'s teeth</font>]]></string>
+    <string name="tooth_model2_4"><![CDATA[Scan <font color=#fee34c>dog\'s teeth</font>]]></string>
+    <string name="tooth_model2_5"><![CDATA[Please <font color=#fee34c>part the fur</font> covering the teeth<br>before taking the photo]]></string>
 
     <string name="tooth_model3_1"><![CDATA[Not <font color=#fee34c>front teeth</font>]]></string>
     <string name="tooth_model3_2"><![CDATA[Not <font color=#fee34c>right teeth</font>]]></string>
@@ -575,10 +575,10 @@
     <string name="tooth_model1_5_blue"><![CDATA[Scan <font color=#75c3ff>cat\'s teeth</font>]]></string>
 
     <string name="tooth_model2_1_blue"><![CDATA[Please <font color=#75c3ff>focus</font>]]></string>
-    <string name="tooth_model2_2_blue"><![CDATA[Teeth <font color=#75c3ff>has to be</font> shown]]></string>
-    <string name="tooth_model2_3_blue"><![CDATA[Scan <font color=#75c3ff>in a bright environment</font>]]></string>
-    <string name="tooth_model2_4_blue"><![CDATA[Take a <font color=#75c3ff>closer</font> picture]]></string>
-    <string name="tooth_model2_5_blue"><![CDATA[Please <font color=#75c3ff>focus</font>]]></string>
+    <string name="tooth_model2_2_blue"><![CDATA[Please <font color=#75c3ff>focus</font>]]></string>
+    <string name="tooth_model2_3_blue"><![CDATA[Scan <font color=#75c3ff>dog\'s teeth</font>]]></string>
+    <string name="tooth_model2_4_blue"><![CDATA[Scan <font color=#75c3ff>dog\'s teeth</font>]]></string>
+    <string name="tooth_model2_5_blue"><![CDATA[Please <font color=#75c3ff>part the fur</font> covering the teeth<br>before taking the photo]]></string>
 
     <string name="tooth_model3_1_blue"><![CDATA[Not <font color=#75c3ff>front teeth</font>]]></string>
     <string name="tooth_model3_2_blue"><![CDATA[Not <font color=#75c3ff>right teeth</font>]]></string>
@@ -586,5 +586,13 @@
     <string name="tooth_model3_4_blue"><![CDATA[Take a <font color=#75c3ff>closer</font> picture]]></string>
 
     <string name="tooth_model4_1_blue"><![CDATA[Please <font color=#75c3ff>focus</font>]]></string>
+
+    <string name="complete_1">Confirm</string>
+    <string name="complete_2">The video has been sent.</string>
+    <string name="complete_3">The photo has been sent.</string>
+    <string name="complete_4">Are you also taking pictures of other skin areas?</string>
+    <string name="complete_5"><![CDATA[You can take <font color=#368df5>%s</font> more pictures.]]></string>
+    <string name="complete_6">Capture another area</string>
+    <string name="complete_7">End session</string>
 
 </resources>
