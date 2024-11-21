@@ -172,7 +172,7 @@
 
     <string name="auto_camera3_1"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
     <string name="auto_camera3_2"><![CDATA[<font color=#fee34c>눈뜬 상태를</font> 촬영해 주세요]]></string>
-    <string name="auto_camera3_3"><![CDATA[<font color=#fee34c>눈에 털을 정리 후</font> 촬영해 주세요]]></string>
+    <string name="auto_camera3_3"><![CDATA[<font color=#fee34c>눈을 가리는 털을 정리 후</font> 촬영해 주세요]]></string>
     <string name="auto_camera3_4"><![CDATA[<font color=#fee34c>적목현상</font> 시 건강 체크가 어려워요]]></string>
     <string name="auto_camera3_5"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
 
@@ -180,7 +180,7 @@
 
     <string name="auto_camera3_1_tooth"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
     <string name="auto_camera3_2_tooth"><![CDATA[<font color=#fee34c>눈뜬 상태를</font> 촬영해 주세요]]></string>
-    <string name="auto_camera3_3_tooth"><![CDATA[<font color=#fee34c>눈에 털을 정리 후</font> 촬영해 주세요]]></string>
+    <string name="auto_camera3_3_tooth"><![CDATA[<font color=#fee34c>눈을 가리는 털을 정리 후</font> 촬영해 주세요]]></string>
     <string name="auto_camera3_4_tooth"><![CDATA[<font color=#fee34c>더 가까이에서</font> 촬영해 주세요]]></string>
     <string name="auto_camera3_4_tooth_blue"><![CDATA[<font color=#75c3ff>더 가까이에서</font> 촬영해 주세요]]></string>
 
@@ -191,14 +191,14 @@
 
     <string name="auto_camera3_1_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
     <string name="auto_camera3_2_blue"><![CDATA[<font color=#75c3ff>눈뜬 상태를</font> 촬영해 주세요]]></string>
-    <string name="auto_camera3_3_blue"><![CDATA[<font color=#75c3ff>눈에 털을 정리 후</font> 촬영해 주세요]]></string>
+    <string name="auto_camera3_3_blue"><![CDATA[<font color=#75c3ff>눈을 가리는 털을 정리 후</font> 촬영해 주세요]]></string>
     <string name="auto_camera3_4_blue"><![CDATA[<font color=#75c3ff>적목현상</font> 시 건강 체크가 어려워요]]></string>
     <string name="auto_camera3_5_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
 
 
     <string name="auto_camera3_1_blue_tooth"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
     <string name="auto_camera3_2_blue_tooth"><![CDATA[<font color=#75c3ff>눈뜬 상태를</font> 촬영해 주세요]]></string>
-    <string name="auto_camera3_3_blue_tooth"><![CDATA[<font color=#75c3ff>눈에 털을 정리 후</font> 촬영해 주세요]]></string>
+    <string name="auto_camera3_3_blue_tooth"><![CDATA[<font color=#75c3ff>눈을 가리는 털을 정리 후</font> 촬영해 주세요]]></string>
     <string name="auto_camera3_4_blue_tooth"><![CDATA[<font color=#75c3ff>적목현상</font> 시 건강 체크가 어려워요]]></string>
     <string name="auto_camera3_5_blue_tooth"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
 
@@ -531,7 +531,7 @@
 
     <string name="eye_model3_1"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
     <string name="eye_model3_2"><![CDATA[<font color=#fee34c>눈뜬 상태를</font> 촬영해 주세요]]></string>
-    <string name="eye_model3_3"><![CDATA[<font color=#fee34c>눈에 털을 정리 후</font> 촬영해 주세요]]></string>
+    <string name="eye_model3_3"><![CDATA[<font color=#fee34c>눈을 가리는 털을 정리 후</font> 촬영해 주세요]]></string>
     <string name="eye_model3_4"><![CDATA[<font color=#fee34c>적목현상</font> 시 건강 체크가 어려워요]]></string>
     <string name="eye_model3_5"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
 
@@ -580,7 +580,9 @@
 
     <string name="eye_model3_1_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
     <string name="eye_model3_2_blue"><![CDATA[<font color=#75c3ff>눈뜬 상태를</font> 촬영해 주세요]]></string>
-    <string name="eye_model3_3_blue"><![CDATA[<font color=#75c3ff>눈에 털을 정리 후</font> 촬영해 주세요]]></string>
+    <string name="eye_model3_3_blue"><![CDATA[<font color=#75c3ff>눈을 가리는 털을 정리 후</font> 촬영해 주세요]]></string>
+
+
     <string name="eye_model3_4_blue"><![CDATA[<font color=#75c3ff>적목현상</font> 시 건강 체크가 어려워요]]></string>
     <string name="eye_model3_5_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
 

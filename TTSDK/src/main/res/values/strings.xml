@@ -170,14 +170,16 @@
 
     <string name="auto_camera3_1"><![CDATA[Please <font color=#fee34c>focus</font>]]></string>
     <string name="auto_camera3_2"><![CDATA[<font color=#fee34c>Eyes</font> should be <font color=#fee34c>open</font>]]></string>
-    <string name="auto_camera3_3"><![CDATA[Please <font color=#fee34c>tidy up</font> the eyes and re-shoot]]></string>
+    <string name="auto_camera3_3"><![CDATA[Please <font color=#fee34c>part the fur</font> covering the eyes before taking the photo]]></string>
+
+
     <string name="auto_camera3_4"><![CDATA[<font color=#fee34c>RED-EYE</font> is difficult to analyze]]></string>
     <string name="auto_camera3_5"><![CDATA[Please <font color=#fee34c>focus</font>]]></string>
 
 
     <string name="auto_camera3_1_tooth"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
     <string name="auto_camera3_2_tooth"><![CDATA[<font color=#fee34c>눈뜬 상태를</font> 촬영해 주세요]]></string>
-    <string name="auto_camera3_3_tooth"><![CDATA[<font color=#fee34c>눈에 털을 정리 후</font> 촬영해 주세요]]></string>
+    <string name="auto_camera3_3_tooth"><![CDATA[<font color=#fee34c>눈을 가리는 털을 정리 후</font> 촬영해 주세요]]></string>
     <string name="auto_camera3_4_tooth"><![CDATA[Take a <font color=#fee34c>closer</font> picture]]></string>
     <string name="auto_camera3_4_tooth_blue"><![CDATA[Take a <font color=#75c3ff>closer</font> picture]]></string>
 
@@ -188,14 +190,15 @@
 
     <string name="auto_camera3_1_blue"><![CDATA[Please <font color=#75c3ff>focus</font>]]></string>
     <string name="auto_camera3_2_blue"><![CDATA[<font color=#75c3ff>Eyes</font> should be <font color=#fee34c>open</font>]]></string>
-    <string name="auto_camera3_3_blue"><![CDATA[Please <font color=#75c3ff>tidy up</font> the eyes and re-shoot]]></string>
+    <string name="auto_camera3_3_blue"><![CDATA[Please <font color=#75c3ff>part the fur</font> covering the eyes before taking the photo]]></string>
+
     <string name="auto_camera3_4_blue"><![CDATA[<font color=#75c3ff>RED-EYE</font> is difficult to analyze]]></string>
     <string name="auto_camera3_5_blue"><![CDATA[Please <font color=#75c3ff>focus</font>]]></string>
 
 
     <string name="auto_camera3_1_blue_tooth"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
     <string name="auto_camera3_2_blue_tooth"><![CDATA[<font color=#75c3ff>눈뜬 상태를</font> 촬영해 주세요]]></string>
-    <string name="auto_camera3_3_blue_tooth"><![CDATA[<font color=#75c3ff>눈에 털을 정리 후</font> 촬영해 주세요]]></string>
+    <string name="auto_camera3_3_blue_tooth"><![CDATA[<font color=#75c3ff>눈을 가리는 털을 정리 후</font> 촬영해 주세요]]></string>
     <string name="auto_camera3_4_blue_tooth"><![CDATA[<font color=#75c3ff>적목현상</font> 시 건강 체크가 어려워요]]></string>
     <string name="auto_camera3_5_blue_tooth"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
 
@@ -361,7 +364,9 @@
     <string name="model_2_1"><![CDATA[Please <font color=#fee34c>focus</font>]]></string>
     <string name="model_2_2"><![CDATA[<font color=#fee34c>Eyes</font> should be <font color=#fee34c>open</font>]]></string>
     <string name="model_2_3"><![CDATA[Scan <font color=#fee34c>in a bright environment</font>]]></string>
-    <string name="model_2_4"><![CDATA[Please <font color=#fee34c>tidy up</font> the eyes and re-shoot]]></string>
+    <string name="model_2_4"><![CDATA[Please <font color=#fee34c>part the fur</font> covering the eyes before taking the photo]]></string>
+
+
     <string name="model_2_5"><![CDATA[Please <font color=#fee34c>focus</font>]]></string>
 
     <string name="model_3_1"><![CDATA[Not <font color=#fee34c>right eye</font>]]></string>
@@ -376,7 +381,9 @@
     <string name="model_2_1_blue"><![CDATA[Please <font color=#75c3ff>focus</font>]]></string>
     <string name="model_2_2_blue"><![CDATA[<font color=#75c3ff>Eyes</font> should be <font color=#fee34c>open</font>]]></string>
     <string name="model_2_3_blue"><![CDATA[Scan <font color=#75c3ff>in a bright environment</font>]]></string>
-    <string name="model_2_4_blue"><![CDATA[Please <font color=#75c3ff>tidy up</font> the eyes and re-shoot]]></string>
+    <string name="model_2_4_blue"><![CDATA[Please <font color=#75c3ff>part the fur</font> covering the eyes before taking the photo]]></string>
+
+
     <string name="model_2_5_blue"><![CDATA[Please <font color=#75c3ff>focus</font>]]></string>
 
     <string name="model_3_1_blue"><![CDATA[Not <font color=#75c3ff>right eye</font>]]></string>
@@ -486,13 +493,13 @@
     <string name="guide_joint_4"><![CDATA[<b>Step 1. Start filming from <font color=#428ae0>each end of your screen</font></b>]]></string>
     <string name="guide_joint_5">Have your dog start walking from the very left or very right of the screen</string>
     <string name="guide_joint_6"><![CDATA[<b>step 2. Tap the shutter button to <font color=#428ae0>start automatically.</font></b>]]></string>
-    <string name="guide_joint_7">Once AI registers how the dog is walking, the shaded area will change to blue.  After 3 seconds, the video will stop on its own. It may take up to 1–2 minutes for the video to be sent and analyzed.  Please wait patiently.</string>
+    <string name="guide_joint_7">Once AI registers how the dog is walking, the shaded area will change to blue.  After 3 seconds, the video will stop on its own. It may take up to 1-2 minutes for the video to be sent and analyzed.  Please wait patiently.</string>
     <string name="guide_joint_11">If they are having a hard time, take it easy</string>
     <string name="guide_joint_12">Don\'t overdo it if they keep avoiding you or having a hard time. Please take a rest and try again later.</string>
     <string name="guide_joint_13"><![CDATA[<b>Tip 1. Make sure you fix your smartphone and <font color=#428ae0>hold still.</font></b>]]></string>
     <string name="guide_joint_14">If someone is helping you out, just hold the smartphone still while having the dog walk straight from one corner to the other. If you are alone, use a tripod to hold your smartphone straight and still.</string>
     <string name="guide_joint_15"><![CDATA[<b>Tip 2. <font color=#428ae0>Give enough space.</font></b>]]></string>
-    <string name="guide_joint_16">Make sure your dog\'s full frame can easily fit into the screen.  For small, medium sized dogs, allow for about 4–5 steps in between.  For bigger dogs, allow for at least 6–10 steps in between.</string>
+    <string name="guide_joint_16">Make sure your dog\'s full frame can easily fit into the screen.  For small, medium sized dogs, allow for about 4-5 steps in between.  For bigger dogs, allow for at least 6-10 steps in between.</string>
     <string name="guide_joint_17"><![CDATA[<b>Tip 3. These videos are <font color=#428ae0>difficult to analyze.</font></b>]]></string>
     <string name="guide_joint_18">Make sure no one is blocking the dog. If there is more than one dog on the screen, it\'s difficult to analyze. One dog at a time.</string>
     <string name="guide_joint_19">Please do not block your dog.</string>
@@ -514,7 +521,9 @@
 
     <string name="eye_model3_1"><![CDATA[Please <font color=#fee34c>focus</font>]]></string>
     <string name="eye_model3_2"><![CDATA[<font color=#fee34c>Eyes</font> should be <font color=#fee34c>open</font>]]></string>
-    <string name="eye_model3_3"><![CDATA[Please <font color=#fee34c>tidy up</font> the eyes and re-shoot]]></string>
+    <string name="eye_model3_3"><![CDATA[Please <font color=#fee34c>part the fur</font> covering the eyes before taking the photo]]></string>
+
+
     <string name="eye_model3_4"><![CDATA[<font color=#fee34c>RED-EYE</font> is difficult to analyze]]></string>
     <string name="eye_model3_5"><![CDATA[Please <font color=#fee34c>focus</font>]]></string>
 
@@ -558,7 +567,7 @@
 
     <string name="eye_model3_1_blue"><![CDATA[Please <font color=#75c3ff>focus</font>]]></string>
     <string name="eye_model3_2_blue"><![CDATA[<font color=#75c3ff>Eyes</font> should be <font color=#fee34c>open</font>]]></string>
-    <string name="eye_model3_3_blue"><![CDATA[Please <font color=#75c3ff>tidy up</font> the eyes and re-shoot]]></string>
+    <string name="eye_model3_3_blue"><![CDATA[Please <font color=#75c3ff>part the fur</font> covering the eyes before taking the photo]]></string>
     <string name="eye_model3_4_blue"><![CDATA[<font color=#75c3ff>RED-EYE</font> is difficult to analyze]]></string>
     <string name="eye_model3_5_blue"><![CDATA[Please <font color=#75c3ff>focus</font>]]></string>
 
