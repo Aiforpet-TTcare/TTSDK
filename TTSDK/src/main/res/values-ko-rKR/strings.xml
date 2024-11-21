@@ -172,7 +172,7 @@
 
     <string name="auto_camera3_1"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
     <string name="auto_camera3_2"><![CDATA[<font color=#fee34c>눈뜬 상태를</font> 촬영해 주세요]]></string>
-    <string name="auto_camera3_3"><![CDATA[<font color=#fee34c>눈을 가리는 털을 정리 후</font> 촬영해 주세요]]></string>
+    <string name="auto_camera3_3"><![CDATA[<font color=#fee34c>눈을 가리는 털을</font> 정리 후 촬영해 주세요]]></string>
     <string name="auto_camera3_4"><![CDATA[<font color=#fee34c>적목현상</font> 시 건강 체크가 어려워요]]></string>
     <string name="auto_camera3_5"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
 
@@ -180,7 +180,7 @@
 
     <string name="auto_camera3_1_tooth"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
     <string name="auto_camera3_2_tooth"><![CDATA[<font color=#fee34c>눈뜬 상태를</font> 촬영해 주세요]]></string>
-    <string name="auto_camera3_3_tooth"><![CDATA[<font color=#fee34c>눈을 가리는 털을 정리 후</font> 촬영해 주세요]]></string>
+    <string name="auto_camera3_3_tooth"><![CDATA[<font color=#fee34c>눈을 가리는 털을</font> 정리 후 촬영해 주세요]]></string>
     <string name="auto_camera3_4_tooth"><![CDATA[<font color=#fee34c>더 가까이에서</font> 촬영해 주세요]]></string>
     <string name="auto_camera3_4_tooth_blue"><![CDATA[<font color=#75c3ff>더 가까이에서</font> 촬영해 주세요]]></string>
 
@@ -191,14 +191,14 @@
 
     <string name="auto_camera3_1_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
     <string name="auto_camera3_2_blue"><![CDATA[<font color=#75c3ff>눈뜬 상태를</font> 촬영해 주세요]]></string>
-    <string name="auto_camera3_3_blue"><![CDATA[<font color=#75c3ff>눈을 가리는 털을 정리 후</font> 촬영해 주세요]]></string>
+    <string name="auto_camera3_3_blue"><![CDATA[<font color=#75c3ff>눈을 가리는 털을</font> 정리 후 촬영해 주세요]]></string>
     <string name="auto_camera3_4_blue"><![CDATA[<font color=#75c3ff>적목현상</font> 시 건강 체크가 어려워요]]></string>
     <string name="auto_camera3_5_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
 
 
     <string name="auto_camera3_1_blue_tooth"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
     <string name="auto_camera3_2_blue_tooth"><![CDATA[<font color=#75c3ff>눈뜬 상태를</font> 촬영해 주세요]]></string>
-    <string name="auto_camera3_3_blue_tooth"><![CDATA[<font color=#75c3ff>눈을 가리는 털을 정리 후</font> 촬영해 주세요]]></string>
+    <string name="auto_camera3_3_blue_tooth"><![CDATA[<font color=#75c3ff>눈을 가리는 털을</font> 정리 후 촬영해 주세요]]></string>
     <string name="auto_camera3_4_blue_tooth"><![CDATA[<font color=#75c3ff>적목현상</font> 시 건강 체크가 어려워요]]></string>
     <string name="auto_camera3_5_blue_tooth"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
 
@@ -464,22 +464,22 @@
 
     <string name="guide_skin_4"><![CDATA[<b>Step 1. 건강 상태가 궁금한 <font color=#1495f3>피부를 선택해주세요.</font></b>]]></string>
     <string name="guide_skin_5">귓구멍, 몸통, 발 중 한 군데만 선택하거나 모두 다 선택할 수 있어요. 그외 다른 부분(얼굴, 귓바퀴, 귓등 등)의 상태가 궁금하다면 기타를 선택해 촬영을 진행해주세요.</string>
-    <string name="guide_skin_6"><![CDATA[<b>Step 2. 촬영 버튼을 눌러 <font color=#1495f3>직접 촬영해주세요.</font></b>]]></string>
+    <string name="guide_skin_6"><![CDATA[<b>Step 2. 촬영 버튼을 눌러 <font color=#1495f3>직접 촬영해 주세요.</font></b>]]></string>
     <string name="guide_skin_7">털이 피부를 가리거나 최대한 그림자가 생기지 않도록 주의해주세요.</string>
-    <string name="guide_skin_9">피부에 이물질이 있다면 깨끗이 닦아낸 후 촬영해주세요. 털이 많은 부분을 찍을 땐 물을 조금 묻히거나 손으로 털을 눕혀 피부가 잘 보이도록 해주세요. 피부는 플래시를 켜고 촬영해야 그림자 왜곡 없이 증상을 체크할 수 있어요. 특히 귀나 발가락 사이를 촬영 시 반드시 플래시를 켜고 진행해 주세요.</string>
+    <string name="guide_skin_9">피부에 이물질이 있다면 깨끗이 닦아낸 후 촬영해 주세요. 털이 많은 부분을 찍을 땐 물을 조금 묻히거나 손으로 털을 눕혀 피부가 잘 보이도록 해주세요. 피부는 플래시를 켜고 촬영해야 그림자 왜곡 없이 증상을 체크할 수 있어요. 특히 귀나 발가락 사이를 촬영 시 반드시 플래시를 켜고 진행해 주세요.</string>
 
 
-    <string name="guide_skin_12"><![CDATA[<b>Tip 1. <font color=#1495f3>귓바퀴 안쪽과 귓구멍이 보이도록</font> 촬영해주세요.</b>]]></string>
+    <string name="guide_skin_12"><![CDATA[<b>Tip 1. <font color=#1495f3>귓바퀴 안쪽과 귓구멍이 보이도록</font> 촬영해 주세요.</b>]]></string>
     <string name="guide_skin_13">귓구멍 및 귓바퀴가 털에 덮여있다면 손으로 털을 살짝 들어올려 주세요.</string>
 
-    <string name="guide_skin_14"><![CDATA[<b>Tip 2. <font color=#1495f3>발가락 사이 또는 발바닥</font>을 촬영해주세요.</b>]]></string>
-    <string name="guide_skin_15">발가락 사이 피부 중 증상이 두드러지게 나타나는 곳을, 발바닥에 증상이 있을 경우 패드 사이의 피부를 촬영해주세요.</string>
+    <string name="guide_skin_14"><![CDATA[<b>Tip 2. <font color=#1495f3>발가락 사이 또는 발바닥</font>을 촬영해 주세요.</b>]]></string>
+    <string name="guide_skin_15">발가락 사이 피부 중 증상이 두드러지게 나타나는 곳을, 발바닥에 증상이 있을 경우 패드 사이의 피부를 촬영해 주세요.</string>
 
     <string name="guide_skin_16"><![CDATA[<b>Tip 3. <font color=#1495f3>털이 피부를 가리지 않도록</font> 해주세요.</b>]]></string>
-    <string name="guide_skin_17">뒷 배경은 보이지 않고 피부만 나오도록 최대한 가까이에서 촬영해주세요.</string>
+    <string name="guide_skin_17">뒷 배경은 보이지 않고 피부만 나오도록 최대한 가까이에서 촬영해 주세요.</string>
 
     <string name="guide_skin_18">더 정확한 결과를 얻고 싶다면</string>
-    <string name="guide_skin_19">피부에 이물질이 있다면 깨끗이 닦아낸 후 촬영해주세요. 털이 많은 부분을 찍을 땐 물을 조금 묻히거나 손으로 털을 눕혀 피부가 잘 보이도록 해주세요. 피부는 플래시를 켜고 촬영해야 그림자 왜곡 없이 증상을 체크할 수 있어요. 특히 귀나 발가락 사이를 촬영 시 반드시 플래시를 켜고 진행해 주세요.</string>
+    <string name="guide_skin_19">피부에 이물질이 있다면 깨끗이 닦아낸 후 촬영해 주세요. 털이 많은 부분을 찍을 땐 물을 조금 묻히거나 손으로 털을 눕혀 피부가 잘 보이도록 해주세요. 피부는 플래시를 켜고 촬영해야 그림자 왜곡 없이 증상을 체크할 수 있어요. 특히 귀나 발가락 사이를 촬영 시 반드시 플래시를 켜고 진행해 주세요.</string>
 
 
 
@@ -531,7 +531,7 @@
 
     <string name="eye_model3_1"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
     <string name="eye_model3_2"><![CDATA[<font color=#fee34c>눈뜬 상태를</font> 촬영해 주세요]]></string>
-    <string name="eye_model3_3"><![CDATA[<font color=#fee34c>눈을 가리는 털을 정리 후</font> 촬영해 주세요]]></string>
+    <string name="eye_model3_3"><![CDATA[<font color=#fee34c>눈을 가리는 털을</font> 정리 후 촬영해 주세요]]></string>
     <string name="eye_model3_4"><![CDATA[<font color=#fee34c>적목현상</font> 시 건강 체크가 어려워요]]></string>
     <string name="eye_model3_5"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
 
@@ -553,7 +553,7 @@
     <string name="tooth_model2_2"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
     <string name="tooth_model2_3"><![CDATA[<font color=#fee34c>강아지 치아를</font> 촬영해 주세요]]></string>
     <string name="tooth_model2_4"><![CDATA[<font color=#fee34c>고양이 치아를</font> 촬영해 주세요]]></string>
-    <string name="tooth_model2_5"><![CDATA[<font color=#fee34c>치아를 가리는 털을</font> 정리 후 촬영해주세요]]></string>
+    <string name="tooth_model2_5"><![CDATA[<font color=#fee34c>치아를 가리는 털을</font> 정리 후 촬영해 주세요]]></string>
 
 
 
@@ -580,7 +580,7 @@
 
     <string name="eye_model3_1_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
     <string name="eye_model3_2_blue"><![CDATA[<font color=#75c3ff>눈뜬 상태를</font> 촬영해 주세요]]></string>
-    <string name="eye_model3_3_blue"><![CDATA[<font color=#75c3ff>눈을 가리는 털을 정리 후</font> 촬영해 주세요]]></string>
+    <string name="eye_model3_3_blue"><![CDATA[<font color=#75c3ff>눈을 가리는 털을</font> 정리 후 촬영해 주세요]]></string>
 
 
     <string name="eye_model3_4_blue"><![CDATA[<font color=#75c3ff>적목현상</font> 시 건강 체크가 어려워요]]></string>
@@ -602,7 +602,7 @@
     <string name="tooth_model2_2_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
     <string name="tooth_model2_3_blue"><![CDATA[<font color=#75c3ff>강아지 치아를</font> 촬영해 주세요]]></string>
     <string name="tooth_model2_4_blue"><![CDATA[<font color=#75c3ff>강아지 치아를</font> 촬영해 주세요]]></string>
-    <string name="tooth_model2_5_blue"><![CDATA[<font color=#75c3ff>치아를 가리는 털을</font> 정리 후 촬영해주세요]]></string>
+    <string name="tooth_model2_5_blue"><![CDATA[<font color=#75c3ff>치아를 가리는 털을</font> 정리 후 촬영해 주세요]]></string>
 
     <string name="tooth_model3_1_blue"><![CDATA[<font color=#75c3ff>정면 치아가</font> 아니에요]]></string>
     <string name="tooth_model3_2_blue"><![CDATA[<font color=#75c3ff>오른쪽 치아가</font> 아니에요]]></string>
