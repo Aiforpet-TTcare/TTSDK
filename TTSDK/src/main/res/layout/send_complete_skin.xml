@@ -31,7 +31,7 @@
 
             <TextView
                 android:id="@+id/complete_title_skin"
-                style="@style/Font_Bold_18"
+                style="@style/Font_Bold_16"
                 android:gravity="center"
                 android:text="@string/complete_4"
                 android:layout_gravity="center_horizontal"
@@ -39,7 +39,7 @@
 
             <TextView
                 android:id="@+id/complete_content_skin"
-                style="@style/Font_Bold_18"
+                style="@style/Font_Bold_15"
                 android:gravity="center"
                 android:layout_gravity="center_horizontal"
                 android:textColor="@color/color_191919"
@@ -60,7 +60,7 @@
                     android:layout_weight="1">
 
                     <TextView
-                        style="@style/Font_Bold_15"
+                        style="@style/Font_Bold_13"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
@@ -86,7 +86,7 @@
                     android:layout_weight="1">
 
                     <TextView
-                        style="@style/Font_Bold_15"
+                        style="@style/Font_Bold_13"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"

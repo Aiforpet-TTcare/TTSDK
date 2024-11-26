@@ -262,6 +262,8 @@
 
 
     <string name="v4_pop_skin_1">Check where?</string>
+    <string name="v4_pop_skin_1_vet">Please select only one area</string>
+
     <string name="v4_pop_skin_2">Ear</string>
     <string name="v4_pop_skin_3">(inner)</string>
     <string name="v4_pop_skin_4">Body</string>

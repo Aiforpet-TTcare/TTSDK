@@ -47,9 +47,10 @@
                 android:layout_marginTop="38dp"
                 android:gravity="center_horizontal"
                 android:lineHeight="26dp"
+                android:id="@+id/select_title"
                 android:text="@string/v4_pop_skin_1"
                 android:textColor="@color/color_191919"
-                android:textSize="19dp" />
+                android:textSize="16dp" />
 
 
 

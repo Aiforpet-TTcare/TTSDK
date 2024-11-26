@@ -49,7 +49,8 @@
                 android:lineHeight="@dimen/v_26dp"
                 android:text="@string/v4_pop_skin_1"
                 android:textColor="@color/color_191919"
-                android:textSize="@dimen/v_19dp" />
+                android:textSize="@dimen/v_16dp"
+                android:id="@+id/select_title"/>
 
 
 

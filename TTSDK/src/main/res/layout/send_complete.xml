@@ -31,7 +31,7 @@
 
             <TextView
                 android:id="@+id/complete_title"
-                style="@style/Font_Bold_18"
+                style="@style/Font_Bold_16"
                 android:gravity="center"
                 android:layout_gravity="center_horizontal"
                 android:textColor="@color/color_191919" />
@@ -46,7 +46,7 @@
                 app:cardCornerRadius="12dp">
 
                 <TextView
-                    style="@style/Font_Bold_15"
+                    style="@style/Font_Bold_14"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
