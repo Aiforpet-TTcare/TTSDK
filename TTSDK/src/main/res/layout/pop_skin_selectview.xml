@@ -402,7 +402,7 @@
                     android:layout_width="12dp"
                     android:layout_height="12dp"
                     android:background="@drawable/noti_light"
-                    android:layout_marginTop="3dp"/>
+                    android:layout_marginTop="1dp"/>
 
                 <TextView
                     style="@style/Font_Regular_13"

@@ -25,11 +25,9 @@
 
 
         <TextView
-            style="@style/PopTile"
+            style="@style/Font_Bold_14"
             android:textSize="19dp"
-
             android:id="@+id/bottom_select_guide_title"
-            android:maxLines="1"
             android:layout_width="match_parent"
             android:gravity="center_horizontal"
             android:layout_gravity="center_horizontal"

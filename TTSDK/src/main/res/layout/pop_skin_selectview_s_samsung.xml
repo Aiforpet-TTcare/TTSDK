@@ -407,7 +407,7 @@
                     android:layout_width="@dimen/v_12dp"
                     android:layout_height="@dimen/v_12dp"
                     android:background="@drawable/noti_light"
-                    android:layout_marginTop="@dimen/v_4dp"/>
+                    android:layout_marginTop="@dimen/v_1dp"/>
 
                 <TextView
                     style="@style/Font_Regular_13"
