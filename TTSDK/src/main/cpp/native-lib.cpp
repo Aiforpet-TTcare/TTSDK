@@ -110,11 +110,7 @@ Java_com_aiforpet_pet_activity_check_EyeCameraActivity_bitmapToByteBuffer(JNIEnv
             buffer[(y * width + x) * 3 + 1] = gf; // Green
             buffer[(y * width + x) * 3 + 2] = rf; // Red
 
-            if (y == 0 && x < 10) {
-                LOGD("Buffer value at index %d: %f", (y * width + x) * 3 + 0, bf);
-                LOGD("Buffer value at index %d: %f", (y * width + x) * 3 + 1, gf);
-                LOGD("Buffer value at index %d: %f", (y * width + x) * 3 + 2, rf);
-            }
+
         }
     }
 
@@ -238,20 +234,13 @@ Java_com_aiforpet_pet_activity_check_EyeCameraActivity_extractAndResizeBitmapToB
             buffer[(y * 320 + x) * 3 + 1] = gf;
             buffer[(y * 320 + x) * 3 + 2] = rf;
 
-            if (y == 0 && x < 10) {
-                LOGD("Buffer value at index %d: %f", (y * 320 + x) * 3 + 0, bf);
-                LOGD("Buffer value at index %d: %f", (y * 320 + x) * 3 + 1, gf);
-                LOGD("Buffer value at index %d: %f", (y * 320 + x) * 3 + 2, rf);
-            }
+
         }
     }
 
     AndroidBitmap_unlockPixels(env, bitmap);
     LOGD("Bitmap processing completed");
 
-    for (int i = 0; i < 30; i++) {
-        LOGD("Buffer value at index %d: %f", i, buffer[i]);
-    }
 
     return byteBuffer;
 }
@@ -320,11 +309,7 @@ Java_com_aiforpet_pet_activity_check_ToothCameraActivity_bitmapToByteBuffer(JNIE
             buffer[(y * width + x) * 3 + 1] = gf; // Green
             buffer[(y * width + x) * 3 + 2] = rf; // Red
 
-            if (y == 0 && x < 10) {
-                LOGD("Buffer value at index %d: %f", (y * width + x) * 3 + 0, bf);
-                LOGD("Buffer value at index %d: %f", (y * width + x) * 3 + 1, gf);
-                LOGD("Buffer value at index %d: %f", (y * width + x) * 3 + 2, rf);
-            }
+
         }
     }
 
@@ -333,10 +318,7 @@ Java_com_aiforpet_pet_activity_check_ToothCameraActivity_bitmapToByteBuffer(JNIE
 
     LOGD("Bitmap processing completed");
 
-    // 10개의 값을 출력하여 확인
-    for (int i = 0; i < 30; i++) {
-        LOGD("Buffer value at index %d: %f", i, buffer[i]);
-    }
+
 
     return byteBuffer;
 }
@@ -448,11 +430,7 @@ Java_com_aiforpet_pet_activity_check_ToothCameraActivity_extractAndResizeBitmapT
             buffer[(y * 320 + x) * 3 + 1] = gf;
             buffer[(y * 320 + x) * 3 + 2] = rf;
 
-            if (y == 0 && x < 10) {
-                LOGD("Buffer value at index %d: %f", (y * 320 + x) * 3 + 0, bf);
-                LOGD("Buffer value at index %d: %f", (y * 320 + x) * 3 + 1, gf);
-                LOGD("Buffer value at index %d: %f", (y * 320 + x) * 3 + 2, rf);
-            }
+
         }
     }
 
