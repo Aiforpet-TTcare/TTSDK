@@ -425,194 +425,78 @@
     <string name="joint_result_16">바로 시작하려면 오른쪽 촬영 버튼을 눌러주세요</string>
     <string name="joint_result_18">촬영이 어려울 경우 촬영가이드를 참고하세요</string>
     <string name="joint_result_19">튜토리얼 다시 보기</string>
+    <string name="diag_result_eye">눈 체크 상세</string>
+    <string name="diag_result_skin">피부 체크 상세</string>
+    <string name="diag_result_teeth">치아 체크 상세</string>
+    <string name="diag_ment">본 서비스는 수의사법에 저촉되지 않는 범위에서 사용할 수 있습니다. 동물의 이상 징후를 확인하여 진단에 도움을 주기 위한 보조 장치로 질병의 진단은 반드시 전문 수의사가 수행하여야 합니다.</string>
+    <string name="diag_ment_1">같은 반려동물을 촬영하더라도 환경, 품질, 각도에 따라 이상 징후의 체크 결과가 달라질 수 있습니다.</string>
+    <string name="check_subindicate"><![CDATA[결과에 표시된 %수치는 티티케어 AI를 통해 분석한 <b><font color=#717171>이상 징후가 있을 확률</font></b>로 아래와 같이 구분해 제공돼요.]]></string>
+    <string name="check_subindicate_1">50% 미만일 경우</string>
+    <string name="check_subindicate_2">50% 이상일 경우</string>
+    <string name="diag_result_1">체크 결과</string>
+    <string name="diag_result_2">오른쪽</string>
+    <string name="diag_result_3">왼쪽</string>
 
 
-    <string name="close">닫기</string>
-
-    <string name="joint_6"><![CDATA[반려견이 잘 걷고 있습니다.<br>촬영이 완료될 때까지 유지해 주세요.]]></string>
-    <string name="joint_7"><![CDATA[분석이 어려운 촬영 형태입니다.<br>반려견이 <font color=#fee34c>가이드 영역 내에서 직선으로 걷도록</font> 유도해 주세요.]]></string>
-    <string name="joint_7_samsung"><![CDATA[분석이 어려운 촬영 형태입니다.<br>반려견이 <font color=#75c3ff>가이드 영역 내에서 직선으로 걷도록</font> 유도해 주세요.]]></string>
-    <string name="joint_8">촬영 시간이 초과되었어요</string>
-    <string name="joint_9">촬영 중에는 휴대폰을 가로 화면으로 유지해 주세요.\n한 방향으로 3초간 일정하게 걸어야 해요.</string>
-    <string name="joint_10">다시 찍어볼까요?</string>
-    <string name="joint_11">촬영가이드 보기</string>
-
-    <string name="guide_7_1">자세한 촬영가이드를 참고해주세요</string>
-    <string name="guide_11">관절 건강 체크에\n어려움이 있으신가요?</string>
-    <string name="joint_download1">관절 건강 체크에 필요한 파일을 다운로드 중이에요</string>
 
 
+    <string name="network_error_tt">인터넷 연결을 확인하여 주세요.</string>
+    <string name="common_confirm">확인</string>
+    <string name="diag_error1">알려드려요</string>
+
+
+    <string name="auto_camera_1">버튼을 누르면 AI Scan이 시작돼요.</string>
+    <string name="auto_camera_2">촬영 예시 화면입니다.</string>
+    <string name="auto_camera_3">촬영가이드</string>
+
+
+    <string name="auto_camera_4">AI Scan 촬영을 위해\n카메라 권한을 허용해 주세요</string>
+    <string name="auto_camera_5">허용하기</string>
+
+
+    <string name="auto_camera_6">이미지를 업로드하고 있어요.</string>
+    <string name="auto_camera_6_1">AI가 증상을 분석하고 있어요.</string>
+
+    <string name="auto_camera_7">잠시만 기다려주세요.</string>
+    <string name="auto_camera_8">국내 최초 동물용의료기기\n의료 영상진단 보조 소프트웨어</string>
+
+    <string name="auto_camera_9">촬영 시간이 초과되었어요</string>
+    <string name="auto_camera_10">촬영에 어려움이 있나요?\n자세한 촬영가이드를 참고해주세요.</string>
+    <string name="auto_camera_11">다시 촬영하기</string>
+    <string name="auto_camera_12">촬영가이드</string>
+
+    <string name="auto_camera_13">플래시 사용을 권장해요</string>
+    <string name="auto_camera_14"><![CDATA[<font color=#368DF5>플래시를 사용</font>하면 더 명확한 결과를 제공해 드려요.]]></string>
+    <string name="auto_camera_15"><![CDATA[<b><font color=#fa535f>최대한 털을 제외하고, 피부로부터 최소 10cm</font></b> 간격을 두고 촬영해주세요.]]></string>
+    <string name="auto_camera_16">일시적인 플래시 활성화가 동물에게 불편함을 유발할 순 있지만 건강상 위해를 미친다는 과학적 근거는 없어요. 불편함이 우려되면 플래시 입구에 얇은 종이를 덧대어주시면 도움이 될 수 있어요.</string>
+    <string name="auto_camera_17">시작하기</string>
+
+    <string name="auto_camera_18">더 정확한 AI 촬영을 위해\n최신 모델로 업데이트 하고 있어요.</string>
+    <string name="auto_camera_19">잠시만 기다려주세요.</string>
+
+    <string name="auto_camera_20">촬영 예시 화면입니다.</string>
+
+
+
+    <string name="auto_skin_1">귀를 촬영 해주세요.</string>
+    <string name="auto_skin_2">몸통을 촬영 해주세요.</string>
+    <string name="auto_skin_3">발을 촬영 해주세요.</string>
+    <string name="auto_skin_4">피부를 촬영 해주세요.</string>
+
+    <string name="auto_eye_1">눈을 촬영 해주세요.</string>
+    <string name="auto_tooth_1">치아를 촬영 해주세요.</string>
+    <string name="auto_process_1">초점을 잘 맞춰 주세요.</string>
+    <string name="auto_process_2">더 가까이에서 촬영해 주세요</string>
+    <string name="auto_process_3">더 멀리서 촬영해 주세요</string>
 
 
     <string name="guide_eye_1">눈 촬영 가이드</string>
-    <string name="guide_eye_2">첫 촬영이라면</string>
-    <string name="guide_eye_3">촬영이 어렵다면</string>
-
-    <string name="guide_eye_4"><![CDATA[<b>Step 1. 건강 상태가 궁금한 <font color=#1495f3>눈을 선택해주세요.</font></b>]]></string>
-    <string name="guide_eye_5">양쪽 눈 또는 한쪽 눈만 따로 선택할 수 있어요. 촬영 중에도 [선택]을 눌러 자유롭게 더하거나 뺄 수 있어요.</string>
-    <string name="guide_eye_6"><![CDATA[<b>Step 2. 촬영 버튼을 누르면 <font color=#1495f3>자동으로 시작해요.</font></b>]]></string>
-    <string name="guide_eye_7">AI가 눈을 찾아 자동으로 촬영해요. 빠르게 눈을 인식할 수 있도록 가이드 문구를 잘 따라와 주세요.</string>
-    <string name="guide_eye_8">더 정확한 결과를 얻고 싶다면</string>
-    <string name="guide_eye_9">눈에 반사되는 사물(유리창, 티비 등)이 없도록 촬영 환경을 점검하거나, 플래시를 켜고 촬영해 보세요. 플래시가 주변 사물의 반사를 없애줘서 더 정확한 결과를 얻을 수 있어요. 일시적인 플래시 사용이 눈 건강에 영향을 주진 않지만, 아이가 놀라거나 눈을 피할 수 있으니 천천히 접근해 주세요.</string>
-    <string name="guide_eye_10">아이가 힘들어하면 잠시 쉬어주세요.</string>
-    <string name="guide_eye_11">촬영이 어려운 경우 셀카모드를 활용하되, 아이가 계속 피하거나 힘들어하면 무리해서 촬영하지 말고 충분한 휴식을 취한 후 다시 시도해 주세요.</string>
-
-    <string name="guide_eye_12"><![CDATA[<b>Tip 1. 이런 사진은 <font color=#1495f3>분석이 어려워요.</font></b>]]></string>
-    <string name="guide_eye_13">눈 부분이 가려지거나 사진이 흔들린 경우, 눈을 찾기가 어려운 경우에는 재촬영이 필요해요.</string>
-    <string name="guide_eye_14"><![CDATA[<b>Tip 2. <font color=#1495f3>가이드 문구</font>에 잘 따라와 주세요.</b>]]></string>
-    <string name="guide_eye_15">AI가 눈을 찾아 자동으로 촬영해요. 최대한 가이드 문구에 맞춰 빠르게 눈을 인식할 수 있게 해주세요. </string>
-
     <string name="guide_skin_1">피부 촬영 가이드</string>
-
-    <string name="guide_skin_4"><![CDATA[<b>Step 1. 건강 상태가 궁금한 <font color=#1495f3>피부를 선택해주세요.</font></b>]]></string>
-    <string name="guide_skin_5">귓구멍, 몸통, 발 중 한 군데만 선택하거나 모두 다 선택할 수 있어요. 그외 다른 부분(얼굴, 귓바퀴, 귓등 등)의 상태가 궁금하다면 기타를 선택해 촬영을 진행해주세요.</string>
-    <string name="guide_skin_6"><![CDATA[<b>Step 2. 촬영 버튼을 눌러 <font color=#1495f3>직접 촬영해 주세요.</font></b>]]></string>
-    <string name="guide_skin_7">털이 피부를 가리거나 최대한 그림자가 생기지 않도록 주의해주세요.</string>
-    <string name="guide_skin_9">피부에 이물질이 있다면 깨끗이 닦아낸 후 촬영해 주세요. 털이 많은 부분을 찍을 땐 물을 조금 묻히거나 손으로 털을 눕혀 피부가 잘 보이도록 해주세요. 피부는 플래시를 켜고 촬영해야 그림자 왜곡 없이 증상을 체크할 수 있어요. 특히 귀나 발가락 사이를 촬영 시 반드시 플래시를 켜고 진행해 주세요.</string>
-
-
-    <string name="guide_skin_12"><![CDATA[<b>Tip 1. <font color=#1495f3>귓바퀴 안쪽과 귓구멍이 보이도록</font> 촬영해 주세요.</b>]]></string>
-    <string name="guide_skin_13">귓구멍 및 귓바퀴가 털에 덮여있다면 손으로 털을 살짝 들어올려 주세요.</string>
-
-    <string name="guide_skin_14"><![CDATA[<b>Tip 2. <font color=#1495f3>발가락 사이 또는 발바닥</font>을 촬영해 주세요.</b>]]></string>
-    <string name="guide_skin_15">발가락 사이 피부 중 증상이 두드러지게 나타나는 곳을, 발바닥에 증상이 있을 경우 패드 사이의 피부를 촬영해 주세요.</string>
-
-    <string name="guide_skin_16"><![CDATA[<b>Tip 3. <font color=#1495f3>털이 피부를 가리지 않도록</font> 해주세요.</b>]]></string>
-    <string name="guide_skin_17">뒷 배경은 보이지 않고 피부만 나오도록 최대한 가까이에서 촬영해 주세요.</string>
-
-    <string name="guide_skin_18">더 정확한 결과를 얻고 싶다면</string>
-    <string name="guide_skin_19">피부에 이물질이 있다면 깨끗이 닦아낸 후 촬영해 주세요. 털이 많은 부분을 찍을 땐 물을 조금 묻히거나 손으로 털을 눕혀 피부가 잘 보이도록 해주세요. 피부는 플래시를 켜고 촬영해야 그림자 왜곡 없이 증상을 체크할 수 있어요. 특히 귀나 발가락 사이를 촬영 시 반드시 플래시를 켜고 진행해 주세요.</string>
-
-
-
-
-    <string name="guide_tooth_1">치아 촬영 가이드</string>
-    <string name="guide_tooth_4"><![CDATA[<b>Step 1. 건강 상태가 궁금한 <font color=#428ae0>치아를 선택해주세요.</font></b>]]></string>
-    <string name="guide_tooth_5">정면, 왼쪽, 오른쪽 또는 한쪽 면만 따로 선택할 수 있어요. 촬영 중에도 [선택]을 눌러 자유롭게 더하거나 뺄 수 있어요.</string>
-    <string name="guide_tooth_6"><![CDATA[<b>Step 2. 촬영 버튼을 누르면 <font color=#428ae0>자동으로 시작해요.</font></b>]]></string>
-    <string name="guide_tooth_7">AI가 치아를 찾아 자동으로 촬영해요. 빠르게 치아를 인식할 수 있도록 가이드 문구를 잘 따라와 주세요.</string>
-    <string name="guide_tooth_10">더 정확한 결과를 얻고 싶다면</string>
-    <string name="guide_tooth_11">주변 빛이 밝은 곳에서 촬영을 하거나 플래시를 켜고 촬영해 보세요. 일시적인 플래시로 인하여 아이가 놀라거나 고개를 돌릴 수 있으니 천천히 접근해 주세요.</string>
-    <string name="guide_tooth_12">아이가 힘들어하면 잠시 쉬어주세요.</string>
-    <string name="guide_tooth_13">아이가 계속 고개를 돌리거나 입을 벌리지 않는 등의 힘들어하는 모습을 보이면 무리해서 촬영하지 말고 충분한 휴식을 취한 후  다시 시도해 주세요. </string>
-    <string name="guide_tooth_14"><![CDATA[<b>Tip 1. 이런 사진은 <font color=#428ae0>분석이 어려워요.</font></b>]]></string>
-    <string name="guide_tooth_15">치아가 가려지거나 사진이 흔들린 경우, 치아를 찾기가 어려운 경우에는 재촬영이 필요해요.</string>
-    <string name="guide_tooth_16"><![CDATA[<b>Tip 2. <font color=#428ae0>가이드 문구</font>에 잘 따라와 주세요.</b>]]></string>
-    <string name="guide_tooth_17">AI가 치아를 찾아 자동으로 촬영해요. 최대한 가이드 문구에 맞춰 빠르게 치아를 인식할 수 있게 해주세요.</string>
-
-
     <string name="guide_joint_1">관절 촬영 가이드</string>
-    <string name="guide_joint_4"><![CDATA[<b>Step 1. <font color=#428ae0>화면 끝에 서있는 상태</font>에서 촬영을 시작해요.</b>]]></string>
-    <string name="guide_joint_5">카메라 화면의 왼쪽 끝 또는 오른쪽 끝에 위치시켜 주세요.</string>
-    <string name="guide_joint_6"><![CDATA[<b>step 2. 촬영 버튼을 누르면 <font color=#428ae0>자동으로 시작해요.</font></b>]]></string>
-    <string name="guide_joint_7">일정한 방향과 속도로 걸으면 촬영가이드가 파란색으로 변해요. 파란색 화면을 3초간 유지하면 촬영이 자동으로 완료돼요. 촬영이 완료되면 영상을 서버에 전송하고, 분석하는데 1~2분 정도의 시간이 소요될 수 있어요. 조금 여유롭게 기다려 주세요.</string>
-    <string name="guide_joint_11">아이가 힘들어하면 잠시 쉬어주세요 </string>
-    <string name="guide_joint_12">아이가 계속 피하거나 힘들어하면 무리해서 촬영하지 말고 충분한 휴식을 취한 후 다시 시도해 주세요.</string>
-    <string name="guide_joint_13"><![CDATA[<b>Tip 1. <font color=#428ae0>휴대폰을 고정해 촬영</font>해주세요.</b>]]></string>
-    <string name="guide_joint_14">두 사람이 촬영한다면 : 아이가 걷는 모습을 휴대폰으로 따라가지 말고, 자세를 그대로 고정해 촬영해주세요. 혼자 촬영한다면 : 삼각대를 이용해 휴대폰을 수평으로 고정한 후 촬영해주세요.</string>
-    <string name="guide_joint_15"><![CDATA[<b>Tip 2. <font color=#428ae0>아이와의 공간을 충분히 확보</font>해주세요.</b>]]></string>
-    <string name="guide_joint_16">촬영 화면 안에 아이의 전체 모습이 충분히 들어올 수 있도록 소형 또는 중형견이라면 최소 4~5걸음, 대형견이라면 최소 6~10걸음 뒤에서 촬영을 진행해주세요.</string>
-    <string name="guide_joint_17"><![CDATA[<b>Tip 3. 이런 영상은 <font color=#428ae0>분석이 어려워요.</font></b>]]></string>
-    <string name="guide_joint_18">사람의 신체가 아이를 가리거나, 겹치지 않도록 주의해 주세요. 여러 마리의 아이들이 한꺼번에 등장하면 분석이 어려워요. 한 번에 한 마리만 촬영해주세요.</string>
-    <string name="guide_joint_19">반려견과 겹치거나, 가리면 안 돼요</string>
-    <string name="guide_joint_20">반려견보다 앞장 서거나, 뒤따라 주세요</string>
+    <string name="guide_tooth_1">치아 촬영 가이드</string>
 
-    <string name="network_error_tt">인터넷 연결을 확인하여 주세요.</string>
-
-
-    <!--눈-->
-
-    <string name="eye_model1_1"><![CDATA[<font color=#fee34c>강아지 눈이</font> 아니에요]]></string>
-    <string name="eye_model1_2"><![CDATA[<font color=#fee34c>고양이 눈이</font> 아니에요]]></string>
-    <string name="eye_model1_3"><![CDATA[<font color=#fee34c>사람 눈은</font> 건강 체크가 어려워요]]></string>
-    <string name="eye_model1_4"><![CDATA[<font color=#fee34c>강아지 눈을</font> 촬영해 주세요]]></string>
-    <string name="eye_model1_5"><![CDATA[<font color=#fee34c>고양이 눈을</font> 촬영해 주세요]]></string>
-
-    <string name="eye_model2_1"><![CDATA[<font color=#fee34c>오른쪽 눈이</font> 아니에요]]></string>
-    <string name="eye_model2_2"><![CDATA[<font color=#fee34c>왼쪽 눈이</font> 아니에요]]></string>
-
-    <string name="eye_model3_1"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
-    <string name="eye_model3_2"><![CDATA[<font color=#fee34c>눈뜬 상태를</font> 촬영해 주세요]]></string>
-    <string name="eye_model3_3"><![CDATA[<font color=#fee34c>눈을 가리는 털을</font> 정리 후 촬영해 주세요]]></string>
-    <string name="eye_model3_4"><![CDATA[<font color=#fee34c>적목현상</font> 시 건강 체크가 어려워요]]></string>
-    <string name="eye_model3_5"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
-
-
-    <string name="eye_model4_1"><![CDATA[<font color=#fee34c>더 가까이에서</font> 촬영해 주세요]]></string>
-    <string name="eye_model4_2"><![CDATA[<font color=#fee34c>조금 멀리서</font> 촬영해 주세요]]></string>
-
-
-    <!--치아-->
-    <string name="tooth_model1_1"><![CDATA[<font color=#fee34c>강아지 치아가</font> 아니에요]]></string>
-    <string name="tooth_model1_2"><![CDATA[<font color=#fee34c>고양이 치아가</font> 아니에요]]></string>
-    <string name="tooth_model1_3"><![CDATA[<font color=#fee34c>사람 치아는</font> 건강 체크가 어려워요]]></string>
-    <string name="tooth_model1_4"><![CDATA[<font color=#fee34c>강아지 치아를</font> 촬영해 주세요]]></string>
-    <string name="tooth_model1_5"><![CDATA[<font color=#fee34c>고양이 치아를</font> 촬영해 주세요]]></string>
-
-
-
-    <string name="tooth_model2_1"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
-    <string name="tooth_model2_2"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
-    <string name="tooth_model2_3"><![CDATA[<font color=#fee34c>강아지 치아를</font> 촬영해 주세요]]></string>
-    <string name="tooth_model2_4"><![CDATA[<font color=#fee34c>고양이 치아를</font> 촬영해 주세요]]></string>
-    <string name="tooth_model2_5"><![CDATA[<font color=#fee34c>치아를 가리는 털을</font> 정리 후 촬영해 주세요]]></string>
-
-    <string name="tooth_model3_1"><![CDATA[<font color=#fee34c>정면 치아가</font> 아니에요]]></string>
-    <string name="tooth_model3_2"><![CDATA[<font color=#fee34c>오른쪽 치아가</font> 아니에요]]></string>
-    <string name="tooth_model3_3"><![CDATA[<font color=#fee34c>왼쪽 치아가</font> 아니에요]]></string>
-    <string name="tooth_model3_4"><![CDATA[<font color=#fee34c>더 가까이에서</font> 촬영해 주세요]]></string>
-    <string name="tooth_model4_1"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
-
-    <!--눈-->
-
-    <string name="eye_model1_1_blue"><![CDATA[<font color=#75c3ff>강아지 눈이</font> 아니에요]]></string>
-    <string name="eye_model1_2_blue"><![CDATA[<font color=#75c3ff>고양이 눈이</font> 아니에요]]></string>
-    <string name="eye_model1_3_blue"><![CDATA[<font color=#75c3ff>사람 눈은</font> 건강 체크가 어려워요]]></string>
-    <string name="eye_model1_4_blue"><![CDATA[<font color=#75c3ff>강아지 눈을</font> 촬영해 주세요]]></string>
-    <string name="eye_model1_5_blue"><![CDATA[<font color=#75c3ff>고양이 눈을</font> 촬영해 주세요]]></string>
-
-    <string name="eye_model2_1_blue"><![CDATA[<font color=#75c3ff>오른쪽 눈이</font> 아니에요]]></string>
-    <string name="eye_model2_2_blue"><![CDATA[<font color=#75c3ff>왼쪽 눈이</font> 아니에요]]></string>
-
-    <string name="eye_model3_1_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
-    <string name="eye_model3_2_blue"><![CDATA[<font color=#75c3ff>눈뜬 상태를</font> 촬영해 주세요]]></string>
-    <string name="eye_model3_3_blue"><![CDATA[<font color=#75c3ff>눈을 가리는 털을</font> 정리 후 촬영해 주세요]]></string>
-
-    <string name="eye_model3_4_blue"><![CDATA[<font color=#75c3ff>적목현상</font> 시 건강 체크가 어려워요]]></string>
-    <string name="eye_model3_5_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
-
-    <string name="eye_model4_1_blue"><![CDATA[<font color=#75c3ff>더 가까이에서</font> 촬영해 주세요]]></string>
-    <string name="eye_model4_2_blue"><![CDATA[<font color=#75c3ff>조금 멀리서</font> 촬영해 주세요]]></string>
-
-
-    <!--치아-->
-    <string name="tooth_model1_1_blue"><![CDATA[<font color=#75c3ff>강아지 치아가</font> 아니에요]]></string>
-    <string name="tooth_model1_2_blue"><![CDATA[<font color=#75c3ff>고양이 치아가</font> 아니에요]]></string>
-    <string name="tooth_model1_3_blue"><![CDATA[<font color=#75c3ff>사람 치아는</font> 건강 체크가 어려워요]]></string>
-    <string name="tooth_model1_4_blue"><![CDATA[<font color=#75c3ff>강아지 치아를</font> 촬영해 주세요]]></string>
-    <string name="tooth_model1_5_blue"><![CDATA[<font color=#75c3ff>고양이 치아를</font> 촬영해 주세요]]></string>
-
-    <string name="tooth_model2_1_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
-    <string name="tooth_model2_2_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
-    <string name="tooth_model2_3_blue"><![CDATA[<font color=#75c3ff>강아지 치아를</font> 촬영해 주세요]]></string>
-    <string name="tooth_model2_4_blue"><![CDATA[<font color=#75c3ff>강아지 치아를</font> 촬영해 주세요]]></string>
-    <string name="tooth_model2_5_blue"><![CDATA[<font color=#75c3ff>치아를 가리는 털을</font> 정리 후 촬영해 주세요]]></string>
-
-    <string name="tooth_model3_1_blue"><![CDATA[<font color=#75c3ff>정면 치아가</font> 아니에요]]></string>
-    <string name="tooth_model3_2_blue"><![CDATA[<font color=#75c3ff>오른쪽 치아가</font> 아니에요]]></string>
-    <string name="tooth_model3_3_blue"><![CDATA[<font color=#75c3ff>왼쪽 치아가</font> 아니에요]]></string>
-    <string name="tooth_model3_4_blue"><![CDATA[<font color=#75c3ff>더 가까이에서</font> 촬영해 주세요]]></string>
-
-    <string name="tooth_model4_1_blue"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
-
-
-    <string name="complete_1">확인</string>
-    <string name="complete_2">촬영한 영상이\n전송되었어요.</string>
-    <string name="complete_3">촬영한 사진이\n전송되었어요.</string>
-    <string name="complete_4">다른 피부 부위도 촬영하시나요?</string>
-    <string name="complete_5"><![CDATA[<font color=#368df5>%s회</font> 더 촬영할 수 있어요.]]></string>
-    <string name="complete_6">다른 부위 촬영</string>
-    <string name="complete_7">촬영 종료</string>
+    <string name="server_communication_error">Server communication error.</string>
+    <string name="diag_error2">동시 접속자 수가 많거나 네트워크 불안정으로 일시적 서비스 접속이 불가합니다.\n다시 촬영해 주세요.</string>
 
 
 </resources>

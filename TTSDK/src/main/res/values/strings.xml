@@ -1,610 +1,78 @@
 <resources>
     <string name="underlined_text">contact@aiforpet.com</string>
 
-    <string name="dog">Dog</string>
-    <string name="cat">Cat</string>
-
-    <string name="confirm">Confirm</string>
-
-
-    <string name="korea">대한민국</string>
-    <string name="usa">USA</string>
-
-
-    <string name="allow_camera_enable_ment">Allow</string>
-    <string name="rediagcamera">Try again?</string>
-    <string name="rediagcamera_1">Your scan</string>
-    <string name="rediagcamera_2">We need</string>
-    <string name="camera_loading_title1">Korea\’s first veterinary medical device\nmedical imaging diagnosis assistance software</string>
-    <string name="camera_refresh">Start over</string>
-
-    <string name="camera_complete1">Let\'s go find out the health of our pet</string>
-    <string name="camera_complete2">To enlarge, tap the picture at the bottom of the screen</string>
-
-    <string name="focus_skin1"><![CDATA[<font color=#fee34c>Align ears within the guide</font> to photo shoot]]></string>
-    <string name="focus_skin2"><![CDATA[<font color=#fee34c>Align body within the guide</font> to photo shoot]]></string>
-    <string name="focus_skin3"><![CDATA[<font color=#fee34c>Align paws within the guide</font> to photo shoot]]></string>
-    <string name="focus_skin4"><![CDATA[<font color=#fee34c>Align other parts within the guide</font> to photo shoot]]></string>
-
-    <string name="focus_skin1_blue"><![CDATA[<font color=#1495f3>Align ears within the guide</font> to photo shoot]]></string>
-    <string name="focus_skin2_blue"><![CDATA[<font color=#1495f3>Align body within the guide</font> to photo shoot]]></string>
-    <string name="focus_skin3_blue"><![CDATA[<font color=#1495f3>Align paws within the guide</font> to photo shoot]]></string>
-    <string name="focus_skin4_blue"><![CDATA[<font color=#1495f3>Align other parts within the guide</font> to photo shoot]]></string>
+    <string name="diag_result_eye">눈 체크 상세</string>
+    <string name="diag_result_skin">피부 체크 상세</string>
+    <string name="diag_result_teeth">치아 체크 상세</string>
+    <string name="diag_ment">본 서비스는 수의사법에 저촉되지 않는 범위에서 사용할 수 있습니다. 동물의 이상 징후를 확인하여 진단에 도움을 주기 위한 보조 장치로 질병의 진단은 반드시 전문 수의사가 수행하여야 합니다.</string>
+    <string name="diag_ment_1">같은 반려동물을 촬영하더라도 환경, 품질, 각도에 따라 이상 징후의 체크 결과가 달라질 수 있습니다.</string>
+    <string name="check_subindicate"><![CDATA[결과에 표시된 %수치는 티티케어 AI를 통해 분석한 <b><font color=#717171>이상 징후가 있을 확률</font></b>로 아래와 같이 구분해 제공돼요.]]></string>
+    <string name="check_subindicate_1">50% 미만일 경우</string>
+    <string name="check_subindicate_2">50% 이상일 경우</string>
+    <string name="diag_result_1">체크 결과</string>
+    <string name="diag_result_2">오른쪽</string>
+    <string name="diag_result_3">왼쪽</string>
 
 
-    <string name="joint_1"><![CDATA[Try to put it in the <font color=#fee34c>shaded region</font>]]></string>
-    <string name="joint_2">Rotate your screen</string>
-    <string name="joint_3">Eye video sent</string>
-    <string name="joint_4">We will inform you after analysis</string>
-    <string name="joint_5">Rotate your screen</string>
 
 
-    <string name="loading_ment_eye_title">Checking the eyes..</string>
-    <string name="loading_ment_eye_depth1">Uploading images.</string>
-    <string name="loading_ment_eye_depth3">Analyzing for any abnormalities.</string>
-    <string name="loading_ment_eye_depth4">Analysis is almost complete.</string>
-
-
-    <string name="loading_ment_tooth_title">Checking teeth..</string>
-    <string name="loading_ment_tooth_depth1">Uploading images.</string>
-    <string name="loading_ment_tooth_depth3">Analyzing for any abnormalities.</string>
-    <string name="loading_ment_tooth_depth4">Analysis is almost complete.</string>
-
-
-    <string name="loading_ment_skin_title">Checking the skin..</string>
-    <string name="loading_ment_skin_depth1">Uploading images.</string>
-    <string name="loading_ment_skin_depth3">Analyzing for any abnormalities.</string>
-    <string name="loading_ment_skin_depth4">Analysis is almost complete.</string>
-    <string name="diag_ment"><b>SPECIAL CAUTION</b>: The “TTcare” application and other related services, intends to be used for informational purposes only, even if such information may contribute to the general care and well-being of the User\’s pets. It does NOT provide medical advice, opinion, diagnosis, or treatment. It does not replace the advice of qualified healthcare professionals such as User\’s pet\’s veterinarian, nor does it replace the need to have regular checkups or special appointments for User\’s pet\’s health, nor will it work as a medical device. Accordingly, User shall contact qualified healthcare professionals with any questions regarding User\’s pets\’ specific medical condition(s) and seek immediately help from them in case of any emergency situation.</string>
-    <string name="diag_ment_1">Even if the same pet is photographed, the check result for abnormal signs may vary depending on the environment, quality and angle.</string>
-
-
-    <string name="eye_check_1">Photo</string>
-    <string name="eye_check_2">Video</string>
-    <string name="eye_check_3">User guide</string>
-    <string name="eye_check_4">Close</string>
-
-
-    <string name="pop_skin_1">Please select the area of skin\nyou want to check</string>
-    <string name="pop_skin_2">Ear</string>
-    <string name="pop_skin_3">Body</string>
-    <string name="pop_skin_4">Paws</string>
-    <string name="pop_skin_5">Extra Areas</string>
-
-    <string name="pop_skin_6_1">* 최소 한 부위 이상 선택</string>
-    <string name="pop_skin_6_2">해야</string>
-    <string name="pop_skin_6_3">피부 체크를 할 수 있어요</string>
-
-    <string name="pop_eye_1">Check where?</string>
-    <string name="pop_eye_2">Right</string>
-    <string name="pop_eye_3">Left</string>
-    <string name="pop_eye_4">눈 체크를 할 수 있어요</string>
-
-    <string name="pop_eye_5">Check all parts</string>
-    <string name="pop_eye_6">Check selected part</string>
-    <string name="pop_eye_7">Check selected part</string>
-    <string name="pop_eye_8">* 최소 한 부위 이상 선택</string>
-    <string name="pop_eye_9">해야</string>
-
-
-    <string name="pop_skin_7">Select part</string>
-    <string name="pop_skin_9">I will choose all</string>
-
-    <string name="pop_eyeselect_title">Eye check</string>
-    <string name="pop_eyeselect_content">All parts will be selected as default when you close the popup without a selection.</string>
-    <string name="pop_skinselect_title">Skin check</string>
-    <string name="pop_skinselect_content">All parts will be selected as default when you close the popup without a selection.</string>
-
-
-    <string name="mode_3_close">Close</string>
-    <string name="mode_3_re">Select again</string>
-
-    <string name="diag_doctor_title">A word from the veterinarian</string>
-
-    <string name="diags_skin_1">Can\'t analyze</string>
-    <string name="diags_skin_2">Not checked</string>
-
-    <string name="skin_ment1">The displayed percentage is the symptom results\nanalyzed by TTcare AI.</string>
-    <string name="skin_ment4"><![CDATA[<font color=#525252><b> Probability </b></font>is divided as follows.]]></string>
-
-
-    <string name="allow_camera_ment">Turn on camera\nto perform a health checkup</string>
-    <string name="allow_audio_ment">Click "Allow" for microphone access\nto perform a health checkup</string>
-    <string name="allow_storage_ment">Click "Allow" for storage access\nto perform a health checkup</string>
-
-
-    <string name="guide_1">Check out our video guide</string>
-    <string name="guide_2">Eye Check</string>
-    <string name="guide_3">Skin Check</string>
-    <string name="guide_4">Video</string>
-    <string name="guide_5">To learn more on how to use health checks</string>
-    <string name="guide_6">Having difficulties checking\nthe eyes?</string>
-    <string name="guide_7">Please refer to our user guide for more instructions.</string>
-    <string name="guide_8">Go to user guide</string>
-    <string name="guide_9">Check later</string>
-    <string name="guide_12">Having difficulties checking\nthe dental?</string>
-
-    <string name="common_cancel">Cancel</string>
+    <string name="network_error_tt">Please check your internet connection.</string>
     <string name="common_confirm">Confirm</string>
-
-    <string name="camera_process_title_ment">Stop health check?</string>
-    <string name="camera_process_ment">If you stop now, scanned photos will not be saved and you won\'t be able to view health check results.</string>
-
-    <string name="camera_exit">End</string>
-    <string name="camera_process">Continue</string>
-    <string name="re_diag_camera">Take again</string>
-
-
-    <string name="camera_modechange_title">Are you sure you want to change?</string>
-    <string name="camera_modechange_content">If you change now, all health check data will be lost.\nDo you want to change it anyway?</string>
-    <string name="camera_modechange_yes">Change</string>
-    <string name="camera_modechange_no">Cancel</string>
-
-    <string name="auto_camera1_1"><![CDATA[Tap the shutter button below to<br><font color=#fee34c>automatically check starting with the right eye</font>]]></string>
-    <string name="auto_camera1_1_blue"><![CDATA[Tap the shutter button below to<br><font color=#1495f3>automatically check starting with the right eye</font>]]></string>
-
-    <string name="auto_camera1_1_1"><![CDATA[Tap the shutter button below to<br><font color=#fee34c>automatically check the right eye</font>]]></string>
-    <string name="auto_camera1_1_1_blue"><![CDATA[Tap the shutter button below to<br><font color=#1495f3>automatically check the right eye</font>]]></string>
-
-    <string name="auto_camera1_2"><![CDATA[Tap the shutter button below to<br><font color=#fee34c>automatically check the left eye (opposite)</font>]]></string>
-    <string name="auto_camera1_2_blue"><![CDATA[Tap the shutter button below to<br><font color=#75c3ff>automatically check the left eye (opposite)</font>]]></string>
-
-    <string name="auto_camera1_2_1"><![CDATA[Tap the shutter button below to<br><font color=#fee34c>automatically check the left eye</font>]]></string>
-    <string name="auto_camera1_2_1_blue"><![CDATA[Tap the shutter button below to<br><font color=#75c3ff>automatically check the left eye</font>]]></string>
-
-    <string name="auto_camera2_1"><![CDATA[Not <font color=#fee34c>dog eyes</font>]]></string>
-    <string name="auto_camera2_1_blue"><![CDATA[Not <font color=#75c3ff>dog eyes</font>]]></string>
-
-    <string name="auto_camera2_2"><![CDATA[Not <font color=#fee34c>cat eyes</font>]]></string>
-    <string name="auto_camera2_2_blue"><![CDATA[Not <font color=#75c3ff>cat eyes</font>]]></string>
-
-    <string name="auto_camera2_3"><![CDATA[<font color=#fee34c>Human eyes</font> are difficult to analyze]]></string>
-    <string name="auto_camera2_3_blue"><![CDATA[<font color=#75c3ff>Human eyes</font> are difficult to analyze]]></string>
-
-    <string name="auto_camera2_4_1"><![CDATA[Scan <font color=#fee34c>dog\'s eyes</font>]]></string>
-    <string name="auto_camera2_4_1_blue"><![CDATA[Scan <font color=#75c3ff>dog\'s eyes</font>]]></string>
-
-    <string name="auto_camera2_4_2"><![CDATA[Scan <font color=#fee34c>cat\'s eyes</font>]]></string>
-    <string name="auto_camera2_4_2_blue"><![CDATA[Scan <font color=#75c3ff>cat\'s eyes</font>]]></string>
-
-
-    <string name="auto_camera3_1"><![CDATA[Please <font color=#fee34c>focus</font>]]></string>
-    <string name="auto_camera3_2"><![CDATA[<font color=#fee34c>Eyes</font> should be <font color=#fee34c>open</font>]]></string>
-    <string name="auto_camera3_3"><![CDATA[Please <font color=#fee34c>part the fur</font> covering the eyes before taking the photo]]></string>
-
-
-    <string name="auto_camera3_4"><![CDATA[<font color=#fee34c>RED-EYE</font> is difficult to analyze]]></string>
-    <string name="auto_camera3_5"><![CDATA[Please <font color=#fee34c>focus</font>]]></string>
-
-
-    <string name="auto_camera3_1_tooth"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
-    <string name="auto_camera3_2_tooth"><![CDATA[<font color=#fee34c>눈뜬 상태를</font> 촬영해 주세요]]></string>
-    <string name="auto_camera3_3_tooth"><![CDATA[<font color=#fee34c>눈을 가리는 털을</font> 정리 후 촬영해 주세요]]></string>
-    <string name="auto_camera3_4_tooth"><![CDATA[Take a <font color=#fee34c>closer</font> picture]]></string>
-    <string name="auto_camera3_4_tooth_blue"><![CDATA[Take a <font color=#75c3ff>closer</font> picture]]></string>
-
-    <string name="auto_camera3_5_tooth"><![CDATA[<font color=#fee34c>초점을</font> 잘 맞춰주세요]]></string>
-
-
-
-
-    <string name="auto_camera3_1_blue"><![CDATA[Please <font color=#75c3ff>focus</font>]]></string>
-    <string name="auto_camera3_2_blue"><![CDATA[<font color=#75c3ff>Eyes</font> should be <font color=#fee34c>open</font>]]></string>
-    <string name="auto_camera3_3_blue"><![CDATA[Please <font color=#75c3ff>part the fur</font> covering the eyes before taking the photo]]></string>
-
-    <string name="auto_camera3_4_blue"><![CDATA[<font color=#75c3ff>RED-EYE</font> is difficult to analyze]]></string>
-    <string name="auto_camera3_5_blue"><![CDATA[Please <font color=#75c3ff>focus</font>]]></string>
-
-
-    <string name="auto_camera3_1_blue_tooth"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
-    <string name="auto_camera3_2_blue_tooth"><![CDATA[<font color=#75c3ff>눈뜬 상태를</font> 촬영해 주세요]]></string>
-    <string name="auto_camera3_3_blue_tooth"><![CDATA[<font color=#75c3ff>눈을 가리는 털을</font> 정리 후 촬영해 주세요]]></string>
-    <string name="auto_camera3_4_blue_tooth"><![CDATA[<font color=#75c3ff>적목현상</font> 시 건강 체크가 어려워요]]></string>
-    <string name="auto_camera3_5_blue_tooth"><![CDATA[<font color=#75c3ff>초점을</font> 잘 맞춰주세요]]></string>
-
-
-    <string name="auto_camera4_1"><![CDATA[Take a picture of the <font color=#fee34c>right eye</font>]]></string>
-    <string name="auto_camera4_1_blue"><![CDATA[Take a picture of the <font color=#75c3ff>right eye</font>]]></string>
-
-    <string name="auto_camera4_2"><![CDATA[Take a picture of the <font color=#fee34c>left eye</font>]]></string>
-    <string name="auto_camera4_2_blue"><![CDATA[Take a picture of the <font color=#75c3ff>left eye</font>]]></string>
-
-
-    <string name="video_right_1"><![CDATA[Press the bottom shutter button to <br><font color=#fee34c>automatically check with video starting with the right eye</font>]]></string>
-    <string name="video_right_2"><![CDATA[Press the bottom shutter button to <br><font color=#fee34c>automatically video check the right eye</font>]]></string>
-    <string name="video_left"><![CDATA[Press the bottom shutter button to <br><font color=#fee34c>automatically video check the left eye</font>]]></string>
-    <string name="camera_on">You must give permission to take pictures.\nClick the \'Allow\' button in the center to give permission~!</string>
-    <string name="server_communication_error">Server communication error.</string>
-
     <string name="diag_error1">Notice</string>
-    <string name="diag_error2">The service is temporarily unavailable.\nPlease try again.</string>
-    <string name="diag_error3">The service is temporarily unavailable.\nPlease press the button again.</string>
 
 
-    <string name="select_left_validation_title">You want to stop scanning?</string>
-    <string name="select_left_validation_content">If you want to quit scanning the left eye now,\nyou can view the check results for right eye only.</string>
+    <string name="auto_camera_1">Press the button to start AI Scan.</string>
+    <string name="auto_camera_2">This is a sample capture screen.</string>
+    <string name="auto_camera_3">User guide</string>
 
-    <string name="select_right_validation_title">You want to stop scanning?</string>
-    <string name="select_right_validation_content">If you want to quit scanning the right eye now,\nyou can only view left eye check results.</string>
 
-    <string name="select_tooth_validation_title">You want to stop scanning?</string>
-    <string name="select_tooth_validation_content">If you quit scanning now, you can only view previous results.</string>
+    <string name="auto_camera_4">For AI Scan,\nplease allow camera access.</string>
+    <string name="auto_camera_5">Allow</string>
 
 
-    <string name="confrim">Confirm</string>
+    <string name="auto_camera_6">Uploading images...</string>
+    <string name="auto_camera_6_1">Our AI is analyzing symptoms...</string>
 
+    <string name="auto_camera_7">Please wait a moment.</string>
+    <string name="auto_camera_8">국내 최초 동물용의료기기\n의료 영상진단 보조 소프트웨어</string>
 
-    <string name="camera_guide1_1"><![CDATA[<b>You can <font color=#1495f3>make one or more selections</font><br>for scanning. Use the flash for more accurate results.]]></string>
-    <string name="camera_guide1_2"><![CDATA[<b>Press the shutter button to start <font color=#1495f3>automatic scanning</font> for 30 seconds.</b>]]></string>
-    <string name="camera_guide1_3"><![CDATA[<b>While scanning, you can <font color=#1495f3>easily add or remove</font> your selections.</b>]]></string>
-    <string name="camera_guide1_7"><![CDATA[Try using <font color=#1495f3>flash, selfie mode</font> for scans and refer to our <font color=#1495f3>user guide.</font>]]></string>
-    <string name="camera_guide1_8">Use the flash in the dark for more accurate results.</string>
+    <string name="auto_camera_9">Time’s up.</string>
+    <string name="auto_camera_10">Having trouble capturing the image?\nPlease refer to the detailed user guide.</string>
+    <string name="auto_camera_11">Try again?</string>
+    <string name="auto_camera_12">User Guide</string>
 
+    <string name="auto_camera_13">We recommend using flash</string>
+    <string name="auto_camera_14"><![CDATA[<font color=#368DF5>Use flash</font> for better results.]]></string>
+    <string name="auto_camera_15"><![CDATA[For a clear picture, take it from at least <b><font color=#fa535f>4 inches</font></b> away and move any hair out of the way.]]></string>
+    <string name="auto_camera_16">Sudden use of flash can startle your pet. There is no scientific evidence that it harms them, but to avoid a glare you can cover the flash with a piece of paper.</string>
+    <string name="auto_camera_17">Start</string>
 
-    <string name="camera_guide1_9"><![CDATA[<b>You can <font color=#1495f3>make one or more selections</font><br>for scanning. Use the flash for more accurate results.]]></string>
-    <string name="camera_guide1_10"><![CDATA[Follow the skin check guide and scan to <font color=#1495f3>check abnormal signs.</font>]]></string>
-    <string name="camera_guide1_11"><![CDATA[While scanning, you can <font color=#1495f3>easily add or remove</font> your selections.]]></string>
-    <string name="camera_guide1_12"><![CDATA[After taking a picture of the part that <font color=#1495f3>appears to be abnormal,</font> such as red spots or abrasions, you can <font color=#1495f3>enlarge or delete</font> the photo.]]></string>
-    <string name="camera_guide1_13"><![CDATA[Try using <font color=#1495f3>flash, selfie mode</font> for scans and refer to our <font color=#1495f3>user guide.</font>]]></string>
-    <string name="camera_guide1_14">Use the flash in the dark for more accurate results.</string>
-    <string name="camera_guide1_15"><![CDATA[<b>You can <font color=#1495f3>make single or multiple selections</font><br>for scanning. Use the flash for more<br>accurate results.</b>]]></string>
+    <string name="auto_camera_18">We are updating to the latest model\nfor a more accurate AI scan.</string>
+    <string name="auto_camera_19">Please wait a moment.</string>
 
-    <string name="active_pet_weight_update">Delete</string>
+    <string name="auto_camera_20">This is a sample capture screen.</string>
 
-    <string name="v4_pop_eye_1">Check where?</string>
-    <string name="v4_pop_eye_2">Right</string>
-    <string name="v4_pop_eye_3">Left</string>
-    <string name="v4_pop_eye_4">for cats</string>
-    <string name="v4_pop_eye_5">for dogs</string>
-    <string name="v4_pop_eye_6"><![CDATA[<font color=#1495f3><b>Use flash</b></font> for better results.]]></string>
-    <string name="v4_pop_eye_7">Sudden use of flash can startle your pet.\nThere is no scientific evidence that it harms them, but to avoid a glare you can cover the flash with a piece of paper.</string>
-    <string name="v4_pop_eye_8">Start</string>
 
 
-    <string name="v4_pop_skin_1">Check where?</string>
-    <string name="v4_pop_skin_1_vet">Please select only one area</string>
+    <string name="auto_skin_1">Please capture the ear.</string>
+    <string name="auto_skin_2">Please capture the body.</string>
+    <string name="auto_skin_3">Please capture the paw.</string>
+    <string name="auto_skin_4">Please capture the skin.</string>
 
-    <string name="v4_pop_skin_2">Ear</string>
-    <string name="v4_pop_skin_3">(inner)</string>
-    <string name="v4_pop_skin_4">Body</string>
-    <string name="v4_pop_skin_5">Paws</string>
-    <string name="v4_pop_skin_6">Extra Areas</string>
-    <string name="v4_pop_skin_7">(Face, back of the ear, etc.)</string>
-    <string name="v4_pop_skin_8"><![CDATA[For a clear picture, take it from at least <b><font color=#fa535f>4 inches</font></b> away and move any hair out of the way.]]></string>
-
-
-
-
-    <string name="pop_tooth_1">Check where?</string>
-    <string name="pop_tooth_2">Front</string>
-    <string name="pop_tooth_3">Including top/bottom incisors</string>
-    <string name="pop_tooth_4">Right</string>
-    <string name="pop_tooth_5">(for dogs)</string>
-    <string name="pop_tooth_5_cat">(for cats)</string>
-    <string name="pop_tooth_6">Scan up to molars</string>
-    <string name="pop_tooth_7">Left</string>
-
-
-    <string name="eye_download1">Downloading files that\'s needed for health check</string>
-    <string name="eye_download2"> Please wait</string>
-
-    <string name="tooth_download1">Downloading files that\'s needed for health check</string>
-    <string name="tooth_download2"> Please wait</string>
-
-    <string name="diag_graph_pop">%s 이란</string>
-    <string name="check_subindicate"><![CDATA[<b><font color=#525252>The probability of each clinical sign</font></b> being analyzed by AI will be differentiated as below:]]></string>
-    <string name="analyze_44">Check Date</string>
-
-    <string name="disags_skin_result_1">Ear</string>
-    <string name="disags_skin_result_2">Body</string>
-    <string name="disags_skin_result_3">Paws</string>
-    <string name="disags_skin_result_4">Extra Areas</string>
-
-    <string name="diag_result_tooth">Details of teeth check</string>
-    <string name="diag_result_1">Overall summary</string>
-
-
-    <string name="skin_1">Ear</string>
-    <string name="skin_2">Body</string>
-    <string name="skin_3">Paws</string>
-    <string name="skin_4">Extra Areas</string>
-
-    <string name="diag_result_4">The original image will be accessible for one month.</string>
-
-
-    <string name="pop_toothselect_title">Teeth check</string>
-    <string name="pop_toothselect_content">All parts will be selected as default when you close the popup without a selection.</string>
-
-
-    <string name="auto_camera3_4_tooth_1"><![CDATA[Please take a picture <font color=#fee34c>from a little further away</font>]]></string>
-    <string name="auto_camera3_4_tooth_1_blue"><![CDATA[Please take a picture <font color=#75c3ff>from a little further away</font>]]></string>
-
-    <string name="auto_camera2_1_tooth"><![CDATA[Not <font color=#fee34c>dog\'s teeth</font>]]></string>
-    <string name="auto_camera2_1_tooth_blue"><![CDATA[Not <font color=#75c3ff>dog\'s teeth</font>]]></string>
-
-
-    <string name="auto_camera2_4_1_tooth"><![CDATA[Scan <font color=#fee34c>dog\'s teeth</font>]]></string>
-    <string name="auto_camera2_4_1_tooth_blue"><![CDATA[Scan <font color=#75c3ff>dog\'s teeth</font>]]></string>
-
-
-    <string name="auto_camera2_3_tooth"><![CDATA[<font color=#fee34c>Human teeth</font> are difficult to analyze]]></string>
-    <string name="auto_camera2_3_tooth_blue"><![CDATA[<font color=#75c3ff>Human teeth</font> are difficult to analyze]]></string>
-
-    <string name="auto_camera2_2_tooth"><![CDATA[Not <font color=#fee34c>cat\'s teeth</font>]]></string>
-    <string name="auto_camera2_2_tooth_blue"><![CDATA[Not <font color=#75c3ff>cat\'s teeth</font>]]></string>
-
-    <string name="auto_camera2_4_2_tooth"><![CDATA[Scan <font color=#fee34c>cat\'s teeth</font>]]></string>
-    <string name="auto_camera2_4_2_tooth_blue"><![CDATA[Scan <font color=#75c3ff>cat\'s teeth</font>]]></string>
-
-    <string name="auto_camera4_1_tooth"><![CDATA[Scan <font color=#fee34c>front teeth</font>]]></string>
-    <string name="auto_camera4_2_tooth"><![CDATA[Scan <font color=#fee34c>right teeth</font>]]></string>
-    <string name="auto_camera4_3_tooth"><![CDATA[Scan <font color=#fee34c>left teeth</font>]]></string>
-    <string name="auto_camera4_3_mouth"><![CDATA[<font color=#fee34c>Teeth</font> has to be <font color=#fee34c>shown</font>]]></string>
-
-    <string name="auto_camera4_1_tooth_blue"><![CDATA[Scan <font color=#75c3ff>front teeth</font>]]></string>
-    <string name="auto_camera4_2_tooth_blue"><![CDATA[Scan <font color=#75c3ff>right teeth</font>]]></string>
-    <string name="auto_camera4_3_tooth_blue"><![CDATA[Scan <font color=#75c3ff>left teeth</font>]]></string>
-    <string name="auto_camera4_4_mouth_blue"><![CDATA[<font color=#75c3ff>Teeth</font> has to be <font color=#1495f3>shown</font>]]></string>
-    <string name="auto_camera4_4_mouth"><![CDATA[<font color=#fee34c>Teeth</font> has to be <font color=#1495f3>shown</font>]]></string>
-
-
-    <string name="auto_tooth_1"><![CDATA[Tap the shutter button below to<br><font color=#fee34c>automatically check front teeth</font>]]></string>
-    <string name="auto_tooth_2"><![CDATA[Tap the shutter button below to<br><font color=#fee34c>automatically check right teeth</font>]]></string>
-    <string name="auto_tooth_3"><![CDATA[Tap the shutter button below to<br><font color=#fee34c>automatically check left teeth</font>]]></string>
-
-    <string name="auto_tooth_1_blue"><![CDATA[Tap the shutter button below to<br><font color=#75c3ff>automatically check front teeth</font>]]></string>
-    <string name="auto_tooth_2_blue"><![CDATA[Tap the shutter button below to<br><font color=#75c3ff>automatically check right teeth</font>]]></string>
-    <string name="auto_tooth_3_blue"><![CDATA[Tap the shutter button below to<br><font color=#75c3ff>automatically check left teeth</font>]]></string>
-
-
-    <string name="model_1_1"><![CDATA[Not <font color=#fee34c>dog eyes</font>]]></string>
-    <string name="model_1_2"><![CDATA[Not <font color=#fee34c>cat eyes</font>]]></string>
-    <string name="model_1_3"><![CDATA[<font color=#fee34c>Human eyes</font> are difficult to analyze]]></string>
-    <string name="model_1_4"><![CDATA[Scan <font color=#fee34c>dog\'s eyes</font>]]></string>
-    <string name="model_1_5"><![CDATA[Scan <font color=#fee34c>cat\'s eyes</font>]]></string>
-
-    <string name="model_2_1"><![CDATA[Please <font color=#fee34c>focus</font>]]></string>
-    <string name="model_2_2"><![CDATA[<font color=#fee34c>Eyes</font> should be <font color=#fee34c>open</font>]]></string>
-    <string name="model_2_3"><![CDATA[Scan <font color=#fee34c>in a bright environment</font>]]></string>
-    <string name="model_2_4"><![CDATA[Please <font color=#fee34c>part the fur</font> covering the eyes before taking the photo]]></string>
-
-
-    <string name="model_2_5"><![CDATA[Please <font color=#fee34c>focus</font>]]></string>
-
-    <string name="model_3_1"><![CDATA[Not <font color=#fee34c>right eye</font>]]></string>
-    <string name="model_3_2"><![CDATA[Not <font color=#fee34c>left eye</font>]]></string>
-    <string name="model_3_3"><![CDATA[Take a <font color=#fee34c>closer</font> picture ]]></string>
-    <string name="model_1_1_blue"><![CDATA[Not <font color=#75c3ff>dog eyes</font>]]></string>
-    <string name="model_1_2_blue"><![CDATA[Not <font color=#75c3ff>cat eyes</font>]]></string>
-    <string name="model_1_3_blue"><![CDATA[<font color=#75c3ff>Human eyes</font> are difficult to analyze]]></string>
-    <string name="model_1_4_blue"><![CDATA[Scan <font color=#75c3ff>dog\'s eyes</font>]]></string>
-    <string name="model_1_5_blue"><![CDATA[Scan <font color=#75c3ff>cat\'s eyes</font>]]></string>
-
-    <string name="model_2_1_blue"><![CDATA[Please <font color=#75c3ff>focus</font>]]></string>
-    <string name="model_2_2_blue"><![CDATA[<font color=#75c3ff>Eyes</font> should be <font color=#fee34c>open</font>]]></string>
-    <string name="model_2_3_blue"><![CDATA[Scan <font color=#75c3ff>in a bright environment</font>]]></string>
-    <string name="model_2_4_blue"><![CDATA[Please <font color=#75c3ff>part the fur</font> covering the eyes before taking the photo]]></string>
-
-
-    <string name="model_2_5_blue"><![CDATA[Please <font color=#75c3ff>focus</font>]]></string>
-
-    <string name="model_3_1_blue"><![CDATA[Not <font color=#75c3ff>right eye</font>]]></string>
-    <string name="model_3_2_blue"><![CDATA[Not <font color=#75c3ff>left eye</font>]]></string>
-    <string name="model_3_3_blue"><![CDATA[Take a <font color=#75c3ff>closer</font> picture]]></string>
-
-    <string name="tooth_guide_o">Optimal Picture</string>
-    <string name="tooth_guide_x">Inadequate Image</string>
-    <string name="tooth_guide_ment"><![CDATA[Please take a picture showing<br>the <font color=#fa535f>innner molars</font> as much as possible]]></string>
-
-
-
-    <string name="loading_ment_knee_title">Uploading %s\’s video</string>
-    <string name="joint_result_17"><![CDATA[To start, tap the <font color=#fee34c>shutter button on the right</font>]]></string>
-    <string name="joint_result_17_samsung"><![CDATA[To start, tap the <font color=#75c3ff>shutter button on the right</font>]]></string>
-
-    <string name="joint_indicate_1">Start shooting when you are a certain distance apart</string>
-    <string name="joint_indicate_2">When your dog walks in a direction at a certain pace</string>
-    <string name="joint_indicate_3">the screen will change to blue.</string>
-    <string name="joint_indicate_4">Both directions are fine</string>
-    <string name="joint_indicate_5">All we need is 3 seconds to start analyzing</string>
-    <string name="joint_indicate_6">Try to hold your smartphone still</string>
-
-    <string name="joint_result_15">Follow our demo tutorial</string>
-    <string name="joint_result_16">To start, tap the shutter button on the right</string>
-    <string name="joint_result_18">Please refer to our user guide</string>
-    <string name="joint_result_19">View our tutorial demo again</string>
-
-
-    <string name="close">Close</string>
-
-    <string name="joint_6"><![CDATA[Dog is walking well.<br>Please hold until we finish capturing the movement.]]></string>
-    <string name="joint_7"><![CDATA[Difficult to analyze.<br>Allow the dog to <font color=#fee34c>walk in parallel within the shaded area.</font>]]></string>
-    <string name="joint_7_samsung"><![CDATA[Difficult to analyze.<br>Allow the dog to <font color=#75c3ff>walk in parallel within the shaded area.</font>]]></string>
-    <string name="joint_8">Time\'s up.</string>
-    <string name="joint_9">Please keep your smartphone in landscape mode.\nYour dog need to be walk in one direction for at least three seconds.</string>
-    <string name="joint_10">Try again?</string>
-    <string name="joint_11">Read our user guide</string>
-
-    <string name="guide_7_1">Please refer to our user guide for more instructions.</string>
-    <string name="guide_11">Having difficulties checking gait?</string>
-    <string name="joint_download1">Downloading the necessary files for joint health check</string>
-
-
-
+    <string name="auto_eye_1">Please capture the eye.</string>
+    <string name="auto_tooth_1">Please capture the teeth.</string>
+    <string name="auto_process_1">Please adjust the focus.</string>
+    <string name="auto_process_2">Please move closer.</string>
+    <string name="auto_process_3">Please move farther away.</string>
 
 
     <string name="guide_eye_1">Eye scanning guide</string>
-    <string name="guide_eye_2">First time?</string>
-    <string name="guide_eye_3">Having trouble?</string>
-
-    <string name="guide_eye_4"><![CDATA[<b>Step 1. <font color=#1495f3>Select eye</font> you want to check</b>]]></string>
-    <string name="guide_eye_5">You can select one or both eyes. Select to add or remove the eye you want to examine.</string>
-    <string name="guide_eye_6"><![CDATA[<b>Step 2. Tap the shutter button to <font color=#1495f3>activate automated scan.</font></b>]]></string>
-    <string name="guide_eye_7">Once the eye detection frame is aligned, the AI will auto-capture the eye.</string>
-    <string name="guide_eye_8">For more accurate results</string>
-    <string name="guide_eye_9">Check your surroundings(windows, TV etc.) so that there are no objects reflecting in the eye, or try it with the flash on. The flash will cancel out reflections from surrounding objects. Don\’t worry, using flash for a brief moment won\’t affect your pet\’s eye health, but do it slowly as it may startle your pet or they may avoid eye contact. You can cover the flash with a piece of paper to prevent the glare.</string>
-    <string name="guide_eye_10">If they are having a hard time give it a rest</string>
-    <string name="guide_eye_11">If scanning is difficult, use selfie mode, but don\'t overdo it if they keep on avoiding or having a hard time. Please take it easy and try again later.</string>
-
-    <string name="guide_eye_12"><![CDATA[<b>Tip 1. These pictures are <font color=#1495f3>difficult to analyze</font></b>]]></string>
-    <string name="guide_eye_13">If something is blocking the eye, if the camera is shaking or if it is hard to focus on the eye, please to re-scan</string>
-    <string name="guide_eye_14"><![CDATA[<b>Tip 2. Follow our <font color=#1495f3>guide</font></b>]]></string>
-    <string name="guide_eye_15">Once the eye detection frame is aligned, the AI will auto-scan the eyes.</string>
-
     <string name="guide_skin_1">Skin scanning guide</string>
-
-    <string name="guide_skin_4"><![CDATA[<b>Step 1. <font color=#1495f3>Select the skin area</font> to examine</b>]]></string>
-    <string name="guide_skin_5">Select all or at least one body part below to start. For other parts(i.e. face, helix, back of the ear), please select ‘Other’.</string>
-    <string name="guide_skin_6"><![CDATA[<b>Step 2. <font color=#1495f3>Please take a photo</font> using the shutter button</b>]]></string>
-    <string name="guide_skin_7">Make sure nothing gets in the way.</string>
-    <string name="guide_skin_9">If there is anything on the skin, gently wipe it off before taking a photo. Before taking photos of the body, moisten the fur with water or brush it with your hands to ensure that the skin is visible. The body, paw pads and ears should be photographed with the flash on so that the symptoms can be checked without distorted shadows. </string>
-
-
-    <string name="guide_skin_12"><![CDATA[<b>Tip 1. Make sure you focus on the <font color=#1495f3>ear opening and the inner ear.</font></b>]]></string>
-    <string name="guide_skin_13">If there’s fur covering the ear opening or helix, gently lift them up with your hands.</string>
-
-    <string name="guide_skin_14"><![CDATA[<b>Tip 2. Please take a picture <font color=#1495f3>between the toes or paw pads.</font></b>]]></string>
-    <string name="guide_skin_15">Take a picture where the symptoms are prominent in the skin between the toes. If there are symptoms on the pads, take a picture so that the skin between the pads is visible.</string>
-
-    <string name="guide_skin_16"><![CDATA[<b>Tip 3. Make sure that the <font color=#1495f3>fur does not cover the skin.</font></b>]]></string>
-    <string name="guide_skin_17">Please take a picture as close as possible so that only the skin is exposed without the background.</string>
-
-    <string name="guide_skin_18">For more accurate results</string>
-    <string name="guide_skin_19">If there is any foreign substance on the skin, gently wipe it off before taking a photo. Before taking photos of the body, moisten the fur with water or brush it with your hands to ensure that the skin is visible. The body, paw pads and ears should be photographed with the flash on so that the symptoms can be analyzed without distorted shadows. </string>
-
-
-
+    <string name="guide_joint_1">Gait Scanning guide</string>
     <string name="guide_tooth_1">Teeth scanning guide</string>
 
-    <string name="guide_tooth_4"><![CDATA[<b>Step 1. <font color=#428ae0>Select the side of teeth</font> you want to check.</b>]]></string>
-    <string name="guide_tooth_5">You can select front, right or left. Select to add or remove the side you want to examine.</string>
-    <string name="guide_tooth_6"><![CDATA[<b>Step 2. Tap the shutter button to <font color=#428ae0>activate automated scan.</font></b>]]></string>
-    <string name="guide_tooth_7">Once the teeth detection frame is aligned, the AI will auto-capture the teeth.</string>
+    <string name="server_communication_error">Server communication error.</string>
+    <string name="diag_error2">The service is temporarily unavailable.\nPlease try again.</string>
 
-    <string name="guide_tooth_10">For more accurate results</string>
-    <string name="guide_tooth_11">Scan in bright settings or use the flash.  Sudden use of flash may startle your pet so take it slow.</string>
-    <string name="guide_tooth_12">If they are having a hard time, give it a rest</string>
-    <string name="guide_tooth_13">They may not want to open their mouth or keep moving their head. Take it easy and try it again if it\'s difficult.</string>
-
-    <string name="guide_tooth_14"><![CDATA[<b>Tip 1. These pictures are <font color=#428ae0>difficult to analyze</font></b>]]></string>
-    <string name="guide_tooth_15">If something is blocking the teeth or if it\'s out of focus, you would need to re-scan.</string>
-    <string name="guide_tooth_16"><![CDATA[<b>Tip 2. Follow our <font color=#428ae0>guide</font></b>]]></string>
-    <string name="guide_tooth_17">Once the teeth detection frame is aligned, the AI will auto-scan the teeth.</string>
-
-
-    <string name="guide_joint_1">Gait Scanning guide</string>
-    <string name="guide_joint_4"><![CDATA[<b>Step 1. Start filming from <font color=#428ae0>each end of your screen</font></b>]]></string>
-    <string name="guide_joint_5">Have your dog start walking from the very left or very right of the screen</string>
-    <string name="guide_joint_6"><![CDATA[<b>step 2. Tap the shutter button to <font color=#428ae0>start automatically.</font></b>]]></string>
-    <string name="guide_joint_7">Once AI registers how the dog is walking, the shaded area will change to blue.  After 3 seconds, the video will stop on its own. It may take up to 1-2 minutes for the video to be sent and analyzed.  Please wait patiently.</string>
-    <string name="guide_joint_11">If they are having a hard time, take it easy</string>
-    <string name="guide_joint_12">Don\'t overdo it if they keep avoiding you or having a hard time. Please take a rest and try again later.</string>
-    <string name="guide_joint_13"><![CDATA[<b>Tip 1. Make sure you fix your smartphone and <font color=#428ae0>hold still.</font></b>]]></string>
-    <string name="guide_joint_14">If someone is helping you out, just hold the smartphone still while having the dog walk straight from one corner to the other. If you are alone, use a tripod to hold your smartphone straight and still.</string>
-    <string name="guide_joint_15"><![CDATA[<b>Tip 2. <font color=#428ae0>Give enough space.</font></b>]]></string>
-    <string name="guide_joint_16">Make sure your dog\'s full frame can easily fit into the screen.  For small, medium sized dogs, allow for about 4-5 steps in between.  For bigger dogs, allow for at least 6-10 steps in between.</string>
-    <string name="guide_joint_17"><![CDATA[<b>Tip 3. These videos are <font color=#428ae0>difficult to analyze.</font></b>]]></string>
-    <string name="guide_joint_18">Make sure no one is blocking the dog. If there is more than one dog on the screen, it\'s difficult to analyze. One dog at a time.</string>
-    <string name="guide_joint_19">Please do not block your dog.</string>
-    <string name="guide_joint_20">Walk in front of the dog.</string>
-
-    <string name="network_error_tt">Please check your internet connection</string>
-
-
-    <!--눈-->
-
-    <string name="eye_model1_1"><![CDATA[Not <font color=#fee34c>dog eyes</font]]></string>
-    <string name="eye_model1_2"><![CDATA[Not <font color=#fee34c>cat eyes</font>]]></string>
-    <string name="eye_model1_3"><![CDATA[<font color=#fee34c>Human eyes</font> are difficult to analyze]]></string>
-    <string name="eye_model1_4"><![CDATA[Scan <font color=#fee34c>dog\'s eyes</font>]]></string>
-    <string name="eye_model1_5"><![CDATA[Scan <font color=#fee34c>cat\'s eyes</font>]]></string>
-
-    <string name="eye_model2_1"><![CDATA[Not <font color=#fee34c>right eye</font>]]></string>
-    <string name="eye_model2_2"><![CDATA[Not <font color=#fee34c>left eye</font>]]></string>
-
-    <string name="eye_model3_1"><![CDATA[Please <font color=#fee34c>focus</font>]]></string>
-    <string name="eye_model3_2"><![CDATA[<font color=#fee34c>Eyes</font> should be <font color=#fee34c>open</font>]]></string>
-    <string name="eye_model3_3"><![CDATA[Please <font color=#fee34c>part the fur</font> covering the eyes before taking the photo]]></string>
-
-
-    <string name="eye_model3_4"><![CDATA[<font color=#fee34c>RED-EYE</font> is difficult to analyze]]></string>
-    <string name="eye_model3_5"><![CDATA[Please <font color=#fee34c>focus</font>]]></string>
-
-
-    <string name="eye_model4_1"><![CDATA[Take a <font color=#fee34c>closer</font> picture]]></string>
-    <string name="eye_model4_2"><![CDATA[Please take a picture <font color=#fee34c>from a little further away</font>]]></string>
-
-
-    <!--치아-->
-    <string name="tooth_model1_1"><![CDATA[Not <font color=#fee34c>dog\'s teeth</font>]]></string>
-    <string name="tooth_model1_2"><![CDATA[Not <font color=#fee34c>cat\'s teeth</font>]]></string>
-    <string name="tooth_model1_3"><![CDATA[<font color=#fee34c>Human teeth</font> are difficult to analyze]]></string>
-    <string name="tooth_model1_4"><![CDATA[Scan <font color=#fee34c>dog\'s teeth</font>]]></string>
-    <string name="tooth_model1_5"><![CDATA[Scan <font color=#fee34c>cat\'s teeth</font>]]></string>
-
-    <string name="tooth_model2_1"><![CDATA[Please <font color=#fee34c>focus</font>]]></string>
-    <string name="tooth_model2_2"><![CDATA[Please <font color=#fee34c>focus</font>]]></string>
-    <string name="tooth_model2_3"><![CDATA[Scan <font color=#fee34c>dog\'s teeth</font>]]></string>
-    <string name="tooth_model2_4"><![CDATA[Scan <font color=#fee34c>dog\'s teeth</font>]]></string>
-    <string name="tooth_model2_5"><![CDATA[Please <font color=#fee34c>part the fur</font> covering the teeth<br>before taking the photo]]></string>
-
-    <string name="tooth_model3_1"><![CDATA[Not <font color=#fee34c>front teeth</font>]]></string>
-    <string name="tooth_model3_2"><![CDATA[Not <font color=#fee34c>right teeth</font>]]></string>
-    <string name="tooth_model3_3"><![CDATA[Not <font color=#fee34c>legt teeth</font>]]></string>
-    <string name="tooth_model3_4"><![CDATA[Take a <font color=#fee34c>closer</font> picture]]></string>
-
-    <string name="tooth_model4_1"><![CDATA[Please <font color=#fee34c>focus</font>]]></string>
-
-
-
-    <!--눈-->
-
-    <string name="eye_model1_1_blue"><![CDATA[Not <font color=#75c3ff>dog eyes</font]]></string>
-    <string name="eye_model1_2_blue"><![CDATA[Not <font color=#75c3ff>cat eyes</font>]]></string>
-    <string name="eye_model1_3_blue"><![CDATA[<font color=#75c3ff>Human eyes</font> are difficult to analyze]]></string>
-    <string name="eye_model1_4_blue"><![CDATA[Scan <font color=#75c3ff>dog\'s eyes</font>]]></string>
-    <string name="eye_model1_5_blue"><![CDATA[Scan <font color=#75c3ff>cat\'s eyes</font>]]></string>
-
-    <string name="eye_model2_1_blue"><![CDATA[Not <font color=#75c3ff>right eye</font>]]></string>
-    <string name="eye_model2_2_blue"><![CDATA[Not <font color=#75c3ff>left eye</font>]]></string>
-
-    <string name="eye_model3_1_blue"><![CDATA[Please <font color=#75c3ff>focus</font>]]></string>
-    <string name="eye_model3_2_blue"><![CDATA[<font color=#75c3ff>Eyes</font> should be <font color=#fee34c>open</font>]]></string>
-    <string name="eye_model3_3_blue"><![CDATA[Please <font color=#75c3ff>part the fur</font> covering the eyes before taking the photo]]></string>
-    <string name="eye_model3_4_blue"><![CDATA[<font color=#75c3ff>RED-EYE</font> is difficult to analyze]]></string>
-    <string name="eye_model3_5_blue"><![CDATA[Please <font color=#75c3ff>focus</font>]]></string>
-
-
-    <string name="eye_model4_1_blue"><![CDATA[Take a <font color=#75c3ff>closer</font> picture]]></string>
-    <string name="eye_model4_2_blue"><![CDATA[Please take a picture <font color=#75c3ff>from a little further away</font>]]></string>
-
-
-    <!--치아-->
-    <string name="tooth_model1_1_blue"><![CDATA[Not <font color=#75c3ff>dog\'s teeth</font>]]></string>
-    <string name="tooth_model1_2_blue"><![CDATA[Not <font color=#75c3ff>cat\'s teeth</font>]]></string>
-    <string name="tooth_model1_3_blue"><![CDATA[<font color=#75c3ff>Human teeth</font> are difficult to analyze]]></string>
-    <string name="tooth_model1_4_blue"><![CDATA[Scan <font color=#75c3ff>dog\'s teeth</font>]]></string>
-    <string name="tooth_model1_5_blue"><![CDATA[Scan <font color=#75c3ff>cat\'s teeth</font>]]></string>
-
-    <string name="tooth_model2_1_blue"><![CDATA[Please <font color=#75c3ff>focus</font>]]></string>
-    <string name="tooth_model2_2_blue"><![CDATA[Please <font color=#75c3ff>focus</font>]]></string>
-    <string name="tooth_model2_3_blue"><![CDATA[Scan <font color=#75c3ff>dog\'s teeth</font>]]></string>
-    <string name="tooth_model2_4_blue"><![CDATA[Scan <font color=#75c3ff>dog\'s teeth</font>]]></string>
-    <string name="tooth_model2_5_blue"><![CDATA[Please <font color=#75c3ff>part the fur</font> covering the teeth<br>before taking the photo]]></string>
-
-    <string name="tooth_model3_1_blue"><![CDATA[Not <font color=#75c3ff>front teeth</font>]]></string>
-    <string name="tooth_model3_2_blue"><![CDATA[Not <font color=#75c3ff>right teeth</font>]]></string>
-    <string name="tooth_model3_3_blue"><![CDATA[Not <font color=#75c3ff>legt teeth</font>]]></string>
-    <string name="tooth_model3_4_blue"><![CDATA[Take a <font color=#75c3ff>closer</font> picture]]></string>
-
-    <string name="tooth_model4_1_blue"><![CDATA[Please <font color=#75c3ff>focus</font>]]></string>
-
-    <string name="complete_1">Confirm</string>
-    <string name="complete_2">The video has been sent.</string>
-    <string name="complete_3">The photo has been sent.</string>
-    <string name="complete_4">Are you also taking pictures of other skin areas?</string>
-    <string name="complete_5"><![CDATA[You can take <font color=#368df5>%s</font> more pictures.]]></string>
-    <string name="complete_6">Capture another area</string>
-    <string name="complete_7">End session</string>
 
 </resources>

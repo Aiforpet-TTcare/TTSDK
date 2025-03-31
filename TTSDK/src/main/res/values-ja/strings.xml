@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="underlined_text">contact@aiforpet.com</string>
+
+    <string name="network_error_tt">インターネット接続を確認してください。</string>
+    <string name="common_confirm">確認</string>
+    <string name="diag_error1">お知らせ</string>
+
+
+    <string name="auto_camera_1">ボタンを押すと、AI Scanを開始します。</string>
+    <string name="auto_camera_2">撮影サンプル画面です。</string>
+    <string name="auto_camera_3">撮影ガイド</string>
+
+
+    <string name="auto_camera_4">AI AI Scan撮影を行うためには、\nカメラ権限を許可してください。</string>
+    <string name="auto_camera_5">許可</string>
+
+
+    <string name="auto_camera_6">イメージをアップロート中</string>
+    <string name="auto_camera_6_1">AIが症状を分析中</string>
+
+    <string name="auto_camera_7">しばらくお待ちください。</string>
+    <string name="auto_camera_8">국내 최초 동물용의료기기\n의료 영상진단 보조 소프트웨어</string>
+
+    <string name="auto_camera_9">撮影時間が超過しました。</string>
+    <string name="auto_camera_10">撮影が難しいですか。\n詳細については、撮影ガイドをご参照ください。</string>
+    <string name="auto_camera_11">再撮影</string>
+    <string name="auto_camera_12">撮影ガイド</string>
+
+    <string name="auto_camera_13">フラッシュの使用をおすすめします。</string>
+    <string name="auto_camera_14"><![CDATA[<font color=#368DF5>フラッシュを使用するとよ</font>り明確な結果を提供することができます。]]></string>
+    <string name="auto_camera_15"><![CDATA[できるだけ毛を除いて、肌から少なくとも<b><font color=#fa535f>10cm</font></b>の間隔をあけて撮影してください。]]></string>
+    <string name="auto_camera_16">一時的なフレッシュ活性化が動物に不便さ感じさせるかもしれませんが、健康上危害を及ぼす科学的な根拠はありません。不便さが気になりましたら、フラッシュの出口に薄めの紙を当てていただくと不便さを減らせます。</string>
+    <string name="auto_camera_17">始める</string>
+
+    <string name="auto_camera_18">より正確なAI Scanのために最新\nファイルをダウンロードしてください。</string>
+    <string name="auto_camera_19">しばらくお待ちください。</string>
+
+    <string name="auto_camera_20">撮影サンプル画面です。</string>
+
+
+
+    <string name="auto_skin_1">耳を撮影してください。</string>
+    <string name="auto_skin_2">体を撮影してください。</string>
+    <string name="auto_skin_3">足を撮影してください。</string>
+    <string name="auto_skin_4">皮膚(ひふ)を撮影してください。</string>
+
+    <string name="auto_eye_1">目を撮影してください。</string>
+    <string name="auto_tooth_1">歯を撮影してください。</string>
+    <string name="auto_process_1">焦点をしっかり合わせてください。</string>
+    <string name="auto_process_2">もっと近くで撮影してください。</string>
+    <string name="auto_process_3">もっと離れて撮影してください。</string>
+
+
+    <string name="guide_eye_1">目(め)のスキャンガイド</string>
+    <string name="guide_skin_1">皮膚(ひふ)のスキャンガイド</string>
+    <string name="guide_joint_1">歩行(ほこう)スキャンガイド</string>
+    <string name="guide_tooth_1">歯(は)のスキャンガイド</string>
+
+    <string name="server_communication_error">サーバー通信エラーです。</string>
+    <string name="diag_error2">同時接続数が多いか、もしくはネットワークの不安定により一時的にサービスへの接続ができません。再度撮影してください。</string>
+
+
+
+
+</resources>
