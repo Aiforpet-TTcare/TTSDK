@@ -1,0 +1,11 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <!-- 하단 좌우 모서리만 30dp 라운드 -->
+    <corners
+        android:bottomLeftRadius="30dp"
+        android:bottomRightRadius="30dp" />
+
+    <!-- PreviewView 영역(안쪽)은 투명으로 -->
+    <solid android:color="@android:color/transparent" />
+</shape>

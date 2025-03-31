@@ -9,8 +9,8 @@ android {
     defaultConfig {
         minSdk 21
         targetSdk 34
-        versionCode 53
-        versionName "1.9.0"
+        versionCode 54
+        versionName "1.9.99"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         ndkVersion '21.3.6528147'
@@ -78,7 +78,7 @@ android {
             buildConfigField "String", "BASE_URL_STATUS", '"https://status.tdogtdog.com/hospital-us/app-status"'
             buildConfigField "String", "BASE_URL_SDK", '"https://dev-sdk.ttcare.co.kr"'
             buildConfigField "String", "REACT_URL", '"https://dev-web.ttcare.co.kr/react"'
-            buildConfigField "String", "VERSION_CODE", '"1"'
+            buildConfigField "String", "VERSION_CODE", '"2"'
         }
 
         release {
@@ -89,7 +89,7 @@ android {
             buildConfigField "String", "BASE_URL_STATUS", '"https://status.tdogtdog.com/hospital-us/app-status"'
             buildConfigField "String", "BASE_URL_SDK", '"https://dev-sdk.ttcare.co.kr"'
             buildConfigField "String", "REACT_URL", '"https://dev-web.ttcare.co.kr/react"'
-            buildConfigField "String", "VERSION_CODE", '"1"'
+            buildConfigField "String", "VERSION_CODE", '"2"'
         }
     }
 }
