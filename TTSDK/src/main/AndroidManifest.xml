@@ -19,6 +19,7 @@
         android:allowBackup="false"
         android:requestLegacyExternalStorage="true"
         android:supportsRtl="true"
+        android:theme="@style/TTsdkTheme"
         android:largeHeap="true">
 
         <activity
