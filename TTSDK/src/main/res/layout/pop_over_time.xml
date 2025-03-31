@@ -31,6 +31,7 @@
             <TextView
                 style="@style/Font_Bold_18"
                 android:text="@string/auto_camera_9"
+                android:textColor="@color/color_191919"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="40dp"/>
 

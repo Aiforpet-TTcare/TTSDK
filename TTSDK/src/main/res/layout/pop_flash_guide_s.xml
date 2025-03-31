@@ -85,6 +85,7 @@
                     android:gravity="center_vertical"
                     android:lineHeight="@dimen/v_20dp"
                     android:layout_weight="1"
+                    android:textColor="#191919"
                     android:lineSpacingExtra="7sp"
                     android:id="@+id/flash_guide_txt"
                     android:layout_marginLeft="@dimen/v_20dp"/>
