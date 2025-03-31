@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="underlined_text">contact@aiforpet.com</string>
+
 
     <string name="network_error_tt">インターネット接続を確認してください。</string>
     <string name="common_confirm">確認</string>

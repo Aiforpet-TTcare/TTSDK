@@ -1,19 +1,4 @@
 <resources>
-    <string name="underlined_text">contact@aiforpet.com</string>
-
-    <string name="diag_result_eye">눈 체크 상세</string>
-    <string name="diag_result_skin">피부 체크 상세</string>
-    <string name="diag_result_teeth">치아 체크 상세</string>
-    <string name="diag_ment">본 서비스는 수의사법에 저촉되지 않는 범위에서 사용할 수 있습니다. 동물의 이상 징후를 확인하여 진단에 도움을 주기 위한 보조 장치로 질병의 진단은 반드시 전문 수의사가 수행하여야 합니다.</string>
-    <string name="diag_ment_1">같은 반려동물을 촬영하더라도 환경, 품질, 각도에 따라 이상 징후의 체크 결과가 달라질 수 있습니다.</string>
-    <string name="check_subindicate"><![CDATA[결과에 표시된 %수치는 티티케어 AI를 통해 분석한 <b><font color=#717171>이상 징후가 있을 확률</font></b>로 아래와 같이 구분해 제공돼요.]]></string>
-    <string name="check_subindicate_1">50% 미만일 경우</string>
-    <string name="check_subindicate_2">50% 이상일 경우</string>
-    <string name="diag_result_1">체크 결과</string>
-    <string name="diag_result_2">오른쪽</string>
-    <string name="diag_result_3">왼쪽</string>
-
-
 
 
     <string name="network_error_tt">Please check your internet connection.</string>
@@ -73,6 +58,7 @@
 
     <string name="server_communication_error">Server communication error.</string>
     <string name="diag_error2">The service is temporarily unavailable.\nPlease try again.</string>
+
 
 
 </resources>
