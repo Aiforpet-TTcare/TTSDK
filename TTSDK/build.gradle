@@ -10,7 +10,7 @@ android {
         minSdk 21
         targetSdk 34
         versionCode 58
-        versionName "1.9.9994"
+        versionName "1.9.9995"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         ndkVersion '21.3.6528147'
@@ -75,9 +75,6 @@ android {
     buildTypes {
         debug {
             debuggable true
-            buildConfigField "String", "BASE_URL_STATUS", '"https://status.tdogtdog.com/hospital-us/app-status"'
-            buildConfigField "String", "BASE_URL_SDK", '"https://dev-sdk.ttcare.co.kr"'
-            buildConfigField "String", "REACT_URL", '"https://dev-web.ttcare.co.kr/react"'
             buildConfigField "String", "VERSION_CODE", '"2"'
         }
 
@@ -85,10 +82,6 @@ android {
             debuggable false
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-
-            buildConfigField "String", "BASE_URL_STATUS", '"https://status.tdogtdog.com/hospital-us/app-status"'
-            buildConfigField "String", "BASE_URL_SDK", '"https://dev-sdk.ttcare.co.kr"'
-            buildConfigField "String", "REACT_URL", '"https://dev-web.ttcare.co.kr/react"'
             buildConfigField "String", "VERSION_CODE", '"2"'
         }
     }
@@ -100,7 +93,7 @@ afterEvaluate {
             release(MavenPublication) {
                 groupId = 'com.github.Aiforpet-TTcare'
                 artifactId = 'TTSDK'
-                version = 'v1.6.9'
+                version = 'v1.9.9995'
 
                 artifact("$buildDir/outputs/aar/TTSDK-release.aar") {
                     builtBy tasks.named("assembleRelease")
