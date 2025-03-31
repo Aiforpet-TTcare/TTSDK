@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CC000000"
+    android:focusable="true"
+    android:clickable="true"
+    android:id="@+id/pop_over_time"
+    android:visibility="gone">
+
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/v_35dp"
+        app:cardBackgroundColor="@color/color_ffffff"
+        app:cardElevation="4dp"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="@dimen/v_30dp"
+        android:layout_marginLeft="@dimen/v_30dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <TextView
+                style="@style/Font_Bold_18"
+                android:textSize="@dimen/v_18dp"
+                android:text="@string/auto_camera_9"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/v_40dp"/>
+
+            <TextView
+                style="@style/Font_Regular_14"
+                android:textSize="@dimen/v_14dp"
+                android:text="@string/auto_camera_10"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/v_10dp"
+                android:gravity="center"
+                android:textColor="@color/color_535353"
+                android:lineHeight="@dimen/v_21dp"/>
+            
+            
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/v_50dp"
+                android:layout_marginLeft="@dimen/v_20dp"
+                android:layout_marginRight="@dimen/v_20dp"
+                android:layout_marginTop="@dimen/v_30dp"
+                app:cardCornerRadius="10dp"
+                app:cardBackgroundColor="#333344"
+                android:id="@+id/pop_re_pick">
+                <TextView
+                    style="@style/Font_Bold_16"
+                    android:textSize="@dimen/v_16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/auto_camera_11"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:textColor="@color/color_ffffff"/>
+
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/v_20dp"
+                android:layout_marginBottom="@dimen/v_37dp"
+                android:id="@+id/pop_guide_btn">
+
+                <TextView
+                    style="@style/Font_Regular_15"
+                    android:textSize="@dimen/v_15dp"
+                    android:text="@string/auto_camera_12"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:textColor="@color/color_717171"/>
+
+                <ImageView
+                    android:layout_width="@dimen/v_20dp"
+                    android:layout_height="@dimen/v_20dp"
+                    android:background="@drawable/icon_scan_q_gray"
+                    android:layout_gravity="center_vertical"/>
+
+
+            </LinearLayout>
+            
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</RelativeLayout>

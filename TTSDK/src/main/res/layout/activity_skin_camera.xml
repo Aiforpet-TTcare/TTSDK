@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".check.EyeCameraActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+
+            <androidx.camera.view.PreviewView
+                android:id="@+id/previewView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_preview_rounded"
+                android:clipToOutline="true" />
+
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/guide_lottie"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:lottie_fileName="test.json"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                android:visibility="gone"
+                android:scaleType="centerCrop"/>
+
+
+
+
+            <!-- 프레임 바깥만 반투명하게 처리할 오버레이 -->
+            <com.aiforpet.pet.check.model.FrameOverlay
+                android:id="@+id/frameOverlay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+
+            <!-- 프레임 바깥만 반투명하게 처리할 오버레이 -->
+            <com.aiforpet.pet.check.CustomOverlay
+                android:id="@+id/customOverlay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/frame_white"
+                android:layout_centerInParent="true"
+                android:id="@+id/previewFrame"/>
+
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/icon_scan_close"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/camera_close"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/color_ffffff"
+                android:background="@color/color_b3000000"
+                android:text="@string/auto_camera_1"
+                android:gravity="center"
+                android:textSize="18dp"/>
+
+            <com.aiforpet.pet.util.DotAnimationView
+                android:id="@+id/dotAnimationView"
+                android:layout_width="264dp"
+                android:layout_height="264dp"
+                android:visibility="gone"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="0">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_centerHorizontal="true">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/flash_on"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/flash_on"/>
+
+
+                <RelativeLayout
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:id="@+id/autoBtn">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/auto_pick"/>
+
+                    <!-- (1) 바깥 뷰: 80dp, 4dp 테두리에 그라디언트, 내부 검정 -->
+                    <com.aiforpet.pet.check.model.OuterCircleView
+                        android:id="@+id/outerCircleView"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp" />
+
+                    <!-- (2) 안쪽 뷰: (80 - 4*2)=72dp, 중앙 배치
+                         초기엔 검정과 동일, 타이머로 점점 그라디언트로 채워짐 -->
+                    <com.aiforpet.pet.check.model.InnerFillView
+                        android:id="@+id/innerFillView"
+                        android:layout_width="74dp"
+                        android:layout_height="74dp"
+                        android:layout_centerInParent="true"/>
+
+
+                    <ImageView
+                        android:id="@+id/intro_circle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="gone"
+                        android:background="@drawable/capture_on" />
+
+                </RelativeLayout>
+
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/icon_scan_reversal"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/camera_reverse"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="38dp"
+                android:id="@+id/auto_guide">
+
+
+                <TextView
+                    style="@style/Font_Bold_15"
+                    android:textColor="@color/color_ffffff"
+                    android:text="@string/auto_camera_3" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/icon_scan_q" />
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/cropImage"
+                android:layout_margin="20dp"/>
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/permissionView"
+        android:background="@color/color_99000000"
+        android:visibility="gone">
+
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/icon_scan_close"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/permissionView_close"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+
+            <TextView
+                style="@style/Font_Medium"
+                android:textSize="20dp"
+                android:textColor="@color/color_ffffff"
+                android:text="@string/auto_camera_4"
+                android:gravity="center"
+                android:lineHeight="28dp" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="172dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                app:cardCornerRadius="30dp"
+                android:id="@+id/permissionView_arrow"
+                app:cardBackgroundColor="@color/color_333344" >
+
+                <TextView
+                    style="@style/Font_Bold_16"
+                    android:textColor="@color/color_ffffff"
+                    android:text="@string/auto_camera_5"
+                    android:gravity="center"
+                    android:layout_gravity="center"/>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+    <include layout="@layout/diag_analysis" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ScreenShotLayout"
+        android:background="@color/color_ffffff"
+        android:visibility="gone"/>
+
+    <include layout="@layout/pop_flash_guide" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

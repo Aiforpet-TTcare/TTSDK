@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000">
+    android:background="@color/color_000000">
 
 
 
@@ -35,20 +35,14 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="56dp">
 
-            <TextView
-                style="@style/Font_Medium"
-                android:textSize="13dp"
-                android:id="@+id/detail_time"
-                android:layout_centerInParent="true"
-                android:textColor="#ffffff"/>
 
 
         </RelativeLayout>
 
-        <androidx.viewpager.widget.ViewPager
+        <com.aiforpet.pet.util.PinchImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/pager"
+            android:id="@+id/imageview"
             android:layout_weight="1"
             android:layout_marginTop="14dp"
             android:layout_marginBottom="14dp"/>
@@ -58,12 +52,6 @@
             android:layout_width="match_parent"
             android:layout_height="120dp">
 
-            <TextView
-                style="@style/Font_SF_Bold_13"
-                android:id="@+id/count_text"
-                android:layout_centerHorizontal="true"
-                android:text="1/2"
-                android:textColor="#ffffff"/>
 
 
         </RelativeLayout>

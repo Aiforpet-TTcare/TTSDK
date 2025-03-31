@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:visibility="gone"
+    android:id="@+id/diag_analysis"
+    android:background="#e6000000">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/Font_Bold_20"
+            android:textColor="@color/color_ffffff"
+            android:layout_gravity="center_horizontal"
+            android:lineHeight="28dp"
+            android:text="@string/auto_camera_6"/>
+
+        <TextView
+            style="@style/Font_Regular_14"
+            android:textColor="@color/color_ffffff"
+            android:layout_gravity="center_horizontal"
+            android:lineHeight="28dp"
+            android:text="@string/auto_camera_7"
+            android:layout_marginTop="10dp"/>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="264dp"
+            android:layout_height="264dp"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="30dp"
+            app:cardBackgroundColor="#ef000000">
+            <RelativeLayout
+                android:layout_width="264dp"
+                android:layout_height="264dp">
+                <ImageView
+                    android:layout_width="264dp"
+                    android:layout_height="264dp"
+                    android:id="@+id/analysisCropImage"/>
+
+                <com.aiforpet.pet.util.DotAnimationView
+                    android:id="@+id/analysis_dotAnimationView"
+                    android:layout_width="264dp"
+                    android:layout_height="264dp"
+                    android:visibility="gone"
+                    android:layout_centerInParent="true"/>
+
+
+            </RelativeLayout>
+
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                style="@style/Font_Bold_22"
+                android:textSize="38dp"
+                android:id="@+id/percentValue"
+                android:textColor="@color/color_ffffff"
+                android:layout_gravity="center_horizontal"
+                android:lineHeight="28dp"
+                android:text="0"/>
+
+            <TextView
+                style="@style/Font_Bold_16"
+                android:textColor="@color/color_ffffff"
+                android:layout_gravity="bottom"
+                android:text="%"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="2dp"/>
+        </LinearLayout>
+
+
+        <TextView
+            style="@style/Font_Regular_13"
+            android:textColor="@color/color_ffffff"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/auto_camera_8"
+            android:layout_marginTop="30dp"/>
+
+        <ImageView
+            android:layout_width="104dp"
+            android:layout_height="19dp"
+            android:background="@drawable/ci_scan_government"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:visibility="gone"
+    android:id="@+id/diag_analysis"
+    android:background="#e6000000">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/Font_Bold_20"
+            android:textSize="@dimen/v_20dp"
+            android:textColor="@color/color_ffffff"
+            android:layout_gravity="center_horizontal"
+            android:lineHeight="@dimen/v_28dp"
+            android:text="@string/auto_camera_6"/>
+
+        <TextView
+            style="@style/Font_Regular_14"
+            android:textSize="@dimen/v_14dp"
+            android:textColor="@color/color_ffffff"
+            android:layout_gravity="center_horizontal"
+            android:lineHeight="@dimen/v_28dp"
+            android:text="@string/auto_camera_7"
+            android:layout_marginTop="@dimen/v_10dp"/>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="@dimen/v_264dp"
+            android:layout_height="@dimen/v_264dp"
+            android:layout_marginTop="@dimen/v_30dp"
+            app:cardCornerRadius="@dimen/v_30dp"
+            app:cardBackgroundColor="#ef000000">
+            <RelativeLayout
+                android:layout_width="@dimen/v_264dp"
+                android:layout_height="@dimen/v_264dp">
+                <ImageView
+                    android:layout_width="@dimen/v_264dp"
+                    android:layout_height="@dimen/v_264dp"
+                    android:id="@+id/analysisCropImage"/>
+
+                <com.aiforpet.pet.util.DotAnimationView
+                    android:id="@+id/analysis_dotAnimationView"
+                    android:layout_width="@dimen/v_264dp"
+                    android:layout_height="@dimen/v_264dp"
+                    android:visibility="gone"
+                    android:layout_centerInParent="true"/>
+
+
+            </RelativeLayout>
+
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/v_20dp">
+
+            <TextView
+                style="@style/Font_Bold_22"
+                android:textSize="@dimen/v_38dp"
+                android:id="@+id/percentValue"
+                android:textColor="@color/color_ffffff"
+                android:layout_gravity="center_horizontal"
+                android:lineHeight="@dimen/v_28dp"
+                android:text="0"/>
+
+            <TextView
+                style="@style/Font_Bold_16"
+                android:textSize="@dimen/v_16dp"
+                android:textColor="@color/color_ffffff"
+                android:layout_gravity="bottom"
+                android:text="%"
+                android:layout_marginBottom="@dimen/v_4dp"
+                android:layout_marginLeft="@dimen/v_2dp"/>
+        </LinearLayout>
+
+
+        <TextView
+            style="@style/Font_Regular_13"
+            android:textSize="@dimen/v_13dp"
+            android:textColor="@color/color_ffffff"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/auto_camera_8"
+            android:layout_marginTop="@dimen/v_30dp"/>
+
+        <ImageView
+            android:layout_width="@dimen/v_104dp"
+            android:layout_height="@dimen/v_19dp"
+            android:background="@drawable/ci_scan_government"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/v_12dp"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

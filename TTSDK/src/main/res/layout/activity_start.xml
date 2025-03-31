@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntroActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="눈"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="강아지 눈"
+            android:id="@+id/eyeBtn1" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="고양이 눈"
+            android:id="@+id/eyeBtn2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="강아지 피부"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"/>
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="귀"
+            android:id="@+id/skinBtn1" />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="몸통"
+            android:id="@+id/skinBtn2" />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="발"
+            android:id="@+id/skinBtn3" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="강아지 치아"
+            android:id="@+id/teethBtn1"
+            android:layout_marginTop="30dp"/>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="고양이 치아"
+            android:id="@+id/teethBtn2"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
