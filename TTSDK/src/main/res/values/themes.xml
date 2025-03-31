@@ -1,0 +1,498 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="TTsdkTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="colorPrimary">@color/dialog_blue</item>
+        <item name="colorPrimaryDark">@color/dialog_blue</item>
+        <item name="colorAccent">@color/dialog_blue</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/white_bg</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:windowBackground">@color/white_bg</item>
+
+    </style>
+
+
+
+
+
+
+
+    <style name="TopTile" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#191919</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+
+    <style name="PopTile" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#191919</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+
+
+    </style>
+
+
+    <style name="Title_Large" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:gravity">center_vertical</item>
+
+    </style>
+
+
+    <style name="Title_Large2" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+
+
+
+    </style>
+
+
+    <style name="Title_Middle" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:gravity">center_vertical</item>
+
+    </style>
+
+
+
+    <style name="Sub_Ment_13" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">13dp</item>
+
+    </style>
+
+    <style name="Sub_Ment_14" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">14dp</item>
+
+    </style>
+
+
+    <style name="Sub_Ment_15" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">15dp</item>
+
+    </style>
+
+    <style name="Sub_Ment_16" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">16dp</item>
+
+    </style>
+
+    <style name="Sub_Ment_17" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">17dp</item>
+
+    </style>
+
+    <style name="Sub_Ment_18" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">18dp</item>
+
+    </style>
+
+    <style name="Font_Regular_10" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">10dp</item>
+
+    </style>
+
+
+    <style name="Font_Regular_11" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">11dp</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+
+
+    </style>
+
+
+
+    <style name="Font_Regular_Type2_15" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+
+
+    </style>
+
+
+    <style name="Font_Regular_12" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+
+
+    </style>
+
+    <style name="Font_Regular_13" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+
+    </style>
+
+
+    <style name="Font_Regular_13_type2" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+
+    </style>
+
+    <style name="Font_Regular_14" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+
+    </style>
+
+
+    <style name="Font_Light_14" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+
+    </style>
+
+
+    <style name="Font_Regular_15" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+
+    </style>
+
+
+    <style name="Font_Light_15" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+
+    </style>
+
+    <style name="Font_Regular_16" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+
+    </style>
+
+    <style name="Font_Regular_17" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+
+    </style>
+
+    <style name="Font_Regular_18" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+
+    </style>
+
+    <style name="Font_Bold_10" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+
+    </style>
+
+
+    <style name="Font_Bold_11" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">11dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+
+    </style>
+
+
+    <style name="Font_Bold_12" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#191919</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+
+    </style>
+
+    <style name="Font_Bold_13" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+        <item name="android:textColor">#191919</item>
+        <item name="android:letterSpacing">-0.05</item>
+    </style>
+
+    <style name="Font_SF_Bold_13_Edit" parent="@android:style/Widget.EditText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+
+    </style>
+
+    <style name="Font_SF_Bold_13" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+
+    </style>
+
+
+    <style name="Font_SF_Bold_21" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">34dp</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+
+    </style>
+
+
+    <style name="Font_SF_Regular_13" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+
+    </style>
+
+
+    <style name="Font_Bold_14" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#191919</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+
+    </style>
+
+    <style name="Font_Bold_15" parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#191919</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+    </style>
+
+    <style name="Font_Bold_16" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#191919</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Font_Medium_16" parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#191919</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Font_Medium_14" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+
+    <style name="Font_Medium" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+
+    <style name="Font_Bold_17" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#191919</item>
+    </style>
+
+    <style name="Font_Bold_18" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#191919</item>
+
+    </style>
+
+    <style name="Font_Bold_20" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:lineHeight">28dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Font_Bold_22" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">22.5dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Button_Crpo" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">22dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+
+
+
+
+    <style name="Font_SF_18" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+
+
+    <style name="Font_SF_Regular_18" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+    </style>
+
+
+
+    <style name="MyCustomTabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabTextAppearance">@style/MyCustomTextAppearance</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="tabIndicatorColor">#191919</item> <!-- 언더라인 색상 지정 -->
+        <item name="tabIndicatorHeight">2dp</item> <!-- 인디케이터 높이 지정 -->
+
+    </style>
+
+    <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+</resources>
