@@ -78,14 +78,13 @@
 
 
                 <TextView
-                    style="@style/Font_Regular_13"
+                    style="@style/Font_Regular_13_type2"
                     android:textSize="@dimen/v_13dp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center_vertical"
                     android:lineHeight="@dimen/v_20dp"
                     android:layout_weight="1"
-                    android:textColor="#191919"
                     android:lineSpacingExtra="7sp"
                     android:id="@+id/flash_guide_txt"
                     android:layout_marginLeft="@dimen/v_20dp"/>

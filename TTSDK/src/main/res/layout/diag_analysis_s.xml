@@ -21,6 +21,7 @@
             android:textColor="@color/color_ffffff"
             android:layout_gravity="center_horizontal"
             android:lineHeight="@dimen/v_28dp"
+            android:id="@+id/loading_title"
             android:text="@string/auto_camera_6"/>
 
         <TextView

@@ -86,7 +86,6 @@
                         style="@style/Font_Bold_16"
                         android:layout_centerHorizontal="true"
                         android:id="@+id/left_txt"
-                        android:textColor="@color/color_191919"
                         android:layout_alignParentBottom="true"/>
 
 
@@ -141,7 +140,6 @@
                         style="@style/Font_Bold_16"
                         android:layout_centerHorizontal="true"
                         android:id="@+id/right_txt"
-                        android:textColor="@color/color_191919"
                         android:layout_alignParentBottom="true"/>
 
 

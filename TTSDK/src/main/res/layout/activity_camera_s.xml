@@ -20,13 +20,19 @@
             android:layout_weight="1"
             android:id="@+id/main_container">
 
-
-            <androidx.camera.view.PreviewView
-                android:id="@+id/previewView"
+            <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/bg_preview_rounded"
-                android:clipToOutline="true" />
+                android:clipToOutline="true">
+
+                <androidx.camera.view.PreviewView
+                    android:id="@+id/previewView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </FrameLayout>
+
 
 
             <com.airbnb.lottie.LottieAnimationView
@@ -248,6 +254,22 @@
     </LinearLayout>
 
 
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ScreenShotLayout"
+        android:background="@color/color_ffffff"
+        android:visibility="gone"/>
+
+    <include layout="@layout/diag_analysis" />
+
+    <include layout="@layout/pop_over_time_s" />
+
+    <include layout="@layout/pop_flash_guide_s" />
+
+    <include layout="@layout/bottom_retry_s" />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -271,7 +293,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_centerInParent="true">
-            
+
             <TextView
                 style="@style/Font_Medium"
                 android:textSize="@dimen/v_20dp"
@@ -279,7 +301,7 @@
                 android:text="@string/auto_camera_4"
                 android:gravity="center"
                 android:lineHeight="@dimen/v_28dp" />
-            
+
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="@dimen/v_172dp"
                 android:layout_height="@dimen/v_50dp"
@@ -288,7 +310,7 @@
                 app:cardCornerRadius="@dimen/v_30dp"
                 android:id="@+id/permissionView_arrow"
                 app:cardBackgroundColor="@color/color_333344" >
-                
+
                 <TextView
                     style="@style/Font_Bold_16"
                     android:textSize="@dimen/v_16dp"
@@ -296,31 +318,17 @@
                     android:text="@string/auto_camera_5"
                     android:gravity="center"
                     android:layout_gravity="center"/>
-                
+
             </com.google.android.material.card.MaterialCardView>
-            
-            
+
+
         </LinearLayout>
-        
-        
+
+
 
 
     </RelativeLayout>
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/ScreenShotLayout"
-        android:background="@color/color_ffffff"
-        android:visibility="gone"/>
-
-    <include layout="@layout/diag_analysis" />
-
-    <include layout="@layout/pop_over_time_s" />
-
-    <include layout="@layout/pop_flash_guide_s" />
-
-    <include layout="@layout/bottom_retry_s" />
 
     <include layout="@layout/pop_download_s" />
 

@@ -7,7 +7,7 @@
     android:focusable="true"
     android:clickable="true"
     android:background="@color/color_af000000"
-    android:visibility="gone">
+    android:visibility="visible">
 
 
 
@@ -76,11 +76,10 @@
 
 
                 <TextView
-                    style="@style/Font_Regular_13"
+                    style="@style/Font_Regular_13_type2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center_vertical"
-                    android:textColor="@color/color_191919"
                     android:lineHeight="20dp"
                     android:layout_weight="1"
                     android:lineSpacingExtra="7sp"
