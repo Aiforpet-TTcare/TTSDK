@@ -4,18 +4,15 @@
     package="com.aiforpet.pet">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission
-        android:name="android.permission.INTERNET"
-        android:required="true" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-feature
         android:name="android.hardware.camera"
         android:required="true" />
-
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
     <uses-feature android:name="android.hardware.camera.any" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 오디오 녹음 권한 -->
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
 
@@ -26,62 +23,44 @@
         android:largeHeap="true">
 
         <activity
-            android:name=".activity.check.GuideActivity"
-            android:exported="false"
-            android:theme="@style/TTsdkTheme"
-            android:screenOrientation="portrait"/>
-
-        <activity
-            android:name=".activity.check.GuideWebActivity"
-            android:exported="false"
-            android:theme="@style/TTsdkTheme"
-            android:screenOrientation="portrait"/>
+            android:name=".check.EyeCameraActivity"
+            android:exported="false" >
 
 
+        </activity>
 
         <activity
-            android:name=".activity.check.EyeCameraActivity"
-            android:exported="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/TTsdkTheme" />
+            android:name=".check.PinchSkinImageActivity"
+            android:exported="false" >
+
+
+        </activity>
 
         <activity
-            android:name=".activity.check.SkinCameraActivity"
-            android:exported="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/TTsdkTheme" />
+            android:name=".check.GuideWebActivity"
+            android:exported="false" >
+
+
+        </activity>
+
+
+
         <activity
-            android:name=".activity.menu1.PinchSkinActivity"
-            android:exported="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/TTsdkTheme" />
-        <activity
-            android:name=".activity.check.ReactGuidInfoActivity"
-            android:exported="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/TTsdkTheme" />
+            android:name=".check.SkinCameraActivity"
+            android:exported="false" >
+
+
+        </activity>
 
 
 
 
         <activity
-            android:name=".activity.check.ToothCameraActivity"
-            android:exported="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/TTsdkTheme" />
-        <activity
-            android:name=".activity.menu1.PinchSkinImageActivity"
-            android:exported="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/TTsdkTheme" />
+            android:name=".check.ToothCameraActivity"
+            android:exported="false">
 
 
-        <activity
-            android:name=".activity.check.KneeActivity"
-            android:exported="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/TTsdkTheme"/>
-
+        </activity>
 
     </application>
 

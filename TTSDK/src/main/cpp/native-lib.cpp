@@ -6,446 +6,123 @@
 #include <cstdlib>
 #include <android/log.h>
 
-#define LOG_TAG "JNI_DEBUG"
-#define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
 
-extern "C" JNIEXPORT jobject JNICALL
-Java_com_aiforpet_pet_activity_check_JointActivity_processImageNative(JNIEnv *env, jobject thiz, jbyteArray input, jint width, jint height) {
-    jsize inputLength = env->GetArrayLength(input);
-    jbyte* inputImage = env->GetByteArrayElements(input, nullptr);
+extern "C"
+JNIEXPORT jobject JNICALL
+Java_com_aiforpet_pet_check_SkinCameraActivity_cropBitmapByRectNative(
+        JNIEnv *env,
+        jobject thiz,
+        jobject srcBitmap,
+        jint x1,
+        jint y1,
+        jint x2,
+        jint y2
+) {
+    // 1) 원본 Bitmap 정보 획득
+    AndroidBitmapInfo srcInfo;
+    if (AndroidBitmap_getInfo(env, srcBitmap, &srcInfo) < 0) {
+        // 필요하면 예외 처리
+        return nullptr;
+    }
+    if (srcInfo.format != ANDROID_BITMAP_FORMAT_RGBA_8888) {
+        // 필요하면 예외 처리
+        return nullptr;
+    }
 
-    // Calculate the scale factor
-    float scale = 640.0f / std::max(width, height);
-    int newWidth = static_cast<int>(width * scale);
-    int newHeight = static_cast<int>(height * scale);
+    int srcW = srcInfo.width;
+    int srcH = srcInfo.height;
 
-    // Create the output image with padding, 3 channels (RGB)
-    std::vector<float> outputImage(640 * 640 * 3, 0); // Initialize with black padding
+    // 2) 잘라낼 영역의 좌표 보정/확정
+    //    (넘치지 않도록 경계 검사)
+    if (x1 < 0)       x1 = 0;
+    if (y1 < 0)       y1 = 0;
+    if (x2 > srcW)    x2 = srcW;
+    if (y2 > srcH)    y2 = srcH;
+    if (x2 < x1)      x2 = x1;  // 혹은 필요하면 return nullptr 등 처리
+    if (y2 < y1)      y2 = y1;  // 마찬가지
 
-    // Scale the input image and copy to the output image
-    for (int y = 0; y < newHeight; ++y) {
-        for (int x = 0; x < newWidth; ++x) {
-            int srcX = static_cast<int>(x / scale);
-            int srcY = static_cast<int>(y / scale);
-            int srcIndex = srcY * width + srcX;
-            int destIndex = ((y + (640 - newHeight) / 2) * 640 + (x + (640 - newWidth) / 2)) * 3;
-            uint8_t pixelValue = static_cast<uint8_t>(inputImage[srcIndex]);
-            // Assuming the input image is a single channel (grayscale)
-            float normalizedPixelValue = pixelValue / 255.0f;
-            outputImage[destIndex] = normalizedPixelValue;
-            outputImage[destIndex + 1] = normalizedPixelValue;
-            outputImage[destIndex + 2] = normalizedPixelValue;
+    int cropWidth  = x2 - x1;
+    int cropHeight = y2 - y1;
+    if (cropWidth <= 0 || cropHeight <= 0) {
+        // 잘라낼 영역이 없으면 null 등의 처리
+        return nullptr;
+    }
+
+    // 3) 원본 Bitmap lock
+    void* srcPixels = nullptr;
+    if (AndroidBitmap_lockPixels(env, srcBitmap, &srcPixels) < 0) {
+        // 필요하면 예외 처리
+        return nullptr;
+    }
+
+    // 4) 새 Bitmap 생성 (cropWidth x cropHeight)
+    jclass bmpCls = env->FindClass("android/graphics/Bitmap");
+    jclass configCls = env->FindClass("android/graphics/Bitmap$Config");
+    jfieldID argb8888ID = env->GetStaticFieldID(configCls, "ARGB_8888", "Landroid/graphics/Bitmap$Config;");
+    jobject argb8888Obj = env->GetStaticObjectField(configCls, argb8888ID);
+
+    jmethodID createBitmap3 = env->GetStaticMethodID(
+            bmpCls,
+            "createBitmap",
+            "(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;"
+    );
+    jobject dstBitmap = env->CallStaticObjectMethod(
+            bmpCls,
+            createBitmap3,
+            cropWidth,
+            cropHeight,
+            argb8888Obj
+    );
+    if (!dstBitmap) {
+        // 해제
+        AndroidBitmap_unlockPixels(env, srcBitmap);
+        return nullptr;
+    }
+
+    // lock dst
+    AndroidBitmapInfo dstInfo;
+    if (AndroidBitmap_getInfo(env, dstBitmap, &dstInfo) < 0) {
+        AndroidBitmap_unlockPixels(env, srcBitmap);
+        return nullptr;
+    }
+    void* dstPixels = nullptr;
+    if (AndroidBitmap_lockPixels(env, dstBitmap, &dstPixels) < 0) {
+        AndroidBitmap_unlockPixels(env, srcBitmap);
+        return nullptr;
+    }
+
+    // 5) 실제 픽셀 복사
+    uint8_t* srcPtr = (uint8_t*)srcPixels;
+    uint8_t* dstPtr = (uint8_t*)dstPixels;
+
+    int srcStride = srcInfo.stride;  // 한 줄 당 바이트 수
+    int dstStride = dstInfo.stride;
+
+    for (int row = 0; row < cropHeight; row++) {
+        int srcY = y1 + row;
+        // 원본에서 해당 줄 주소
+        uint8_t* srcLine = srcPtr + (srcY * srcStride);
+        // 잘라낸 결과에서 해당 줄 주소
+        uint8_t* dstLine = dstPtr + (row * dstStride);
+
+        for (int col = 0; col < cropWidth; col++) {
+            int srcX = x1 + col;
+            // ARGB_8888 은 픽셀당 4바이트
+            uint8_t* srcPx = srcLine + (srcX * 4);
+            uint8_t* dstPx = dstLine + (col * 4);
+
+            // R/G/B/A 4바이트 복사
+            dstPx[0] = srcPx[0];
+            dstPx[1] = srcPx[1];
+            dstPx[2] = srcPx[2];
+            dstPx[3] = srcPx[3];
         }
     }
 
-    // Create a direct ByteBuffer from the output image
-    jobject byteBuffer = env->NewDirectByteBuffer(outputImage.data(), outputImage.size() * sizeof(float));
+    // unlock
+    AndroidBitmap_unlockPixels(env, dstBitmap);
+    AndroidBitmap_unlockPixels(env, srcBitmap);
 
-    // Release the input image data
-    env->ReleaseByteArrayElements(input, inputImage, JNI_ABORT);
-
-    return byteBuffer;
+    // 잘라낸 결과 Bitmap 리턴
+    return dstBitmap;
 }
-
-
-extern "C" JNIEXPORT jobject JNICALL
-Java_com_aiforpet_pet_activity_check_EyeCameraActivity_bitmapToByteBuffer(JNIEnv *env, jobject thiz, jobject bitmap) {
-    AndroidBitmapInfo info;
-    void* pixels;
-    int ret;
-
-    // Bitmap 정보 가져오기
-    if ((ret = AndroidBitmap_getInfo(env, bitmap, &info)) < 0) {
-        LOGD("AndroidBitmap_getInfo failed");
-        return NULL;
-    }
-
-    // Bitmap 포맷이 RGBA_8888인지 확인
-    if (info.format != ANDROID_BITMAP_FORMAT_RGBA_8888) {
-        LOGD("Bitmap format is not RGBA_8888");
-        return NULL;
-    }
-
-    // Bitmap 잠금
-    if ((ret = AndroidBitmap_lockPixels(env, bitmap, &pixels)) < 0) {
-        LOGD("AndroidBitmap_lockPixels failed");
-        return NULL;
-    }
-
-    int width = 320;
-    int height = 320;
-
-    // ByteBuffer 할당
-    size_t bufferSize = width * height * 3 * sizeof(float);
-    float* buffer = (float*) malloc(bufferSize);
-    if (buffer == nullptr) {
-        LOGD("malloc failed");
-        AndroidBitmap_unlockPixels(env, bitmap);
-        return NULL;
-    }
-
-    jobject byteBuffer = env->NewDirectByteBuffer(buffer, bufferSize);
-    if (byteBuffer == nullptr) {
-        LOGD("NewDirectByteBuffer failed");
-        free(buffer);
-        AndroidBitmap_unlockPixels(env, bitmap);
-        return NULL;
-    }
-
-    // Bitmap 처리 및 ByteBuffer 채우기
-    for (int y = 0; y < height; y++) {
-        for (int x = 0; x < width; x++) {
-            uint32_t pixel = *((uint32_t*)((char*)pixels + y * info.stride) + x);
-
-            int r = (pixel >> 16) & 0xFF;
-            int g = (pixel >> 8) & 0xFF;
-            int b = pixel & 0xFF;
-
-            // Normalize channel values to [-1.0, 1.0]
-            float rf = (r - 127.0f) / 128.0f;
-            float gf = (g - 127.0f) / 128.0f;
-            float bf = (b - 127.0f) / 128.0f;
-
-            buffer[(y * width + x) * 3 + 0] = bf; // Blue
-            buffer[(y * width + x) * 3 + 1] = gf; // Green
-            buffer[(y * width + x) * 3 + 2] = rf; // Red
-
-
-        }
-    }
-
-    // Bitmap 잠금 해제
-    AndroidBitmap_unlockPixels(env, bitmap);
-
-    LOGD("Bitmap processing completed");
-
-    // 10개의 값을 출력하여 확인
-    for (int i = 0; i < 30; i++) {
-        LOGD("Buffer value at index %d: %f", i, buffer[i]);
-    }
-
-    return byteBuffer;
-}
-
-
-
-extern "C" JNIEXPORT jobject JNICALL
-Java_com_aiforpet_pet_activity_check_EyeCameraActivity_extractAndResizeBitmapToByteBuffer(JNIEnv *env, jobject thiz, jobject bitmap, jobject rectF) {
-    AndroidBitmapInfo info;
-    void* pixels;
-    int ret;
-
-    if ((ret = AndroidBitmap_getInfo(env, bitmap, &info)) < 0) {
-        LOGD("AndroidBitmap_getInfo failed");
-        return NULL;
-    }
-
-    if ((ret = AndroidBitmap_lockPixels(env, bitmap, &pixels)) < 0) {
-        LOGD("AndroidBitmap_lockPixels failed");
-        return NULL;
-    }
-
-    jclass rectFClass = env->GetObjectClass(rectF);
-    jfieldID fidLeft = env->GetFieldID(rectFClass, "left", "F");
-    jfieldID fidTop = env->GetFieldID(rectFClass, "top", "F");
-    jfieldID fidRight = env->GetFieldID(rectFClass, "right", "F");
-    jfieldID fidBottom = env->GetFieldID(rectFClass, "bottom", "F");
-
-    float left = env->GetFloatField(rectF, fidLeft);
-    float top = env->GetFloatField(rectF, fidTop);
-    float right = env->GetFloatField(rectF, fidRight);
-    float bottom = env->GetFloatField(rectF, fidBottom);
-
-    float squareSize = fmax(right - left, bottom - top);
-    float centerX = (left + right) / 2;
-    float centerY = (top + bottom) / 2;
-    float newLeft = centerX - squareSize * 0.4f;
-    float newTop = centerY - squareSize * 0.4f;
-    float newRight = centerX + squareSize * 0.4f;
-    float newBottom = centerY + squareSize * 0.4f;
-
-    if (newRight > info.width) {
-        newLeft -= (newRight - info.width);
-        newRight = info.width;
-    }
-    if (newBottom > info.height) {
-        newTop -= (newBottom - info.height);
-        newBottom = info.height;
-    }
-    if (newLeft < 0) {
-        newRight += -newLeft;
-        newLeft = 0;
-    }
-    if (newTop < 0) {
-        newBottom += -newTop;
-        newTop = 0;
-    }
-
-    float widthIncrease = squareSize / 2;
-    float heightIncrease = squareSize / 2;
-    float expandedLeft = fmax(0, newLeft - widthIncrease);
-    float expandedTop = fmax(0, newTop - heightIncrease);
-    float expandedRight = fmin(info.width, newRight + widthIncrease);
-    float expandedBottom = fmin(info.height, newBottom + heightIncrease);
-
-    float expandedSquareSize = fmax(expandedRight - expandedLeft, expandedBottom - expandedTop);
-    float expandedCenterX = (expandedLeft + expandedRight) / 2;
-    float expandedCenterY = (expandedTop + expandedBottom) / 2;
-    float finalLeft = fmax(0, expandedCenterX - expandedSquareSize / 2);
-    float finalTop = fmax(0, expandedCenterY - expandedSquareSize / 2);
-    float finalRight = fmin(info.width, expandedCenterX + expandedSquareSize / 2);
-    float finalBottom = fmin(info.height, expandedCenterY + expandedSquareSize / 2);
-
-    int cropWidth = (int)(finalRight - finalLeft);
-    int cropHeight = (int)(finalBottom - finalTop);
-
-    size_t bufferSize = 320 * 320 * 3 * sizeof(float);
-    float* buffer = (float*) malloc(bufferSize);
-    if (buffer == nullptr) {
-        LOGD("malloc failed");
-        AndroidBitmap_unlockPixels(env, bitmap);
-        return NULL;
-    }
-
-    jobject byteBuffer = env->NewDirectByteBuffer(buffer, bufferSize);
-    if (byteBuffer == nullptr) {
-        LOGD("NewDirectByteBuffer failed");
-        free(buffer);
-        AndroidBitmap_unlockPixels(env, bitmap);
-        return NULL;
-    }
-
-    for (int y = 0; y < 320; y++) {
-        for (int x = 0; x < 320; x++) {
-            int srcX = (int)finalLeft + (int)((float)x / 320 * cropWidth);
-            int srcY = (int)finalTop + (int)((float)y / 320 * cropHeight);
-
-            uint32_t pixel = *((uint32_t*)((char*)pixels + srcY * info.stride) + srcX);
-
-            int r = (pixel >> 16) & 0xFF;
-            int g = (pixel >> 8) & 0xFF;
-            int b = pixel & 0xFF;
-
-            float rf = (r - 127.0f) / 128.0f;
-            float gf = (g - 127.0f) / 128.0f;
-            float bf = (b - 127.0f) / 128.0f;
-
-            buffer[(y * 320 + x) * 3 + 0] = bf;
-            buffer[(y * 320 + x) * 3 + 1] = gf;
-            buffer[(y * 320 + x) * 3 + 2] = rf;
-
-
-        }
-    }
-
-    AndroidBitmap_unlockPixels(env, bitmap);
-    LOGD("Bitmap processing completed");
-
-
-    return byteBuffer;
-}
-
-
-
-extern "C" JNIEXPORT jobject JNICALL
-Java_com_aiforpet_pet_activity_check_ToothCameraActivity_bitmapToByteBuffer(JNIEnv *env, jobject thiz, jobject bitmap) {
-    AndroidBitmapInfo info;
-    void* pixels;
-    int ret;
-
-    // Bitmap 정보 가져오기
-    if ((ret = AndroidBitmap_getInfo(env, bitmap, &info)) < 0) {
-        LOGD("AndroidBitmap_getInfo failed");
-        return NULL;
-    }
-
-    // Bitmap 포맷이 RGBA_8888인지 확인
-    if (info.format != ANDROID_BITMAP_FORMAT_RGBA_8888) {
-        LOGD("Bitmap format is not RGBA_8888");
-        return NULL;
-    }
-
-    // Bitmap 잠금
-    if ((ret = AndroidBitmap_lockPixels(env, bitmap, &pixels)) < 0) {
-        LOGD("AndroidBitmap_lockPixels failed");
-        return NULL;
-    }
-
-    int width = 320;
-    int height = 320;
-
-    // ByteBuffer 할당
-    size_t bufferSize = width * height * 3 * sizeof(float);
-    float* buffer = (float*) malloc(bufferSize);
-    if (buffer == nullptr) {
-        LOGD("malloc failed");
-        AndroidBitmap_unlockPixels(env, bitmap);
-        return NULL;
-    }
-
-    jobject byteBuffer = env->NewDirectByteBuffer(buffer, bufferSize);
-    if (byteBuffer == nullptr) {
-        LOGD("NewDirectByteBuffer failed");
-        free(buffer);
-        AndroidBitmap_unlockPixels(env, bitmap);
-        return NULL;
-    }
-
-    // Bitmap 처리 및 ByteBuffer 채우기
-    for (int y = 0; y < height; y++) {
-        for (int x = 0; x < width; x++) {
-            uint32_t pixel = *((uint32_t*)((char*)pixels + y * info.stride) + x);
-
-            int r = (pixel >> 16) & 0xFF;
-            int g = (pixel >> 8) & 0xFF;
-            int b = pixel & 0xFF;
-
-            // Normalize channel values to [-1.0, 1.0]
-            float rf = (r - 127.0f) / 128.0f;
-            float gf = (g - 127.0f) / 128.0f;
-            float bf = (b - 127.0f) / 128.0f;
-
-            buffer[(y * width + x) * 3 + 0] = bf; // Blue
-            buffer[(y * width + x) * 3 + 1] = gf; // Green
-            buffer[(y * width + x) * 3 + 2] = rf; // Red
-
-
-        }
-    }
-
-    // Bitmap 잠금 해제
-    AndroidBitmap_unlockPixels(env, bitmap);
-
-    LOGD("Bitmap processing completed");
-
-
-
-    return byteBuffer;
-}
-
-
-
-extern "C" JNIEXPORT jobject JNICALL
-Java_com_aiforpet_pet_activity_check_ToothCameraActivity_extractAndResizeBitmapToByteBuffer(JNIEnv *env, jobject thiz, jobject bitmap, jobject rectF) {
-    AndroidBitmapInfo info;
-    void* pixels;
-    int ret;
-
-    if ((ret = AndroidBitmap_getInfo(env, bitmap, &info)) < 0) {
-        LOGD("AndroidBitmap_getInfo failed");
-        return NULL;
-    }
-
-    if ((ret = AndroidBitmap_lockPixels(env, bitmap, &pixels)) < 0) {
-        LOGD("AndroidBitmap_lockPixels failed");
-        return NULL;
-    }
-
-    jclass rectFClass = env->GetObjectClass(rectF);
-    jfieldID fidLeft = env->GetFieldID(rectFClass, "left", "F");
-    jfieldID fidTop = env->GetFieldID(rectFClass, "top", "F");
-    jfieldID fidRight = env->GetFieldID(rectFClass, "right", "F");
-    jfieldID fidBottom = env->GetFieldID(rectFClass, "bottom", "F");
-
-    float left = env->GetFloatField(rectF, fidLeft);
-    float top = env->GetFloatField(rectF, fidTop);
-    float right = env->GetFloatField(rectF, fidRight);
-    float bottom = env->GetFloatField(rectF, fidBottom);
-
-    float squareSize = fmax(right - left, bottom - top);
-    float centerX = (left + right) / 2;
-    float centerY = (top + bottom) / 2;
-    float newLeft = centerX - squareSize * 0.2f;
-    float newTop = centerY - squareSize * 0.2f;
-    float newRight = centerX + squareSize * 0.2f;
-    float newBottom = centerY + squareSize * 0.2f;
-
-    if (newRight > info.width) {
-        newLeft -= (newRight - info.width);
-        newRight = info.width;
-    }
-    if (newBottom > info.height) {
-        newTop -= (newBottom - info.height);
-        newBottom = info.height;
-    }
-    if (newLeft < 0) {
-        newRight += -newLeft;
-        newLeft = 0;
-    }
-    if (newTop < 0) {
-        newBottom += -newTop;
-        newTop = 0;
-    }
-
-    float widthIncrease = squareSize / 2;
-    float heightIncrease = squareSize / 2;
-    float expandedLeft = fmax(0, newLeft - widthIncrease);
-    float expandedTop = fmax(0, newTop - heightIncrease);
-    float expandedRight = fmin(info.width, newRight + widthIncrease);
-    float expandedBottom = fmin(info.height, newBottom + heightIncrease);
-
-    float expandedSquareSize = fmax(expandedRight - expandedLeft, expandedBottom - expandedTop);
-    float expandedCenterX = (expandedLeft + expandedRight) / 2;
-    float expandedCenterY = (expandedTop + expandedBottom) / 2;
-    float finalLeft = fmax(0, expandedCenterX - expandedSquareSize / 2);
-    float finalTop = fmax(0, expandedCenterY - expandedSquareSize / 2);
-    float finalRight = fmin(info.width, expandedCenterX + expandedSquareSize / 2);
-    float finalBottom = fmin(info.height, expandedCenterY + expandedSquareSize / 2);
-
-    int cropWidth = (int)(finalRight - finalLeft);
-    int cropHeight = (int)(finalBottom - finalTop);
-
-    size_t bufferSize = 320 * 320 * 3 * sizeof(float);
-    float* buffer = (float*) malloc(bufferSize);
-    if (buffer == nullptr) {
-        LOGD("malloc failed");
-        AndroidBitmap_unlockPixels(env, bitmap);
-        return NULL;
-    }
-
-    jobject byteBuffer = env->NewDirectByteBuffer(buffer, bufferSize);
-    if (byteBuffer == nullptr) {
-        LOGD("NewDirectByteBuffer failed");
-        free(buffer);
-        AndroidBitmap_unlockPixels(env, bitmap);
-        return NULL;
-    }
-
-    for (int y = 0; y < 320; y++) {
-        for (int x = 0; x < 320; x++) {
-            int srcX = (int)finalLeft + (int)((float)x / 320 * cropWidth);
-            int srcY = (int)finalTop + (int)((float)y / 320 * cropHeight);
-
-            uint32_t pixel = *((uint32_t*)((char*)pixels + srcY * info.stride) + srcX);
-
-            int r = (pixel >> 16) & 0xFF;
-            int g = (pixel >> 8) & 0xFF;
-            int b = pixel & 0xFF;
-
-            float rf = (r - 127.0f) / 128.0f;
-            float gf = (g - 127.0f) / 128.0f;
-            float bf = (b - 127.0f) / 128.0f;
-
-            buffer[(y * 320 + x) * 3 + 0] = bf;
-            buffer[(y * 320 + x) * 3 + 1] = gf;
-            buffer[(y * 320 + x) * 3 + 2] = rf;
-
-
-        }
-    }
-
-    AndroidBitmap_unlockPixels(env, bitmap);
-    LOGD("Bitmap processing completed");
-
-    for (int i = 0; i < 30; i++) {
-        LOGD("Buffer value at index %d: %f", i, buffer[i]);
-    }
-
-    return byteBuffer;
-}
-
-
-
-
-
-
