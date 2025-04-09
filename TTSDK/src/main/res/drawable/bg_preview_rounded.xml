@@ -7,5 +7,5 @@
         android:bottomRightRadius="30dp" />
 
     <!-- PreviewView 영역(안쪽)은 투명으로 -->
-    <solid android:color="@android:color/transparent" />
+    <solid android:color="#000000" />
 </shape>

@@ -1,15 +1,20 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="TTsdkTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/color_000000</item>
+        <item name="android:navigationBarColor">@color/color_000000</item>
+        <item name="android:windowLightStatusBar" >false</item>
+
+
         <item name="colorPrimary">@color/dialog_blue</item>
         <item name="colorPrimaryDark">@color/dialog_blue</item>
         <item name="colorAccent">@color/dialog_blue</item>
 
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
-        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:statusBarColor">@color/white_bg</item>
-        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+
 
         <item name="android:splitMotionEvents">false</item>
         <item name="android:windowEnableSplitTouch">false</item>

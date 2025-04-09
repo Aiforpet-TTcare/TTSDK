@@ -24,21 +24,23 @@
 
         <activity
             android:name=".check.EyeCameraActivity"
-            android:exported="false" >
+            android:exported="false"
+            android:screenOrientation="portrait">
 
 
         </activity>
 
         <activity
             android:name=".check.PinchSkinImageActivity"
-            android:exported="false" >
+            android:exported="false"
+            android:screenOrientation="portrait">
 
 
         </activity>
 
         <activity
             android:name=".check.GuideWebActivity"
-            android:exported="false" >
+            android:exported="false">
 
 
         </activity>
@@ -47,7 +49,8 @@
 
         <activity
             android:name=".check.SkinCameraActivity"
-            android:exported="false" >
+            android:exported="false"
+            android:screenOrientation="portrait">
 
 
         </activity>
@@ -57,7 +60,8 @@
 
         <activity
             android:name=".check.ToothCameraActivity"
-            android:exported="false">
+            android:exported="false"
+            android:screenOrientation="portrait">
 
 
         </activity>
