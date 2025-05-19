@@ -88,8 +88,8 @@
                 android:layout_marginRight="@dimen/v_20dp"
                 android:layout_marginTop="@dimen/v_30dp"
                 android:id="@+id/camera_close"/>
-
-
+            
+            
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/v_30dp"
@@ -108,21 +108,21 @@
                     android:layout_gravity="center_vertical"
                     android:paddingRight="@dimen/v_17dp"
                     android:paddingLeft="@dimen/v_17dp">
-
+                    
                     <ImageView
                         android:layout_width="@dimen/v_24dp"
                         android:layout_height="@dimen/v_24dp"
                         android:background="@drawable/icon_scan_info"
                         android:layout_gravity="center_vertical" />
-
+                    
                     <TextView
                         style="@style/Font_Regular_13"
                         android:textSize="@dimen/v_13dp"
                         android:textColor="@color/color_191919"
                         android:text="@string/auto_camera_20"
                         android:layout_gravity="center_vertical"/>
-
-
+                    
+                    
                 </LinearLayout>
 
 
@@ -145,7 +145,8 @@
                 android:layout_height="@dimen/v_100dp"
                 android:layout_centerInParent="true"
                 android:id="@+id/eye_img"
-                android:background="@drawable/eye_cut" />
+                android:background="@drawable/eye_cut"
+                android:visibility="gone"/>
 
 
             <com.aiforpet.pet.util.DotAnimationView
@@ -241,7 +242,8 @@
                 android:layout_width="@dimen/v_100dp"
                 android:layout_height="@dimen/v_100dp"
                 android:id="@+id/cropImage"
-                android:layout_margin="@dimen/v_20dp"/>
+                android:layout_margin="@dimen/v_20dp"
+                android:visibility="gone"/>
 
         </RelativeLayout>
 
