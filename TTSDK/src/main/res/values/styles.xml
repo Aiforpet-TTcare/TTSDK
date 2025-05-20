@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="TTsdkTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:statusBarColor">@color/color_000000</item>
-        <item name="android:navigationBarColor">@color/color_000000</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
         <item name="android:windowLightStatusBar" >false</item>
 
 
@@ -18,8 +18,7 @@
 
         <item name="android:splitMotionEvents">false</item>
         <item name="android:windowEnableSplitTouch">false</item>
-        <item name="android:windowBackground">@color/white_bg</item>
-
+        <item name="android:windowBackground">@color/color_dfdfdf</item>
     </style>
 
 
