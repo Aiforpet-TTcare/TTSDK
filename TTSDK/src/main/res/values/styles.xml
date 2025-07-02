@@ -1,10 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="TTsdkTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+    <style name="TTsdkTheme" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
-        <item name="android:windowLightStatusBar" >false</item>
 
 
         <item name="colorPrimary">@color/dialog_blue</item>
@@ -19,6 +18,7 @@
         <item name="android:splitMotionEvents">false</item>
         <item name="android:windowEnableSplitTouch">false</item>
         <item name="android:windowBackground">@color/color_dfdfdf</item>
+
     </style>
 
 
@@ -149,7 +149,6 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:includeFontPadding">false</item>
         <item name="android:textSize">10dp</item>
-        <item name="android:textColor">#191919</item>
 
     </style>
 
@@ -160,7 +159,8 @@
         <item name="android:includeFontPadding">false</item>
         <item name="android:textSize">11dp</item>
         <item name="android:lineSpacingExtra">0dp</item>
-        <item name="android:textColor">#191919</item>
+
+
     </style>
 
 
@@ -172,7 +172,7 @@
         <item name="android:textSize">15dp</item>
         <item name="android:lineSpacingExtra">0dp</item>
 
-        <item name="android:textColor">#191919</item>
+
     </style>
 
 
@@ -182,7 +182,7 @@
         <item name="android:includeFontPadding">false</item>
         <item name="android:textSize">12dp</item>
         <item name="android:lineSpacingExtra">0dp</item>
-        <item name="android:textColor">#191919</item>
+
 
     </style>
 
@@ -192,8 +192,10 @@
         <item name="android:includeFontPadding">false</item>
         <item name="android:textSize">13dp</item>
         <item name="android:lineSpacingExtra">0dp</item>
-        <item name="android:textColor">#191919</item>
+
     </style>
+
+
 
 
     <style name="Font_Regular_13_type2" parent="@android:style/Widget.TextView">
@@ -203,6 +205,9 @@
         <item name="android:textSize">13dp</item>
         <item name="android:lineSpacingExtra">0dp</item>
         <item name="android:textColor">#717171</item>
+
+
+
     </style>
 
     <style name="Font_Regular_14" parent="@android:style/Widget.TextView">
@@ -211,7 +216,7 @@
         <item name="android:includeFontPadding">false</item>
         <item name="android:textSize">14dp</item>
         <item name="android:lineSpacingExtra">0dp</item>
-        <item name="android:textColor">#191919</item>
+
     </style>
 
 
@@ -221,7 +226,7 @@
         <item name="android:includeFontPadding">false</item>
         <item name="android:textSize">14dp</item>
         <item name="android:lineSpacingExtra">0dp</item>
-        <item name="android:textColor">#191919</item>
+
     </style>
 
 
@@ -231,7 +236,7 @@
         <item name="android:includeFontPadding">false</item>
         <item name="android:textSize">15dp</item>
         <item name="android:lineSpacingExtra">0dp</item>
-        <item name="android:textColor">#191919</item>
+
     </style>
 
 
@@ -241,7 +246,7 @@
         <item name="android:includeFontPadding">false</item>
         <item name="android:textSize">15dp</item>
         <item name="android:lineSpacingExtra">0dp</item>
-        <item name="android:textColor">#191919</item>
+
     </style>
 
     <style name="Font_Regular_16" parent="@android:style/Widget.TextView">
@@ -250,7 +255,7 @@
         <item name="android:includeFontPadding">false</item>
         <item name="android:textSize">16dp</item>
         <item name="android:lineSpacingExtra">0dp</item>
-        <item name="android:textColor">#191919</item>
+
     </style>
 
     <style name="Font_Regular_17" parent="@android:style/Widget.TextView">
@@ -259,7 +264,7 @@
         <item name="android:includeFontPadding">false</item>
         <item name="android:textSize">17dp</item>
         <item name="android:lineSpacingExtra">0dp</item>
-        <item name="android:textColor">#191919</item>
+
     </style>
 
     <style name="Font_Regular_18" parent="@android:style/Widget.TextView">
@@ -268,7 +273,7 @@
         <item name="android:includeFontPadding">false</item>
         <item name="android:textSize">18dp</item>
         <item name="android:lineSpacingExtra">0dp</item>
-        <item name="android:textColor">#191919</item>
+
     </style>
 
     <style name="Font_Bold_10" parent="@android:style/Widget.TextView">
@@ -278,7 +283,7 @@
         <item name="android:textSize">10dp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:lineSpacingExtra">0dp</item>
-        <item name="android:textColor">#191919</item>
+
     </style>
 
 
@@ -289,7 +294,7 @@
         <item name="android:textSize">11dp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:lineSpacingExtra">0dp</item>
-        <item name="android:textColor">#191919</item>
+
     </style>
 
 
@@ -299,8 +304,9 @@
         <item name="android:includeFontPadding">false</item>
         <item name="android:textSize">12dp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:lineSpacingExtra">0dp</item>
         <item name="android:textColor">#191919</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+
     </style>
 
     <style name="Font_Bold_13" parent="@android:style/Widget.TextView">
@@ -321,7 +327,7 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">13dp</item>
         <item name="android:lineSpacingExtra">0dp</item>
-        <item name="android:textColor">#191919</item>
+
     </style>
 
     <style name="Font_SF_Bold_13" parent="@android:style/Widget.TextView">
@@ -331,7 +337,7 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">13dp</item>
         <item name="android:lineSpacingExtra">0dp</item>
-        <item name="android:textColor">#191919</item>
+
     </style>
 
 
@@ -343,7 +349,7 @@
         <item name="android:fontFamily">sans-serif-black</item>
         <item name="android:textStyle">bold</item>
         <item name="android:lineSpacingExtra">0dp</item>
-        <item name="android:textColor">#191919</item>
+
     </style>
 
 
@@ -353,7 +359,7 @@
         <item name="android:includeFontPadding">false</item>
         <item name="android:textSize">13dp</item>
         <item name="android:lineSpacingExtra">0dp</item>
-        <item name="android:textColor">#191919</item>
+
     </style>
 
 
@@ -362,9 +368,10 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:includeFontPadding">false</item>
         <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#191919</item>
         <item name="android:textStyle">bold</item>
         <item name="android:lineSpacingExtra">0dp</item>
-        <item name="android:textColor">#191919</item>
+
     </style>
 
     <style name="Font_Bold_15" parent="@android:style/Widget.TextView">
@@ -402,7 +409,6 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:includeFontPadding">false</item>
         <item name="android:textSize">14dp</item>
-        <item name="android:textColor">#191919</item>
     </style>
 
 
@@ -410,7 +416,6 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:includeFontPadding">false</item>
-        <item name="android:textColor">#191919</item>
     </style>
 
 
@@ -447,7 +452,6 @@
         <item name="android:includeFontPadding">false</item>
         <item name="android:textSize">22.5dp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">#191919</item>
     </style>
 
     <style name="Button_Crpo" parent="@android:style/Widget.Button">
@@ -471,7 +475,6 @@
         <item name="android:includeFontPadding">false</item>
         <item name="android:textSize">18dp</item>
         <item name="android:letterSpacing">0</item>
-        <item name="android:textColor">#191919</item>
     </style>
 
 
@@ -482,7 +485,6 @@
         <item name="android:includeFontPadding">false</item>
         <item name="android:textSize">18dp</item>
         <item name="android:lineSpacingExtra">0dp</item>
-        <item name="android:textColor">#191919</item>
     </style>
 
 
@@ -498,8 +500,6 @@
     <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
         <item name="android:textSize">16dp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">#191919</item>
     </style>
-
 
 </resources>
