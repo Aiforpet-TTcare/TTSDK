@@ -21,26 +21,26 @@
         android:largeHeap="true">
 
         <activity
-            android:name="com.aiforpet.pet.check.EyeCameraActivity"
+            android:name=".check.EyeCameraActivity"
             android:exported="false" />
 
         <activity
-            android:name="com.aiforpet.pet.check.SkinCameraActivity"
-            android:exported="false" />
-
-
-        <activity
-            android:name="com.aiforpet.pet.check.ToothCameraActivity"
+            android:name=".check.SkinCameraActivity"
             android:exported="false" />
 
 
         <activity
-            android:name="com.aiforpet.pet.check.PinchSkinImageActivity"
+            android:name=".check.ToothCameraActivity"
             android:exported="false" />
 
 
         <activity
-            android:name="com.aiforpet.pet.check.GuideWebActivity"
+            android:name=".check.PinchSkinImageActivity"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".check.GuideWebActivity"
             android:exported="false" />
 
 
