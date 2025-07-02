@@ -9,8 +9,8 @@ android {
     defaultConfig {
         minSdk 23
         targetSdk 35
-        versionCode 73
-        versionName "2.2.0.4"
+        versionCode 74
+        versionName "2.2.0.5"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         ndkVersion '26.1.10909125'
@@ -93,10 +93,11 @@ afterEvaluate {
             release(MavenPublication) {
                 groupId = 'com.github.Aiforpet-TTcare'
                 artifactId = 'TTSDK'
-                version = 'v2.2.0.4'
+                version = 'v2.2.0.5'
 
-                artifact("$buildDir/outputs/aar/${project.name}-release.aar")
-
+                artifact("$buildDir/outputs/aar/TTSDK-release.aar") {
+                    builtBy tasks.named("assembleRelease")
+                }
 
                 // 의존성 추가
                 pom.withXml {
