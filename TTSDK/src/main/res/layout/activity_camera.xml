@@ -11,7 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#000000"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:id="@+id/cameraParentView">
 
 
 
@@ -78,7 +79,7 @@
                 android:background="@drawable/flash_on"
                 android:layout_gravity="center_vertical"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="40dp"
                 android:id="@+id/flash_on"/>
 
 
@@ -88,7 +89,7 @@
                 android:background="@drawable/icon_scan_close"
                 android:layout_alignParentRight="true"
                 android:layout_marginRight="20dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="40dp"
                 android:id="@+id/camera_close"/>
             
             
@@ -163,7 +164,8 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_weight="0"
-            android:background="@color/color_000000">
+            android:background="@color/color_000000"
+            android:layout_marginBottom="50dp">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -219,8 +221,10 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
-                android:layout_marginBottom="38dp"
-                android:orientation="horizontal">
+                android:layout_marginBottom="33dp"
+                android:orientation="horizontal"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp">
 
 
                 <TextView
@@ -238,13 +242,6 @@
 
             </LinearLayout>
 
-
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:id="@+id/cropImage"
-                android:layout_margin="20dp"
-                android:visibility="gone"/>
 
         </RelativeLayout>
 
@@ -331,5 +328,6 @@
 
     <include layout="@layout/pop_download" />
 
+    <include layout="@layout/port_prevent" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

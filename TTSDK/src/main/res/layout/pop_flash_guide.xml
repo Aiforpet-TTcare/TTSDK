@@ -7,7 +7,7 @@
     android:focusable="true"
     android:clickable="true"
     android:background="@color/color_af000000"
-    android:visibility="visible">
+    android:visibility="gone">
 
 
 

@@ -11,7 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#000000"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:id="@+id/cameraParentView">
 
 
 
@@ -77,7 +78,7 @@
                 android:background="@drawable/flash_on"
                 android:layout_gravity="center_vertical"
                 android:layout_marginLeft="@dimen/v_20dp"
-                android:layout_marginTop="@dimen/v_30dp"
+                android:layout_marginTop="@dimen/v_40dp"
                 android:id="@+id/flash_on"/>
 
 
@@ -87,7 +88,7 @@
                 android:background="@drawable/icon_scan_close"
                 android:layout_alignParentRight="true"
                 android:layout_marginRight="@dimen/v_20dp"
-                android:layout_marginTop="@dimen/v_30dp"
+                android:layout_marginTop="@dimen/v_40dp"
                 android:id="@+id/camera_close"/>
             
             
@@ -162,7 +163,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="@dimen/v_200dp"
-            android:layout_weight="0">
+            android:layout_weight="0"
+            android:layout_marginBottom="@dimen/v_50dp">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -218,8 +220,10 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
-                android:layout_marginBottom="@dimen/v_38dp"
-                android:orientation="horizontal">
+                android:layout_marginBottom="@dimen/v_33dp"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/v_5dp"
+                android:paddingTop="@dimen/v_5dp">
 
 
                 <TextView
@@ -309,7 +313,8 @@
                 android:layout_marginTop="@dimen/v_30dp"
                 app:cardCornerRadius="@dimen/v_30dp"
                 android:id="@+id/permissionView_arrow"
-                app:cardBackgroundColor="@color/color_333344" >
+                app:cardBackgroundColor="@color/color_333344"
+                app:cardElevation="0dp">
 
                 <TextView
                     style="@style/Font_Bold_16"
@@ -332,6 +337,7 @@
 
     <include layout="@layout/pop_download_s" />
 
+    <include layout="@layout/port_prevent" />
 
 
 

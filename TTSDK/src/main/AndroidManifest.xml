@@ -11,8 +11,6 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
     <uses-feature android:name="android.hardware.camera.any" />
-    <!-- 오디오 녹음 권한 -->
-    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
 
     <application
@@ -24,47 +22,30 @@
 
         <activity
             android:name=".check.EyeCameraActivity"
-            android:exported="false"
-            android:screenOrientation="portrait">
-
-
-        </activity>
-
-        <activity
-            android:name=".check.PinchSkinImageActivity"
-            android:exported="false"
-            android:screenOrientation="portrait">
-
-
-        </activity>
-
-        <activity
-            android:name=".check.GuideWebActivity"
-            android:exported="false">
-
-
-        </activity>
-
-
+            android:exported="false" />
 
         <activity
             android:name=".check.SkinCameraActivity"
-            android:exported="false"
-            android:screenOrientation="portrait">
-
-
-        </activity>
-
-
+            android:exported="false" />
 
 
         <activity
             android:name=".check.ToothCameraActivity"
-            android:exported="false"
-            android:screenOrientation="portrait">
+            android:exported="false" />
 
 
-        </activity>
+        <activity
+            android:name=".check.PinchSkinImageActivity"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".check.GuideWebActivity"
+            android:exported="false" />
+
+
+
+
 
     </application>
 

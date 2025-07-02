@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-
     <string name="network_error_tt">インターネット接続を確認してください。</string>
     <string name="common_confirm">確認</string>
     <string name="diag_error1">お知らせ</string>
@@ -52,13 +51,13 @@
     <string name="auto_process_3">もっと離れて撮影してください。</string>
 
 
-    <string name="guide_eye_1">目(め)のスキャンガイド</string>
-    <string name="guide_skin_1">皮膚(ひふ)のスキャンガイド</string>
-    <string name="guide_joint_1">歩行(ほこう)スキャンガイド</string>
-    <string name="guide_tooth_1">歯(は)のスキャンガイド</string>
 
     <string name="server_communication_error">サーバー通信エラーです。</string>
     <string name="diag_error2">同時接続数が多いか、もしくはネットワークの不安定により一時的にサービスへの接続ができません。再度撮影してください。</string>
+
+
+
+    <string name="portrait_indicate">화면을 세로로 돌려주세요</string>
 
 
 

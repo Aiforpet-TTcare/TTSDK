@@ -9,7 +9,7 @@
     app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
     android:id="@+id/bottom_retry"
     android:orientation="vertical"
-    android:background="#af000000">
+    android:visibility="visible">
 
 
     <View
@@ -203,6 +203,9 @@
         
         
     </com.google.android.material.card.MaterialCardView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="58dp" />
     
 
 

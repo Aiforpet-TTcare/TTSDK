@@ -10,7 +10,7 @@
     android:id="@+id/pop_download"
     android:visibility="visible">
 
-    
+
     
     <LinearLayout
         android:layout_width="wrap_content"

@@ -94,7 +94,8 @@
             android:gravity="center"
             android:text="@string/auto_camera_8"
             android:id="@+id/gover_logo_txt"
-            android:layout_marginTop="30dp"/>
+            android:layout_marginTop="30dp"
+            android:visibility="invisible"/>
 
         <ImageView
             android:layout_width="104dp"
@@ -102,7 +103,8 @@
             android:id="@+id/gover_logo"
             android:background="@drawable/ci_scan_government"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="12dp"/>
+            android:layout_marginTop="12dp"
+            android:visibility="invisible"/>
 
 
     </LinearLayout>

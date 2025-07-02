@@ -9,6 +9,8 @@
     <dimen name="inner_frame_layout_padding">5dp</dimen>
     <dimen name="test1">16dp</dimen>
 
+    <dimen name="dp_2">2dp</dimen>
+
 
     <dimen name="v_1dp">0.9dp</dimen>
     <dimen name="v_2dp">1.8dp</dimen>

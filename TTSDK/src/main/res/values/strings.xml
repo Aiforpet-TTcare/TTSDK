@@ -38,7 +38,6 @@
     <string name="auto_camera_20">This is a sample capture screen.</string>
 
 
-
     <string name="auto_skin_1">Please capture the ear.</string>
     <string name="auto_skin_2">Please capture the body.</string>
     <string name="auto_skin_3">Please capture the paw.</string>
@@ -51,13 +50,12 @@
     <string name="auto_process_3">Please move farther away.</string>
 
 
-    <string name="guide_eye_1">Eye scanning guide</string>
-    <string name="guide_skin_1">Skin scanning guide</string>
-    <string name="guide_joint_1">Gait Scanning guide</string>
-    <string name="guide_tooth_1">Teeth scanning guide</string>
 
     <string name="server_communication_error">Server communication error.</string>
     <string name="diag_error2">The service is temporarily unavailable.\nPlease try again.</string>
+
+
+    <string name="portrait_indicate">화면을 세로로 돌려주세요</string>
 
 
 
